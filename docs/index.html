@@ -14,6 +14,8 @@
             --accent-color: #ff6b6b;
             --accent-hover: #ff5252;
             --letterboxd-color: #00c030;
+            --success-color: #00c030;
+            --warning-color: #ffaa00;
         }
 
         * {
@@ -40,6 +42,7 @@
             padding: 40px 0;
             border-bottom: 2px solid var(--border-color);
             margin-bottom: 40px;
+            position: relative;
         }
 
         h1 {
@@ -59,6 +62,254 @@
 
         .last-updated {
             color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-top: 10px;
+        }
+
+        /* Settings gear button */
+        .settings-btn {
+            position: absolute;
+            top: 40px;
+            right: 0;
+            background: none;
+            border: 2px solid var(--border-color);
+            border-radius: 50%;
+            width: 44px;
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            color: var(--text-secondary);
+            font-size: 1.3rem;
+            transition: all 0.3s ease;
+        }
+
+        .settings-btn:hover {
+            border-color: var(--accent-color);
+            color: var(--accent-color);
+            transform: rotate(60deg);
+        }
+
+        /* Admin Modal */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(4px);
+        }
+
+        .modal-overlay.open {
+            display: flex;
+        }
+
+        .modal {
+            background: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 30px;
+            width: 100%;
+            max-width: 480px;
+            margin: 20px;
+            position: relative;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            font-size: 1.5rem;
+            cursor: pointer;
+            line-height: 1;
+        }
+
+        .modal-close:hover {
+            color: var(--text-primary);
+        }
+
+        .modal h2 {
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+        }
+
+        .modal label {
+            display: block;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 6px;
+            margin-top: 15px;
+        }
+
+        .modal input[type="text"],
+        .modal input[type="password"] {
+            width: 100%;
+            padding: 10px 14px;
+            background: var(--bg-color);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-primary);
+            font-size: 0.95rem;
+            font-family: inherit;
+        }
+
+        .modal input:focus {
+            outline: none;
+            border-color: var(--accent-color);
+        }
+
+        .modal .hint {
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+            margin-top: 4px;
+        }
+
+        .modal .hint a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        .modal .hint a:hover {
+            text-decoration: underline;
+        }
+
+        .btn {
+            padding: 10px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-family: inherit;
+        }
+
+        .btn-primary {
+            background: var(--accent-color);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--accent-hover);
+        }
+
+        .btn-secondary {
+            background: var(--border-color);
+            color: var(--text-primary);
+        }
+
+        .btn-secondary:hover {
+            background: #3a3a3a;
+        }
+
+        .btn-danger {
+            background: transparent;
+            color: var(--accent-color);
+            border: 1px solid var(--accent-color);
+        }
+
+        .btn-danger:hover {
+            background: var(--accent-color);
+            color: white;
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .btn-row {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        /* Status indicator */
+        .status-banner {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 16px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .status-banner.active {
+            background: rgba(0, 192, 48, 0.1);
+            border: 1px solid rgba(0, 192, 48, 0.3);
+        }
+
+        .status-banner.paused {
+            background: rgba(255, 170, 0, 0.1);
+            border: 1px solid rgba(255, 170, 0, 0.3);
+        }
+
+        .status-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .status-banner.active .status-dot {
+            background: var(--success-color);
+            box-shadow: 0 0 8px var(--success-color);
+        }
+
+        .status-banner.paused .status-dot {
+            background: var(--warning-color);
+            box-shadow: 0 0 8px var(--warning-color);
+        }
+
+        .status-text {
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .status-subtext {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        .toggle-btn {
+            margin-left: auto;
+            flex-shrink: 0;
+        }
+
+        .admin-section {
+            border-top: 1px solid var(--border-color);
+            padding-top: 15px;
+            margin-top: 15px;
+        }
+
+        .admin-section-title {
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 10px;
+        }
+
+        .spinner-inline {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 2px solid var(--border-color);
+            border-top-color: var(--accent-color);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            vertical-align: middle;
+            margin-right: 6px;
+        }
+
+        .error-text {
+            color: var(--accent-color);
             font-size: 0.9rem;
             margin-top: 10px;
         }
@@ -347,15 +598,20 @@
             h1 {
                 font-size: 2rem;
             }
+
+            .modal {
+                padding: 20px;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>🎬 Portland Indie Showtimes</h1>
+            <h1>Portland Indie Showtimes</h1>
             <p class="subtitle">Your guide to independent cinema in Portland, OR</p>
             <p class="last-updated" id="lastUpdated">Loading...</p>
+            <button class="settings-btn" onclick="openAdmin()" title="Settings">&#9881;</button>
         </header>
 
         <div class="calendar-nav" id="calendarNav">
@@ -373,15 +629,25 @@
         </div>
     </div>
 
+    <!-- Admin Modal -->
+    <div class="modal-overlay" id="adminModal">
+        <div class="modal">
+            <button class="modal-close" onclick="closeAdmin()">&times;</button>
+            <h2>&#9881; Site Settings</h2>
+            <div id="adminContent"></div>
+        </div>
+    </div>
+
     <script>
-        let showt imesData = null;
+        // ───────────────────────────────────────────
+        // Showtimes rendering
+        // ───────────────────────────────────────────
+        let showtimesData = null;
         let theatersData = null;
         let currentDayIndex = 0;
 
-        // Initialize
         async function init() {
             try {
-                // Load data
                 const [showtimes, theaters] = await Promise.all([
                     fetch('data/showtimes.json').then(r => r.json()),
                     fetch('data/theaters.json').then(r => r.json())
@@ -390,22 +656,18 @@
                 showtimesData = showtimes;
                 theatersData = theaters;
 
-                // Update last updated time
                 const lastUpdated = new Date(showtimes.generated_at);
                 document.getElementById('lastUpdated').textContent =
                     `Last updated: ${lastUpdated.toLocaleString()}`;
 
-                // Generate calendar
                 generateCalendar();
-
-                // Render showtimes
                 renderShowtimes();
 
             } catch (error) {
                 console.error('Error loading data:', error);
                 document.getElementById('content').innerHTML = `
                     <div style="text-align: center; padding: 60px 20px; color: #a0a0a0;">
-                        <p>Error loading showtimes. Please try again later.</p>
+                        <p>No showtimes data yet. Run the scraper first or wait for the next automated update.</p>
                     </div>
                 `;
             }
@@ -434,8 +696,6 @@
             }
 
             calendarDays.innerHTML = html;
-
-            // Generate movie chips
             generateMovieChips();
         }
 
@@ -458,43 +718,35 @@
         }
 
         function scrollToMovie(slug) {
-            const element = document.getElementById(slug);
-            if (element) {
-                element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            }
+            const el = document.getElementById(slug);
+            if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
 
         function renderShowtimes() {
             const content = document.getElementById('content');
             const theaters = theatersData.theaters;
 
-            // Get the current date
             const startDate = new Date(showtimesData.start_date);
             const currentDate = new Date(startDate);
             currentDate.setDate(currentDate.getDate() + currentDayIndex);
             const dateKey = currentDate.toISOString().split('T')[0];
 
-            // Group movies by theater
             const moviesByTheater = {};
-            theaters.forEach(theater => {
-                moviesByTheater[theater.id] = [];
-            });
+            theaters.forEach(t => { moviesByTheater[t.id] = []; });
 
-            // Organize movies by theater
             showtimesData.movies.forEach(movie => {
                 if (movie.showtimes[dateKey]) {
-                    Object.keys(movie.showtimes[dateKey]).forEach(theaterId => {
-                        if (moviesByTheater[theaterId]) {
-                            moviesByTheater[theaterId].push({
+                    Object.keys(movie.showtimes[dateKey]).forEach(tid => {
+                        if (moviesByTheater[tid]) {
+                            moviesByTheater[tid].push({
                                 ...movie,
-                                theaterShowtimes: movie.showtimes[dateKey][theaterId]
+                                theaterShowtimes: movie.showtimes[dateKey][tid]
                             });
                         }
                     });
                 }
             });
 
-            // Render
             let html = '';
 
             theaters.forEach(theater => {
@@ -503,24 +755,21 @@
                     html += `
                         <div class="theater-section">
                             <div class="theater-header">
-                                <h2 class="theater-name">🎭 ${theater.name}</h2>
+                                <h2 class="theater-name">${theater.name}</h2>
                                 <p class="theater-address">${theater.address}</p>
-                            </div>
-                    `;
+                            </div>`;
 
                     movies.forEach(movie => {
-                        const posterSrc = movie.poster ? movie.poster : 'https://via.placeholder.com/150x225?text=No+Poster';
+                        const posterSrc = movie.poster || 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="150" height="225" fill="%231a1a1a"><rect width="150" height="225"/><text x="75" y="118" fill="%23555" text-anchor="middle" font-family="sans-serif" font-size="13">No Poster</text></svg>');
                         const slug = movie.title.toLowerCase().replace(/[^a-z0-9]+/g, '-');
 
                         html += `
                             <div class="movie-card" id="${slug}">
-                                <img src="${posterSrc}" alt="${movie.title}" class="movie-poster" onerror="this.src='https://via.placeholder.com/150x225?text=No+Poster'">
+                                <img src="${posterSrc}" alt="${movie.title}" class="movie-poster">
                                 <div class="movie-info">
                                     <div class="movie-title-row">
                                         <h3 class="movie-title">${movie.title}</h3>
-                                        <a href="${movie.letterboxd_url}" target="_blank" class="letterboxd-link">
-                                            📖 Letterboxd
-                                        </a>
+                                        <a href="${movie.letterboxd_url}" target="_blank" rel="noopener" class="letterboxd-link">Letterboxd</a>
                                     </div>
                                     ${movie.description ? `<p class="movie-description">${movie.description}</p>` : ''}
                                     <div class="showtimes">
@@ -528,14 +777,13 @@
                                             <span class="date-label">${currentDate.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}</span>
                                             <div class="time-buttons">
                                                 ${movie.theaterShowtimes.map(st =>
-                                                    `<a href="${st.url}" target="_blank" class="time-button">${st.time}</a>`
+                                                    `<a href="${st.url}" target="_blank" rel="noopener" class="time-button">${st.time}</a>`
                                                 ).join('')}
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        `;
+                            </div>`;
                     });
 
                     html += '</div>';
@@ -550,11 +798,262 @@
         }
 
         function loadMore() {
-            // Placeholder for loading next 7 days
-            alert('Loading additional days is not yet implemented. This feature will fetch extended showtimes data.');
+            alert('Loading additional days is not yet implemented.');
         }
 
-        // Initialize on page load
+        // ───────────────────────────────────────────
+        // Admin panel — GitHub API toggle
+        // ───────────────────────────────────────────
+        const STORAGE_KEY = 'pdx_showtimes_admin';
+
+        function getAdminCreds() {
+            try {
+                const raw = localStorage.getItem(STORAGE_KEY);
+                return raw ? JSON.parse(raw) : null;
+            } catch { return null; }
+        }
+
+        function saveAdminCreds(owner, repo, token) {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify({ owner, repo, token }));
+        }
+
+        function clearAdminCreds() {
+            localStorage.removeItem(STORAGE_KEY);
+        }
+
+        function openAdmin() {
+            document.getElementById('adminModal').classList.add('open');
+            const creds = getAdminCreds();
+            if (creds && creds.token) {
+                showAdminPanel(creds);
+            } else {
+                showSetupForm();
+            }
+        }
+
+        function closeAdmin() {
+            document.getElementById('adminModal').classList.remove('open');
+        }
+
+        // Close modal on backdrop click
+        document.getElementById('adminModal').addEventListener('click', function(e) {
+            if (e.target === this) closeAdmin();
+        });
+
+        // ── Setup form (first time) ──
+        function showSetupForm() {
+            document.getElementById('adminContent').innerHTML = `
+                <p style="color: var(--text-secondary); margin-bottom: 15px;">
+                    Connect your GitHub account to control daily scraping from this page.
+                </p>
+
+                <label for="gh-owner">GitHub Username</label>
+                <input type="text" id="gh-owner" placeholder="your-username">
+
+                <label for="gh-repo">Repository Name</label>
+                <input type="text" id="gh-repo" placeholder="portland-showtimes" value="portland-showtimes">
+
+                <label for="gh-token">Personal Access Token</label>
+                <input type="password" id="gh-token" placeholder="github_pat_...">
+                <p class="hint">
+                    Create a <strong>fine-grained PAT</strong> with <em>Contents: Read and write</em> permission
+                    on just this repo.<br>
+                    <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">Create one here &rarr;</a>
+                </p>
+
+                <p class="hint" style="margin-top: 12px; padding: 8px; background: var(--bg-color); border-radius: 6px;">
+                    Your token is stored only in <strong>this browser's localStorage</strong>.
+                    It is sent only to <code>api.github.com</code> over HTTPS. It never touches any other server.
+                </p>
+
+                <div class="btn-row">
+                    <button class="btn btn-primary" onclick="saveSetup()">Connect</button>
+                    <button class="btn btn-secondary" onclick="closeAdmin()">Cancel</button>
+                </div>
+                <div id="setup-error"></div>
+            `;
+        }
+
+        async function saveSetup() {
+            const owner = document.getElementById('gh-owner').value.trim();
+            const repo = document.getElementById('gh-repo').value.trim();
+            const token = document.getElementById('gh-token').value.trim();
+            const errorEl = document.getElementById('setup-error');
+
+            if (!owner || !repo || !token) {
+                errorEl.innerHTML = '<p class="error-text">All fields are required.</p>';
+                return;
+            }
+
+            errorEl.innerHTML = '<p style="color: var(--text-secondary); margin-top: 10px;"><span class="spinner-inline"></span> Verifying...</p>';
+
+            // Test the token by reading config.json
+            try {
+                const res = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/config.json`, {
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                });
+
+                if (res.status === 401 || res.status === 403) {
+                    errorEl.innerHTML = '<p class="error-text">Authentication failed. Check your token and permissions.</p>';
+                    return;
+                }
+                if (res.status === 404) {
+                    errorEl.innerHTML = '<p class="error-text">Repository or config.json not found. Check owner/repo name.</p>';
+                    return;
+                }
+                if (!res.ok) {
+                    errorEl.innerHTML = `<p class="error-text">GitHub API error: ${res.status}</p>`;
+                    return;
+                }
+
+                saveAdminCreds(owner, repo, token);
+                showAdminPanel({ owner, repo, token });
+
+            } catch (e) {
+                errorEl.innerHTML = `<p class="error-text">Network error: ${e.message}</p>`;
+            }
+        }
+
+        // ── Admin panel (connected) ──
+        async function showAdminPanel(creds) {
+            const adminContent = document.getElementById('adminContent');
+            adminContent.innerHTML = `
+                <div style="text-align: center; padding: 20px; color: var(--text-secondary);">
+                    <span class="spinner-inline"></span> Loading status...
+                </div>
+            `;
+
+            try {
+                const res = await fetch(`https://api.github.com/repos/${creds.owner}/${creds.repo}/contents/config.json`, {
+                    headers: {
+                        'Authorization': `Bearer ${creds.token}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }
+                });
+
+                if (!res.ok) {
+                    if (res.status === 401 || res.status === 403) {
+                        clearAdminCreds();
+                        adminContent.innerHTML = '<p class="error-text">Token expired or revoked. Please reconnect.</p>';
+                        setTimeout(showSetupForm, 1500);
+                        return;
+                    }
+                    throw new Error(`GitHub API error: ${res.status}`);
+                }
+
+                const data = await res.json();
+                const configContent = JSON.parse(atob(data.content));
+                const isEnabled = configContent.enabled !== false;
+                const sha = data.sha;
+
+                renderAdminPanel(creds, isEnabled, sha);
+
+            } catch (e) {
+                adminContent.innerHTML = `<p class="error-text">Error: ${e.message}</p>`;
+            }
+        }
+
+        function renderAdminPanel(creds, isEnabled, sha) {
+            const statusClass = isEnabled ? 'active' : 'paused';
+            const statusLabel = isEnabled ? 'Active' : 'Paused';
+            const statusDesc = isEnabled
+                ? 'Showtimes are updating daily at 2 AM PST'
+                : 'Daily updates are paused. No scraping is happening.';
+            const toggleLabel = isEnabled ? 'Pause' : 'Resume';
+            const toggleClass = isEnabled ? 'btn-danger' : 'btn-primary';
+
+            document.getElementById('adminContent').innerHTML = `
+                <div class="status-banner ${statusClass}">
+                    <div class="status-dot"></div>
+                    <div>
+                        <div class="status-text">${statusLabel}</div>
+                        <div class="status-subtext">${statusDesc}</div>
+                    </div>
+                    <button class="btn ${toggleClass} toggle-btn" id="toggleBtn"
+                            onclick="toggleScraping(${!isEnabled}, '${sha}')">
+                        ${toggleLabel}
+                    </button>
+                </div>
+
+                <div class="admin-section">
+                    <div class="admin-section-title">Connected to</div>
+                    <p style="color: var(--text-secondary); font-size: 0.95rem;">
+                        <strong>${creds.owner}</strong>/${creds.repo}
+                    </p>
+                </div>
+
+                <div class="admin-section">
+                    <div class="admin-section-title">Credentials</div>
+                    <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 10px;">
+                        Token stored in this browser only.
+                    </p>
+                    <button class="btn btn-danger" onclick="disconnectAdmin()">
+                        Disconnect &amp; Clear Token
+                    </button>
+                </div>
+
+                <div id="toggle-error"></div>
+            `;
+        }
+
+        async function toggleScraping(newEnabled, sha) {
+            const creds = getAdminCreds();
+            if (!creds) return;
+
+            const btn = document.getElementById('toggleBtn');
+            const errorEl = document.getElementById('toggle-error');
+            btn.disabled = true;
+            btn.innerHTML = '<span class="spinner-inline"></span> Updating...';
+            errorEl.innerHTML = '';
+
+            const newConfig = {
+                enabled: newEnabled,
+                notes: "Set 'enabled' to false to pause daily scraping. The GitHub Action will exit early without making any requests to theater websites or using GitHub Actions minutes."
+            };
+
+            try {
+                const res = await fetch(`https://api.github.com/repos/${creds.owner}/${creds.repo}/contents/config.json`, {
+                    method: 'PUT',
+                    headers: {
+                        'Authorization': `Bearer ${creds.token}`,
+                        'Accept': 'application/vnd.github.v3+json',
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        message: newEnabled
+                            ? 'Resume daily showtimes scraping'
+                            : 'Pause daily showtimes scraping',
+                        content: btoa(JSON.stringify(newConfig, null, 2) + '\n'),
+                        sha: sha
+                    })
+                });
+
+                if (!res.ok) {
+                    const err = await res.json();
+                    throw new Error(err.message || `HTTP ${res.status}`);
+                }
+
+                // Refresh the panel to show updated state
+                showAdminPanel(creds);
+
+            } catch (e) {
+                btn.disabled = false;
+                btn.textContent = newEnabled ? 'Resume' : 'Pause';
+                errorEl.innerHTML = `<p class="error-text">Failed to update: ${e.message}</p>`;
+            }
+        }
+
+        function disconnectAdmin() {
+            if (confirm('This will remove your GitHub token from this browser. You can reconnect anytime.')) {
+                clearAdminCreds();
+                showSetupForm();
+            }
+        }
+
+        // ── Initialize ──
         init();
     </script>
 </body>
