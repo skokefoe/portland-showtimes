@@ -76,8 +76,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update showtimes $(date +%Y-%m-%d)
-
-Co-Authored-By: Craft Agent <agents-noreply@craft.do>"
+            git commit -m "Update showtimes $(date +%Y-%m-%d)"
             git push
           fi
