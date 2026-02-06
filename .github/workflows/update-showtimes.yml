@@ -7,7 +7,40 @@ on:
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
+  # First job: lightweight check of the enabled flag
+  # Uses only a sparse checkout (~1 second) so if paused,
+  # no Python/Playwright install happens and minimal resources are used.
+  check-enabled:
+    runs-on: ubuntu-latest
+    outputs:
+      enabled: ${{ steps.check.outputs.enabled }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: config.json
+          sparse-checkout-cone-mode: false
+
+      - name: Check if scraping is enabled
+        id: check
+        run: |
+          if [ -f config.json ]; then
+            ENABLED=$(python3 -c "import json; print(json.load(open('config.json')).get('enabled', True))")
+            echo "enabled=$ENABLED" >> "$GITHUB_OUTPUT"
+            if [ "$ENABLED" = "False" ]; then
+              echo "⏸️  Scraping is PAUSED via config.json"
+              echo "   Set 'enabled: true' in config.json to resume."
+            else
+              echo "✓ Scraping is enabled"
+            fi
+          else
+            echo "enabled=True" >> "$GITHUB_OUTPUT"
+            echo "✓ No config.json found, defaulting to enabled"
+          fi
+
+  # Second job: only runs if enabled
   scrape-and-deploy:
+    needs: check-enabled
+    if: needs.check-enabled.outputs.enabled == 'True'
     runs-on: ubuntu-latest
 
     steps:

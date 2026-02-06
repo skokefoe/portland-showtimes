@@ -8,6 +8,7 @@ from .laurelhurst import LaurelhurstScraper
 from .clinton import ClintonScraper
 from .livingroom import LivingRoomScraper
 from .academy import AcademyScraper
+from .fallback_google import GoogleFallbackScraper
 
 __all__ = [
     'BaseScraper',
@@ -19,9 +20,10 @@ __all__ = [
     'ClintonScraper',
     'LivingRoomScraper',
     'AcademyScraper',
+    'GoogleFallbackScraper',
 ]
 
-# Scraper registry
+# Scraper registry: primary scrapers for each theater
 SCRAPER_MAP = {
     'cinema21': Cinema21Scraper,
     'hollywood': HollywoodScraper,
@@ -32,3 +34,6 @@ SCRAPER_MAP = {
     'livingroom': LivingRoomScraper,
     'academy': AcademyScraper,
 }
+
+# Fallback scraper used when a primary scraper fails
+FALLBACK_SCRAPER = GoogleFallbackScraper

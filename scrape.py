@@ -7,7 +7,16 @@ from datetime import datetime, timedelta
 from typing import Dict, List, Any
 from collections import defaultdict
 
-from scrapers import SCRAPER_MAP
+from scrapers import SCRAPER_MAP, FALLBACK_SCRAPER
+
+
+def load_config() -> Dict[str, Any]:
+    """Load project configuration."""
+    config_path = 'config.json'
+    if os.path.exists(config_path):
+        with open(config_path, 'r') as f:
+            return json.load(f)
+    return {'enabled': True}
 
 
 def load_theaters_config() -> List[Dict[str, Any]]:
@@ -110,10 +119,70 @@ def save_data(data: Dict[str, Any], theaters: List[Dict[str, Any]]):
     print(f"✓ Saved theaters metadata to {theaters_file}")
 
 
+def scrape_theater(theater: Dict[str, Any], start_date: datetime, num_days: int,
+                   tmdb_api_key: str) -> List[Dict[str, Any]]:
+    """
+    Scrape a single theater, falling back to Google if the primary scraper fails.
+
+    Args:
+        theater: Theater configuration dict
+        start_date: Start date for showtimes
+        num_days: Number of days to fetch
+        tmdb_api_key: TMDB API key
+
+    Returns:
+        List of movie dicts, or empty list if both primary and fallback fail
+    """
+    theater_id = theater['id']
+    theater_name = theater['name']
+
+    # --- Try primary scraper ---
+    scraper_class = SCRAPER_MAP.get(theater_id)
+    if scraper_class:
+        try:
+            scraper = scraper_class(theater, tmdb_api_key)
+            movies = scraper.fetch_showtimes(start_date, num_days)
+            if movies:
+                print(f"   ✓ Found {len(movies)} movies (primary)")
+                return movies
+            else:
+                print(f"   ⚠️  Primary scraper returned no results")
+        except Exception as e:
+            print(f"   ✗ Primary scraper failed: {e}")
+    else:
+        print(f"   ⚠️  No primary scraper for {theater_id}")
+
+    # --- Try fallback (Google search) ---
+    print(f"   ↻ Trying fallback (Google search)...")
+    try:
+        fallback = FALLBACK_SCRAPER(theater, tmdb_api_key)
+        movies = fallback.fetch_showtimes(start_date, num_days)
+        if movies:
+            print(f"   ✓ Found {len(movies)} movies (fallback)")
+            return movies
+        else:
+            print(f"   ⚠️  Fallback returned no results")
+    except Exception as e:
+        print(f"   ✗ Fallback failed: {e}")
+
+    return []
+
+
 def main():
     """Run all theater scrapers and aggregate results."""
     print("🎬 Portland Indie Showtimes Scraper")
     print("=" * 50)
+
+    # Check if the project is enabled
+    config = load_config()
+    if not config.get('enabled', True):
+        print("⏸️  Scraping is PAUSED (config.json: enabled = false)")
+        print("   To resume, set 'enabled' to true in config.json")
+        print("   or run: python scrape.py --force")
+        if '--force' not in sys.argv:
+            sys.exit(0)
+        print("   --force flag detected, running anyway...")
+        print()
 
     # Load configuration
     theaters = load_theaters_config()
@@ -132,50 +201,37 @@ def main():
     print(f"Number of days: {num_days}")
     print()
 
-    # Run scrapers
+    # Run scrapers (primary + fallback for each theater)
     all_movies = []
-    successful_scrapers = 0
-    failed_scrapers = []
+    results = {'primary': 0, 'fallback': 0, 'failed': []}
 
     for theater in theaters:
-        theater_id = theater['id']
         theater_name = theater['name']
-
         print(f"🎭 Scraping {theater_name}...")
 
-        try:
-            # Get scraper class
-            scraper_class = SCRAPER_MAP.get(theater_id)
-            if not scraper_class:
-                print(f"   ⚠️  No scraper found for {theater_id}")
-                failed_scrapers.append(theater_name)
-                continue
+        movies = scrape_theater(theater, start_date, num_days, tmdb_api_key)
 
-            # Initialize and run scraper
-            scraper = scraper_class(theater, tmdb_api_key)
-            movies = scraper.fetch_showtimes(start_date, num_days)
-
-            if movies:
-                all_movies.extend(movies)
-                successful_scrapers += 1
-                print(f"   ✓ Found {len(movies)} movies")
+        if movies:
+            all_movies.extend(movies)
+            # Track which source succeeded (heuristic: if primary has a scraper and worked)
+            scraper_class = SCRAPER_MAP.get(theater['id'])
+            if scraper_class:
+                results['primary'] += 1
             else:
-                print(f"   ⚠️  No movies found")
-                failed_scrapers.append(theater_name)
-
-        except Exception as e:
-            print(f"   ✗ Error: {e}")
-            failed_scrapers.append(theater_name)
+                results['fallback'] += 1
+        else:
+            results['failed'].append(theater_name)
 
         print()
 
-    # Aggregate and save
+    # Summary
     print("=" * 50)
-    print(f"✓ Successfully scraped {successful_scrapers}/{len(theaters)} theaters")
-
-    if failed_scrapers:
-        print(f"⚠️  Failed: {', '.join(failed_scrapers)}")
-
+    total_ok = results['primary'] + results['fallback']
+    print(f"✓ Data from {total_ok}/{len(theaters)} theaters")
+    if results['fallback'] > 0:
+        print(f"   ({results['primary']} primary, {results['fallback']} via fallback)")
+    if results['failed']:
+        print(f"⚠️  No data: {', '.join(results['failed'])}")
     print(f"📊 Total movies found: {len(all_movies)}")
     print()
 
@@ -192,7 +248,7 @@ def main():
 
         print("✅ Done! Site data updated.")
     else:
-        print("❌ No movies found. Check scraper implementations.")
+        print("❌ No movies found from any source. Check scraper implementations.")
         sys.exit(1)
 
 
