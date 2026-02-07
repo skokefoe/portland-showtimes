@@ -1,99 +1,134 @@
-"""Cinema 21 scraper."""
+"""Cinema 21 scraper.
+
+Cinema 21 is a Next.js app that renders content client-side.
+We use Playwright to get the rendered HTML, then parse with BeautifulSoup.
+"""
+import re
 from datetime import datetime, timedelta
 from typing import List, Dict, Any
 from bs4 import BeautifulSoup
-import requests
 from .base_scraper import BaseScraper
 
 
 class Cinema21Scraper(BaseScraper):
-    """Scraper for Cinema 21."""
+    """Scraper for Cinema 21 (cinema21.com) using Playwright."""
 
     def fetch_showtimes(self, start_date: datetime, num_days: int = 7) -> List[Dict[str, Any]]:
-        """Fetch showtimes from Cinema 21."""
+        """Fetch showtimes from Cinema 21 using Playwright for JS rendering."""
+        from playwright.sync_api import sync_playwright
+
         movies = []
 
-        try:
-            # Cinema 21 typically has a calendar or now-showing page
-            response = requests.get(self.theater_url, timeout=15, headers={
-                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
-            })
-            response.raise_for_status()
-
-            soup = BeautifulSoup(response.content, 'html.parser')
-
-            # Look for common showtime patterns
-            # This is a template - will need adjustment based on actual HTML structure
-            movie_containers = soup.find_all(['div', 'article'], class_=lambda x: x and any(
-                keyword in str(x).lower() for keyword in ['movie', 'film', 'show', 'event']
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page(user_agent=(
+                'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) '
+                'AppleWebKit/537.36 (KHTML, like Gecko) '
+                'Chrome/120.0.0.0 Safari/537.36'
             ))
+            page.goto(self.theater_url, timeout=30000)
+            page.wait_for_load_state('networkidle', timeout=15000)
 
-            for container in movie_containers:
-                try:
-                    # Extract title
-                    title_elem = container.find(['h1', 'h2', 'h3', 'h4'], class_=lambda x: x and 'title' in str(x).lower())
-                    if not title_elem:
-                        title_elem = container.find(['h1', 'h2', 'h3', 'h4'])
+            # Give React time to hydrate
+            page.wait_for_timeout(3000)
 
-                    if not title_elem:
-                        continue
+            html = page.content()
+            browser.close()
 
-                    title = title_elem.get_text(strip=True)
+        soup = BeautifulSoup(html, 'html.parser')
 
-                    # Extract description
-                    desc_elem = container.find(['p', 'div'], class_=lambda x: x and any(
-                        keyword in str(x).lower() for keyword in ['description', 'synopsis', 'summary']
-                    ))
-                    description = desc_elem.get_text(strip=True) if desc_elem else ''
+        # Look for movie titles and showtimes in the rendered content
+        # Try multiple strategies since we don't know exact selectors
 
-                    # Extract link
-                    link_elem = container.find('a', href=True)
-                    movie_url = link_elem['href'] if link_elem else self.theater_url
-                    if not movie_url.startswith('http'):
-                        movie_url = f"{self.theater_url.rstrip('/')}/{movie_url.lstrip('/')}"
-
-                    # Extract showtimes
-                    time_elems = container.find_all(['time', 'span', 'div'], class_=lambda x: x and 'time' in str(x).lower())
-                    showtimes = []
-
-                    for time_elem in time_elems:
-                        time_text = time_elem.get_text(strip=True)
-                        parsed_time = self.parse_time(time_text)
-                        if parsed_time:
-                            showtimes.append({
-                                'time': parsed_time,
-                                'url': movie_url
-                            })
-
-                    if showtimes:
-                        # Get TMDB metadata
-                        tmdb_data = self.search_tmdb(title)
-
-                        movie_slug = self.slugify(title)
-                        poster_path = None
-
-                        if tmdb_data and tmdb_data.get('poster_path'):
-                            poster_path = self.download_poster(tmdb_data['poster_path'], movie_slug)
-
-                        movies.append({
-                            'title': title,
-                            'description': description or (tmdb_data.get('overview', '') if tmdb_data else ''),
-                            'poster': poster_path,
-                            'theater_id': self.theater_id,
-                            'theater_url': movie_url,
-                            'letterboxd_url': self.get_letterboxd_url(
-                                title,
-                                tmdb_data.get('tmdb_id') if tmdb_data else None
-                            ),
-                            'showtimes': showtimes,
-                            'tmdb_id': tmdb_data.get('tmdb_id') if tmdb_data else None
-                        })
-
-                except Exception as e:
-                    print(f"Error parsing movie in Cinema 21: {e}")
-                    continue
-
-        except Exception as e:
-            print(f"Error fetching Cinema 21 showtimes: {e}")
+        # Strategy 1: Find headings that look like movie titles
+        movies = self._extract_from_rendered(soup, start_date, num_days)
 
         return movies
+
+    def _extract_from_rendered(self, soup, start_date, num_days) -> List[Dict[str, Any]]:
+        """Extract movies from Playwright-rendered HTML."""
+        movies = []
+        seen_titles = set()
+
+        # Find all headings
+        for heading in soup.find_all(['h1', 'h2', 'h3', 'h4']):
+            title = heading.get_text(strip=True)
+            if not title or len(title) < 2 or len(title) > 100:
+                continue
+            if title.lower() in seen_titles:
+                continue
+            # Skip site navigation headings
+            if title.lower() in ('cinema 21', 'now showing', 'coming soon', 'special events',
+                                  'showtimes', 'about', 'contact', 'menu'):
+                continue
+
+            # Look for showtime data near this heading
+            parent = heading.parent
+            showtimes = self._find_times_nearby(parent, start_date)
+
+            # Check for a link
+            link = heading.find('a', href=True)
+            if not link:
+                link = parent.find('a', href=True) if parent else None
+            movie_url = self.theater_url
+            if link and link.get('href', '').startswith(('http', '/')):
+                href = link['href']
+                if href.startswith('/'):
+                    href = f"https://www.cinema21.com{href}"
+                movie_url = href
+
+            if not showtimes:
+                # Still include the movie with "See website" if it looks like a movie
+                # (has a nearby image or description)
+                has_context = parent and (parent.find('img') or parent.find('p'))
+                if not has_context:
+                    continue
+                showtimes = [{'time': 'See website', 'url': movie_url, 'date': start_date.strftime('%Y-%m-%d')}]
+
+            seen_titles.add(title.lower())
+            movies.append(self._build_movie(title, '', movie_url, showtimes))
+
+        return movies
+
+    def _find_times_nearby(self, element, start_date):
+        """Search for time patterns in an element and its children."""
+        if not element:
+            return []
+
+        showtimes = []
+        text = element.get_text(separator='\n')
+        # Match time patterns: "7:00 PM", "4:30pm", "19:00"
+        time_pattern = re.compile(r'\b(\d{1,2}:\d{2}\s*(?:AM|PM|am|pm)?)\b')
+        matches = time_pattern.findall(text)
+
+        for match in matches:
+            parsed = self.parse_time(match)
+            if parsed and parsed != match:  # Only include if it was actually a time
+                showtimes.append({
+                    'time': parsed,
+                    'url': self.theater_url,
+                    'date': start_date.strftime('%Y-%m-%d')
+                })
+
+        return showtimes
+
+    def _build_movie(self, title, description, url, showtimes) -> Dict[str, Any]:
+        tmdb_data = self.search_tmdb(title)
+        movie_slug = self.slugify(title)
+        poster_path = None
+
+        if tmdb_data and tmdb_data.get('poster_path'):
+            poster_path = self.download_poster(tmdb_data['poster_path'], movie_slug)
+
+        return {
+            'title': title,
+            'description': description or (tmdb_data.get('overview', '') if tmdb_data else ''),
+            'poster': poster_path,
+            'theater_id': self.theater_id,
+            'theater_url': url,
+            'letterboxd_url': self.get_letterboxd_url(
+                title, tmdb_data.get('tmdb_id') if tmdb_data else None
+            ),
+            'showtimes': showtimes,
+            'tmdb_id': tmdb_data.get('tmdb_id') if tmdb_data else None
+        }

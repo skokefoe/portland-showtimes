@@ -1,77 +1,111 @@
-"""Laurelhurst Theater scraper."""
-from datetime import datetime
+"""Laurelhurst Theater scraper.
+
+The Laurelhurst website embeds a JavaScript variable `gbl_movies` containing
+structured showtime data. We extract this JSON from the page source.
+"""
+import re
+import json
+from datetime import datetime, timedelta
 from typing import List, Dict, Any
-from bs4 import BeautifulSoup
 import requests
 from .base_scraper import BaseScraper
 
 
 class LaurelhurstScraper(BaseScraper):
-    """Scraper for Laurelhurst Theater."""
+    """Scraper for Laurelhurst Theater (laurelhursttheater.com)."""
+
+    HEADERS = {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) '
+                       'AppleWebKit/537.36 (KHTML, like Gecko) '
+                       'Chrome/120.0.0.0 Safari/537.36'
+    }
 
     def fetch_showtimes(self, start_date: datetime, num_days: int = 7) -> List[Dict[str, Any]]:
-        """Fetch showtimes from Laurelhurst Theater."""
+        """Fetch showtimes by extracting the gbl_movies JS variable."""
         movies = []
 
+        response = requests.get(self.theater_url, timeout=15, headers=self.HEADERS)
+        response.raise_for_status()
+        html = response.text
+
+        # Extract the gbl_movies JavaScript object
+        match = re.search(r'var\s+gbl_movies\s*=\s*(\{.*?\});', html, re.DOTALL)
+        if not match:
+            print("      Could not find gbl_movies in page source")
+            return movies
+
         try:
-            response = requests.get(self.theater_url, timeout=15, headers={
-                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
-            })
-            response.raise_for_status()
+            movies_data = json.loads(match.group(1))
+        except json.JSONDecodeError as e:
+            print(f"      Failed to parse gbl_movies JSON: {e}")
+            return movies
 
-            soup = BeautifulSoup(response.content, 'html.parser')
-            movie_containers = soup.find_all(['div', 'article'], class_=lambda x: x and any(
-                keyword in str(x).lower() for keyword in ['movie', 'film', 'show']
-            ))
+        # Build date strings for filtering (format: YYYYMMDD)
+        target_dates = set()
+        for i in range(num_days):
+            d = start_date + timedelta(days=i)
+            target_dates.add(d.strftime('%Y%m%d'))
 
-            for container in movie_containers:
-                try:
-                    title_elem = container.find(['h1', 'h2', 'h3', 'h4'])
-                    if not title_elem:
-                        continue
+        for film_code, film in movies_data.items():
+            title = film.get('title', '').strip()
+            if not title:
+                continue
 
-                    title = title_elem.get_text(strip=True)
-                    desc_elem = container.find('p')
-                    description = desc_elem.get_text(strip=True) if desc_elem else ''
+            # Collect showtimes across target dates
+            schedule = film.get('schedule', {})
+            showtimes = []
 
-                    link_elem = container.find('a', href=True)
-                    movie_url = link_elem['href'] if link_elem else self.theater_url
-                    if not movie_url.startswith('http'):
-                        movie_url = f"{self.theater_url.rstrip('/')}/{movie_url.lstrip('/')}"
-
-                    time_elems = container.find_all(['time', 'span'])
-                    showtimes = []
-
-                    for time_elem in time_elems:
-                        time_text = time_elem.get_text(strip=True)
-                        parsed_time = self.parse_time(time_text)
-                        if parsed_time:
-                            showtimes.append({'time': parsed_time, 'url': movie_url})
-
-                    if showtimes:
-                        tmdb_data = self.search_tmdb(title)
-                        movie_slug = self.slugify(title)
-                        poster_path = None
-
-                        if tmdb_data and tmdb_data.get('poster_path'):
-                            poster_path = self.download_poster(tmdb_data['poster_path'], movie_slug)
-
-                        movies.append({
-                            'title': title,
-                            'description': description or (tmdb_data.get('overview', '') if tmdb_data else ''),
-                            'poster': poster_path,
-                            'theater_id': self.theater_id,
-                            'theater_url': movie_url,
-                            'letterboxd_url': self.get_letterboxd_url(title, tmdb_data.get('tmdb_id') if tmdb_data else None),
-                            'showtimes': showtimes,
-                            'tmdb_id': tmdb_data.get('tmdb_id') if tmdb_data else None
-                        })
-
-                except Exception as e:
-                    print(f"Error parsing movie in Laurelhurst: {e}")
+            for date_key, date_shows in schedule.items():
+                if date_key not in target_dates:
                     continue
+                if isinstance(date_shows, list):
+                    for show in date_shows:
+                        time_str = show.get('timeStr', '')
+                        if time_str:
+                            parsed = self.parse_time(time_str)
+                            showtimes.append({
+                                'time': parsed,
+                                'url': self.theater_url,
+                                'date': f"{date_key[:4]}-{date_key[4:6]}-{date_key[6:8]}"
+                            })
 
-        except Exception as e:
-            print(f"Error fetching Laurelhurst showtimes: {e}")
+            if not showtimes:
+                continue
+
+            # Get TMDB metadata
+            tmdb_data = self.search_tmdb(title)
+            movie_slug = self.slugify(title)
+            poster_path = None
+
+            if tmdb_data and tmdb_data.get('poster_path'):
+                poster_path = self.download_poster(tmdb_data['poster_path'], movie_slug)
+            elif film.get('posterURL'):
+                # Use the theater's own poster URL as fallback
+                poster_path = film['posterURL']
+
+            description = tmdb_data.get('overview', '') if tmdb_data else ''
+            rating = film.get('rating', '')
+            length_min = film.get('lengthMin', '')
+            if rating or length_min:
+                meta = f"Rated {rating}" if rating else ''
+                if length_min:
+                    meta += f" | {length_min} min" if meta else f"{length_min} min"
+                if description:
+                    description = f"{meta} — {description}"
+                else:
+                    description = meta
+
+            movies.append({
+                'title': title,
+                'description': description,
+                'poster': poster_path,
+                'theater_id': self.theater_id,
+                'theater_url': self.theater_url,
+                'letterboxd_url': self.get_letterboxd_url(
+                    title, tmdb_data.get('tmdb_id') if tmdb_data else None
+                ),
+                'showtimes': showtimes,
+                'tmdb_id': tmdb_data.get('tmdb_id') if tmdb_data else None
+            })
 
         return movies

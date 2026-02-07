@@ -60,12 +60,11 @@ def aggregate_showtimes(all_movies: List[Dict[str, Any]], start_date: datetime, 
             movie_data['letterboxd_url'] = movie['letterboxd_url']
             movie_data['tmdb_id'] = movie['tmdb_id']
 
-        # Group showtimes by date (for now, assume all are for "today")
-        # In a real implementation, we'd parse dates from the scrapers
-        date_str = start_date.strftime('%Y-%m-%d')
         theater_id = movie['theater_id']
 
         for showtime in movie['showtimes']:
+            # Use per-showtime date if available, otherwise default to today
+            date_str = showtime.get('date', start_date.strftime('%Y-%m-%d'))
             movie_data['showtimes_by_date'][date_str][theater_id].append({
                 'time': showtime['time'],
                 'url': showtime['url']
@@ -235,21 +234,22 @@ def main():
     print(f"📊 Total movies found: {len(all_movies)}")
     print()
 
+    # Always aggregate and save (even if empty, so the frontend has valid JSON)
+    print("Aggregating showtimes...")
+    aggregated_data = aggregate_showtimes(all_movies, start_date, num_days)
+
+    print(f"✓ Aggregated into {len(aggregated_data['movies'])} unique titles")
+    print()
+
+    print("Saving data...")
+    save_data(aggregated_data, theaters)
+    print()
+
     if all_movies:
-        print("Aggregating showtimes...")
-        aggregated_data = aggregate_showtimes(all_movies, start_date, num_days)
-
-        print(f"✓ Aggregated into {len(aggregated_data['movies'])} unique titles")
-        print()
-
-        print("Saving data...")
-        save_data(aggregated_data, theaters)
-        print()
-
         print("✅ Done! Site data updated.")
     else:
-        print("❌ No movies found from any source. Check scraper implementations.")
-        sys.exit(1)
+        print("⚠️  No movies found from any source. Empty data saved so site can load.")
+        print("   Check scraper implementations or theater website changes.")
 
 
 if __name__ == '__main__':
