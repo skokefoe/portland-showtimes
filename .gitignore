@@ -44,11 +44,6 @@ Thumbs.db
 # Logs
 *.log
 
-# Data (will be generated)
-docs/data/*.json
-docs/posters/*.jpg
-docs/posters/*.png
-
-# But keep the directories
-!docs/data/.gitkeep
-!docs/posters/.gitkeep
+# Keep the directory structure
+# Note: docs/data/*.json and docs/posters/* are committed by GitHub Actions
+# and served by GitHub Pages — do NOT gitignore them
