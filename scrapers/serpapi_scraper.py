@@ -55,7 +55,8 @@ class SerpAPIScraper:
     def _parse_showtimes(self, data: Dict[str, Any], start_date: datetime) -> List[Dict[str, Any]]:
         """Parse SerpAPI response into our movie format."""
         movies = []
-        seen_titles = set()
+        # Track TMDB lookups to avoid redundant API calls for the same title
+        tmdb_cache = {}
 
         showtimes_data = data.get('showtimes', [])
         if not showtimes_data:
@@ -67,10 +68,13 @@ class SerpAPIScraper:
         for day_block in showtimes_data:
             day_label = day_block.get('day', '')
             date_str = self._resolve_date(day_label, day_block.get('date', ''), start_date)
+            # Track titles within THIS day block only (prevent dupes within a day)
+            seen_in_day = set()
 
+            # Theater search results: movies are listed under each day
             for movie_entry in day_block.get('movies', []):
                 title = self._clean_title(movie_entry.get('name', ''))
-                if not title or title.lower() in seen_titles:
+                if not title or title.lower() in seen_in_day:
                     continue
 
                 showings = movie_entry.get('showing', [])
@@ -89,9 +93,14 @@ class SerpAPIScraper:
                 if not showtime_list:
                     continue
 
-                seen_titles.add(title.lower())
+                seen_in_day.add(title.lower())
 
-                tmdb_data = self._search_tmdb(title)
+                # Enrich with TMDB (use cache to avoid repeat lookups)
+                title_key = title.lower()
+                if title_key not in tmdb_cache:
+                    tmdb_cache[title_key] = self._search_tmdb(title)
+                tmdb_data = tmdb_cache[title_key]
+
                 poster_path = None
                 if tmdb_data and tmdb_data.get('poster_path'):
                     poster_path = self._download_poster(tmdb_data['poster_path'], self._slugify(title))
@@ -109,6 +118,7 @@ class SerpAPIScraper:
                     'tmdb_id': tmdb_data.get('tmdb_id') if tmdb_data else None,
                 })
 
+            # Movie search results: theaters are listed under each day
             for theater_entry in day_block.get('theaters', []):
                 theater_name = theater_entry.get('name', '')
                 if not self._is_our_theater(theater_name):
@@ -116,7 +126,7 @@ class SerpAPIScraper:
 
                 for movie_entry in theater_entry.get('showing', []):
                     title = self._clean_title(movie_entry.get('name', movie_entry.get('movie', '')))
-                    if not title or title.lower() in seen_titles:
+                    if not title or title.lower() in seen_in_day:
                         continue
 
                     times = movie_entry.get('time', [])
@@ -133,9 +143,13 @@ class SerpAPIScraper:
                     if not showtime_list:
                         continue
 
-                    seen_titles.add(title.lower())
+                    seen_in_day.add(title.lower())
 
-                    tmdb_data = self._search_tmdb(title)
+                    title_key = title.lower()
+                    if title_key not in tmdb_cache:
+                        tmdb_cache[title_key] = self._search_tmdb(title)
+                    tmdb_data = tmdb_cache[title_key]
+
                     poster_path = None
                     if tmdb_data and tmdb_data.get('poster_path'):
                         poster_path = self._download_poster(tmdb_data['poster_path'], self._slugify(title))
@@ -158,6 +172,7 @@ class SerpAPIScraper:
     def _parse_knowledge_graph(self, kg: Dict[str, Any], start_date: datetime) -> List[Dict[str, Any]]:
         """Try to extract showtimes from the knowledge graph panel."""
         movies = []
+        # Knowledge graph sometimes contains a "showtimes" section
         showtimes = kg.get('showtimes', kg.get('movies_showing', []))
         if isinstance(showtimes, list):
             for entry in showtimes:
@@ -197,6 +212,7 @@ class SerpAPIScraper:
         """Check if a theater name from search results matches this theater."""
         name_lower = name.lower()
         theater_lower = self.theater_name.lower()
+        # Check for substring match in either direction
         return (theater_lower in name_lower or
                 name_lower in theater_lower or
                 self.theater_id in name_lower.replace(' ', ''))
@@ -205,10 +221,11 @@ class SerpAPIScraper:
         """Clean up movie title by removing promotional text."""
         if not title:
             return ''
+        # Remove common suffixes/prefixes
         patterns = [
-            r'\s*\(?\d{4}\)?\s*$',
+            r'\s*\(?\d{4}\)?\s*$',  # trailing year like (2024)
             r'\s*[-\u2013]\s*Trailer$',
-            r'\s*\|\s*.*$',
+            r'\s*\|\s*.*$',  # pipe and everything after
         ]
         for pat in patterns:
             title = re.sub(pat, '', title, flags=re.IGNORECASE)
@@ -222,6 +239,7 @@ class SerpAPIScraper:
         elif day_label_lower == 'tomorrow':
             return (start_date + timedelta(days=1)).strftime('%Y-%m-%d')
 
+        # Try parsing the date hint (e.g., "Feb 8")
         if date_hint:
             for fmt in ['%b %d', '%B %d']:
                 try:
@@ -230,6 +248,7 @@ class SerpAPIScraper:
                 except ValueError:
                     continue
 
+        # Try matching day of week
         days_of_week = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
         for i, day_name in enumerate(days_of_week):
             if day_label_lower.startswith(day_name[:3]):
@@ -244,6 +263,7 @@ class SerpAPIScraper:
     def _normalize_time(self, time_str: str) -> str:
         """Normalize time string to consistent format."""
         time_str = time_str.strip()
+        # Try parsing common formats
         for fmt in ['%I:%M%p', '%I:%M %p', '%H:%M']:
             try:
                 t = datetime.strptime(time_str, fmt)
@@ -251,6 +271,8 @@ class SerpAPIScraper:
             except ValueError:
                 continue
         return time_str
+
+    # --- TMDB helpers (same logic as base_scraper.py) ---
 
     def _search_tmdb(self, title: str) -> Optional[Dict[str, Any]]:
         """Search TMDB for movie metadata."""

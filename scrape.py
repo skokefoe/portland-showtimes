@@ -11,6 +11,7 @@ import sys
 from datetime import datetime
 from typing import Dict, List, Any
 from collections import defaultdict
+from zoneinfo import ZoneInfo
 
 from scrapers.serpapi_scraper import SerpAPIScraper
 
@@ -46,6 +47,7 @@ def aggregate_showtimes(all_movies: List[Dict[str, Any]], start_date: datetime, 
         title_key = movie['title'].lower()
         movie_data = movies_by_title[title_key]
 
+        # Use first occurrence for metadata, but prefer entries with TMDB data
         if not movie_data['title'] or (not movie_data['tmdb_id'] and movie.get('tmdb_id')):
             movie_data['title'] = movie['title']
             movie_data['description'] = movie.get('description', '')
@@ -61,7 +63,10 @@ def aggregate_showtimes(all_movies: List[Dict[str, Any]], start_date: datetime, 
             fmt = showtime.get('format')
             if fmt and fmt != 'Standard':
                 entry['format'] = fmt
-            movie_data['showtimes_by_date'][date_str][theater_id].append(entry)
+            # Avoid duplicate time entries for the same theater/date
+            existing_times = [e['time'] for e in movie_data['showtimes_by_date'][date_str][theater_id]]
+            if entry['time'] not in existing_times:
+                movie_data['showtimes_by_date'][date_str][theater_id].append(entry)
 
     aggregated_movies = []
     for movie_data in movies_by_title.values():
@@ -130,10 +135,12 @@ def main():
         print("Warning: TMDB_API_KEY not set. Posters and metadata will be limited.")
         print()
 
-    start_date = datetime.now()
+    # Use Pacific time since all theaters are in Portland
+    pacific = ZoneInfo('America/Los_Angeles')
+    start_date = datetime.now(pacific)
     num_days = 7
 
-    print(f"Date: {start_date.strftime('%Y-%m-%d')}")
+    print(f"Date (Pacific): {start_date.strftime('%Y-%m-%d %I:%M %p %Z')}")
     print(f"Theaters: {len(theaters)}")
     print(f"Data source: SerpAPI (Google Showtimes)")
     print()

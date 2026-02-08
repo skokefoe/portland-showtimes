@@ -17,13 +17,7 @@
             --success-color: #00c030;
             --warning-color: #ffaa00;
         }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
             background: var(--bg-color);
@@ -31,577 +25,209 @@
             line-height: 1.6;
             padding: 20px;
         }
-
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-        }
+        .container { max-width: 1400px; margin: 0 auto; }
 
         header {
             text-align: center;
-            padding: 40px 0;
+            padding: 30px 0 20px;
             border-bottom: 2px solid var(--border-color);
-            margin-bottom: 40px;
+            margin-bottom: 20px;
             position: relative;
         }
-
         h1 {
-            font-size: 2.5rem;
+            font-size: 2.2rem;
             font-weight: 700;
-            margin-bottom: 10px;
+            margin-bottom: 6px;
             background: linear-gradient(135deg, #ff6b6b, #ffaa00);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
-
-        .subtitle {
-            color: var(--text-secondary);
-            font-size: 1.1rem;
-        }
-
-        .last-updated {
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-            margin-top: 10px;
-        }
-
-        /* Settings gear button */
+        .subtitle { color: var(--text-secondary); font-size: 1rem; }
+        .last-updated { color: var(--text-secondary); font-size: 0.85rem; margin-top: 6px; }
         .settings-btn {
-            position: absolute;
-            top: 40px;
-            right: 0;
-            background: none;
-            border: 2px solid var(--border-color);
-            border-radius: 50%;
-            width: 44px;
-            height: 44px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            color: var(--text-secondary);
-            font-size: 1.3rem;
-            transition: all 0.3s ease;
+            position: absolute; top: 30px; right: 0;
+            background: none; border: 2px solid var(--border-color); border-radius: 50%;
+            width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;
+            cursor: pointer; color: var(--text-secondary); font-size: 1.2rem; transition: all 0.3s ease;
+        }
+        .settings-btn:hover { border-color: var(--accent-color); color: var(--accent-color); transform: rotate(60deg); }
+
+        /* View Mode Tabs */
+        .view-tabs {
+            display: flex; gap: 0; margin-bottom: 20px;
+            background: var(--surface-color); border-radius: 10px; padding: 4px;
+            border: 1px solid var(--border-color);
+        }
+        .view-tab {
+            flex: 1; padding: 12px 16px; text-align: center; cursor: pointer;
+            border-radius: 8px; font-weight: 600; font-size: 0.95rem;
+            color: var(--text-secondary); transition: all 0.2s ease; border: none; background: none;
+            font-family: inherit;
+        }
+        .view-tab:hover { color: var(--text-primary); }
+        .view-tab.active { background: var(--accent-color); color: white; }
+
+        /* Calendar strip */
+        .calendar-strip {
+            display: flex; gap: 8px; overflow-x: auto; padding: 4px 0 12px;
+            margin-bottom: 20px; scrollbar-width: thin;
+        }
+        .cal-day {
+            flex-shrink: 0; padding: 10px 16px; text-align: center; cursor: pointer;
+            border-radius: 8px; border: 2px solid var(--border-color); background: var(--bg-color);
+            transition: all 0.2s ease; min-width: 70px;
+        }
+        .cal-day:hover { border-color: var(--accent-color); transform: translateY(-2px); }
+        .cal-day.active { background: var(--accent-color); border-color: var(--accent-color); }
+        .cal-day .d-name { font-weight: 600; font-size: 0.95rem; }
+        .cal-day .d-date { color: var(--text-secondary); font-size: 0.8rem; }
+        .cal-day.active .d-date { color: #fff; }
+
+        /* Theater selector */
+        .theater-tabs {
+            display: flex; gap: 8px; overflow-x: auto; padding: 4px 0 12px;
+            margin-bottom: 20px; scrollbar-width: thin;
+        }
+        .theater-tab {
+            flex-shrink: 0; padding: 10px 18px; cursor: pointer; border-radius: 8px;
+            border: 2px solid var(--border-color); background: var(--bg-color);
+            font-weight: 600; font-size: 0.9rem; color: var(--text-secondary);
+            transition: all 0.2s ease; font-family: inherit;
+        }
+        .theater-tab:hover { border-color: var(--accent-color); color: var(--text-primary); }
+        .theater-tab.active { background: var(--accent-color); border-color: var(--accent-color); color: white; }
+
+        /* Content sections */
+        .theater-section {
+            background: var(--surface-color); border-radius: 12px; padding: 24px;
+            margin-bottom: 24px; border: 1px solid var(--border-color);
+        }
+        .theater-header { margin-bottom: 20px; padding-bottom: 16px; border-bottom: 2px solid var(--border-color); }
+        .theater-name { font-size: 1.6rem; font-weight: 700; color: var(--accent-color); margin-bottom: 4px; }
+        .theater-address { color: var(--text-secondary); font-size: 0.9rem; }
+
+        .movie-card {
+            display: grid; grid-template-columns: 120px 1fr; gap: 20px;
+            padding: 20px 0; border-bottom: 1px solid var(--border-color);
+        }
+        .movie-card:last-child { border-bottom: none; }
+        .movie-poster {
+            width: 120px; height: 180px; border-radius: 8px; object-fit: cover;
+            background: var(--bg-color); border: 1px solid var(--border-color);
+        }
+        .movie-info { min-width: 0; }
+        .movie-title-row { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; flex-wrap: wrap; }
+        .movie-title { font-size: 1.3rem; font-weight: 600; }
+        .letterboxd-link {
+            display: inline-flex; align-items: center; padding: 4px 10px;
+            background: var(--letterboxd-color); color: white; text-decoration: none;
+            border-radius: 5px; font-size: 0.8rem; font-weight: 500; transition: all 0.2s ease;
+        }
+        .letterboxd-link:hover { background: #00a828; }
+        .movie-description {
+            color: var(--text-secondary); margin-bottom: 14px; line-height: 1.6;
+            font-size: 0.9rem; display: -webkit-box; -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical; overflow: hidden;
         }
 
-        .settings-btn:hover {
-            border-color: var(--accent-color);
-            color: var(--accent-color);
-            transform: rotate(60deg);
+        .showtimes-grid { display: flex; flex-direction: column; gap: 8px; }
+        .showtime-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+        .date-label { font-weight: 600; color: var(--accent-color); min-width: 90px; font-size: 0.9rem; }
+        .theater-label { font-weight: 500; color: var(--warning-color); min-width: 140px; font-size: 0.85rem; }
+        .time-buttons { display: flex; gap: 8px; flex-wrap: wrap; }
+        .time-btn {
+            padding: 6px 14px; background: var(--bg-color); border: 1px solid var(--border-color);
+            border-radius: 5px; color: var(--text-primary); text-decoration: none; font-size: 0.9rem;
+            transition: all 0.2s ease;
         }
+        .time-btn:hover { background: var(--accent-color); border-color: var(--accent-color); color: white; }
+        .format-badge {
+            font-size: 0.7rem; padding: 2px 6px; background: var(--warning-color); color: #000;
+            border-radius: 3px; font-weight: 600; margin-left: 4px;
+        }
+
+        /* Movie list view */
+        .movie-list-card {
+            background: var(--surface-color); border-radius: 12px; padding: 20px;
+            margin-bottom: 16px; border: 1px solid var(--border-color);
+            display: grid; grid-template-columns: 100px 1fr; gap: 20px;
+        }
+        .movie-list-card .movie-poster { width: 100px; height: 150px; }
+
+        /* Empty / Loading */
+        .loading, .empty-state {
+            text-align: center; padding: 60px 20px; color: var(--text-secondary);
+        }
+        .loading-spinner {
+            width: 40px; height: 40px; border: 3px solid var(--border-color);
+            border-top: 3px solid var(--accent-color); border-radius: 50%;
+            animation: spin 1s linear infinite; margin: 0 auto 16px;
+        }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
 
         /* Admin Modal */
         .modal-overlay {
-            display: none;
-            position: fixed;
-            inset: 0;
-            background: rgba(0, 0, 0, 0.7);
-            z-index: 1000;
-            justify-content: center;
-            align-items: center;
-            backdrop-filter: blur(4px);
+            display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.7);
+            z-index: 1000; justify-content: center; align-items: center; backdrop-filter: blur(4px);
         }
-
-        .modal-overlay.open {
-            display: flex;
-        }
-
+        .modal-overlay.open { display: flex; }
         .modal {
-            background: var(--surface-color);
-            border: 1px solid var(--border-color);
-            border-radius: 16px;
-            padding: 30px;
-            width: 100%;
-            max-width: 480px;
-            margin: 20px;
-            position: relative;
+            background: var(--surface-color); border: 1px solid var(--border-color);
+            border-radius: 16px; padding: 30px; width: 100%; max-width: 480px; margin: 20px; position: relative;
         }
-
         .modal-close {
-            position: absolute;
-            top: 15px;
-            right: 15px;
-            background: none;
-            border: none;
-            color: var(--text-secondary);
-            font-size: 1.5rem;
-            cursor: pointer;
-            line-height: 1;
+            position: absolute; top: 15px; right: 15px; background: none; border: none;
+            color: var(--text-secondary); font-size: 1.5rem; cursor: pointer; line-height: 1;
         }
-
-        .modal-close:hover {
-            color: var(--text-primary);
+        .modal-close:hover { color: var(--text-primary); }
+        .modal h2 { margin-bottom: 20px; font-size: 1.3rem; }
+        .modal label { display: block; color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 6px; margin-top: 15px; }
+        .modal input[type="text"], .modal input[type="password"] {
+            width: 100%; padding: 10px 14px; background: var(--bg-color);
+            border: 1px solid var(--border-color); border-radius: 8px;
+            color: var(--text-primary); font-size: 0.95rem; font-family: inherit;
         }
-
-        .modal h2 {
-            margin-bottom: 20px;
-            font-size: 1.3rem;
-        }
-
-        .modal label {
-            display: block;
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-            margin-bottom: 6px;
-            margin-top: 15px;
-        }
-
-        .modal input[type="text"],
-        .modal input[type="password"] {
-            width: 100%;
-            padding: 10px 14px;
-            background: var(--bg-color);
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            color: var(--text-primary);
-            font-size: 0.95rem;
-            font-family: inherit;
-        }
-
-        .modal input:focus {
-            outline: none;
-            border-color: var(--accent-color);
-        }
-
-        .modal .hint {
-            color: var(--text-secondary);
-            font-size: 0.8rem;
-            margin-top: 4px;
-        }
-
-        .modal .hint a {
-            color: var(--accent-color);
-            text-decoration: none;
-        }
-
-        .modal .hint a:hover {
-            text-decoration: underline;
-        }
-
+        .modal input:focus { outline: none; border-color: var(--accent-color); }
+        .modal .hint { color: var(--text-secondary); font-size: 0.8rem; margin-top: 4px; }
+        .modal .hint a { color: var(--accent-color); text-decoration: none; }
+        .modal .hint a:hover { text-decoration: underline; }
         .btn {
-            padding: 10px 24px;
-            border: none;
-            border-radius: 8px;
-            font-size: 0.95rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            font-family: inherit;
+            padding: 10px 24px; border: none; border-radius: 8px; font-size: 0.95rem;
+            font-weight: 600; cursor: pointer; transition: all 0.2s ease; font-family: inherit;
         }
+        .btn-primary { background: var(--accent-color); color: white; }
+        .btn-primary:hover { background: var(--accent-hover); }
+        .btn-secondary { background: var(--border-color); color: var(--text-primary); }
+        .btn-secondary:hover { background: #3a3a3a; }
+        .btn-danger { background: transparent; color: var(--accent-color); border: 1px solid var(--accent-color); }
+        .btn-danger:hover { background: var(--accent-color); color: white; }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .btn-row { display: flex; gap: 10px; margin-top: 20px; }
+        .status-banner { display: flex; align-items: center; gap: 12px; padding: 16px; border-radius: 10px; margin-bottom: 20px; }
+        .status-banner.active { background: rgba(0,192,48,0.1); border: 1px solid rgba(0,192,48,0.3); }
+        .status-banner.paused { background: rgba(255,170,0,0.1); border: 1px solid rgba(255,170,0,0.3); }
+        .status-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+        .status-banner.active .status-dot { background: var(--success-color); box-shadow: 0 0 8px var(--success-color); }
+        .status-banner.paused .status-dot { background: var(--warning-color); box-shadow: 0 0 8px var(--warning-color); }
+        .status-text { font-weight: 600; font-size: 0.95rem; }
+        .status-subtext { color: var(--text-secondary); font-size: 0.85rem; }
+        .toggle-btn { margin-left: auto; flex-shrink: 0; }
+        .admin-section { border-top: 1px solid var(--border-color); padding-top: 15px; margin-top: 15px; }
+        .admin-section-title { color: var(--text-secondary); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 10px; }
+        .spinner-inline { display: inline-block; width: 16px; height: 16px; border: 2px solid var(--border-color); border-top-color: var(--accent-color); border-radius: 50%; animation: spin 0.8s linear infinite; vertical-align: middle; margin-right: 6px; }
+        .error-text { color: var(--accent-color); font-size: 0.9rem; margin-top: 10px; }
 
-        .btn-primary {
-            background: var(--accent-color);
-            color: white;
-        }
-
-        .btn-primary:hover {
-            background: var(--accent-hover);
-        }
-
-        .btn-secondary {
-            background: var(--border-color);
-            color: var(--text-primary);
-        }
-
-        .btn-secondary:hover {
-            background: #3a3a3a;
-        }
-
-        .btn-danger {
-            background: transparent;
-            color: var(--accent-color);
-            border: 1px solid var(--accent-color);
-        }
-
-        .btn-danger:hover {
-            background: var(--accent-color);
-            color: white;
-        }
-
-        .btn:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-
-        .btn-row {
-            display: flex;
-            gap: 10px;
-            margin-top: 20px;
-        }
-
-        /* Status indicator */
-        .status-banner {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            padding: 16px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        }
-
-        .status-banner.active {
-            background: rgba(0, 192, 48, 0.1);
-            border: 1px solid rgba(0, 192, 48, 0.3);
-        }
-
-        .status-banner.paused {
-            background: rgba(255, 170, 0, 0.1);
-            border: 1px solid rgba(255, 170, 0, 0.3);
-        }
-
-        .status-dot {
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            flex-shrink: 0;
-        }
-
-        .status-banner.active .status-dot {
-            background: var(--success-color);
-            box-shadow: 0 0 8px var(--success-color);
-        }
-
-        .status-banner.paused .status-dot {
-            background: var(--warning-color);
-            box-shadow: 0 0 8px var(--warning-color);
-        }
-
-        .status-text {
-            font-weight: 600;
-            font-size: 0.95rem;
-        }
-
-        .status-subtext {
-            color: var(--text-secondary);
-            font-size: 0.85rem;
-        }
-
-        .toggle-btn {
-            margin-left: auto;
-            flex-shrink: 0;
-        }
-
-        .admin-section {
-            border-top: 1px solid var(--border-color);
-            padding-top: 15px;
-            margin-top: 15px;
-        }
-
-        .admin-section-title {
-            color: var(--text-secondary);
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            margin-bottom: 10px;
-        }
-
-        .spinner-inline {
-            display: inline-block;
-            width: 16px;
-            height: 16px;
-            border: 2px solid var(--border-color);
-            border-top-color: var(--accent-color);
-            border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-            vertical-align: middle;
-            margin-right: 6px;
-        }
-
-        .error-text {
-            color: var(--accent-color);
-            font-size: 0.9rem;
-            margin-top: 10px;
-        }
-
-        /* Calendar Navigation */
-        .calendar-nav {
-            background: var(--surface-color);
-            border-radius: 12px;
-            padding: 20px;
-            margin-bottom: 40px;
-            border: 1px solid var(--border-color);
-        }
-
-        .calendar-days {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-            gap: 15px;
-            margin-bottom: 20px;
-        }
-
-        .calendar-day {
-            background: var(--bg-color);
-            border: 2px solid var(--border-color);
-            border-radius: 8px;
-            padding: 15px;
-            text-align: center;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .calendar-day:hover {
-            border-color: var(--accent-color);
-            transform: translateY(-2px);
-        }
-
-        .calendar-day.active {
-            background: var(--accent-color);
-            border-color: var(--accent-color);
-        }
-
-        .day-name {
-            font-weight: 600;
-            font-size: 1.1rem;
-            margin-bottom: 5px;
-        }
-
-        .day-date {
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-        }
-
-        .calendar-day.active .day-date {
-            color: #ffffff;
-        }
-
-        .movie-chips {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-        }
-
-        .movie-chip {
-            background: var(--accent-color);
-            color: white;
-            padding: 4px 12px;
-            border-radius: 16px;
-            font-size: 0.85rem;
-            cursor: pointer;
-            transition: background 0.2s ease;
-        }
-
-        .movie-chip:hover {
-            background: var(--accent-hover);
-        }
-
-        /* Theater Sections */
-        .theater-section {
-            background: var(--surface-color);
-            border-radius: 12px;
-            padding: 30px;
-            margin-bottom: 40px;
-            border: 1px solid var(--border-color);
-        }
-
-        .theater-header {
-            margin-bottom: 30px;
-            padding-bottom: 20px;
-            border-bottom: 2px solid var(--border-color);
-        }
-
-        .theater-name {
-            font-size: 2rem;
-            font-weight: 700;
-            color: var(--accent-color);
-            margin-bottom: 5px;
-        }
-
-        .theater-address {
-            color: var(--text-secondary);
-            font-size: 0.95rem;
-        }
-
-        /* Movie Cards */
-        .movie-card {
-            display: grid;
-            grid-template-columns: 150px 1fr;
-            gap: 25px;
-            padding: 25px 0;
-            border-bottom: 1px solid var(--border-color);
-        }
-
-        .movie-card:last-child {
-            border-bottom: none;
-        }
-
-        .movie-poster {
-            width: 150px;
-            height: 225px;
-            border-radius: 8px;
-            object-fit: cover;
-            background: var(--bg-color);
-            border: 1px solid var(--border-color);
-        }
-
-        .movie-info {
-            flex: 1;
-        }
-
-        .movie-title-row {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            margin-bottom: 10px;
-        }
-
-        .movie-title {
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: var(--text-primary);
-        }
-
-        .letterboxd-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            padding: 6px 12px;
-            background: var(--letterboxd-color);
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            font-size: 0.9rem;
-            font-weight: 500;
-            transition: all 0.2s ease;
-        }
-
-        .letterboxd-link:hover {
-            background: #00a828;
-            transform: translateY(-2px);
-        }
-
-        .movie-description {
-            color: var(--text-secondary);
-            margin-bottom: 20px;
-            line-height: 1.7;
-        }
-
-        .showtimes {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
-
-        .showtime-date {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            flex-wrap: wrap;
-        }
-
-        .date-label {
-            font-weight: 600;
-            color: var(--accent-color);
-            min-width: 100px;
-        }
-
-        .time-buttons {
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-        }
-
-        .time-button {
-            padding: 8px 16px;
-            background: var(--bg-color);
-            border: 1px solid var(--border-color);
-            border-radius: 6px;
-            color: var(--text-primary);
-            text-decoration: none;
-            font-size: 0.95rem;
-            transition: all 0.2s ease;
-        }
-
-        .time-button:hover {
-            background: var(--accent-color);
-            border-color: var(--accent-color);
-            color: white;
-            transform: translateY(-2px);
-        }
-
-        /* Load More Button */
-        .load-more {
-            text-align: center;
-            margin-top: 40px;
-            padding: 40px 0;
-        }
-
-        .load-more-button {
-            padding: 15px 40px;
-            background: var(--accent-color);
-            color: white;
-            border: none;
-            border-radius: 8px;
-            font-size: 1.1rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .load-more-button:hover {
-            background: var(--accent-hover);
-            transform: translateY(-2px);
-        }
-
-        .load-more-button:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-
-        /* Loading State */
-        .loading {
-            text-align: center;
-            padding: 60px 20px;
-            color: var(--text-secondary);
-        }
-
-        .loading-spinner {
-            width: 50px;
-            height: 50px;
-            border: 4px solid var(--border-color);
-            border-top: 4px solid var(--accent-color);
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 20px;
-        }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-
-        /* Responsive */
         @media (max-width: 768px) {
-            .movie-card {
-                grid-template-columns: 100px 1fr;
-                gap: 15px;
-            }
-
-            .movie-poster {
-                width: 100px;
-                height: 150px;
-            }
-
-            .movie-title {
-                font-size: 1.2rem;
-            }
-
-            .theater-name {
-                font-size: 1.5rem;
-            }
-
-            .calendar-days {
-                grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-                gap: 10px;
-            }
-
-            h1 {
-                font-size: 2rem;
-            }
-
-            .modal {
-                padding: 20px;
-            }
+            .movie-card { grid-template-columns: 80px 1fr; gap: 12px; }
+            .movie-poster { width: 80px; height: 120px; }
+            .movie-list-card { grid-template-columns: 80px 1fr; gap: 12px; }
+            .movie-list-card .movie-poster { width: 80px; height: 120px; }
+            .movie-title { font-size: 1.1rem; }
+            .theater-name { font-size: 1.3rem; }
+            h1 { font-size: 1.8rem; }
+            .modal { padding: 20px; }
+            .view-tab { font-size: 0.85rem; padding: 10px 8px; }
         }
     </style>
 </head>
@@ -609,23 +235,21 @@
     <div class="container">
         <header>
             <h1>Portland Indie Showtimes</h1>
-            <p class="subtitle">Your guide to independent cinema in Portland, OR</p>
+            <p class="subtitle">Independent cinema in Portland, OR</p>
             <p class="last-updated" id="lastUpdated">Loading...</p>
             <button class="settings-btn" onclick="openAdmin()" title="Settings">&#9881;</button>
         </header>
 
-        <div class="calendar-nav" id="calendarNav">
-            <div class="calendar-days" id="calendarDays"></div>
-            <div class="movie-chips" id="movieChips"></div>
+        <div class="view-tabs" id="viewTabs">
+            <button class="view-tab active" data-view="day" onclick="switchView('day')">By Day</button>
+            <button class="view-tab" data-view="theater" onclick="switchView('theater')">By Theater</button>
+            <button class="view-tab" data-view="movie" onclick="switchView('movie')">By Movie</button>
         </div>
 
+        <div id="controls"></div>
         <div id="content" class="loading">
             <div class="loading-spinner"></div>
             <p>Loading showtimes...</p>
-        </div>
-
-        <div class="load-more" id="loadMore" style="display: none;">
-            <button class="load-more-button" onclick="loadMore()">Load Next 7 Days</button>
         </div>
     </div>
 
@@ -639,105 +263,118 @@
     </div>
 
     <script>
-        // ───────────────────────────────────────────
-        // Showtimes rendering
-        // ───────────────────────────────────────────
         let showtimesData = null;
         let theatersData = null;
+        let currentView = 'day';
         let currentDayIndex = 0;
+        let currentTheaterId = null;
 
-        async function init() {
-            try {
-                const cacheBust = `?t=${Date.now()}`;
-                const [showtimes, theaters] = await Promise.all([
-                    fetch(`data/showtimes.json${cacheBust}`).then(r => r.json()),
-                    fetch(`data/theaters.json${cacheBust}`).then(r => r.json())
-                ]);
-
-                showtimesData = showtimes;
-                theatersData = theaters;
-
-                const lastUpdated = new Date(showtimes.generated_at);
-                document.getElementById('lastUpdated').textContent =
-                    `Last updated: ${lastUpdated.toLocaleString()}`;
-
-                generateCalendar();
-                renderShowtimes();
-
-            } catch (error) {
-                console.error('Error loading data:', error);
-                document.getElementById('content').innerHTML = `
-                    <div style="text-align: center; padding: 60px 20px; color: #a0a0a0;">
-                        <p>No showtimes data yet. Run the scraper first or wait for the next automated update.</p>
-                    </div>
-                `;
-            }
-        }
-
-        function parseLocalDate(dateStr) {
-            // Parse "YYYY-MM-DD" as local date (not UTC) to avoid timezone offset
-            const [y, m, d] = dateStr.split('-').map(Number);
+        // ── Helpers ──
+        function parseLocalDate(s) {
+            const [y, m, d] = s.split('-').map(Number);
             return new Date(y, m - 1, d);
         }
-
-        function generateCalendar() {
-            const calendarDays = document.getElementById('calendarDays');
-            const startDate = parseLocalDate(showtimesData.start_date);
-            const numDays = showtimesData.num_days;
-
-            let html = '';
-            for (let i = 0; i < numDays; i++) {
-                const date = new Date(startDate);
-                date.setDate(date.getDate() + i);
-
-                const dayName = date.toLocaleDateString('en-US', { weekday: 'short' });
-                const dateStr = date.toLocaleDateString('en-US', { month: 'numeric', day: 'numeric' });
-                const active = i === currentDayIndex ? 'active' : '';
-
-                html += `
-                    <div class="calendar-day ${active}" onclick="selectDay(${i})">
-                        <div class="day-name">${dayName}</div>
-                        <div class="day-date">${dateStr}</div>
-                    </div>
-                `;
+        function fmtDateKey(date) {
+            return `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`;
+        }
+        function posterSrc(p) {
+            return p || "data:image/svg+xml," + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="120" height="180" fill="%231a1a1a"><rect width="120" height="180"/><text x="60" y="95" fill="%23555" text-anchor="middle" font-family="sans-serif" font-size="11">No Poster</text></svg>');
+        }
+        function escHtml(s) {
+            return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;');
+        }
+        function getDateRange() {
+            const start = parseLocalDate(showtimesData.start_date);
+            const dates = [];
+            for (let i = 0; i < showtimesData.num_days; i++) {
+                const d = new Date(start);
+                d.setDate(d.getDate() + i);
+                dates.push(d);
             }
-
-            calendarDays.innerHTML = html;
-            generateMovieChips();
+            return dates;
         }
 
-        function generateMovieChips() {
-            const movieChips = document.getElementById('movieChips');
-            const uniqueTitles = [...new Set(showtimesData.movies.map(m => m.title))];
+        // ── Init ──
+        async function init() {
+            try {
+                const cb = `?t=${Date.now()}`;
+                const [st, th] = await Promise.all([
+                    fetch(`data/showtimes.json${cb}`).then(r => r.json()),
+                    fetch(`data/theaters.json${cb}`).then(r => r.json())
+                ]);
+                showtimesData = st;
+                theatersData = th;
+                if (theatersData.theaters.length > 0) currentTheaterId = theatersData.theaters[0].id;
 
-            const html = uniqueTitles.map(title => {
-                const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, '-');
-                return `<div class="movie-chip" onclick="scrollToMovie('${slug}')">${title}</div>`;
-            }).join('');
+                const ts = new Date(st.generated_at);
+                document.getElementById('lastUpdated').textContent = `Last updated: ${ts.toLocaleString()}`;
 
-            movieChips.innerHTML = html;
+                render();
+            } catch (e) {
+                console.error('Error loading data:', e);
+                document.getElementById('content').innerHTML = '<div class="empty-state"><p>No showtimes data yet.</p></div>';
+            }
         }
 
-        function selectDay(index) {
-            currentDayIndex = index;
-            generateCalendar();
-            renderShowtimes();
+        // ── View switching ──
+        function switchView(view) {
+            currentView = view;
+            document.querySelectorAll('.view-tab').forEach(t => t.classList.toggle('active', t.dataset.view === view));
+            render();
         }
 
-        function scrollToMovie(slug) {
-            const el = document.getElementById(slug);
-            if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-
-        function renderShowtimes() {
+        function render() {
+            const ctrl = document.getElementById('controls');
             const content = document.getElementById('content');
-            const theaters = theatersData.theaters;
+            content.className = '';
 
-            const startDate = parseLocalDate(showtimesData.start_date);
-            const currentDate = new Date(startDate);
-            currentDate.setDate(currentDate.getDate() + currentDayIndex);
-            // Format as YYYY-MM-DD in local time (not UTC via toISOString)
-            const dateKey = `${currentDate.getFullYear()}-${String(currentDate.getMonth() + 1).padStart(2, '0')}-${String(currentDate.getDate()).padStart(2, '0')}`;
+            if (currentView === 'day') {
+                ctrl.innerHTML = buildCalendarStrip();
+                content.innerHTML = renderByDay();
+            } else if (currentView === 'theater') {
+                ctrl.innerHTML = buildTheaterTabs();
+                content.innerHTML = renderByTheater();
+            } else {
+                ctrl.innerHTML = '';
+                content.innerHTML = renderByMovie();
+            }
+        }
+
+        // ── Calendar strip ──
+        function buildCalendarStrip() {
+            const dates = getDateRange();
+            let html = '<div class="calendar-strip">';
+            dates.forEach((d, i) => {
+                const active = i === currentDayIndex ? 'active' : '';
+                const name = d.toLocaleDateString('en-US', { weekday: 'short' });
+                const date = d.toLocaleDateString('en-US', { month: 'numeric', day: 'numeric' });
+                html += `<div class="cal-day ${active}" onclick="selectDay(${i})"><div class="d-name">${name}</div><div class="d-date">${date}</div></div>`;
+            });
+            html += '</div>';
+            return html;
+        }
+
+        function selectDay(i) { currentDayIndex = i; render(); }
+
+        // ── Theater tabs ──
+        function buildTheaterTabs() {
+            let html = '<div class="theater-tabs">';
+            theatersData.theaters.forEach(t => {
+                const active = t.id === currentTheaterId ? 'active' : '';
+                html += `<button class="theater-tab ${active}" onclick="selectTheater('${t.id}')">${escHtml(t.name)}</button>`;
+            });
+            html += '</div>';
+            return html;
+        }
+
+        function selectTheater(id) { currentTheaterId = id; render(); }
+
+        // ── BY DAY VIEW ──
+        function renderByDay() {
+            const dates = getDateRange();
+            const currentDate = dates[currentDayIndex];
+            const dateKey = fmtDateKey(currentDate);
+            const theaters = theatersData.theaters;
 
             const moviesByTheater = {};
             theaters.forEach(t => { moviesByTheater[t.id] = []; });
@@ -746,322 +383,257 @@
                 if (movie.showtimes[dateKey]) {
                     Object.keys(movie.showtimes[dateKey]).forEach(tid => {
                         if (moviesByTheater[tid]) {
-                            moviesByTheater[tid].push({
-                                ...movie,
-                                theaterShowtimes: movie.showtimes[dateKey][tid]
-                            });
+                            moviesByTheater[tid].push({ ...movie, dayShowtimes: movie.showtimes[dateKey][tid] });
                         }
                     });
                 }
             });
 
             let html = '';
-
             theaters.forEach(theater => {
                 const movies = moviesByTheater[theater.id];
-                if (movies && movies.length > 0) {
-                    html += `
-                        <div class="theater-section">
-                            <div class="theater-header">
-                                <h2 class="theater-name">${theater.name}</h2>
-                                <p class="theater-address">${theater.address}</p>
-                            </div>`;
+                if (!movies || movies.length === 0) return;
 
-                    movies.forEach(movie => {
-                        const posterSrc = movie.poster || 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="150" height="225" fill="%231a1a1a"><rect width="150" height="225"/><text x="75" y="118" fill="%23555" text-anchor="middle" font-family="sans-serif" font-size="13">No Poster</text></svg>');
-                        const slug = movie.title.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+                html += `<div class="theater-section"><div class="theater-header">
+                    <h2 class="theater-name">${escHtml(theater.name)}</h2>
+                    <p class="theater-address">${escHtml(theater.address)}</p>
+                </div>`;
 
-                        html += `
-                            <div class="movie-card" id="${slug}">
-                                <img src="${posterSrc}" alt="${movie.title}" class="movie-poster">
-                                <div class="movie-info">
-                                    <div class="movie-title-row">
-                                        <h3 class="movie-title">${movie.title}</h3>
-                                        <a href="${movie.letterboxd_url}" target="_blank" rel="noopener" class="letterboxd-link">Letterboxd</a>
-                                    </div>
-                                    ${movie.description ? `<p class="movie-description">${movie.description}</p>` : ''}
-                                    <div class="showtimes">
-                                        <div class="showtime-date">
-                                            <span class="date-label">${currentDate.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}</span>
-                                            <div class="time-buttons">
-                                                ${movie.theaterShowtimes.map(st =>
-                                                    `<a href="${st.url}" target="_blank" rel="noopener" class="time-button">${st.time}</a>`
-                                                ).join('')}
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>`;
-                    });
-
-                    html += '</div>';
-                }
+                movies.forEach(m => {
+                    html += movieCard(m, [{ label: currentDate.toLocaleDateString('en-US', { weekday:'short', month:'short', day:'numeric' }), times: m.dayShowtimes }]);
+                });
+                html += '</div>';
             });
 
-            if (!html) {
-                html = '<div style="text-align: center; padding: 60px 20px; color: #a0a0a0;"><p>No showtimes found for this date.</p></div>';
+            return html || '<div class="empty-state"><p>No showtimes found for this date.</p></div>';
+        }
+
+        // ── BY THEATER VIEW ──
+        function renderByTheater() {
+            const theater = theatersData.theaters.find(t => t.id === currentTheaterId);
+            if (!theater) return '<div class="empty-state"><p>Select a theater.</p></div>';
+
+            const dates = getDateRange();
+            const moviesAtTheater = [];
+
+            showtimesData.movies.forEach(movie => {
+                const theaterDays = [];
+                dates.forEach(d => {
+                    const dk = fmtDateKey(d);
+                    if (movie.showtimes[dk] && movie.showtimes[dk][theater.id]) {
+                        theaterDays.push({
+                            date: d,
+                            label: d.toLocaleDateString('en-US', { weekday:'short', month:'short', day:'numeric' }),
+                            times: movie.showtimes[dk][theater.id]
+                        });
+                    }
+                });
+                if (theaterDays.length > 0) moviesAtTheater.push({ ...movie, theaterDays });
+            });
+
+            if (moviesAtTheater.length === 0) {
+                return '<div class="empty-state"><p>No showtimes found for this theater.</p></div>';
             }
 
-            content.innerHTML = html;
+            let html = `<div class="theater-section"><div class="theater-header">
+                <h2 class="theater-name">${escHtml(theater.name)}</h2>
+                <p class="theater-address">${escHtml(theater.address)}</p>
+            </div>`;
+
+            moviesAtTheater.forEach(m => {
+                html += movieCard(m, m.theaterDays);
+            });
+            html += '</div>';
+            return html;
         }
 
-        function loadMore() {
-            alert('Loading additional days is not yet implemented.');
+        // ── BY MOVIE VIEW ──
+        function renderByMovie() {
+            const dates = getDateRange();
+            const theaters = theatersData.theaters;
+            const theaterMap = {};
+            theaters.forEach(t => { theaterMap[t.id] = t; });
+
+            const moviesWithData = showtimesData.movies.filter(m => Object.keys(m.showtimes).length > 0);
+
+            if (moviesWithData.length === 0) {
+                return '<div class="empty-state"><p>No movies found.</p></div>';
+            }
+
+            let html = '';
+            moviesWithData.forEach(movie => {
+                // Collect all theater/date/time combos
+                const schedule = []; // { theaterName, theaterId, date, label, times }
+                dates.forEach(d => {
+                    const dk = fmtDateKey(d);
+                    if (!movie.showtimes[dk]) return;
+                    Object.keys(movie.showtimes[dk]).forEach(tid => {
+                        const t = theaterMap[tid];
+                        if (!t) return;
+                        schedule.push({
+                            theaterName: t.name,
+                            theaterId: tid,
+                            date: d,
+                            label: d.toLocaleDateString('en-US', { weekday:'short', month:'short', day:'numeric' }),
+                            times: movie.showtimes[dk][tid]
+                        });
+                    });
+                });
+
+                if (schedule.length === 0) return;
+
+                html += `<div class="movie-list-card">
+                    <img src="${posterSrc(movie.poster)}" alt="${escHtml(movie.title)}" class="movie-poster">
+                    <div class="movie-info">
+                        <div class="movie-title-row">
+                            <h3 class="movie-title">${escHtml(movie.title)}</h3>
+                            ${movie.letterboxd_url ? `<a href="${movie.letterboxd_url}" target="_blank" rel="noopener" class="letterboxd-link">Letterboxd</a>` : ''}
+                        </div>
+                        ${movie.description ? `<p class="movie-description">${escHtml(movie.description)}</p>` : ''}
+                        <div class="showtimes-grid">`;
+
+                schedule.forEach(s => {
+                    html += `<div class="showtime-row">
+                        <span class="theater-label">${escHtml(s.theaterName)}</span>
+                        <span class="date-label">${s.label}</span>
+                        <div class="time-buttons">
+                            ${s.times.map(st => `<a href="${st.url}" target="_blank" rel="noopener" class="time-btn">${st.time}${st.format ? `<span class="format-badge">${st.format}</span>` : ''}</a>`).join('')}
+                        </div>
+                    </div>`;
+                });
+
+                html += `</div></div></div>`;
+            });
+
+            return html;
         }
 
-        // ───────────────────────────────────────────
-        // Admin panel — GitHub API toggle
-        // ───────────────────────────────────────────
+        // ── Shared movie card ──
+        function movieCard(movie, dayEntries) {
+            let html = `<div class="movie-card">
+                <img src="${posterSrc(movie.poster)}" alt="${escHtml(movie.title)}" class="movie-poster">
+                <div class="movie-info">
+                    <div class="movie-title-row">
+                        <h3 class="movie-title">${escHtml(movie.title)}</h3>
+                        ${movie.letterboxd_url ? `<a href="${movie.letterboxd_url}" target="_blank" rel="noopener" class="letterboxd-link">Letterboxd</a>` : ''}
+                    </div>
+                    ${movie.description ? `<p class="movie-description">${escHtml(movie.description)}</p>` : ''}
+                    <div class="showtimes-grid">`;
+
+            dayEntries.forEach(day => {
+                html += `<div class="showtime-row">
+                    <span class="date-label">${day.label}</span>
+                    <div class="time-buttons">
+                        ${day.times.map(st => `<a href="${st.url}" target="_blank" rel="noopener" class="time-btn">${st.time}${st.format ? `<span class="format-badge">${st.format}</span>` : ''}</a>`).join('')}
+                    </div>
+                </div>`;
+            });
+
+            html += '</div></div></div>';
+            return html;
+        }
+
+        // ── Admin panel ──
         const STORAGE_KEY = 'pdx_showtimes_admin';
-
-        function getAdminCreds() {
-            try {
-                const raw = localStorage.getItem(STORAGE_KEY);
-                return raw ? JSON.parse(raw) : null;
-            } catch { return null; }
-        }
-
-        function saveAdminCreds(owner, repo, token) {
-            localStorage.setItem(STORAGE_KEY, JSON.stringify({ owner, repo, token }));
-        }
-
-        function clearAdminCreds() {
-            localStorage.removeItem(STORAGE_KEY);
-        }
+        function getAdminCreds() { try { const r = localStorage.getItem(STORAGE_KEY); return r ? JSON.parse(r) : null; } catch { return null; } }
+        function saveAdminCreds(o, r, t) { localStorage.setItem(STORAGE_KEY, JSON.stringify({owner:o, repo:r, token:t})); }
+        function clearAdminCreds() { localStorage.removeItem(STORAGE_KEY); }
 
         function openAdmin() {
             document.getElementById('adminModal').classList.add('open');
-            const creds = getAdminCreds();
-            if (creds && creds.token) {
-                showAdminPanel(creds);
-            } else {
-                showSetupForm();
-            }
+            const c = getAdminCreds();
+            if (c && c.token) showAdminPanel(c); else showSetupForm();
         }
+        function closeAdmin() { document.getElementById('adminModal').classList.remove('open'); }
+        document.getElementById('adminModal').addEventListener('click', function(e) { if (e.target === this) closeAdmin(); });
 
-        function closeAdmin() {
-            document.getElementById('adminModal').classList.remove('open');
-        }
-
-        // Close modal on backdrop click
-        document.getElementById('adminModal').addEventListener('click', function(e) {
-            if (e.target === this) closeAdmin();
-        });
-
-        // ── Setup form (first time) ──
         function showSetupForm() {
             document.getElementById('adminContent').innerHTML = `
-                <p style="color: var(--text-secondary); margin-bottom: 15px;">
-                    Connect your GitHub account to control daily scraping from this page.
-                </p>
-
+                <p style="color:var(--text-secondary);margin-bottom:15px;">Connect your GitHub account to control daily scraping from this page.</p>
                 <label for="gh-owner">GitHub Username</label>
                 <input type="text" id="gh-owner" placeholder="your-username">
-
                 <label for="gh-repo">Repository Name</label>
                 <input type="text" id="gh-repo" placeholder="portland-showtimes" value="portland-showtimes">
-
                 <label for="gh-token">Personal Access Token</label>
                 <input type="password" id="gh-token" placeholder="github_pat_...">
-                <p class="hint">
-                    Create a <strong>fine-grained PAT</strong> with <em>Contents: Read and write</em> permission
-                    on just this repo.<br>
-                    <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">Create one here &rarr;</a>
-                </p>
-
-                <p class="hint" style="margin-top: 12px; padding: 8px; background: var(--bg-color); border-radius: 6px;">
-                    Your token is stored only in <strong>this browser's localStorage</strong>.
-                    It is sent only to <code>api.github.com</code> over HTTPS. It never touches any other server.
-                </p>
-
+                <p class="hint">Create a <strong>fine-grained PAT</strong> with <em>Contents: Read and write</em> on this repo.<br>
+                    <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">Create one here &rarr;</a></p>
+                <p class="hint" style="margin-top:12px;padding:8px;background:var(--bg-color);border-radius:6px;">
+                    Token stored only in <strong>this browser's localStorage</strong>. Sent only to <code>api.github.com</code> over HTTPS.</p>
                 <div class="btn-row">
                     <button class="btn btn-primary" onclick="saveSetup()">Connect</button>
                     <button class="btn btn-secondary" onclick="closeAdmin()">Cancel</button>
-                </div>
-                <div id="setup-error"></div>
-            `;
+                </div><div id="setup-error"></div>`;
         }
 
         async function saveSetup() {
             const owner = document.getElementById('gh-owner').value.trim();
             const repo = document.getElementById('gh-repo').value.trim();
             const token = document.getElementById('gh-token').value.trim();
-            const errorEl = document.getElementById('setup-error');
-
-            if (!owner || !repo || !token) {
-                errorEl.innerHTML = '<p class="error-text">All fields are required.</p>';
-                return;
-            }
-
-            errorEl.innerHTML = '<p style="color: var(--text-secondary); margin-top: 10px;"><span class="spinner-inline"></span> Verifying...</p>';
-
-            // Test the token by reading config.json
+            const err = document.getElementById('setup-error');
+            if (!owner||!repo||!token) { err.innerHTML='<p class="error-text">All fields required.</p>'; return; }
+            err.innerHTML='<p style="color:var(--text-secondary);margin-top:10px"><span class="spinner-inline"></span> Verifying...</p>';
             try {
                 const res = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/config.json`, {
-                    headers: {
-                        'Authorization': `Bearer ${token}`,
-                        'Accept': 'application/vnd.github.v3+json'
-                    }
+                    headers:{'Authorization':`Bearer ${token}`,'Accept':'application/vnd.github.v3+json'}
                 });
-
-                if (res.status === 401 || res.status === 403) {
-                    errorEl.innerHTML = '<p class="error-text">Authentication failed. Check your token and permissions.</p>';
-                    return;
-                }
-                if (res.status === 404) {
-                    errorEl.innerHTML = '<p class="error-text">Repository or config.json not found. Check owner/repo name.</p>';
-                    return;
-                }
-                if (!res.ok) {
-                    errorEl.innerHTML = `<p class="error-text">GitHub API error: ${res.status}</p>`;
-                    return;
-                }
-
-                saveAdminCreds(owner, repo, token);
-                showAdminPanel({ owner, repo, token });
-
-            } catch (e) {
-                errorEl.innerHTML = `<p class="error-text">Network error: ${e.message}</p>`;
-            }
+                if (res.status===401||res.status===403) { err.innerHTML='<p class="error-text">Auth failed.</p>'; return; }
+                if (res.status===404) { err.innerHTML='<p class="error-text">Repo or config.json not found.</p>'; return; }
+                if (!res.ok) { err.innerHTML=`<p class="error-text">GitHub API error: ${res.status}</p>`; return; }
+                saveAdminCreds(owner,repo,token); showAdminPanel({owner,repo,token});
+            } catch(e) { err.innerHTML=`<p class="error-text">Network error: ${e.message}</p>`; }
         }
 
-        // ── Admin panel (connected) ──
         async function showAdminPanel(creds) {
-            const adminContent = document.getElementById('adminContent');
-            adminContent.innerHTML = `
-                <div style="text-align: center; padding: 20px; color: var(--text-secondary);">
-                    <span class="spinner-inline"></span> Loading status...
-                </div>
-            `;
-
+            const ac = document.getElementById('adminContent');
+            ac.innerHTML='<div style="text-align:center;padding:20px;color:var(--text-secondary)"><span class="spinner-inline"></span> Loading...</div>';
             try {
                 const res = await fetch(`https://api.github.com/repos/${creds.owner}/${creds.repo}/contents/config.json`, {
-                    headers: {
-                        'Authorization': `Bearer ${creds.token}`,
-                        'Accept': 'application/vnd.github.v3+json'
-                    }
+                    headers:{'Authorization':`Bearer ${creds.token}`,'Accept':'application/vnd.github.v3+json'}
                 });
-
                 if (!res.ok) {
-                    if (res.status === 401 || res.status === 403) {
-                        clearAdminCreds();
-                        adminContent.innerHTML = '<p class="error-text">Token expired or revoked. Please reconnect.</p>';
-                        setTimeout(showSetupForm, 1500);
-                        return;
-                    }
-                    throw new Error(`GitHub API error: ${res.status}`);
+                    if (res.status===401||res.status===403) { clearAdminCreds(); ac.innerHTML='<p class="error-text">Token expired.</p>'; setTimeout(showSetupForm,1500); return; }
+                    throw new Error(`HTTP ${res.status}`);
                 }
-
                 const data = await res.json();
-                const configContent = JSON.parse(atob(data.content));
-                const isEnabled = configContent.enabled !== false;
-                const sha = data.sha;
-
-                renderAdminPanel(creds, isEnabled, sha);
-
-            } catch (e) {
-                adminContent.innerHTML = `<p class="error-text">Error: ${e.message}</p>`;
-            }
+                const cfg = JSON.parse(atob(data.content));
+                const on = cfg.enabled !== false;
+                renderAdminPanel(creds, on, data.sha);
+            } catch(e) { ac.innerHTML=`<p class="error-text">Error: ${e.message}</p>`; }
         }
 
-        function renderAdminPanel(creds, isEnabled, sha) {
-            const statusClass = isEnabled ? 'active' : 'paused';
-            const statusLabel = isEnabled ? 'Active' : 'Paused';
-            const statusDesc = isEnabled
-                ? 'Showtimes are updating daily at 2 AM PST'
-                : 'Daily updates are paused. No scraping is happening.';
-            const toggleLabel = isEnabled ? 'Pause' : 'Resume';
-            const toggleClass = isEnabled ? 'btn-danger' : 'btn-primary';
-
+        function renderAdminPanel(creds, on, sha) {
+            const sc = on?'active':'paused', sl = on?'Active':'Paused';
+            const sd = on?'Updating daily at 2 AM PST':'Daily updates paused.';
+            const tl = on?'Pause':'Resume', tc = on?'btn-danger':'btn-primary';
             document.getElementById('adminContent').innerHTML = `
-                <div class="status-banner ${statusClass}">
-                    <div class="status-dot"></div>
-                    <div>
-                        <div class="status-text">${statusLabel}</div>
-                        <div class="status-subtext">${statusDesc}</div>
-                    </div>
-                    <button class="btn ${toggleClass} toggle-btn" id="toggleBtn"
-                            onclick="toggleScraping(${!isEnabled}, '${sha}')">
-                        ${toggleLabel}
-                    </button>
-                </div>
-
-                <div class="admin-section">
-                    <div class="admin-section-title">Connected to</div>
-                    <p style="color: var(--text-secondary); font-size: 0.95rem;">
-                        <strong>${creds.owner}</strong>/${creds.repo}
-                    </p>
-                </div>
-
-                <div class="admin-section">
-                    <div class="admin-section-title">Credentials</div>
-                    <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 10px;">
-                        Token stored in this browser only.
-                    </p>
-                    <button class="btn btn-danger" onclick="disconnectAdmin()">
-                        Disconnect &amp; Clear Token
-                    </button>
-                </div>
-
-                <div id="toggle-error"></div>
-            `;
+                <div class="status-banner ${sc}"><div class="status-dot"></div><div><div class="status-text">${sl}</div><div class="status-subtext">${sd}</div></div>
+                    <button class="btn ${tc} toggle-btn" id="toggleBtn" onclick="toggleScraping(${!on},'${sha}')">${tl}</button></div>
+                <div class="admin-section"><div class="admin-section-title">Connected to</div>
+                    <p style="color:var(--text-secondary);font-size:0.95rem"><strong>${creds.owner}</strong>/${creds.repo}</p></div>
+                <div class="admin-section"><div class="admin-section-title">Credentials</div>
+                    <p style="color:var(--text-secondary);font-size:0.85rem;margin-bottom:10px">Token stored in this browser only.</p>
+                    <button class="btn btn-danger" onclick="disconnectAdmin()">Disconnect &amp; Clear Token</button></div>
+                <div id="toggle-error"></div>`;
         }
 
-        async function toggleScraping(newEnabled, sha) {
-            const creds = getAdminCreds();
-            if (!creds) return;
-
-            const btn = document.getElementById('toggleBtn');
-            const errorEl = document.getElementById('toggle-error');
-            btn.disabled = true;
-            btn.innerHTML = '<span class="spinner-inline"></span> Updating...';
-            errorEl.innerHTML = '';
-
-            const newConfig = {
-                enabled: newEnabled,
-                notes: "Set 'enabled' to false to pause daily scraping. The GitHub Action will exit early without making any requests to theater websites or using GitHub Actions minutes."
-            };
-
+        async function toggleScraping(newOn, sha) {
+            const creds = getAdminCreds(); if (!creds) return;
+            const btn = document.getElementById('toggleBtn'), err = document.getElementById('toggle-error');
+            btn.disabled=true; btn.innerHTML='<span class="spinner-inline"></span> Updating...'; err.innerHTML='';
+            const nc = { enabled: newOn, notes: "Set 'enabled' to false to pause daily scraping." };
             try {
                 const res = await fetch(`https://api.github.com/repos/${creds.owner}/${creds.repo}/contents/config.json`, {
-                    method: 'PUT',
-                    headers: {
-                        'Authorization': `Bearer ${creds.token}`,
-                        'Accept': 'application/vnd.github.v3+json',
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        message: newEnabled
-                            ? 'Resume daily showtimes scraping'
-                            : 'Pause daily showtimes scraping',
-                        content: btoa(JSON.stringify(newConfig, null, 2) + '\n'),
-                        sha: sha
-                    })
+                    method:'PUT', headers:{'Authorization':`Bearer ${creds.token}`,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json'},
+                    body: JSON.stringify({ message: newOn?'Resume scraping':'Pause scraping', content: btoa(JSON.stringify(nc,null,2)+'\n'), sha })
                 });
-
-                if (!res.ok) {
-                    const err = await res.json();
-                    throw new Error(err.message || `HTTP ${res.status}`);
-                }
-
-                // Refresh the panel to show updated state
+                if (!res.ok) { const e = await res.json(); throw new Error(e.message||`HTTP ${res.status}`); }
                 showAdminPanel(creds);
-
-            } catch (e) {
-                btn.disabled = false;
-                btn.textContent = newEnabled ? 'Resume' : 'Pause';
-                errorEl.innerHTML = `<p class="error-text">Failed to update: ${e.message}</p>`;
-            }
+            } catch(e) { btn.disabled=false; btn.textContent=newOn?'Resume':'Pause'; err.innerHTML=`<p class="error-text">${e.message}</p>`; }
         }
 
-        function disconnectAdmin() {
-            if (confirm('This will remove your GitHub token from this browser. You can reconnect anytime.')) {
-                clearAdminCreds();
-                showSetupForm();
-            }
-        }
+        function disconnectAdmin() { if (confirm('Remove your GitHub token from this browser?')) { clearAdminCreds(); showSetupForm(); } }
 
-        // ── Initialize ──
         init();
     </script>
 </body>
