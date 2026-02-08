@@ -648,9 +648,10 @@
 
         async function init() {
             try {
+                const cacheBust = `?t=${Date.now()}`;
                 const [showtimes, theaters] = await Promise.all([
-                    fetch('data/showtimes.json').then(r => r.json()),
-                    fetch('data/theaters.json').then(r => r.json())
+                    fetch(`data/showtimes.json${cacheBust}`).then(r => r.json()),
+                    fetch(`data/theaters.json${cacheBust}`).then(r => r.json())
                 ]);
 
                 showtimesData = showtimes;
@@ -673,9 +674,15 @@
             }
         }
 
+        function parseLocalDate(dateStr) {
+            // Parse "YYYY-MM-DD" as local date (not UTC) to avoid timezone offset
+            const [y, m, d] = dateStr.split('-').map(Number);
+            return new Date(y, m - 1, d);
+        }
+
         function generateCalendar() {
             const calendarDays = document.getElementById('calendarDays');
-            const startDate = new Date(showtimesData.start_date);
+            const startDate = parseLocalDate(showtimesData.start_date);
             const numDays = showtimesData.num_days;
 
             let html = '';
@@ -726,10 +733,11 @@
             const content = document.getElementById('content');
             const theaters = theatersData.theaters;
 
-            const startDate = new Date(showtimesData.start_date);
+            const startDate = parseLocalDate(showtimesData.start_date);
             const currentDate = new Date(startDate);
             currentDate.setDate(currentDate.getDate() + currentDayIndex);
-            const dateKey = currentDate.toISOString().split('T')[0];
+            // Format as YYYY-MM-DD in local time (not UTC via toISOString)
+            const dateKey = `${currentDate.getFullYear()}-${String(currentDate.getMonth() + 1).padStart(2, '0')}-${String(currentDate.getDate()).padStart(2, '0')}`;
 
             const moviesByTheater = {};
             theaters.forEach(t => { moviesByTheater[t.id] = []; });
