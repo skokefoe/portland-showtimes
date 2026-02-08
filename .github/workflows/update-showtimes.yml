@@ -2,14 +2,10 @@ name: Update Showtimes
 
 on:
   schedule:
-    # Run at 2:00 AM PST (10:00 AM UTC) every day
     - cron: '0 10 * * *'
-  workflow_dispatch:  # Allow manual trigger
+  workflow_dispatch:
 
 jobs:
-  # First job: lightweight check of the enabled flag
-  # Uses only a sparse checkout (~1 second) so if paused,
-  # no Python/Playwright install happens and minimal resources are used.
   check-enabled:
     runs-on: ubuntu-latest
     outputs:
@@ -27,17 +23,14 @@ jobs:
             ENABLED=$(python3 -c "import json; print(json.load(open('config.json')).get('enabled', True))")
             echo "enabled=$ENABLED" >> "$GITHUB_OUTPUT"
             if [ "$ENABLED" = "False" ]; then
-              echo "⏸️  Scraping is PAUSED via config.json"
-              echo "   Set 'enabled: true' in config.json to resume."
+              echo "Scraping is PAUSED via config.json"
             else
-              echo "✓ Scraping is enabled"
+              echo "Scraping is enabled"
             fi
           else
             echo "enabled=True" >> "$GITHUB_OUTPUT"
-            echo "✓ No config.json found, defaulting to enabled"
           fi
 
-  # Second job: only runs if enabled
   scrape-and-deploy:
     needs: check-enabled
     if: needs.check-enabled.outputs.enabled == 'True'
@@ -52,21 +45,14 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install Python dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Install Playwright browsers
-        run: |
-          playwright install chromium
-          playwright install-deps chromium
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
       - name: Run scrapers
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-        run: |
-          python scrape.py
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: python scrape.py
 
       - name: Commit and push changes
         run: |
