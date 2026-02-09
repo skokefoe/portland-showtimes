@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-08T10:33:38.725303",
-  "start_date": "2026-02-08",
+  "generated_at": "2026-02-09T10:59:12.796088",
+  "start_date": "2026-02-09",
   "num_days": 7,
   "movies": [
     {
@@ -10,26 +10,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1290432/",
       "tmdb_id": 1290432,
       "showtimes": {
-        "2026-02-08": {
-          "livingroom": [
-            {
-              "time": "11:50 AM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:35 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-02-09": {
           "livingroom": [
             {
@@ -136,22 +116,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1246049/",
       "tmdb_id": 1246049,
       "showtimes": {
-        "2026-02-08": {
-          "livingroom": [
-            {
-              "time": "1:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-02-09": {
           "livingroom": [
             {
@@ -242,22 +206,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/858024/",
       "tmdb_id": 858024,
       "showtimes": {
-        "2026-02-08": {
-          "livingroom": [
-            {
-              "time": "12:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-02-09": {
           "livingroom": [
             {
@@ -327,18 +275,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1140498/",
       "tmdb_id": 1140498,
       "showtimes": {
-        "2026-02-08": {
-          "livingroom": [
-            {
-              "time": "1:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-02-09": {
           "livingroom": [
             {
@@ -380,6 +316,23 @@
             {
               "time": "1:00 PM",
               "url": "https://livingroomtheaters.com"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "It Was Just an Accident",
+      "description": "An unassuming mechanic is reminded of his time in an Iranian prison when he encounters a man he suspects to be his sadistic jailhouse captor.",
+      "poster": "posters/it-was-just-an-accident.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1456349/",
+      "tmdb_id": 1456349,
+      "showtimes": {
+        "2026-02-15": {
+          "cinemagic": [
+            {
+              "time": "7:00 PM",
+              "url": "https://www.thecinemagictheater.com"
             }
           ]
         }
@@ -439,7 +392,7 @@
     {
       "title": "Numbskull Revolution",
       "description": "Satire and deconstruction the high art scene with an eyeball-scorching onslaught of mind-blowing narrative madness and honey-laced pathos.",
-      "poster": null,
+      "poster": "posters/numbskull-revolution.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/608507/",
       "tmdb_id": 608507,
       "showtimes": {
@@ -512,55 +465,12 @@
       }
     },
     {
-      "title": "Project Eden",
-      "description": "In the summer of 1959, in the heart of middle America, three adventurous kids discover that boredom often leads to mischief. But when temptation beckons, they find themselves in deeper trouble than they ever imagined.",
-      "poster": null,
-      "letterboxd_url": "https://letterboxd.com/tmdb/1440826/",
-      "tmdb_id": 1440826,
-      "showtimes": {
-        "2026-02-08": {
-          "hollywood": [
-            {
-              "time": "7:00 PM",
-              "url": "https://hollywoodtheatre.org"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Send Help",
       "description": "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to make it out alive.",
       "poster": "posters/send-help.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/1198994/",
       "tmdb_id": 1198994,
       "showtimes": {
-        "2026-02-08": {
-          "bagdad": [
-            {
-              "time": "12:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "5:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-02-09": {
           "bagdad": [
             {
@@ -692,14 +602,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1124566/",
       "tmdb_id": 1124566,
       "showtimes": {
-        "2026-02-08": {
-          "cinemagic": [
-            {
-              "time": "4:30 PM",
-              "url": "https://www.thecinemagictheater.com"
-            }
-          ]
-        },
         "2026-02-11": {
           "cinemagic": [
             {
@@ -725,22 +627,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1221061/",
       "tmdb_id": 1221061,
       "showtimes": {
-        "2026-02-08": {
-          "livingroom": [
-            {
-              "time": "12:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:15 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-02-09": {
           "livingroom": [
             {
@@ -825,6 +711,23 @@
       }
     },
     {
+      "title": "Stalker",
+      "description": "A fashion stylist finds herself being stalked by a man after her car breaks down in the countryside.",
+      "poster": "posters/stalker.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/976218/",
+      "tmdb_id": 976218,
+      "showtimes": {
+        "2026-02-15": {
+          "cinemagic": [
+            {
+              "time": "3:00 PM",
+              "url": "https://www.thecinemagictheater.com"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "The Love That Remains",
       "description": "Tenderly captures a year in the life of a family as the parents navigate their separation. Through both playful and heartfelt moments, the film portrays the bittersweet essence of faded love and shared memories amidst the changing seasons.",
       "poster": "posters/the-love-that-remains.jpg",
@@ -854,6 +757,14 @@
               "url": "https://livingroomtheaters.com"
             }
           ]
+        },
+        "2026-02-15": {
+          "livingroom": [
+            {
+              "time": "7:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
         }
       }
     },
@@ -864,14 +775,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1220564/",
       "tmdb_id": 1220564,
       "showtimes": {
-        "2026-02-08": {
-          "livingroom": [
-            {
-              "time": "3:45 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-02-09": {
           "livingroom": [
             {
@@ -965,18 +868,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1536501/",
       "tmdb_id": 1536501,
       "showtimes": {
-        "2026-02-08": {
-          "cinemagic": [
-            {
-              "time": "12:00 PM",
-              "url": "https://www.thecinemagictheater.com"
-            },
-            {
-              "time": "2:15 PM",
-              "url": "https://www.thecinemagictheater.com"
-            }
-          ]
-        },
         "2026-02-09": {
           "cinemagic": [
             {
@@ -1109,6 +1000,36 @@
             },
             {
               "time": "9:30 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-15": {
+          "bagdad": [
+            {
+              "time": "12:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "3:15 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            }
+          ],
+          "livingroom": [
+            {
+              "time": "12:30 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:30 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:30 PM",
               "url": "https://livingroomtheaters.com"
             }
           ]
