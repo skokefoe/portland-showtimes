@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-11T10:56:02.898912",
-  "start_date": "2026-02-11",
+  "generated_at": "2026-02-12T10:54:02.382013",
+  "start_date": "2026-02-12",
   "num_days": 7,
   "movies": [
     {
@@ -10,26 +10,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1290432/",
       "tmdb_id": 1290432,
       "showtimes": {
-        "2026-02-11": {
-          "livingroom": [
-            {
-              "time": "11:50 AM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:35 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-02-12": {
           "livingroom": [
             {
@@ -38,10 +18,6 @@
             },
             {
               "time": "2:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:35 PM",
               "url": "https://livingroomtheaters.com"
             },
             {
@@ -131,6 +107,26 @@
           ]
         },
         "2026-02-17": {
+          "livingroom": [
+            {
+              "time": "11:50 AM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:10 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:30 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-18": {
           "livingroom": [
             {
               "time": "11:50 AM",
@@ -176,22 +172,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1246049/",
       "tmdb_id": 1246049,
       "showtimes": {
-        "2026-02-11": {
-          "livingroom": [
-            {
-              "time": "1:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-02-12": {
           "livingroom": [
             {
@@ -200,10 +180,6 @@
             },
             {
               "time": "4:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:00 PM",
               "url": "https://livingroomtheaters.com"
             }
           ]
@@ -249,6 +225,14 @@
           ]
         },
         "2026-02-17": {
+          "livingroom": [
+            {
+              "time": "7:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-18": {
           "livingroom": [
             {
               "time": "7:00 PM",
@@ -282,22 +266,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/858024/",
       "tmdb_id": 858024,
       "showtimes": {
-        "2026-02-11": {
-          "livingroom": [
-            {
-              "time": "12:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-02-12": {
           "livingroom": [
             {
@@ -377,6 +345,14 @@
               "url": "https://livingroomtheaters.com"
             }
           ]
+        },
+        "2026-02-18": {
+          "livingroom": [
+            {
+              "time": "3:40 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
         }
       }
     },
@@ -387,18 +363,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1140498/",
       "tmdb_id": 1140498,
       "showtimes": {
-        "2026-02-11": {
-          "livingroom": [
-            {
-              "time": "1:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-02-12": {
           "livingroom": [
             {
@@ -433,6 +397,14 @@
           ]
         },
         "2026-02-17": {
+          "cinemagic": [
+            {
+              "time": "4:40 PM",
+              "url": "https://www.thecinemagictheater.com"
+            }
+          ]
+        },
+        "2026-02-18": {
           "cinemagic": [
             {
               "time": "4:40 PM",
@@ -516,36 +488,11 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1054867/",
       "tmdb_id": 1054867,
       "showtimes": {
-        "2026-02-11": {
-          "cinemagic": [
-            {
-              "time": "7:00 PM",
-              "url": "https://www.thecinemagictheater.com"
-            }
-          ]
-        },
         "2026-02-12": {
           "cinemagic": [
             {
               "time": "3:45 PM",
               "url": "https://www.thecinemagictheater.com"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Paris Blues",
-      "description": "During the 1960s, two American jazz musicians living in Paris meet and fall in love with two American tourist girls and must decide between music and love.",
-      "poster": "posters/paris-blues.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/33710/",
-      "tmdb_id": 33710,
-      "showtimes": {
-        "2026-02-11": {
-          "hollywood": [
-            {
-              "time": "7:30 PM",
-              "url": "https://hollywoodtheatre.org"
             }
           ]
         }
@@ -558,40 +505,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1198994/",
       "tmdb_id": 1198994,
       "showtimes": {
-        "2026-02-11": {
-          "bagdad": [
-            {
-              "time": "1:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "3:45 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "5:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-02-12": {
           "livingroom": [
             {
@@ -719,24 +632,36 @@
               "url": "https://livingroomtheaters.com"
             }
           ]
+        },
+        "2026-02-18": {
+          "livingroom": [
+            {
+              "time": "12:10 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:35 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "5:00 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:30 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
         }
       }
     },
     {
-      "title": "Sentimental Value",
-      "description": "Sisters Nora and Agnes reunite with their estranged father, the charismatic Gustav, a once-renowned director who offers stage actress Nora a role in what he hopes will be his comeback film. When Nora turns it down, she soon discovers he has given her part to an eager young Hollywood star.",
-      "poster": "posters/sentimental-value.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1124566/",
-      "tmdb_id": 1124566,
+      "title": "Sentimental Value + Taped Q&A with Cast",
+      "description": "",
+      "poster": null,
+      "letterboxd_url": "https://letterboxd.com/film/sentimental-value-taped-qa-with-cast/",
+      "tmdb_id": null,
       "showtimes": {
-        "2026-02-11": {
-          "cinemagic": [
-            {
-              "time": "4:10 PM",
-              "url": "https://www.thecinemagictheater.com"
-            }
-          ]
-        },
         "2026-02-12": {
           "cinemagic": [
             {
@@ -754,22 +679,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1221061/",
       "tmdb_id": 1221061,
       "showtimes": {
-        "2026-02-11": {
-          "livingroom": [
-            {
-              "time": "12:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:15 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-02-12": {
           "livingroom": [
             {
@@ -819,6 +728,14 @@
           ]
         },
         "2026-02-17": {
+          "livingroom": [
+            {
+              "time": "1:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-18": {
           "livingroom": [
             {
               "time": "1:00 PM",
@@ -857,6 +774,31 @@
             {
               "time": "3:00 PM",
               "url": "https://www.thecinemagictheater.com"
+            }
+          ]
+        },
+        "2026-02-18": {
+          "cinemagic": [
+            {
+              "time": "7:00 PM",
+              "url": "https://www.thecinemagictheater.com"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "The Best Man",
+      "description": "The Library of Congress lists this as a \u2018lost\u2019 film, however a copy exists in the UK. Gordon, disguised as Hayne, meets with the criminals and manages to purloin the stolen code but the real Hayne, who the police have failed to apprehend, gives chase.  Gordon escapes in a taxi that had been pre-booked to take Hayne to church to marry Celia.  Arriving at the church, and remembering his instructions \u2018Let Nothing Hinder You\u2019, Gordon allows himself to be married to Celia while planning how he will escape.",
+      "poster": "posters/the-best-man.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/671619/",
+      "tmdb_id": 671619,
+      "showtimes": {
+        "2026-02-19": {
+          "clinton": [
+            {
+              "time": "7:00 PM",
+              "url": "https://cstpdx.com"
             }
           ]
         }
@@ -984,6 +926,26 @@
               "url": "https://livingroomtheaters.com"
             }
           ]
+        },
+        "2026-02-18": {
+          "livingroom": [
+            {
+              "time": "12:00 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:25 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:50 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
         }
       }
     },
@@ -1011,14 +973,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1220564/",
       "tmdb_id": 1220564,
       "showtimes": {
-        "2026-02-11": {
-          "livingroom": [
-            {
-              "time": "3:45 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-02-12": {
           "livingroom": [
             {
@@ -1066,38 +1020,12 @@
               "url": "https://livingroomtheaters.com"
             }
           ]
-        }
-      }
-    },
-    {
-      "title": "The Singing Ringing Tree",
-      "description": "A brave prince must seek the fabled singing, ringing tree in order to win the heart of a beautiful princess.",
-      "poster": "posters/the-singing-ringing-tree.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/12495/",
-      "tmdb_id": 12495,
-      "showtimes": {
-        "2026-02-11": {
-          "clinton": [
+        },
+        "2026-02-18": {
+          "livingroom": [
             {
-              "time": "7:00 PM",
-              "url": "https://cstpdx.com"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "The Testament of Ann Lee",
-      "description": "The extraordinary true legend of Ann Lee, founder of the devotional sect known as the Shakers.",
-      "poster": "posters/the-testament-of-ann-lee.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1401281/",
-      "tmdb_id": 1401281,
-      "showtimes": {
-        "2026-02-11": {
-          "hollywood": [
-            {
-              "time": "6:30 PM",
-              "url": "https://hollywoodtheatre.org"
+              "time": "12:20 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ]
         }
@@ -1289,6 +1217,40 @@
           ]
         },
         "2026-02-17": {
+          "bagdad": [
+            {
+              "time": "12:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "3:15 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            }
+          ],
+          "livingroom": [
+            {
+              "time": "12:30 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:30 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:30 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-18": {
           "bagdad": [
             {
               "time": "12:00 PM",
