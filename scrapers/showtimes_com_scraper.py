@@ -2,22 +2,29 @@
 
 Scrapes theater pages on showtimes.com for accurate, complete showtime data.
 Each theater has a dedicated page with movie listings, dates, and times.
-This replaces the SerpAPI approach which returned incomplete/inaccurate data.
+Uses cloudscraper to handle anti-bot protections (Cloudflare, etc.).
 """
 import os
 import re
+import time
 import requests
 from datetime import datetime
 from typing import List, Dict, Any, Optional
 from bs4 import BeautifulSoup
+
+try:
+    import cloudscraper
+    HAS_CLOUDSCRAPER = True
+except ImportError:
+    HAS_CLOUDSCRAPER = False
 
 
 class ShowtimesComScraper:
     """Scrapes showtimes from showtimes.com theater pages."""
 
     USER_AGENT = (
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        "Mozilla/5.0 (X11; Linux x86_64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
     )
 
     def __init__(self, theater_config: Dict[str, Any], tmdb_api_key: Optional[str] = None):
@@ -28,27 +35,73 @@ class ShowtimesComScraper:
         self.tmdb_api_key = tmdb_api_key or os.getenv('TMDB_API_KEY')
         self._tmdb_cache: Dict[str, Optional[Dict[str, Any]]] = {}
 
+    def _get_session(self):
+        """Create an HTTP session with anti-bot protection handling."""
+        if HAS_CLOUDSCRAPER:
+            scraper = cloudscraper.create_scraper(
+                browser={'browser': 'chrome', 'platform': 'linux', 'desktop': True}
+            )
+            return scraper
+        else:
+            print("   ! cloudscraper not installed, using plain requests")
+            session = requests.Session()
+            session.headers.update({'User-Agent': self.USER_AGENT})
+            return session
+
     def fetch_showtimes(self, start_date: datetime, num_days: int = 7) -> List[Dict[str, Any]]:
         """Fetch showtimes for this theater from showtimes.com."""
         if not self.showtimes_com_url:
             print(f"   ! No showtimes.com URL for {self.theater_name}")
             return []
 
+        session = self._get_session()
+
         headers = {
-            'User-Agent': self.USER_AGENT,
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
             'Accept-Language': 'en-US,en;q=0.9',
-            'Cookie': 'date=week',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'none',
+            'Sec-Fetch-User': '?1',
+            'Cache-Control': 'max-age=0',
         }
+        cookies = {'date': 'week'}
 
         try:
-            response = requests.get(self.showtimes_com_url, headers=headers, timeout=30)
+            # First hit the main page to establish session/cookies
+            response = session.get(
+                self.showtimes_com_url,
+                headers=headers,
+                cookies=cookies,
+                timeout=30
+            )
             response.raise_for_status()
+            print(f"   HTTP {response.status_code}, {len(response.text)} bytes")
         except requests.RequestException as e:
             print(f"   ! Failed to fetch {self.showtimes_com_url}: {e}")
             return []
 
         soup = BeautifulSoup(response.text, 'html.parser')
+
+        # Diagnostic logging
+        title_tag = soup.find('title')
+        page_title = title_tag.get_text(strip=True) if title_tag else '(no title)'
+        movie_items = soup.select('li.movie-info-box')
+        print(f"   Page: {page_title}")
+        print(f"   Movie elements found: {len(movie_items)}")
+
+        if not movie_items:
+            # Log more detail to help debug
+            body = soup.find('body')
+            if body:
+                body_text = body.get_text(strip=True)[:200]
+                print(f"   Body preview: {body_text}")
+            else:
+                print(f"   No <body> found, response preview: {response.text[:200]}")
+
         movies = self._parse_page(soup, start_date)
         return movies
 
@@ -66,11 +119,10 @@ class ShowtimesComScraper:
 
     def _parse_movie(self, item, start_date: datetime) -> Optional[Dict[str, Any]]:
         """Parse a single movie listing."""
-        # Title — get text from first <a> in heading, excluding nested spans
+        # Title - get text from first <a> in heading, excluding nested spans
         heading = item.select_one('h2.media-heading')
         if not heading:
             return None
-        # The first <a> child has the title text; trailer spans are separate <a> tags
         title_link = heading.find('a', recursive=False)
         if not title_link:
             return None
@@ -90,24 +142,6 @@ class ShowtimesComScraper:
         poster_url = None
         if poster_img:
             poster_url = poster_img.get('src') or poster_img.get('data-src')
-
-        # MPAA / Runtime / Genre
-        mpaa = ''
-        runtime = ''
-        genre = ''
-        mpaa_span = item.select_one('span.mpaa')
-        if mpaa_span:
-            mpaa = mpaa_span.get_text(strip=True)
-            # The sibling text contains "| 2h 14m | Action, Comedy"
-            parent_p = mpaa_span.parent
-            if parent_p:
-                full_text = parent_p.get_text(strip=True)
-                parts = [p.strip() for p in full_text.split('|')]
-                for part in parts:
-                    if re.match(r'\d+h\s*\d*m?', part):
-                        runtime = part
-                    elif part != mpaa and not re.match(r'^(G|PG|PG-13|R|NC-17|NR|UR)$', part):
-                        genre = part
 
         # Showtimes
         showtimes = self._parse_showtimes(item, start_date)
@@ -142,9 +176,6 @@ class ShowtimesComScraper:
         if not ticket_div:
             return showtimes
 
-        # Structure: date label buttons, then time buttons (in <a> or bare), separated by <br>
-        # Date labels: "Thu, Feb 12:" — identified by day-of-week prefix or "Today"/"Tomorrow"
-        # Time entries: "7:00pm" — identified by time pattern (digits:digits am/pm)
         current_date = None
 
         for el in ticket_div.children:
@@ -154,7 +185,6 @@ class ShowtimesComScraper:
             if el.name == 'button':
                 text = el.get_text(strip=True)
                 text_clean = text.rstrip(':')
-                # Distinguish date labels from time entries
                 if self._looks_like_date_label(text_clean):
                     resolved = self._resolve_date(text_clean, start_date)
                     if resolved:
@@ -167,7 +197,6 @@ class ShowtimesComScraper:
                     })
 
             elif el.name == 'a':
-                # Time button wrapped in a ticket link
                 time_btn = el.select_one('button')
                 if time_btn and current_date:
                     time_text = time_btn.get_text(strip=True)
@@ -182,9 +211,8 @@ class ShowtimesComScraper:
         return showtimes
 
     def _looks_like_date_label(self, text: str) -> bool:
-        """Check if text looks like a date label (e.g., 'Thu, Feb 12')."""
+        """Check if text looks like a date label."""
         text = text.strip().rstrip(':')
-        # Matches "Today", "Tomorrow", "Thu, Feb 12", "Sat, Feb 14, 2026", etc.
         return bool(re.match(
             r'(Today|Tomorrow|Mon|Tue|Wed|Thu|Fri|Sat|Sun)',
             text, re.IGNORECASE
@@ -193,19 +221,16 @@ class ShowtimesComScraper:
     def _resolve_date(self, date_text: str, start_date: datetime) -> Optional[str]:
         """Parse a date string like 'Thu, Feb 12' into YYYY-MM-DD."""
         date_text = date_text.strip().rstrip(':')
-        # Try "Day, Mon DD" format
         for fmt in ['%a, %b %d', '%A, %B %d', '%b %d', '%B %d']:
             try:
                 parsed = datetime.strptime(date_text, fmt)
                 result = parsed.replace(year=start_date.year)
-                # Handle year boundary (e.g., Dec dates when start is Jan)
                 if result.month < start_date.month - 1:
                     result = result.replace(year=start_date.year + 1)
                 return result.strftime('%Y-%m-%d')
             except ValueError:
                 continue
 
-        # Handle "Today" / "Tomorrow"
         lower = date_text.lower()
         if 'today' in lower:
             return start_date.strftime('%Y-%m-%d')
@@ -216,7 +241,7 @@ class ShowtimesComScraper:
         return None
 
     def _looks_like_time(self, text: str) -> bool:
-        """Check if a string looks like a showtime (e.g., '7:00pm')."""
+        """Check if a string looks like a showtime."""
         return bool(re.match(r'\d{1,2}:\d{2}\s*(am|pm|AM|PM)', text.strip()))
 
     def _normalize_time(self, time_str: str) -> str:
