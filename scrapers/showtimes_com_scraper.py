@@ -6,7 +6,6 @@ Uses cloudscraper to handle anti-bot protections (Cloudflare, etc.).
 """
 import os
 import re
-import time
 import requests
 from datetime import datetime
 from typing import List, Dict, Any, Optional
@@ -41,11 +40,17 @@ class ShowtimesComScraper:
             scraper = cloudscraper.create_scraper(
                 browser={'browser': 'chrome', 'platform': 'linux', 'desktop': True}
             )
+            # Explicitly exclude Brotli encoding — the brotli C extension
+            # may not be available on all runners, and gzip/deflate work fine.
+            scraper.headers['Accept-Encoding'] = 'gzip, deflate'
             return scraper
         else:
             print("   ! cloudscraper not installed, using plain requests")
             session = requests.Session()
-            session.headers.update({'User-Agent': self.USER_AGENT})
+            session.headers.update({
+                'User-Agent': self.USER_AGENT,
+                'Accept-Encoding': 'gzip, deflate',
+            })
             return session
 
     def fetch_showtimes(self, start_date: datetime, num_days: int = 7) -> List[Dict[str, Any]]:
@@ -59,7 +64,7 @@ class ShowtimesComScraper:
         headers = {
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
             'Accept-Language': 'en-US,en;q=0.9',
-            'Accept-Encoding': 'gzip, deflate, br',
+            'Accept-Encoding': 'gzip, deflate',
             'Connection': 'keep-alive',
             'Upgrade-Insecure-Requests': '1',
             'Sec-Fetch-Dest': 'document',
@@ -71,7 +76,6 @@ class ShowtimesComScraper:
         cookies = {'date': 'week'}
 
         try:
-            # First hit the main page to establish session/cookies
             response = session.get(
                 self.showtimes_com_url,
                 headers=headers,
@@ -79,7 +83,8 @@ class ShowtimesComScraper:
                 timeout=30
             )
             response.raise_for_status()
-            print(f"   HTTP {response.status_code}, {len(response.text)} bytes")
+            content_enc = response.headers.get('Content-Encoding', 'none')
+            print(f"   HTTP {response.status_code}, {len(response.text)} chars, encoding={content_enc}")
         except requests.RequestException as e:
             print(f"   ! Failed to fetch {self.showtimes_com_url}: {e}")
             return []
@@ -94,7 +99,6 @@ class ShowtimesComScraper:
         print(f"   Movie elements found: {len(movie_items)}")
 
         if not movie_items:
-            # Log more detail to help debug
             body = soup.find('body')
             if body:
                 body_text = body.get_text(strip=True)[:200]
@@ -119,17 +123,14 @@ class ShowtimesComScraper:
 
     def _parse_movie(self, item, start_date: datetime) -> Optional[Dict[str, Any]]:
         """Parse a single movie listing."""
-        # Title - get text from first <a> in heading, excluding nested spans
         heading = item.select_one('h2.media-heading')
         if not heading:
             return None
         title_link = heading.find('a', recursive=False)
         if not title_link:
             return None
-        # Get only direct text nodes, not nested span text
         title = ''.join(title_link.find_all(string=True, recursive=False)).strip()
         if not title:
-            # Fallback: get full text minus trailer span
             title = title_link.get_text(strip=True)
             trailer_span = title_link.find('span', class_='watch-trailer')
             if trailer_span:
