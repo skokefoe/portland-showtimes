@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-13T01:21:09.219706",
-  "start_date": "2026-02-12",
+  "generated_at": "2026-02-13T10:45:31.575861",
+  "start_date": "2026-02-13",
   "num_days": 7,
   "movies": [
     {
@@ -10,26 +10,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1290432/",
       "tmdb_id": 1290432,
       "showtimes": {
-        "2026-02-12": {
-          "livingroom": [
-            {
-              "time": "11:50 AM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:35 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-02-13": {
           "livingroom": [
             {
@@ -147,6 +127,95 @@
             {
               "time": "6:45 PM",
               "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-19": {
+          "livingroom": [
+            {
+              "time": "11:50 AM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:10 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:30 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Am\u00e9lie",
+      "description": "At a tiny Parisian caf\u00e9, the adorable yet painfully shy Am\u00e9lie accidentally discovers a gift for helping others. Soon Amelie is spending her days as a matchmaker, guardian angel, and all-around do-gooder. But when she bumps into a handsome stranger, will she find the courage to become the star of her very own love story?",
+      "poster": "posters/am\u00e9lie.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/194/",
+      "tmdb_id": 194,
+      "showtimes": {
+        "2026-02-13": {
+          "academy": [
+            {
+              "time": "4:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "9:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-14": {
+          "academy": [
+            {
+              "time": "1:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-15": {
+          "academy": [
+            {
+              "time": "1:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-16": {
+          "academy": [
+            {
+              "time": "7:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-17": {
+          "academy": [
+            {
+              "time": "4:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-18": {
+          "academy": [
+            {
+              "time": "7:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-19": {
+          "academy": [
+            {
+              "time": "1:00 PM",
+              "url": "https://www.academytheaterpdx.com"
             }
           ]
         }
@@ -204,6 +273,75 @@
       }
     },
     {
+      "title": "Bride of Chucky",
+      "description": "Chucky is reborn when his old flame, Tiffany, rescues his battered doll parts from a police impound.",
+      "poster": "posters/bride-of-chucky.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/11932/",
+      "tmdb_id": 11932,
+      "showtimes": {
+        "2026-02-13": {
+          "academy": [
+            {
+              "time": "7:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-14": {
+          "academy": [
+            {
+              "time": "9:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-15": {
+          "academy": [
+            {
+              "time": "4:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-16": {
+          "academy": [
+            {
+              "time": "1:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-17": {
+          "academy": [
+            {
+              "time": "7:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-18": {
+          "academy": [
+            {
+              "time": "4:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-19": {
+          "academy": [
+            {
+              "time": "4:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "9:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "Castle Freak",
       "description": "John Reilly discovers that his family's newly inherited castle in Italy is haunted by a relentless, bloodthirsty creature.",
       "poster": "posters/castle-freak.jpg",
@@ -221,25 +359,17 @@
       }
     },
     {
-      "title": "Dracula",
-      "description": "In late 15th-century Eastern Europe, Prince Vlad II\u2019s bride is brutally murdered. As a result, he renounces God and damns Heaven itself. Cursed with eternal life, Vlad is reborn as Dracula, an immortal warlord who defies fate in a blood-soaked crusade to wrench his lost love back from death.",
-      "poster": "posters/dracula.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1246049/",
-      "tmdb_id": 1246049,
+      "title": "Comrades, Almost a Love Story",
+      "description": "Jun arrives in Hong Kong from mainland China, hoping to be able to earn enough money to marry his girlfriend back home. He meets the streetwise Qiao and they become friends. As friendship turns into love, problems develop, and although they seem meant for each other they somehow keep missing out.",
+      "poster": "posters/comrades-almost-a-love-story-tian-mi-mi.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/37185/",
+      "tmdb_id": 37185,
       "showtimes": {
-        "2026-02-12": {
-          "livingroom": [
-            {
-              "time": "1:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
+        "2026-02-19": {
+          "cinemagic": [
             {
               "time": "7:00 PM",
-              "url": "https://livingroomtheaters.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5pLWZDxw"
             }
           ]
         }
@@ -252,18 +382,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/23527/",
       "tmdb_id": 23527,
       "showtimes": {
-        "2026-02-12": {
-          "laurelhurst": [
-            {
-              "time": "3:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
         "2026-02-13": {
           "laurelhurst": [
             {
@@ -277,6 +395,24 @@
             {
               "time": "9:20 PM",
               "url": "https://www.laurelhursttheater.com"
+            }
+          ],
+          "academy": [
+            {
+              "time": "12:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "3:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "9:30 PM",
+              "url": "https://www.academytheaterpdx.com"
             }
           ]
         },
@@ -294,6 +430,24 @@
               "time": "9:20 PM",
               "url": "https://www.laurelhursttheater.com"
             }
+          ],
+          "academy": [
+            {
+              "time": "12:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "3:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "9:40 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
           ]
         },
         "2026-02-15": {
@@ -305,6 +459,20 @@
             {
               "time": "7:00 PM",
               "url": "https://www.laurelhursttheater.com"
+            }
+          ],
+          "academy": [
+            {
+              "time": "12:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "4:15 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://www.academytheaterpdx.com"
             }
           ]
         },
@@ -318,6 +486,20 @@
               "time": "7:00 PM",
               "url": "https://www.laurelhursttheater.com"
             }
+          ],
+          "academy": [
+            {
+              "time": "12:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "4:15 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
           ]
         },
         "2026-02-17": {
@@ -329,6 +511,20 @@
             {
               "time": "7:00 PM",
               "url": "https://www.laurelhursttheater.com"
+            }
+          ],
+          "academy": [
+            {
+              "time": "12:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "4:15 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://www.academytheaterpdx.com"
             }
           ]
         },
@@ -342,6 +538,50 @@
               "time": "7:00 PM",
               "url": "https://www.laurelhursttheater.com"
             }
+          ],
+          "academy": [
+            {
+              "time": "12:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "4:15 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-19": {
+          "laurelhurst": [
+            {
+              "time": "3:15 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.laurelhursttheater.com"
+            }
+          ],
+          "academy": [
+            {
+              "time": "12:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "3:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "9:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
           ]
         }
       }
@@ -353,24 +593,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1119449/",
       "tmdb_id": 1119449,
       "showtimes": {
-        "2026-02-12": {
-          "hollywood": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5jqLjgYm"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
         "2026-02-13": {
           "hollywood": [
             {
@@ -530,6 +752,28 @@
               "url": "https://www.laurelhursttheater.com"
             }
           ]
+        },
+        "2026-02-19": {
+          "hollywood": [
+            {
+              "time": "6:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3PJ6goXO"
+            },
+            {
+              "time": "9:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5Z94Mowg"
+            }
+          ],
+          "laurelhurst": [
+            {
+              "time": "3:30 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://www.laurelhursttheater.com"
+            }
+          ]
         }
       }
     },
@@ -610,18 +854,6 @@
             }
           ]
         },
-        "2026-02-12": {
-          "livingroom": [
-            {
-              "time": "12:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-02-13": {
           "livingroom": [
             {
@@ -661,6 +893,14 @@
               "url": "https://livingroomtheaters.com"
             }
           ]
+        },
+        "2026-02-19": {
+          "livingroom": [
+            {
+              "time": "12:45 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
         }
       }
     },
@@ -680,31 +920,6 @@
             {
               "time": "9:45 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EaNBRYvr"
-            }
-          ]
-        },
-        "2026-02-12": {
-          "academy": [
-            {
-              "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Is This Thing On?",
-      "description": "As their marriage quietly unravels, Alex faces middle age and an impending divorce, seeking new purpose in the New York comedy scene while Tess confronts the sacrifices she made for their family\u2014forcing them to navigate co-parenting, identity, and whether love can take a new form.",
-      "poster": "posters/is-this-thing-on.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1140498/",
-      "tmdb_id": 1140498,
-      "showtimes": {
-        "2026-02-12": {
-          "livingroom": [
-            {
-              "time": "1:00 PM",
-              "url": "https://livingroomtheaters.com"
             }
           ]
         }
@@ -817,20 +1032,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1317288/",
       "tmdb_id": 1317288,
       "showtimes": {
-        "2026-02-12": {
-          "hollywood": [
-            {
-              "time": "6:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E2W2qa2a"
-            }
-          ],
-          "cinema21": [
-            {
-              "time": "6:40 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5RM4JMAr"
-            }
-          ]
-        },
         "2026-02-13": {
           "hollywood": [
             {
@@ -911,6 +1112,14 @@
             }
           ]
         },
+        "2026-02-19": {
+          "hollywood": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EkyB9NwL"
+            }
+          ]
+        },
         "2026-02-17": {
           "cinema21": [
             {
@@ -953,6 +1162,23 @@
       }
     },
     {
+      "title": "Midwinter Break",
+      "description": "Longtime retired couple Stella and Gerry realise that their relationship has reached a crossroads while on holiday in Amsterdam. After so much time and so many memories, long-held promises and deeply concealed wounds threaten to come to light and force them to confront their future.",
+      "poster": "posters/midwinter-break.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1125701/",
+      "tmdb_id": 1125701,
+      "showtimes": {
+        "2026-02-19": {
+          "livingroom": [
+            {
+              "time": "6:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "My Bloody Valentine",
       "description": "Ten years after a Valentine's Day tragedy claimed the lives of five miners, Harry Warden returns for a vengeful massacre among teen sweethearts gearing up for another party.",
       "poster": "posters/my-bloody-valentine.jpg",
@@ -970,24 +1196,29 @@
       }
     },
     {
+      "title": "My Father's Shadow",
+      "description": "Two young brothers explore Lagos with their estranged father during the 1993 Nigerian election crisis, witnessing both the city's magnitude and their father's daily struggles as political unrest threatens their journey home.",
+      "poster": "posters/my-fathers-shadow.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1432605/",
+      "tmdb_id": 1432605,
+      "showtimes": {
+        "2026-02-19": {
+          "livingroom": [
+            {
+              "time": "7:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "No Other Choice",
       "description": "After being laid off and humiliated by a ruthless job market, a veteran paper mill manager descends into violence in a desperate bid to reclaim his dignity.",
       "poster": "posters/no-other-choice.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/639988/",
       "tmdb_id": 639988,
       "showtimes": {
-        "2026-02-12": {
-          "cinema21": [
-            {
-              "time": "3:45 PM",
-              "url": "https://cinema21.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3GMynMAP"
-            }
-          ]
-        },
         "2026-02-13": {
           "cinema21": [
             {
@@ -1047,42 +1278,98 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=ExN21l0M"
             }
           ]
-        }
-      }
-    },
-    {
-      "title": "One Battle After Another",
-      "description": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
-      "poster": "posters/one-battle-after-another.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1054867/",
-      "tmdb_id": 1054867,
-      "showtimes": {
-        "2026-02-12": {
-          "cinemagic": [
+        },
+        "2026-02-19": {
+          "cinema21": [
             {
-              "time": "3:45 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "time": "6:45 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3zdg9VOo"
             }
           ]
         }
       }
     },
     {
-      "title": "Punch-Drunk Love",
-      "description": "The story is about a boxer who retired as a soccer athlete due to a heart problem from an unexpected accident, meets Bok-hee at a factory where he got a job for a living and falls in love.",
-      "poster": "posters/punch-drunk-love.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/753092/",
-      "tmdb_id": 753092,
+      "title": "Picnic at Hanging Rock",
+      "description": "In the early 1900s, Miranda attends a girls boarding school in Australia. One Valentine's Day, the school's typically strict headmistress treats the girls to a picnic field trip to an unusual but scenic volcanic formation called Hanging Rock. Despite rules against it, Miranda and several other girls venture off. It's not until the end of the day that the faculty realizes the girls and one of the teachers have disappeared mysteriously.",
+      "poster": "posters/picnic-at-hanging-rock.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/11020/",
+      "tmdb_id": 11020,
       "showtimes": {
-        "2026-02-12": {
+        "2026-02-13": {
+          "academy": [
+            {
+              "time": "1:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-14": {
           "academy": [
             {
               "time": "4:00 PM",
               "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-15": {
+          "academy": [
+            {
+              "time": "7:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-16": {
+          "academy": [
+            {
+              "time": "4:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-17": {
+          "academy": [
+            {
+              "time": "1:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-18": {
+          "academy": [
+            {
+              "time": "1:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-19": {
+          "academy": [
+            {
+              "time": "7:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Pillion",
+      "description": "Colin, a timid gay man, is swept off his feet when Ray, an enigmatic and impossibly handsome biker, takes him on as his submissive in a crazy and erotic BDSM-focused relationship.",
+      "poster": "posters/pillion.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1287141/",
+      "tmdb_id": 1287141,
+      "showtimes": {
+        "2026-02-19": {
+          "cinema21": [
+            {
+              "time": "4:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EJ8kvqQR"
             },
             {
-              "time": "9:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "time": "7:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5ONrZdnk"
             }
           ]
         }
@@ -1112,54 +1399,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1198994/",
       "tmdb_id": 1198994,
       "showtimes": {
-        "2026-02-12": {
-          "laurelhurst": [
-            {
-              "time": "3:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "5:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-02-13": {
           "laurelhurst": [
             {
@@ -1367,63 +1606,34 @@
               "url": "https://livingroomtheaters.com"
             }
           ]
-        }
-      }
-    },
-    {
-      "title": "Sentimental Value",
-      "description": "Sisters Nora and Agnes reunite with their estranged father, the charismatic Gustav, a once-renowned director who offers stage actress Nora a role in what he hopes will be his comeback film. When Nora turns it down, she soon discovers he has given her part to an eager young Hollywood star.",
-      "poster": "posters/sentimental-value.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1124566/",
-      "tmdb_id": 1124566,
-      "showtimes": {
-        "2026-02-12": {
-          "cinemagic": [
+        },
+        "2026-02-19": {
+          "laurelhurst": [
             {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5jqLkB4v"
+              "time": "3:45 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "6:30 PM",
+              "url": "https://www.laurelhursttheater.com"
             }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Sound of Falling",
-      "description": "Four adolescent girls each spend their youth in the same farmhouse over the last century. Though separated by decades, resonances between their lives emerge: their desires and distress, secrets and truths, encounters with another\u2019s gaze and defiant gaze in return.",
-      "poster": "posters/sound-of-falling.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1221061/",
-      "tmdb_id": 1221061,
-      "showtimes": {
-        "2026-02-12": {
+          ],
           "livingroom": [
             {
-              "time": "12:15 PM",
+              "time": "12:10 PM",
               "url": "https://livingroomtheaters.com"
             },
             {
-              "time": "3:15 PM",
+              "time": "2:35 PM",
               "url": "https://livingroomtheaters.com"
             },
             {
-              "time": "6:15 PM",
+              "time": "5:00 PM",
               "url": "https://livingroomtheaters.com"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Southland Tales",
-      "description": "Set in the futuristic landscape of Los Angeles on July 4, 2008, as it stands on the brink of social, economic and environmental disaster. Boxer Santaros is an action star who's stricken with amnesia. His life intertwines with Krysta Now, an adult film star developing her own reality television project, and Ronald Taverner, a Hermosa Beach police officer who holds the key to a vast conspiracy.",
-      "poster": "posters/southland-tales.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/4723/",
-      "tmdb_id": 4723,
-      "showtimes": {
-        "2026-02-12": {
-          "hollywood": [
+            },
             {
               "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EWRe41v0"
+              "url": "https://livingroomtheaters.com"
             }
           ]
         }
@@ -1472,17 +1682,17 @@
       }
     },
     {
-      "title": "The Ascent",
-      "description": "Special ops squad \"Hell's Bastards\" are sent to infiltrate a civil war to retrieve intel. The unit soon find themselves trapped on a never-ending stairwell forced to climb or die. To survive, they must revisit their past sins if they ever want to get off.",
-      "poster": "posters/the-ascent.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/614208/",
-      "tmdb_id": 614208,
+      "title": "The Best Man",
+      "description": "The Library of Congress lists this as a \u2018lost\u2019 film, however a copy exists in the UK. Gordon, disguised as Hayne, meets with the criminals and manages to purloin the stolen code but the real Hayne, who the police have failed to apprehend, gives chase.  Gordon escapes in a taxi that had been pre-booked to take Hayne to church to marry Celia.  Arriving at the church, and remembering his instructions \u2018Let Nothing Hinder You\u2019, Gordon allows himself to be married to Celia while planning how he will escape.",
+      "poster": "posters/the-best-man.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/671619/",
+      "tmdb_id": 671619,
       "showtimes": {
-        "2026-02-12": {
-          "academy": [
+        "2026-02-19": {
+          "clinton": [
             {
               "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://cstpdx.com"
             }
           ]
         }
@@ -1495,14 +1705,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1258509/",
       "tmdb_id": 1258509,
       "showtimes": {
-        "2026-02-12": {
-          "livingroom": [
-            {
-              "time": "7:15 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-02-13": {
           "livingroom": [
             {
@@ -1612,6 +1814,26 @@
           ]
         },
         "2026-02-18": {
+          "livingroom": [
+            {
+              "time": "12:00 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:25 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:50 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-19": {
           "livingroom": [
             {
               "time": "12:00 PM",
@@ -1720,39 +1942,21 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EWR9ajDM"
             }
           ]
-        },
-        "2026-02-12": {
-          "livingroom": [
-            {
-              "time": "3:45 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "3:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
         }
       }
     },
     {
-      "title": "The Voice of Hind Rajab",
-      "description": "January 29, 2024. Red Crescent volunteers receive an emergency call. A five-year old girl is trapped in a car under fire in Gaza, pleading for rescue. While trying to keep her on the line, they do everything they can to get an ambulance to her. Her name was Hind Rajab.",
-      "poster": "posters/the-voice-of-hind-rajab.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1480382/",
-      "tmdb_id": 1480382,
+      "title": "Wild & Scenic Film Festival",
+      "description": "",
+      "poster": "posters/wild-scenic-film-festival.jpg",
+      "letterboxd_url": "https://letterboxd.com/film/wild-scenic-film-festival/",
+      "tmdb_id": null,
       "showtimes": {
-        "2026-02-12": {
-          "cinema21": [
+        "2026-02-19": {
+          "hollywood": [
             {
-              "time": "4:00 PM",
-              "url": "https://cinema21.com"
+              "time": "7:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3A4yzpLn"
             }
           ]
         }
@@ -1765,14 +1969,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1549892/",
       "tmdb_id": 1549892,
       "showtimes": {
-        "2026-02-12": {
-          "cinema21": [
-            {
-              "time": "4:30 PM",
-              "url": "https://cinema21.com"
-            }
-          ]
-        },
         "2026-02-13": {
           "cinema21": [
             {
@@ -1820,6 +2016,14 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EK8OMGVM"
             }
           ]
+        },
+        "2026-02-19": {
+          "cinema21": [
+            {
+              "time": "4:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5DPeXVrR"
+            }
+          ]
         }
       }
     },
@@ -1830,50 +2034,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1316092/",
       "tmdb_id": 1316092,
       "showtimes": {
-        "2026-02-12": {
-          "cinema21": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5Qx8AnkK"
-            }
-          ],
-          "bagdad": [
-            {
-              "time": "3:15 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "6:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "6:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-02-13": {
           "cinema21": [
             {
@@ -1937,6 +2097,24 @@
             {
               "time": "9:30 PM",
               "url": "https://livingroomtheaters.com"
+            }
+          ],
+          "academy": [
+            {
+              "time": "12:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "3:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "6:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "9:15 PM",
+              "url": "https://www.academytheaterpdx.com"
             }
           ]
         },
@@ -2012,6 +2190,24 @@
               "time": "9:30 PM",
               "url": "https://livingroomtheaters.com"
             }
+          ],
+          "academy": [
+            {
+              "time": "12:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "3:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "6:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "9:15 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
           ]
         },
         "2026-02-15": {
@@ -2070,6 +2266,20 @@
               "time": "6:30 PM",
               "url": "https://livingroomtheaters.com"
             }
+          ],
+          "academy": [
+            {
+              "time": "12:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "4:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
           ]
         },
         "2026-02-16": {
@@ -2124,6 +2334,20 @@
               "time": "6:30 PM",
               "url": "https://livingroomtheaters.com"
             }
+          ],
+          "academy": [
+            {
+              "time": "12:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "4:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
           ]
         },
         "2026-02-17": {
@@ -2174,6 +2398,20 @@
               "time": "6:30 PM",
               "url": "https://livingroomtheaters.com"
             }
+          ],
+          "academy": [
+            {
+              "time": "12:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "4:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
           ]
         },
         "2026-02-18": {
@@ -2223,6 +2461,88 @@
             {
               "time": "6:30 PM",
               "url": "https://livingroomtheaters.com"
+            }
+          ],
+          "academy": [
+            {
+              "time": "12:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "4:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-19": {
+          "cinema21": [
+            {
+              "time": "4:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7qZKmnre"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5DPklXw8"
+            }
+          ],
+          "bagdad": [
+            {
+              "time": "12:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "3:15 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            }
+          ],
+          "laurelhurst": [
+            {
+              "time": "3:00 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "6:15 PM",
+              "url": "https://www.laurelhursttheater.com"
+            }
+          ],
+          "livingroom": [
+            {
+              "time": "12:30 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:30 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:30 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ],
+          "academy": [
+            {
+              "time": "12:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "3:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "6:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "9:15 PM",
+              "url": "https://www.academytheaterpdx.com"
             }
           ]
         }
