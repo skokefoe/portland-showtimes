@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """Main scraper orchestration script.
 
-Uses SerpAPI to fetch Google's showtime data for each Portland theater.
-This approach is more reliable than scraping individual theater websites,
-which have different formats, may block scrapers, and can change anytime.
+Scrapes showtimes.com for each Portland theater to get accurate,
+complete movie showtime data.
 """
 import json
 import os
@@ -13,7 +12,7 @@ from typing import Dict, List, Any
 from collections import defaultdict
 from zoneinfo import ZoneInfo
 
-from scrapers.serpapi_scraper import SerpAPIScraper
+from scrapers.showtimes_com_scraper import ShowtimesComScraper
 
 
 def load_config() -> Dict[str, Any]:
@@ -110,7 +109,7 @@ def save_data(data: Dict[str, Any], theaters: List[Dict[str, Any]]):
 
 
 def main():
-    """Run SerpAPI-based scrapers for all theaters."""
+    """Run showtimes.com scrapers for all theaters."""
     print("Portland Indie Showtimes Scraper")
     print("=" * 50)
 
@@ -123,13 +122,6 @@ def main():
 
     theaters = load_theaters_config()
     tmdb_api_key = os.getenv('TMDB_API_KEY')
-    serpapi_key = os.getenv('SERPAPI_KEY')
-
-    if not serpapi_key:
-        print("ERROR: SERPAPI_KEY not set.")
-        print("  Get your free API key at: https://serpapi.com")
-        print("  Then set it as a repository secret named SERPAPI_KEY")
-        sys.exit(1)
 
     if not tmdb_api_key:
         print("Warning: TMDB_API_KEY not set. Posters and metadata will be limited.")
@@ -142,7 +134,7 @@ def main():
 
     print(f"Date (Pacific): {start_date.strftime('%Y-%m-%d %I:%M %p %Z')}")
     print(f"Theaters: {len(theaters)}")
-    print(f"Data source: SerpAPI (Google Showtimes)")
+    print(f"Data source: showtimes.com")
     print()
 
     all_movies = []
@@ -151,7 +143,7 @@ def main():
 
     for theater in theaters:
         print(f"  {theater['name']}...")
-        scraper = SerpAPIScraper(theater, tmdb_api_key, serpapi_key)
+        scraper = ShowtimesComScraper(theater, tmdb_api_key)
         try:
             movies = scraper.fetch_showtimes(start_date, num_days)
             if movies:
