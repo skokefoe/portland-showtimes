@@ -130,7 +130,6 @@
             padding: 30px 0 20px;
             border-bottom: 2px solid var(--border-color);
             margin-bottom: 20px;
-            position: relative;
         }
         h1 {
             font-size: 2.2rem;
@@ -142,16 +141,12 @@
             background-clip: text;
         }
 
-        .header-buttons {
-            position: absolute; top: 30px; right: 0;
-            display: flex; gap: 10px; align-items: center;
-        }
         .theme-text-btn {
             background: none; border: none; cursor: pointer;
-            font-size: 0.6rem; font-weight: 700; letter-spacing: 0.12em;
+            font-size: 0.65rem; font-weight: 700; letter-spacing: 0.12em;
             text-transform: uppercase; color: var(--text-secondary);
-            padding: 6px 0; transition: all 0.3s ease; font-family: inherit;
-            opacity: 0.5;
+            padding: 8px 0 0; transition: all 0.3s ease; font-family: inherit;
+            opacity: 0.6; display: block; margin: 0 auto;
         }
         .theme-text-btn:hover {
             opacity: 1;
@@ -160,12 +155,18 @@
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
-        .header-btn {
-            background: none; border: 2px solid var(--border-color); border-radius: 50%;
-            width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;
-            cursor: pointer; color: var(--text-secondary); font-size: 1.2rem; transition: all 0.3s ease;
+
+        /* ── Settings FAB (bottom-right) ── */
+        .fab-settings {
+            position: fixed; bottom: 24px; right: 24px;
+            width: 44px; height: 44px; border-radius: 50%;
+            background: var(--surface-color); border: 2px solid var(--border-color);
+            display: flex; align-items: center; justify-content: center;
+            cursor: pointer; color: var(--text-secondary); font-size: 1.2rem;
+            transition: all 0.3s ease; z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.4);
         }
-        .header-btn:hover { border-color: var(--accent-color); color: var(--accent-color); transform: rotate(60deg); }
+        .fab-settings:hover { border-color: var(--accent-color); color: var(--accent-color); transform: rotate(60deg); }
 
         /* ── Footer ── */
         .site-footer {
@@ -423,8 +424,9 @@
             .modal { padding: 20px; }
             .view-tab { font-size: 0.85rem; padding: 10px 8px; }
             .theme-picker { margin: 20px; max-width: calc(100% - 40px); }
-            .theme-text-btn { font-size: 0.5rem; }
+            .theme-text-btn { font-size: 0.6rem; }
             .week-btn { padding: 7px 14px; font-size: 0.8rem; }
+            .fab-settings { bottom: 16px; right: 16px; width: 40px; height: 40px; font-size: 1.1rem; }
         }
     </style>
 </head>
@@ -432,10 +434,7 @@
     <div class="container">
         <header>
             <h1>Portland Popcorn Party</h1>
-            <div class="header-buttons">
-                <button class="theme-text-btn" onclick="openThemePicker()" title="Change color theme">taste the rainbow</button>
-                <button class="header-btn" onclick="openAdmin()" title="Settings">&#9881;</button>
-            </div>
+            <button class="theme-text-btn" onclick="openThemePicker()" title="Change color theme">taste the rainbow</button>
         </header>
 
         <div class="view-tabs" id="viewTabs">
@@ -452,6 +451,9 @@
 
         <footer class="site-footer" id="siteFooter"></footer>
     </div>
+
+    <!-- Settings FAB -->
+    <button class="fab-settings" onclick="openAdmin()" title="Settings">&#9881;</button>
 
     <!-- Theme Picker -->
     <div class="theme-picker-overlay" id="themeOverlay" onclick="closeThemePicker(event)">
