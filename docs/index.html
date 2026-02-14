@@ -145,7 +145,7 @@
             background: none; border: none; cursor: pointer;
             font-size: 0.65rem; font-weight: 700; letter-spacing: 0.12em;
             text-transform: uppercase; color: var(--text-secondary);
-            padding: 8px 0 0; transition: all 0.3s ease; font-family: inherit;
+            padding: 0 0 8px; transition: all 0.3s ease; font-family: inherit;
             opacity: 0.6; display: block; margin: 0 auto;
         }
         .theme-text-btn:hover {
@@ -225,7 +225,7 @@
 
         /* ── Week Toggle ── */
         .week-toggle {
-            display: flex; gap: 0; margin-bottom: 12px;
+            display: flex; gap: 0; margin: 0 auto 12px;
             background: var(--surface-color); border-radius: 8px; padding: 3px;
             border: 1px solid var(--border-color); width: fit-content;
         }
@@ -242,6 +242,7 @@
         .calendar-strip {
             display: flex; gap: 8px; overflow-x: auto; padding: 4px 0 12px;
             margin-bottom: 20px; scrollbar-width: thin;
+            justify-content: center;
         }
         .cal-day {
             flex-shrink: 0; padding: 10px 16px; text-align: center; cursor: pointer;
@@ -434,7 +435,6 @@
     <div class="container">
         <header>
             <h1>Portland Popcorn Party</h1>
-            <button class="theme-text-btn" onclick="openThemePicker()" title="Change color theme">taste the rainbow</button>
         </header>
 
         <div class="view-tabs" id="viewTabs">
@@ -449,7 +449,10 @@
             <p>Loading showtimes...</p>
         </div>
 
-        <footer class="site-footer" id="siteFooter"></footer>
+        <footer class="site-footer">
+            <button class="theme-text-btn" onclick="openThemePicker()" title="Change color theme">taste the rainbow</button>
+            <p id="updateTime"></p>
+        </footer>
     </div>
 
     <!-- Settings FAB -->
@@ -582,7 +585,7 @@
                 theatersData = th;
                 if (theatersData.theaters.length > 0) currentTheaterId = theatersData.theaters[0].id;
 
-                document.getElementById('siteFooter').textContent =
+                document.getElementById('updateTime').textContent =
                     `Showtimes last updated: ${fmtPacificTime(st.generated_at)}`;
 
                 render();
