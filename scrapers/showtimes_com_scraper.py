@@ -6,6 +6,7 @@ Uses cloudscraper to handle anti-bot protections (Cloudflare, etc.).
 """
 import os
 import re
+import time
 import requests
 from datetime import datetime, timedelta
 from typing import List, Dict, Any, Optional
@@ -74,24 +75,30 @@ class ShowtimesComScraper:
             'Cache-Control': 'max-age=0',
         }
 
-        # Fetch this week
+        # Fetch this week (date=week gives full current week in one request)
         movies = self._fetch_page(session, headers, {'date': 'week'}, start_date)
 
-        # Fetch next week if requesting more than 7 days
+        # Fetch next week day-by-day (the date cookie only returns one day
+        # at a time, unlike date=week which returns the full current week)
         if num_days > 7:
-            next_week_start = start_date + timedelta(days=7)
-            next_date_str = next_week_start.strftime('%m/%d/%Y')
-            print(f"   Fetching next week ({next_date_str})...")
-            next_movies = self._fetch_page(session, headers, {'date': next_date_str}, start_date)
-            if next_movies:
-                movies.extend(next_movies)
-                print(f"   Next week: {len(next_movies)} movies")
+            print(f"   Fetching next week (day by day)...")
+            next_count = 0
+            for day_offset in range(7, min(num_days, 14)):
+                day = start_date + timedelta(days=day_offset)
+                day_str = day.strftime('%m/%d/%Y')
+                day_movies = self._fetch_page(session, headers, {'date': day_str}, start_date, quiet=True)
+                if day_movies:
+                    movies.extend(day_movies)
+                    next_count += len(day_movies)
+                time.sleep(0.5)  # Be polite between requests
+            if next_count:
+                print(f"   Next week: {next_count} movie entries across 7 days")
             else:
                 print(f"   Next week: no additional data")
 
         return movies
 
-    def _fetch_page(self, session, headers, cookies, start_date):
+    def _fetch_page(self, session, headers, cookies, start_date, quiet=False):
         """Fetch and parse a single page of showtimes."""
         try:
             response = session.get(
@@ -101,28 +108,31 @@ class ShowtimesComScraper:
                 timeout=30
             )
             response.raise_for_status()
-            content_enc = response.headers.get('Content-Encoding', 'none')
-            print(f"   HTTP {response.status_code}, {len(response.text)} chars, encoding={content_enc}")
+            if not quiet:
+                content_enc = response.headers.get('Content-Encoding', 'none')
+                print(f"   HTTP {response.status_code}, {len(response.text)} chars, encoding={content_enc}")
         except requests.RequestException as e:
-            print(f"   ! Failed to fetch {self.showtimes_com_url}: {e}")
+            if not quiet:
+                print(f"   ! Failed to fetch {self.showtimes_com_url}: {e}")
             return []
 
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        # Diagnostic logging
-        title_tag = soup.find('title')
-        page_title = title_tag.get_text(strip=True) if title_tag else '(no title)'
-        movie_items = soup.select('li.movie-info-box')
-        print(f"   Page: {page_title}")
-        print(f"   Movie elements found: {len(movie_items)}")
+        if not quiet:
+            # Diagnostic logging
+            title_tag = soup.find('title')
+            page_title = title_tag.get_text(strip=True) if title_tag else '(no title)'
+            movie_items = soup.select('li.movie-info-box')
+            print(f"   Page: {page_title}")
+            print(f"   Movie elements found: {len(movie_items)}")
 
-        if not movie_items:
-            body = soup.find('body')
-            if body:
-                body_text = body.get_text(strip=True)[:200]
-                print(f"   Body preview: {body_text}")
-            else:
-                print(f"   No <body> found, response preview: {response.text[:200]}")
+            if not movie_items:
+                body = soup.find('body')
+                if body:
+                    body_text = body.get_text(strip=True)[:200]
+                    print(f"   Body preview: {body_text}")
+                else:
+                    print(f"   No <body> found, response preview: {response.text[:200]}")
 
         movies = self._parse_page(soup, start_date)
         return movies
