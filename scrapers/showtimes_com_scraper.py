@@ -7,7 +7,7 @@ Uses cloudscraper to handle anti-bot protections (Cloudflare, etc.).
 import os
 import re
 import requests
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import List, Dict, Any, Optional
 from bs4 import BeautifulSoup
 
@@ -73,8 +73,26 @@ class ShowtimesComScraper:
             'Sec-Fetch-User': '?1',
             'Cache-Control': 'max-age=0',
         }
-        cookies = {'date': 'week'}
 
+        # Fetch this week
+        movies = self._fetch_page(session, headers, {'date': 'week'}, start_date)
+
+        # Fetch next week if requesting more than 7 days
+        if num_days > 7:
+            next_week_start = start_date + timedelta(days=7)
+            next_date_str = next_week_start.strftime('%m/%d/%Y')
+            print(f"   Fetching next week ({next_date_str})...")
+            next_movies = self._fetch_page(session, headers, {'date': next_date_str}, start_date)
+            if next_movies:
+                movies.extend(next_movies)
+                print(f"   Next week: {len(next_movies)} movies")
+            else:
+                print(f"   Next week: no additional data")
+
+        return movies
+
+    def _fetch_page(self, session, headers, cookies, start_date):
+        """Fetch and parse a single page of showtimes."""
         try:
             response = session.get(
                 self.showtimes_com_url,
@@ -236,7 +254,6 @@ class ShowtimesComScraper:
         if 'today' in lower:
             return start_date.strftime('%Y-%m-%d')
         if 'tomorrow' in lower:
-            from datetime import timedelta
             return (start_date + timedelta(days=1)).strftime('%Y-%m-%d')
 
         return None
