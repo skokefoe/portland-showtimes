@@ -31,7 +31,7 @@ def load_theaters_config() -> List[Dict[str, Any]]:
     return data['theaters']
 
 
-def aggregate_showtimes(all_movies: List[Dict[str, Any]], start_date: datetime, num_days: int = 7) -> Dict[str, Any]:
+def aggregate_showtimes(all_movies: List[Dict[str, Any]], start_date: datetime, num_days: int = 14) -> Dict[str, Any]:
     """Aggregate movie showtimes by title and date."""
     movies_by_title = defaultdict(lambda: {
         'title': '',
@@ -130,10 +130,11 @@ def main():
     # Use Pacific time since all theaters are in Portland
     pacific = ZoneInfo('America/Los_Angeles')
     start_date = datetime.now(pacific)
-    num_days = 7
+    num_days = 14
 
     print(f"Date (Pacific): {start_date.strftime('%Y-%m-%d %I:%M %p %Z')}")
     print(f"Theaters: {len(theaters)}")
+    print(f"Days: {num_days}")
     print(f"Data source: showtimes.com")
     print()
 
