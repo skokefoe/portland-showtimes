@@ -222,6 +222,21 @@
         .view-tab:hover { color: var(--text-primary); }
         .view-tab.active { background: var(--accent-color); color: white; }
 
+        /* ── Week Toggle ── */
+        .week-toggle {
+            display: flex; gap: 0; margin-bottom: 12px;
+            background: var(--surface-color); border-radius: 8px; padding: 3px;
+            border: 1px solid var(--border-color); width: fit-content;
+        }
+        .week-btn {
+            padding: 8px 20px; text-align: center; cursor: pointer;
+            border-radius: 6px; font-weight: 600; font-size: 0.85rem;
+            color: var(--text-secondary); transition: all 0.2s ease; border: none; background: none;
+            font-family: inherit;
+        }
+        .week-btn:hover { color: var(--text-primary); }
+        .week-btn.active { background: var(--accent-color); color: white; }
+
         /* Calendar strip */
         .calendar-strip {
             display: flex; gap: 8px; overflow-x: auto; padding: 4px 0 12px;
@@ -409,6 +424,7 @@
             .view-tab { font-size: 0.85rem; padding: 10px 8px; }
             .theme-picker { margin: 20px; max-width: calc(100% - 40px); }
             .theme-text-btn { font-size: 0.5rem; }
+            .week-btn { padding: 7px 14px; font-size: 0.8rem; }
         }
     </style>
 </head>
@@ -505,6 +521,7 @@
         let currentView = 'day';
         let currentDayIndex = 0;
         let currentTheaterId = null;
+        let currentWeekOffset = 0;
 
         // ── Helpers ──
         function parseLocalDate(s) {
@@ -529,6 +546,14 @@
                 dates.push(d);
             }
             return dates;
+        }
+        function getVisibleDates() {
+            const allDates = getDateRange();
+            const start = currentWeekOffset * 7;
+            return allDates.slice(start, start + 7);
+        }
+        function hasMultipleWeeks() {
+            return showtimesData && showtimesData.num_days > 7;
         }
         function fmtPacificTime(isoString) {
             try {
@@ -572,26 +597,42 @@
             render();
         }
 
+        // ── Week toggle ──
+        function setWeek(offset) {
+            currentWeekOffset = offset;
+            currentDayIndex = 0;
+            render();
+        }
+
+        function buildWeekToggle() {
+            if (!hasMultipleWeeks()) return '';
+            return `<div class="week-toggle">
+                <button class="week-btn ${currentWeekOffset === 0 ? 'active' : ''}" onclick="setWeek(0)">This Week</button>
+                <button class="week-btn ${currentWeekOffset === 1 ? 'active' : ''}" onclick="setWeek(1)">Next Week</button>
+            </div>`;
+        }
+
         function render() {
             const ctrl = document.getElementById('controls');
             const content = document.getElementById('content');
             content.className = '';
+            const weekToggle = buildWeekToggle();
 
             if (currentView === 'day') {
-                ctrl.innerHTML = buildCalendarStrip();
+                ctrl.innerHTML = weekToggle + buildCalendarStrip();
                 content.innerHTML = renderByDay();
             } else if (currentView === 'theater') {
-                ctrl.innerHTML = buildTheaterTabs();
+                ctrl.innerHTML = weekToggle + buildTheaterTabs();
                 content.innerHTML = renderByTheater();
             } else {
-                ctrl.innerHTML = '';
+                ctrl.innerHTML = weekToggle;
                 content.innerHTML = renderByMovie();
             }
         }
 
         // ── Calendar strip ──
         function buildCalendarStrip() {
-            const dates = getDateRange();
+            const dates = getVisibleDates();
             let html = '<div class="calendar-strip">';
             dates.forEach((d, i) => {
                 const active = i === currentDayIndex ? 'active' : '';
@@ -620,8 +661,9 @@
 
         // ── BY DAY VIEW ──
         function renderByDay() {
-            const dates = getDateRange();
+            const dates = getVisibleDates();
             const currentDate = dates[currentDayIndex];
+            if (!currentDate) return '<div class="empty-state"><p>No dates available for this week.</p></div>';
             const dateKey = fmtDateKey(currentDate);
             const theaters = theatersData.theaters;
 
@@ -662,7 +704,7 @@
             const theater = theatersData.theaters.find(t => t.id === currentTheaterId);
             if (!theater) return '<div class="empty-state"><p>Select a theater.</p></div>';
 
-            const dates = getDateRange();
+            const dates = getVisibleDates();
             const moviesAtTheater = [];
 
             showtimesData.movies.forEach(movie => {
@@ -698,15 +740,17 @@
 
         // ── BY MOVIE VIEW ──
         function renderByMovie() {
-            const dates = getDateRange();
+            const dates = getVisibleDates();
             const theaters = theatersData.theaters;
             const theaterMap = {};
             theaters.forEach(t => { theaterMap[t.id] = t; });
 
-            const moviesWithData = showtimesData.movies.filter(m => Object.keys(m.showtimes).length > 0);
+            const moviesWithData = showtimesData.movies.filter(m => {
+                return dates.some(d => m.showtimes[fmtDateKey(d)]);
+            });
 
             if (moviesWithData.length === 0) {
-                return '<div class="empty-state"><p>No movies found.</p></div>';
+                return '<div class="empty-state"><p>No movies found for this week.</p></div>';
             }
 
             let html = '';
