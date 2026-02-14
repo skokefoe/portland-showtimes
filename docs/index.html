@@ -7,10 +7,10 @@
     <style>
         /* ── Theme Definitions ── */
         [data-theme="coral"] {
-            --bg-start: #0c0808;
-            --bg-end: #110a0e;
-            --surface-color: #1f1616;
-            --surface-end: #241a1a;
+            --bg-start: #080404;
+            --bg-end: #161014;
+            --surface-color: #1b1212;
+            --surface-end: #2a1e1e;
             --border-color: #362828;
             --text-primary: #ede8e8;
             --text-secondary: #a89898;
@@ -28,10 +28,10 @@
             --section-accent-end: rgba(255, 170, 0, 0.08);
         }
         [data-theme="cyan"] {
-            --bg-start: #050910;
-            --bg-end: #080812;
-            --surface-color: #121c28;
-            --surface-end: #162230;
+            --bg-start: #030610;
+            --bg-end: #0c0b18;
+            --surface-color: #0e1824;
+            --surface-end: #1c2a38;
             --border-color: #22354a;
             --text-primary: #e0eaf4;
             --text-secondary: #7a99b8;
@@ -49,10 +49,10 @@
             --section-accent-end: rgba(124, 92, 255, 0.06);
         }
         [data-theme="violet"] {
-            --bg-start: #0a0712;
-            --bg-end: #0c0816;
-            --surface-color: #1c1530;
-            --surface-end: #211a38;
+            --bg-start: #070414;
+            --bg-end: #120b1e;
+            --surface-color: #18122c;
+            --surface-end: #282042;
             --border-color: #322650;
             --text-primary: #e8e0f8;
             --text-secondary: #9888b8;
@@ -70,10 +70,10 @@
             --section-accent-end: rgba(255, 107, 181, 0.06);
         }
         [data-theme="emerald"] {
-            --bg-start: #050c08;
-            --bg-end: #070e0a;
-            --surface-color: #122018;
-            --surface-end: #16261e;
+            --bg-start: #020a04;
+            --bg-end: #0b140f;
+            --surface-color: #0e1c14;
+            --surface-end: #1c2e24;
             --border-color: #223e30;
             --text-primary: #daf0e0;
             --text-secondary: #7ab090;
@@ -91,10 +91,10 @@
             --section-accent-end: rgba(0, 180, 216, 0.06);
         }
         [data-theme="gold"] {
-            --bg-start: #0c0a05;
-            --bg-end: #0e0a08;
-            --surface-color: #201a10;
-            --surface-end: #262016;
+            --bg-start: #080602;
+            --bg-end: #14100c;
+            --surface-color: #1c160c;
+            --surface-end: #2c261c;
             --border-color: #3a3020;
             --text-primary: #f0e8d8;
             --text-secondary: #b0a080;
@@ -135,14 +135,12 @@
         h1 {
             font-size: 2.2rem;
             font-weight: 700;
-            margin-bottom: 6px;
+            margin-bottom: 0;
             background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
-        .subtitle { color: var(--text-secondary); font-size: 1rem; }
-        .last-updated { color: var(--text-secondary); font-size: 0.85rem; margin-top: 6px; }
 
         .header-buttons {
             position: absolute; top: 30px; right: 0;
@@ -168,6 +166,13 @@
             cursor: pointer; color: var(--text-secondary); font-size: 1.2rem; transition: all 0.3s ease;
         }
         .header-btn:hover { border-color: var(--accent-color); color: var(--accent-color); transform: rotate(60deg); }
+
+        /* ── Footer ── */
+        .site-footer {
+            text-align: center; padding: 30px 0 10px;
+            margin-top: 40px; border-top: 1px solid var(--border-color);
+            color: var(--text-secondary); font-size: 0.8rem;
+        }
 
         /* ── Theme Picker ── */
         .theme-picker-overlay {
@@ -411,8 +416,6 @@
     <div class="container">
         <header>
             <h1>Portland Popcorn Party</h1>
-            <p class="subtitle">Independent cinema in Portland, OR</p>
-            <p class="last-updated" id="lastUpdated">Loading...</p>
             <div class="header-buttons">
                 <button class="theme-text-btn" onclick="openThemePicker()" title="Change color theme">taste the rainbow</button>
                 <button class="header-btn" onclick="openAdmin()" title="Settings">&#9881;</button>
@@ -430,6 +433,8 @@
             <div class="loading-spinner"></div>
             <p>Loading showtimes...</p>
         </div>
+
+        <footer class="site-footer" id="siteFooter"></footer>
     </div>
 
     <!-- Theme Picker -->
@@ -525,6 +530,18 @@
             }
             return dates;
         }
+        function fmtPacificTime(isoString) {
+            try {
+                const d = new Date(isoString);
+                return d.toLocaleString('en-US', {
+                    timeZone: 'America/Los_Angeles',
+                    weekday: 'short', month: 'short', day: 'numeric',
+                    hour: 'numeric', minute: '2-digit', timeZoneName: 'short'
+                });
+            } catch {
+                return new Date(isoString).toLocaleString();
+            }
+        }
 
         // ── Init ──
         async function init() {
@@ -538,8 +555,8 @@
                 theatersData = th;
                 if (theatersData.theaters.length > 0) currentTheaterId = theatersData.theaters[0].id;
 
-                const ts = new Date(st.generated_at);
-                document.getElementById('lastUpdated').textContent = `Last updated: ${ts.toLocaleString()}`;
+                document.getElementById('siteFooter').textContent =
+                    `Showtimes last updated: ${fmtPacificTime(st.generated_at)}`;
 
                 render();
             } catch (e) {
