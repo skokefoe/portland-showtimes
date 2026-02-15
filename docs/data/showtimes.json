@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-14T18:45:21.790694",
-  "start_date": "2026-02-14",
+  "generated_at": "2026-02-15T10:33:19.246003",
+  "start_date": "2026-02-15",
   "num_days": 14,
   "movies": [
     {
@@ -119,6 +119,18 @@
             {
               "time": "6:30 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EedywpZW"
+            }
+          ]
+        },
+        "2026-02-28": {
+          "hollywood": [
+            {
+              "time": "1:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E1x2Q9Mk"
+            },
+            {
+              "time": "6:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=59eVxRaW"
             }
           ]
         }
@@ -252,6 +264,18 @@
             }
           ]
         },
+        "2026-02-28": {
+          "hollywood": [
+            {
+              "time": "3:45 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EK8O6pey"
+            },
+            {
+              "time": "8:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=Edz6wlPd"
+            }
+          ]
+        },
         "2026-02-25": {
           "cinema21": [
             {
@@ -308,32 +332,29 @@
       }
     },
     {
+      "title": "A BLACK COMMUNITY TELEVISION RETROSPECTIVE",
+      "description": "",
+      "poster": null,
+      "letterboxd_url": "https://letterboxd.com/film/a-black-community-television-retrospective/",
+      "tmdb_id": null,
+      "showtimes": {
+        "2026-02-28": {
+          "hollywood": [
+            {
+              "time": "7:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=58O4Yb89"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "A Private Life",
       "description": "Following the death of Paula, one of her long-time patients, psychiatrist Lilian Steiner becomes convinced that her supposed death by suicide is actually an unsolved murder.",
       "poster": "posters/a-private-life.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/1290432/",
       "tmdb_id": 1290432,
       "showtimes": {
-        "2026-02-14": {
-          "livingroom": [
-            {
-              "time": "11:50 AM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-02-15": {
           "livingroom": [
             {
@@ -439,18 +460,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/194/",
       "tmdb_id": 194,
       "showtimes": {
-        "2026-02-14": {
-          "academy": [
-            {
-              "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-02-15": {
           "academy": [
             {
@@ -569,6 +578,23 @@
       }
     },
     {
+      "title": "Band of Outsiders",
+      "description": "Cinephile slackers Franz and Arthur spend their days mimicking the antiheroes of Hollywood noirs and Westerns while pursuing the lovely Odile. The misfit trio upends convention at every turn, be it through choreographed dances in caf\u00e9s or frolicsome romps through the Louvre. Eventually, their romantic view of outlaws pushes them to plan their own heist, but their inexperience may send them out in a blaze of glory -- which could be just what they want.",
+      "poster": "posters/band-of-outsiders.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/8073/",
+      "tmdb_id": 8073,
+      "showtimes": {
+        "2026-02-28": {
+          "cinema21": [
+            {
+              "time": "11:00 AM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3GMOjXdo"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "Beautiful Thing",
       "description": "This 20th anniversary production of Jonathan Harvey's play about two working class teenage boys falling in love on a south east London council estate was captured by Digital Theatre live at the Arts Theatre in London's Leicester Square.",
       "poster": "posters/beautiful-thing.jpg",
@@ -617,14 +643,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/11932/",
       "tmdb_id": 11932,
       "showtimes": {
-        "2026-02-14": {
-          "academy": [
-            {
-              "time": "9:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-02-15": {
           "academy": [
             {
@@ -672,6 +690,23 @@
       }
     },
     {
+      "title": "Chicago Blow-Out",
+      "description": "The NSA Chicago Blow-Out contest video included footage of Tony Hawk, Steve Caballero, Lance Mountain, Monty Nolder, Micke Alba, Ken Park, Mark Rogowski, Christian Hosoi, Kevin Staab, Mike McGill, Rodney Mullen, Jeff Grosso, Chris Miller, Jeff Kendall, Steve Steadham, Steve Schneer, Rob Roskopp, Tom Groholski, John Gibson, Rick \"Spidey\" Demontrond, Jim Gray, and more.",
+      "poster": "posters/blow-out.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/575710/",
+      "tmdb_id": 575710,
+      "showtimes": {
+        "2026-02-28": {
+          "cinemagic": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EJ8kvVyD"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "Comrades, Almost a Love Story",
       "description": "Jun arrives in Hong Kong from mainland China, hoping to be able to earn enough money to marry his girlfriend back home. He meets the streetwise Qiao and they become friends. As friendship turns into love, problems develop, and although they seem meant for each other they somehow keep missing out.",
       "poster": "posters/comrades-almost-a-love-story-tian-mi-mi.jpg",
@@ -695,40 +730,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/23527/",
       "tmdb_id": 23527,
       "showtimes": {
-        "2026-02-14": {
-          "laurelhurst": [
-            {
-              "time": "3:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "9:20 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "3:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:40 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-02-15": {
           "laurelhurst": [
             {
@@ -896,6 +897,14 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EYXw9bed"
             }
           ]
+        },
+        "2026-02-28": {
+          "cinemagic": [
+            {
+              "time": "4:40 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7oYgqAWa"
+            }
+          ]
         }
       }
     },
@@ -906,40 +915,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1119449/",
       "tmdb_id": 1119449,
       "showtimes": {
-        "2026-02-14": {
-          "hollywood": [
-            {
-              "time": "2:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EJ8kZoOn"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7VKD8ovZ"
-            },
-            {
-              "time": "9:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3zdgoJmA"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "12:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "9:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
         "2026-02-15": {
           "hollywood": [
             {
@@ -1139,32 +1114,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/858024/",
       "tmdb_id": 858024,
       "showtimes": {
-        "2026-02-14": {
-          "laurelhurst": [
-            {
-              "time": "12:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "9:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-02-15": {
           "laurelhurst": [
             {
@@ -1240,27 +1189,6 @@
       }
     },
     {
-      "title": "Harold and Maude",
-      "description": "The young Harold lives in his own world of suicide-attempts and funeral visits to avoid the misery of his current family and home environment. Harold meets an 80-year-old woman named Maude who also lives in her own world yet one in which she is having the time of her life. When the two opposites meet they realize that their differences don\u2019t matter and they become best friends and love each other.",
-      "poster": "posters/harold-and-maude.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/343/",
-      "tmdb_id": 343,
-      "showtimes": {
-        "2026-02-14": {
-          "hollywood": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5gJXZen4"
-            },
-            {
-              "time": "9:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EaNBRYvr"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Holding Liat",
       "description": "Liat Atzili was kidnapped from her kibbutz on October 7. What begins as a chronicle of her parents, sister, and children's efforts to secure her return, becomes a portrait of conflicting impulses towards anger, indifference, and compassion straining the bonds of one grieving family.",
       "poster": "posters/holding-liat.jpg",
@@ -1325,53 +1253,11 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/13597/",
       "tmdb_id": 13597,
       "showtimes": {
-        "2026-02-14": {
-          "hollywood": [
-            {
-              "time": "3:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5m0mjnoN"
-            }
-          ]
-        },
         "2026-02-15": {
           "hollywood": [
             {
               "time": "3:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3A4yYkw1"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Lola",
-      "description": "A bored young man meets with his former girlfriend, now a cabaret dancer and single mother, and soon finds himself falling back in love with her.",
-      "poster": "posters/lola.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/40641/",
-      "tmdb_id": 40641,
-      "showtimes": {
-        "2026-02-14": {
-          "cinema21": [
-            {
-              "time": "11:00 AM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7nmRLXyz"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Love & Basketball",
-      "description": "Monica Wright and Quincy McCall grew up in the same neighborhood and have known each other since childhood. As they grow into adulthood, they fall in love, but they also share another all-consuming passion: basketball.  As Quincy and Monica struggle to make their relationship work, they follow separate career paths though high school and college basketball and, they hope, into stardom in big-league professional ball.",
-      "poster": "posters/love-basketball.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/14736/",
-      "tmdb_id": 14736,
-      "showtimes": {
-        "2026-02-14": {
-          "clinton": [
-            {
-              "time": "7:00 PM",
-              "url": "https://cstpdx.com"
             }
           ]
         }
@@ -1409,34 +1295,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1317288/",
       "tmdb_id": 1317288,
       "showtimes": {
-        "2026-02-14": {
-          "hollywood": [
-            {
-              "time": "3:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5ONr0AjB"
-            },
-            {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7yPNqad8"
-            }
-          ],
-          "cinema21": [
-            {
-              "time": "2:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=59eVA2z6"
-            },
-            {
-              "time": "9:20 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5Qx4nGmb"
-            }
-          ],
-          "cinemagic": [
-            {
-              "time": "3:50 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5Z94OYzv"
-            }
-          ]
-        },
         "2026-02-15": {
           "hollywood": [
             {
@@ -1538,23 +1396,6 @@
       }
     },
     {
-      "title": "My Bloody Valentine",
-      "description": "Ten years after a Valentine's Day tragedy claimed the lives of five miners, Harry Warden returns for a vengeful massacre among teen sweethearts gearing up for another party.",
-      "poster": "posters/my-bloody-valentine.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/14435/",
-      "tmdb_id": 14435,
-      "showtimes": {
-        "2026-02-14": {
-          "cinemagic": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E1x01Jny"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "My Father's Shadow",
       "description": "Two young brothers explore Lagos with their estranged father during the 1993 Nigerian election crisis, witnessing both the city's magnitude and their father's daily struggles as political unrest threatens their journey home.",
       "poster": "posters/my-fathers-shadow.jpg",
@@ -1578,18 +1419,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/639988/",
       "tmdb_id": 639988,
       "showtimes": {
-        "2026-02-14": {
-          "cinema21": [
-            {
-              "time": "3:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EMnBpXmJ"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7VKDwjma"
-            }
-          ]
-        },
         "2026-02-15": {
           "cinema21": [
             {
@@ -1676,14 +1505,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/11020/",
       "tmdb_id": 11020,
       "showtimes": {
-        "2026-02-14": {
-          "academy": [
-            {
-              "time": "4:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-02-15": {
           "academy": [
             {
@@ -1871,48 +1692,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1198994/",
       "tmdb_id": 1198994,
       "showtimes": {
-        "2026-02-14": {
-          "laurelhurst": [
-            {
-              "time": "12:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "3:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "9:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:35 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "5:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "10:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-02-15": {
           "laurelhurst": [
             {
@@ -2141,6 +1920,23 @@
       }
     },
     {
+      "title": "Streets of Fire",
+      "description": "Raven Shaddock and his gang of merciless biker friends kidnap rock singer Ellen Aim. Ellen's former lover, soldier-for-hire Tom Cody, happens to be passing through town on a visit. In an attempt to save his star act, Ellen's manager hires Tom to rescue her. Along with a former soldier, they battle through dangerous cityscapes, determined to get Ellen back.",
+      "poster": "posters/streets-of-fire.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/14746/",
+      "tmdb_id": 14746,
+      "showtimes": {
+        "2026-02-28": {
+          "cinemagic": [
+            {
+              "time": "9:25 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3GMyK4Bb"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "The Best Man",
       "description": "The Library of Congress lists this as a \u2018lost\u2019 film, however a copy exists in the UK. Gordon, disguised as Hayne, meets with the criminals and manages to purloin the stolen code but the real Hayne, who the police have failed to apprehend, gives chase.  Gordon escapes in a taxi that had been pre-booked to take Hayne to church to marry Celia.  Arriving at the church, and remembering his instructions \u2018Let Nothing Hinder You\u2019, Gordon allows himself to be married to Celia while planning how he will escape.",
       "poster": "posters/the-best-man.jpg",
@@ -2158,36 +1954,29 @@
       }
     },
     {
+      "title": "The General",
+      "description": "During America\u2019s Civil War, Union spies steal engineer Johnny Gray's beloved locomotive, 'The General'\u2014with Johnnie's lady love aboard an attached boxcar\u2014and he single-handedly must do all in his power to both get The General back and to rescue Annabelle.",
+      "poster": "posters/the-general.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/961/",
+      "tmdb_id": 961,
+      "showtimes": {
+        "2026-02-28": {
+          "hollywood": [
+            {
+              "time": "2:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7nm6NN9X"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "The Love That Remains",
       "description": "Tenderly captures a year in the life of a family as the parents navigate their separation. Through both playful and heartfelt moments, the film portrays the bittersweet essence of faded love and shared memories amidst the changing seasons.",
       "poster": "posters/the-love-that-remains.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/1258509/",
       "tmdb_id": 1258509,
       "showtimes": {
-        "2026-02-14": {
-          "livingroom": [
-            {
-              "time": "12:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:25 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:50 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "9:40 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-02-15": {
           "livingroom": [
             {
@@ -2291,47 +2080,12 @@
       }
     },
     {
-      "title": "The Rocky Horror Picture Show",
-      "description": "After getting a flat tire in the middle of nowhere, newly engaged couple Brad and Janet encounter the eerie mansion of the flamboyant, seductive Dr. Frank-N-Furter and a variety of eccentric characters. Through elaborate dance and rock music, the mad scientist unveils his latest creation: a perfect, muscular man.",
-      "poster": "posters/the-rocky-horror-picture-show.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/36685/",
-      "tmdb_id": 36685,
-      "showtimes": {
-        "2026-02-14": {
-          "clinton": [
-            {
-              "time": "11:00 PM",
-              "url": "https://cstpdx.com"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "The Secret Agent",
       "description": "Brazil, 1977. Marcelo, a technology expert in his early 40s, is on the run. Hoping to reunite with his son, he travels to Recife during Carnival but soon realizes that the city is not the safe haven he was expecting.",
       "poster": "posters/the-secret-agent.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/1220564/",
       "tmdb_id": 1220564,
       "showtimes": {
-        "2026-02-14": {
-          "cinema21": [
-            {
-              "time": "12:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EvOm1k2G"
-            },
-            {
-              "time": "6:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EedyaWgb"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "9:10 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-02-15": {
           "cinema21": [
             {
@@ -2390,14 +2144,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1549892/",
       "tmdb_id": 1549892,
       "showtimes": {
-        "2026-02-14": {
-          "cinema21": [
-            {
-              "time": "12:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7qZgnQbW"
-            }
-          ]
-        },
         "2026-02-15": {
           "cinema21": [
             {
@@ -2447,98 +2193,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1316092/",
       "tmdb_id": 1316092,
       "showtimes": {
-        "2026-02-14": {
-          "cinema21": [
-            {
-              "time": "1:20 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EvON01BA"
-            },
-            {
-              "time": "4:25 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=ExNZO1rK"
-            },
-            {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3PJBmx02"
-            },
-            {
-              "time": "9:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5Z9G8ago"
-            }
-          ],
-          "bagdad": [
-            {
-              "time": "12:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "3:15 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "10:15 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "12:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "3:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "9:10 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "9:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-02-15": {
           "cinema21": [
             {
