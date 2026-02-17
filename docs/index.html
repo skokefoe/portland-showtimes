@@ -288,6 +288,10 @@
         }
         .theater-header { margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border-color); }
         .theater-name { font-size: 1.6rem; font-weight: 700; color: var(--accent-color); margin-bottom: 4px; }
+        .theater-name a { color: inherit; text-decoration: none; }
+        .theater-name a:hover { text-decoration: underline; }
+        .theater-label a { color: inherit; text-decoration: none; }
+        .theater-label a:hover { text-decoration: underline; }
         .theater-address { color: var(--text-secondary); font-size: 0.9rem; }
 
         .movie-card {
@@ -691,7 +695,7 @@
                 if (!movies || movies.length === 0) return;
 
                 html += `<div class="theater-section"><div class="theater-header">
-                    <h2 class="theater-name">${escHtml(theater.name)}</h2>
+                    <h2 class="theater-name"><a href="${theater.url}" target="_blank" rel="noopener">${escHtml(theater.name)}</a></h2>
                     <p class="theater-address">${escHtml(theater.address)}</p>
                 </div>`;
 
@@ -732,7 +736,7 @@
             }
 
             let html = `<div class="theater-section"><div class="theater-header">
-                <h2 class="theater-name">${escHtml(theater.name)}</h2>
+                <h2 class="theater-name"><a href="${theater.url}" target="_blank" rel="noopener">${escHtml(theater.name)}</a></h2>
                 <p class="theater-address">${escHtml(theater.address)}</p>
             </div>`;
 
@@ -769,6 +773,7 @@
                         if (!t) return;
                         schedule.push({
                             theaterName: t.name,
+                            theaterUrl: t.url,
                             theaterId: tid,
                             date: d,
                             label: d.toLocaleDateString('en-US', { weekday:'short', month:'short', day:'numeric' }),
@@ -791,7 +796,7 @@
 
                 schedule.forEach(s => {
                     html += `<div class="showtime-row">
-                        <span class="theater-label">${escHtml(s.theaterName)}</span>
+                        <a href="${s.theaterUrl}" target="_blank" rel="noopener" class="theater-label">${escHtml(s.theaterName)}</a>
                         <span class="date-label">${s.label}</span>
                         <div class="time-buttons">
                             ${s.times.map(st => `<a href="${st.url}" target="_blank" rel="noopener" class="time-btn">${st.time}${st.format ? `<span class="format-badge">${st.format}</span>` : ''}</a>`).join('')}
