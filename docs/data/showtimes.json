@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-19T10:52:01.189268",
-  "start_date": "2026-02-19",
+  "generated_at": "2026-02-20T10:43:28.688679",
+  "start_date": "2026-02-20",
   "num_days": 14,
   "movies": [
     {
@@ -167,6 +167,14 @@
             {
               "time": "6:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7oYgwkKg"
+            }
+          ]
+        },
+        "2026-03-05": {
+          "hollywood": [
+            {
+              "time": "6:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EWR9ZL8J"
             }
           ]
         }
@@ -352,11 +360,278 @@
             }
           ]
         },
+        "2026-03-05": {
+          "hollywood": [
+            {
+              "time": "8:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5ONrj4a9"
+            }
+          ]
+        },
         "2026-02-25": {
           "cinema21": [
             {
               "time": "6:50 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5gJ0K6BM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "2026 Oscar Nominated Short Films: Animated",
+      "description": "",
+      "poster": "posters/2026-oscar-nominated-short-films-animated.jpg",
+      "letterboxd_url": "https://letterboxd.com/film/2026-oscar-nominated-short-films-animated/",
+      "tmdb_id": null,
+      "showtimes": {
+        "2026-02-20": {
+          "livingroom": [
+            {
+              "time": "2:10 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-21": {
+          "livingroom": [
+            {
+              "time": "2:10 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-22": {
+          "livingroom": [
+            {
+              "time": "2:10 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-23": {
+          "livingroom": [
+            {
+              "time": "2:10 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-24": {
+          "livingroom": [
+            {
+              "time": "2:10 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-25": {
+          "livingroom": [
+            {
+              "time": "2:10 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-26": {
+          "livingroom": [
+            {
+              "time": "2:10 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "2026 Oscar Nominated Short Films: Documentary",
+      "description": "",
+      "poster": "posters/2026-oscar-nominated-short-films-documentary.jpg",
+      "letterboxd_url": "https://letterboxd.com/film/2026-oscar-nominated-short-films-documentary/",
+      "tmdb_id": null,
+      "showtimes": {
+        "2026-02-20": {
+          "livingroom": [
+            {
+              "time": "12:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-21": {
+          "livingroom": [
+            {
+              "time": "12:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-22": {
+          "livingroom": [
+            {
+              "time": "12:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-23": {
+          "livingroom": [
+            {
+              "time": "12:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-24": {
+          "livingroom": [
+            {
+              "time": "12:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-25": {
+          "livingroom": [
+            {
+              "time": "12:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-26": {
+          "livingroom": [
+            {
+              "time": "12:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "2026 Oscar Nominated Short Films: Live Action",
+      "description": "",
+      "poster": "posters/2026-oscar-nominated-short-films-live-action.jpg",
+      "letterboxd_url": "https://letterboxd.com/film/2026-oscar-nominated-short-films-live-action/",
+      "tmdb_id": null,
+      "showtimes": {
+        "2026-02-20": {
+          "livingroom": [
+            {
+              "time": "11:45 AM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "9:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-21": {
+          "livingroom": [
+            {
+              "time": "11:45 AM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "9:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-22": {
+          "livingroom": [
+            {
+              "time": "11:45 AM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-23": {
+          "livingroom": [
+            {
+              "time": "11:45 AM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-24": {
+          "livingroom": [
+            {
+              "time": "11:45 AM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-25": {
+          "livingroom": [
+            {
+              "time": "11:45 AM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-26": {
+          "livingroom": [
+            {
+              "time": "11:45 AM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:15 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ]
         }
@@ -442,42 +717,106 @@
       }
     },
     {
-      "title": "A Private Life",
-      "description": "Following the death of Paula, one of her long-time patients, psychiatrist Lilian Steiner becomes convinced that her supposed death by suicide is actually an unsolved murder.",
-      "poster": "posters/a-private-life.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1290432/",
-      "tmdb_id": 1290432,
+      "title": "A New Love in Tokyo",
+      "description": "A look at the lives of two prostitutes in Tokyo: Rei, who works as an S&M dominatrix, and Ayumi, in the more straightforward profession of call girl. In addition to their working life, the film also looks at their private lives. Rei is acting in an amateur theatre company along with the receptionist from Ayumi's escort service, while Ayumi is living with her student-boyfriend as he struggles to finally get accepted to college.",
+      "poster": "posters/a-new-love-in-tokyo.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/108433/",
+      "tmdb_id": 108433,
       "showtimes": {
-        "2026-02-19": {
-          "livingroom": [
+        "2026-03-05": {
+          "hollywood": [
             {
-              "time": "11:50 AM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:30 PM",
-              "url": "https://livingroomtheaters.com"
+              "time": "7:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=Edz6o46l"
             }
           ]
         }
       }
     },
     {
-      "title": "Am\u00e9lie",
-      "description": "At a tiny Parisian caf\u00e9, the adorable yet painfully shy Am\u00e9lie accidentally discovers a gift for helping others. Soon Amelie is spending her days as a matchmaker, guardian angel, and all-around do-gooder. But when she bumps into a handsome stranger, will she find the courage to become the star of her very own love story?",
-      "poster": "posters/am\u00e9lie.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/194/",
-      "tmdb_id": 194,
+      "title": "A Private Life",
+      "description": "Following the death of Paula, one of her long-time patients, psychiatrist Lilian Steiner becomes convinced that her supposed death by suicide is actually an unsolved murder.",
+      "poster": "posters/a-private-life.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1290432/",
+      "tmdb_id": 1290432,
       "showtimes": {
-        "2026-02-19": {
-          "academy": [
+        "2026-02-20": {
+          "livingroom": [
             {
-              "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "time": "2:20 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-21": {
+          "livingroom": [
+            {
+              "time": "2:20 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-22": {
+          "livingroom": [
+            {
+              "time": "2:20 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-23": {
+          "livingroom": [
+            {
+              "time": "2:20 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-24": {
+          "livingroom": [
+            {
+              "time": "2:20 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-25": {
+          "livingroom": [
+            {
+              "time": "2:20 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-26": {
+          "livingroom": [
+            {
+              "time": "2:20 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ]
         }
@@ -584,32 +923,11 @@
       }
     },
     {
-      "title": "Bride of Chucky",
-      "description": "Chucky is reborn when his old flame, Tiffany, rescues his battered doll parts from a police impound.",
-      "poster": "posters/bride-of-chucky.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/11932/",
-      "tmdb_id": 11932,
-      "showtimes": {
-        "2026-02-19": {
-          "academy": [
-            {
-              "time": "4:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Chicago Blow-Out",
-      "description": "The NSA Chicago Blow-Out contest video included footage of Tony Hawk, Steve Caballero, Lance Mountain, Monty Nolder, Micke Alba, Ken Park, Mark Rogowski, Christian Hosoi, Kevin Staab, Mike McGill, Rodney Mullen, Jeff Grosso, Chris Miller, Jeff Kendall, Steve Steadham, Steve Schneer, Rob Roskopp, Tom Groholski, John Gibson, Rick \"Spidey\" Demontrond, Jim Gray, and more.",
+      "title": "Blow Out",
+      "description": "While recording sound effects for a slasher flick, Jack Terry stumbles upon a real-life horror: a car careening off a bridge and into a river. Jack jumps into the water and fishes out Sally from the car, but the other passenger is already dead \u2014 a governor intending to run for president. As Jack does some investigating of his tapes, and starts a perilous romance with Sally, he enters a tangled web of conspiracy that might leave him dead.",
       "poster": "posters/blow-out.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/575710/",
-      "tmdb_id": 575710,
+      "letterboxd_url": "https://letterboxd.com/tmdb/11644/",
+      "tmdb_id": 11644,
       "showtimes": {
         "2026-02-28": {
           "cinemagic": [
@@ -630,184 +948,102 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E2W2orkl"
             }
           ]
-        }
-      }
-    },
-    {
-      "title": "Comrades, Almost a Love Story",
-      "description": "Jun arrives in Hong Kong from mainland China, hoping to be able to earn enough money to marry his girlfriend back home. He meets the streetwise Qiao and they become friends. As friendship turns into love, problems develop, and although they seem meant for each other they somehow keep missing out.",
-      "poster": "posters/comrades-almost-a-love-story-tian-mi-mi.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/37185/",
-      "tmdb_id": 37185,
-      "showtimes": {
-        "2026-02-19": {
+        },
+        "2026-03-05": {
           "cinemagic": [
             {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5pLWZDxw"
+              "time": "4:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E1x2A80G"
             }
           ]
         }
       }
     },
     {
-      "title": "First Squad: The Moment of Truth",
-      "description": "Set during the opening days of World War II on the Eastern Front. Its main cast are a group of Soviet teenagers with extraordinary abilities; the teenagers have been drafted to form a special unit to fight the invading German army. They are opposed by a Schutzstaffel officer who is attempting to raise from the dead a supernatural army of crusaders from the 12th-century Order of the Sacred Cross.",
-      "poster": "posters/the-moment.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/23527/",
-      "tmdb_id": 23527,
+      "title": "Dracula",
+      "description": "In late 15th-century Eastern Europe, Prince Vlad II\u2019s bride is brutally murdered. As a result, he renounces God and damns Heaven itself. Cursed with eternal life, Vlad is reborn as Dracula, an immortal warlord who defies fate in a blood-soaked crusade to wrench his lost love back from death.",
+      "poster": "posters/dracula.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1246049/",
+      "tmdb_id": 1246049,
       "showtimes": {
-        "2026-02-19": {
-          "laurelhurst": [
-            {
-              "time": "3:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "3:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-02-20": {
-          "academy": [
+          "livingroom": [
             {
-              "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "time": "4:35 PM",
+              "url": "https://livingroomtheaters.com"
             },
             {
-              "time": "3:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "time": "8:45 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ]
         },
         "2026-02-21": {
-          "academy": [
+          "livingroom": [
             {
-              "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "time": "4:35 PM",
+              "url": "https://livingroomtheaters.com"
             },
             {
-              "time": "3:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "time": "8:45 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ]
         },
         "2026-02-22": {
-          "academy": [
+          "livingroom": [
             {
-              "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "4:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "7:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "time": "4:35 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ]
         },
         "2026-02-23": {
-          "academy": [
+          "livingroom": [
             {
-              "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "4:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "7:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "time": "4:35 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ]
         },
         "2026-02-24": {
-          "academy": [
+          "livingroom": [
             {
-              "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "4:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "7:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "time": "4:35 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ]
         },
         "2026-02-25": {
-          "academy": [
+          "livingroom": [
             {
-              "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "4:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "7:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "time": "4:35 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ]
         },
         "2026-02-26": {
-          "academy": [
+          "livingroom": [
             {
-              "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
+              "time": "4:35 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "EPiC: Elvis Presley in Concert",
+      "description": "Long-lost footage from Elvis Presely's legendary Las Vegas residency in the 1970s woven together with rare 16mm footage from Elvis on Tour, and 8mm from the Graceland archive, plus recordings of Elvis telling \"his side of the story\" rediscovered during Baz Luhrmann's research for his 2022 film, Elvis.",
+      "poster": "posters/epic-elvis-presley-in-concert.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1445363/",
+      "tmdb_id": 1445363,
+      "showtimes": {
+        "2026-02-26": {
+          "livingroom": [
             {
-              "time": "3:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "time": "7:30 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ]
         }
@@ -825,6 +1061,14 @@
             {
               "time": "9:20 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5wvg2Xdm"
+            }
+          ]
+        },
+        "2026-03-05": {
+          "cinemagic": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EWR9awea"
             }
           ]
         }
@@ -878,28 +1122,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1119449/",
       "tmdb_id": 1119449,
       "showtimes": {
-        "2026-02-19": {
-          "hollywood": [
-            {
-              "time": "6:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3PJ6goXO"
-            },
-            {
-              "time": "9:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5Z94Mowg"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
         "2026-02-20": {
           "hollywood": [
             {
@@ -1057,10 +1279,58 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/858024/",
       "tmdb_id": 858024,
       "showtimes": {
-        "2026-02-19": {
+        "2026-02-20": {
           "livingroom": [
             {
-              "time": "12:45 PM",
+              "time": "12:20 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-21": {
+          "livingroom": [
+            {
+              "time": "12:20 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-22": {
+          "livingroom": [
+            {
+              "time": "12:20 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-23": {
+          "livingroom": [
+            {
+              "time": "12:20 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-24": {
+          "livingroom": [
+            {
+              "time": "12:20 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-25": {
+          "livingroom": [
+            {
+              "time": "12:20 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-26": {
+          "livingroom": [
+            {
+              "time": "12:20 PM",
               "url": "https://livingroomtheaters.com"
             }
           ]
@@ -1079,6 +1349,27 @@
             {
               "time": "6:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5pLNpPRk"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Hoppers",
+      "description": "Scientists have discovered how to \"hop\" human consciousness into lifelike robotic animals, allowing people to communicate with animals as animals. Animal lover Mabel seizes an opportunity to use the technology, uncovering mysteries within the animal world that are beyond anything she could have imagined.",
+      "poster": "posters/hoppers.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1327819/",
+      "tmdb_id": 1327819,
+      "showtimes": {
+        "2026-03-05": {
+          "bagdad": [
+            {
+              "time": "3:45 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
             }
           ]
         }
@@ -1344,33 +1635,128 @@
       }
     },
     {
-      "title": "Marty Supreme",
-      "description": "Marty Mauser, a young man with a dream no one respects, goes to hell and back in pursuit of greatness.",
-      "poster": "posters/marty-supreme.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1317288/",
-      "tmdb_id": 1317288,
-      "showtimes": {
-        "2026-02-19": {
-          "hollywood": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EkyB9NwL"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Midwinter Break",
       "description": "Longtime retired couple Stella and Gerry realise that their relationship has reached a crossroads while on holiday in Amsterdam. After so much time and so many memories, long-held promises and deeply concealed wounds threaten to come to light and force them to confront their future.",
       "poster": "posters/midwinter-break.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/1125701/",
       "tmdb_id": 1125701,
       "showtimes": {
-        "2026-02-19": {
+        "2026-02-20": {
           "livingroom": [
             {
-              "time": "6:15 PM",
+              "time": "2:50 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:50 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "9:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-21": {
+          "livingroom": [
+            {
+              "time": "2:50 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:50 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "9:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-22": {
+          "livingroom": [
+            {
+              "time": "2:50 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:50 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-23": {
+          "livingroom": [
+            {
+              "time": "2:50 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:50 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-24": {
+          "livingroom": [
+            {
+              "time": "2:50 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:50 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-25": {
+          "livingroom": [
+            {
+              "time": "2:50 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:50 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-26": {
+          "livingroom": [
+            {
+              "time": "2:50 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:50 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:45 PM",
               "url": "https://livingroomtheaters.com"
             }
           ]
@@ -1384,28 +1770,119 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1432605/",
       "tmdb_id": 1432605,
       "showtimes": {
-        "2026-02-19": {
+        "2026-02-20": {
           "livingroom": [
             {
-              "time": "7:00 PM",
+              "time": "12:05 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:00 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "9:25 PM",
               "url": "https://livingroomtheaters.com"
             }
           ]
-        }
-      }
-    },
-    {
-      "title": "No Other Choice",
-      "description": "After being laid off and humiliated by a ruthless job market, a veteran paper mill manager descends into violence in a desperate bid to reclaim his dignity.",
-      "poster": "posters/no-other-choice.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/639988/",
-      "tmdb_id": 639988,
-      "showtimes": {
-        "2026-02-19": {
-          "cinema21": [
+        },
+        "2026-02-21": {
+          "livingroom": [
             {
-              "time": "6:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3zdg9VOo"
+              "time": "12:05 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:00 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "9:25 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-22": {
+          "livingroom": [
+            {
+              "time": "12:05 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:00 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-23": {
+          "livingroom": [
+            {
+              "time": "12:05 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:00 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-24": {
+          "livingroom": [
+            {
+              "time": "12:05 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:00 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-25": {
+          "livingroom": [
+            {
+              "time": "12:05 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:00 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-26": {
+          "livingroom": [
+            {
+              "time": "12:05 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:00 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ]
         }
@@ -1446,10 +1923,10 @@
     },
     {
       "title": "Out of the Blue",
-      "description": "Narrated by Peter Coyote, Out of The Blue is widely considered the best documentary ever made about Unidentified Objects. The producers traveled around the world to investigate some of the most famous UFO events on record. Through exclusive interviews with high-ranking military and government personnel, this award-winning film supports the theory that some UFOs are of extraterrestrial origin.",
+      "description": "After spending time in prison following an assault charge, Connor Bates now works in a library and spends his free time running, swimming, and trying to piece his world back together. When he meets Marilyn Chambers, the wife of a wealthy businessman, they collide into an intense physical and emotional relationship that quickly escalates into idle talk about her husband\u2019s murder.",
       "poster": "posters/out-of-the-blue.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/93122/",
-      "tmdb_id": 93122,
+      "letterboxd_url": "https://letterboxd.com/tmdb/1003813/",
+      "tmdb_id": 1003813,
       "showtimes": {
         "2026-02-20": {
           "academy": [
@@ -1514,41 +1991,12 @@
       }
     },
     {
-      "title": "Picnic at Hanging Rock",
-      "description": "In the early 1900s, Miranda attends a girls boarding school in Australia. One Valentine's Day, the school's typically strict headmistress treats the girls to a picnic field trip to an unusual but scenic volcanic formation called Hanging Rock. Despite rules against it, Miranda and several other girls venture off. It's not until the end of the day that the faculty realizes the girls and one of the teachers have disappeared mysteriously.",
-      "poster": "posters/picnic-at-hanging-rock.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/11020/",
-      "tmdb_id": 11020,
-      "showtimes": {
-        "2026-02-19": {
-          "academy": [
-            {
-              "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Pillion",
       "description": "Colin, a timid gay man, is swept off his feet when Ray, an enigmatic and impossibly handsome biker, takes him on as his submissive in a crazy and erotic BDSM-focused relationship.",
       "poster": "posters/pillion.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/1287141/",
       "tmdb_id": 1287141,
       "showtimes": {
-        "2026-02-19": {
-          "cinema21": [
-            {
-              "time": "4:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EJ8kvqQR"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5ONrZdnk"
-            }
-          ]
-        },
         "2026-02-20": {
           "cinema21": [
             {
@@ -1658,36 +2106,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1198994/",
       "tmdb_id": 1198994,
       "showtimes": {
-        "2026-02-19": {
-          "laurelhurst": [
-            {
-              "time": "3:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:35 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "5:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-02-20": {
           "laurelhurst": [
             {
@@ -1701,6 +2119,28 @@
             {
               "time": "9:00 PM",
               "url": "https://www.laurelhursttheater.com"
+            }
+          ],
+          "livingroom": [
+            {
+              "time": "11:50 AM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:05 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "5:20 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:40 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "10:00 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ]
         },
@@ -1722,6 +2162,28 @@
               "time": "9:00 PM",
               "url": "https://www.laurelhursttheater.com"
             }
+          ],
+          "livingroom": [
+            {
+              "time": "11:50 AM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:05 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "5:20 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:40 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "10:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
           ]
         },
         "2026-02-22": {
@@ -1738,6 +2200,24 @@
               "time": "6:30 PM",
               "url": "https://www.laurelhursttheater.com"
             }
+          ],
+          "livingroom": [
+            {
+              "time": "11:50 AM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:05 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "5:20 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:40 PM",
+              "url": "https://livingroomtheaters.com"
+            }
           ]
         },
         "2026-02-23": {
@@ -1749,6 +2229,24 @@
             {
               "time": "6:30 PM",
               "url": "https://www.laurelhursttheater.com"
+            }
+          ],
+          "livingroom": [
+            {
+              "time": "11:50 AM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:05 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "5:20 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:40 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ]
         },
@@ -1762,6 +2260,24 @@
               "time": "6:30 PM",
               "url": "https://www.laurelhursttheater.com"
             }
+          ],
+          "livingroom": [
+            {
+              "time": "11:50 AM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:05 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "5:20 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:40 PM",
+              "url": "https://livingroomtheaters.com"
+            }
           ]
         },
         "2026-02-25": {
@@ -1774,6 +2290,24 @@
               "time": "6:30 PM",
               "url": "https://www.laurelhursttheater.com"
             }
+          ],
+          "livingroom": [
+            {
+              "time": "11:50 AM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:05 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "5:20 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:40 PM",
+              "url": "https://livingroomtheaters.com"
+            }
           ]
         },
         "2026-02-26": {
@@ -1785,6 +2319,16 @@
             {
               "time": "6:30 PM",
               "url": "https://www.laurelhursttheater.com"
+            }
+          ],
+          "livingroom": [
+            {
+              "time": "11:50 AM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:05 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ]
         }
@@ -1810,6 +2354,23 @@
             {
               "time": "4:10 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5Z94yQaO"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Sir\u0101t",
+      "description": "A man and his son arrive at a rave lost in the mountains of Morocco. They are looking for Marina, their daughter and sister, who disappeared months ago at another rave. Driven by fate, they decide to follow a group of ravers in search of one last party, in hopes Marina will be there.",
+      "poster": "posters/sirat.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1151272/",
+      "tmdb_id": 1151272,
+      "showtimes": {
+        "2026-02-26": {
+          "livingroom": [
+            {
+              "time": "7:00 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ]
         }
@@ -1882,17 +2443,17 @@
       }
     },
     {
-      "title": "The Best Man",
-      "description": "The Library of Congress lists this as a \u2018lost\u2019 film, however a copy exists in the UK. Gordon, disguised as Hayne, meets with the criminals and manages to purloin the stolen code but the real Hayne, who the police have failed to apprehend, gives chase.  Gordon escapes in a taxi that had been pre-booked to take Hayne to church to marry Celia.  Arriving at the church, and remembering his instructions \u2018Let Nothing Hinder You\u2019, Gordon allows himself to be married to Celia while planning how he will escape.",
-      "poster": "posters/the-best-man.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/671619/",
-      "tmdb_id": 671619,
+      "title": "The Bride!",
+      "description": "A lonely Frankenstein travels to 1930s Chicago to ask groundbreaking scientist Dr. Euphronious to create a companion for him. The two revive a murdered young woman and The Bride is born. But what ensues is beyond what either of them imagined.",
+      "poster": "posters/the-bride.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1159831/",
+      "tmdb_id": 1159831,
       "showtimes": {
-        "2026-02-19": {
-          "clinton": [
+        "2026-03-05": {
+          "cinema21": [
             {
               "time": "7:00 PM",
-              "url": "https://cstpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E0D12rXL"
             }
           ]
         }
@@ -1939,22 +2500,58 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1258509/",
       "tmdb_id": 1258509,
       "showtimes": {
-        "2026-02-19": {
+        "2026-02-20": {
           "livingroom": [
             {
-              "time": "12:00 PM",
+              "time": "4:00 PM",
               "url": "https://livingroomtheaters.com"
-            },
+            }
+          ]
+        },
+        "2026-02-21": {
+          "livingroom": [
             {
-              "time": "2:25 PM",
+              "time": "4:00 PM",
               "url": "https://livingroomtheaters.com"
-            },
+            }
+          ]
+        },
+        "2026-02-22": {
+          "livingroom": [
             {
-              "time": "4:50 PM",
+              "time": "4:00 PM",
               "url": "https://livingroomtheaters.com"
-            },
+            }
+          ]
+        },
+        "2026-02-23": {
+          "livingroom": [
             {
-              "time": "7:15 PM",
+              "time": "4:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-24": {
+          "livingroom": [
+            {
+              "time": "4:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-25": {
+          "livingroom": [
+            {
+              "time": "4:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-02-26": {
+          "livingroom": [
+            {
+              "time": "4:00 PM",
               "url": "https://livingroomtheaters.com"
             }
           ]
@@ -1963,16 +2560,149 @@
     },
     {
       "title": "The Mirror",
-      "description": "A love story filled with amusing complications, but the contest is won by Dick because he believes that all is fair in love and manages to circumvent the fates which often decree otherwise.  The fortune teller prescribed the mirror test for the girl saw to it that the test was in his favor.",
+      "description": "There is a long-held belief that mirrors act as gateways to another dimension. \u00b7Some also believe the looking glass plays host to a world filled with evil spirits. Such superstition has been the basis for ancient folklore legends about haunting and possession. And one tale about a supposedly haunted mirror was picked up by the media in 2012. Both the Daily Mail and Huffington Post reported on how the owners of a recently purchased antique mirror left them dogged by bad luck, financial misery, strange sightings and death-defying illness. Now writer/director Edward Boase brings that horrifying story to the screen starring Jemma Dallender (I SPIT ON YOUR GRAVE 2), Joshua Dickinson and Nate Fallows (\u2018Whitechapel\u2019) as flatmates who buy the same eerie antique on ebay and set up round the clock cameras in the hopes of capturing evidence of bumps in the night. You have been warned!",
       "poster": "posters/the-mirror.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/291522/",
-      "tmdb_id": 291522,
+      "letterboxd_url": "https://letterboxd.com/tmdb/279977/",
+      "tmdb_id": 279977,
       "showtimes": {
         "2026-03-01": {
           "cinemagic": [
             {
               "time": "4:30 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=Edzb29p0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "The Moment",
+      "description": "A rising pop sensation navigates fame and industry pressures while preparing for her arena tour debut, revealing the transformation of underground culture into mainstream success.",
+      "poster": "posters/the-moment.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1422562/",
+      "tmdb_id": 1422562,
+      "showtimes": {
+        "2026-02-20": {
+          "academy": [
+            {
+              "time": "12:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "3:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "9:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-21": {
+          "academy": [
+            {
+              "time": "12:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "3:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "9:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-22": {
+          "academy": [
+            {
+              "time": "12:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "4:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "7:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-23": {
+          "academy": [
+            {
+              "time": "12:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "4:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "7:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-24": {
+          "academy": [
+            {
+              "time": "12:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "4:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "7:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-25": {
+          "academy": [
+            {
+              "time": "12:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "4:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "7:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-02-26": {
+          "academy": [
+            {
+              "time": "12:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "3:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "9:30 PM",
+              "url": "https://www.academytheaterpdx.com"
             }
           ]
         }
@@ -2030,114 +2760,12 @@
       }
     },
     {
-      "title": "Wild & Scenic Film Festival",
-      "description": "",
-      "poster": "posters/wild-scenic-film-festival.jpg",
-      "letterboxd_url": "https://letterboxd.com/film/wild-scenic-film-festival/",
-      "tmdb_id": null,
-      "showtimes": {
-        "2026-02-19": {
-          "hollywood": [
-            {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3A4yzpLn"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "You Got Gold: A Celebration of John Prine",
-      "description": "This concert film was shot in October, 2022, over two nights at the Ryman Auditorium in Nashville, TN. More than 70 artists gathered with family, the Nashville community, and music fans to remember and pay tribute to the life and songs of John Prine.",
-      "poster": "posters/you-got-gold-a-celebration-of-john-prine.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1549892/",
-      "tmdb_id": 1549892,
-      "showtimes": {
-        "2026-02-19": {
-          "cinema21": [
-            {
-              "time": "4:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5DPeXVrR"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "\u201cWuthering Heights\u201d",
       "description": "Tragedy strikes when Heathcliff falls in love with Catherine Earnshaw, a woman from a wealthy family in 18th-century England.",
       "poster": "posters/wuthering-heights.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/1316092/",
       "tmdb_id": 1316092,
       "showtimes": {
-        "2026-02-19": {
-          "cinema21": [
-            {
-              "time": "4:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7qZKmnre"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5DPklXw8"
-            }
-          ],
-          "bagdad": [
-            {
-              "time": "12:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "3:15 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-02-20": {
           "cinema21": [
             {
@@ -2179,6 +2807,24 @@
             {
               "time": "9:10 PM",
               "url": "https://www.laurelhursttheater.com"
+            }
+          ],
+          "livingroom": [
+            {
+              "time": "12:45 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:35 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:30 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "9:30 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ],
           "academy": [
@@ -2251,6 +2897,24 @@
               "url": "https://www.laurelhursttheater.com"
             }
           ],
+          "livingroom": [
+            {
+              "time": "12:45 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:35 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:30 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "9:30 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ],
           "academy": [
             {
               "time": "12:30 PM",
@@ -2313,6 +2977,20 @@
               "url": "https://www.laurelhursttheater.com"
             }
           ],
+          "livingroom": [
+            {
+              "time": "12:45 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:35 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:30 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ],
           "academy": [
             {
               "time": "12:30 PM",
@@ -2361,6 +3039,20 @@
             {
               "time": "6:15 PM",
               "url": "https://www.laurelhursttheater.com"
+            }
+          ],
+          "livingroom": [
+            {
+              "time": "12:45 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:35 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:30 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ],
           "academy": [
@@ -2413,6 +3105,20 @@
               "url": "https://www.laurelhursttheater.com"
             }
           ],
+          "livingroom": [
+            {
+              "time": "12:45 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:35 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:30 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ],
           "academy": [
             {
               "time": "12:30 PM",
@@ -2463,6 +3169,20 @@
               "url": "https://www.laurelhursttheater.com"
             }
           ],
+          "livingroom": [
+            {
+              "time": "12:45 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:35 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:30 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ],
           "academy": [
             {
               "time": "12:30 PM",
@@ -2497,6 +3217,20 @@
             {
               "time": "6:15 PM",
               "url": "https://www.laurelhursttheater.com"
+            }
+          ],
+          "livingroom": [
+            {
+              "time": "12:45 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:35 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:30 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ],
           "academy": [
