@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-08T10:31:37.392787",
-  "start_date": "2026-03-08",
+  "generated_at": "2026-03-09T10:52:44.025629",
+  "start_date": "2026-03-09",
   "num_days": 14,
   "movies": [
     {
@@ -10,32 +10,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1316092/",
       "tmdb_id": 1316092,
       "showtimes": {
-        "2026-03-08": {
-          "laurelhurst": [
-            {
-              "time": "12:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "1:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:15 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-03-09": {
           "laurelhurst": [
             {
@@ -127,18 +101,6 @@
       "letterboxd_url": "https://letterboxd.com/film/2025-oscar-nominated-short-films-animation/",
       "tmdb_id": null,
       "showtimes": {
-        "2026-03-08": {
-          "hollywood": [
-            {
-              "time": "4:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=ElKmLBxj"
-            },
-            {
-              "time": "6:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5gJgMRyv"
-            }
-          ]
-        },
         "2026-03-09": {
           "hollywood": [
             {
@@ -228,14 +190,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1429618/",
       "tmdb_id": 1429618,
       "showtimes": {
-        "2026-03-08": {
-          "hollywood": [
-            {
-              "time": "2:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=56VJzR24"
-            }
-          ]
-        },
         "2026-03-14": {
           "hollywood": [
             {
@@ -261,20 +215,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1429614/",
       "tmdb_id": 1429614,
       "showtimes": {
-        "2026-03-08": {
-          "hollywood": [
-            {
-              "time": "8:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5Z90PNOy"
-            }
-          ],
-          "cinema21": [
-            {
-              "time": "1:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5Z904N9d"
-            }
-          ]
-        },
         "2026-03-09": {
           "hollywood": [
             {
@@ -354,18 +294,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1639779/",
       "tmdb_id": 1639779,
       "showtimes": {
-        "2026-03-08": {
-          "livingroom": [
-            {
-              "time": "11:45 AM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-03-09": {
           "livingroom": [
             {
@@ -423,14 +351,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1639780/",
       "tmdb_id": 1639780,
       "showtimes": {
-        "2026-03-08": {
-          "livingroom": [
-            {
-              "time": "3:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-03-09": {
           "livingroom": [
             {
@@ -472,14 +392,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1639781/",
       "tmdb_id": 1639781,
       "showtimes": {
-        "2026-03-08": {
-          "livingroom": [
-            {
-              "time": "1:45 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-03-09": {
           "livingroom": [
             {
@@ -544,6 +456,31 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EYXRjZ82"
             }
           ]
+        },
+        "2026-03-22": {
+          "cinema21": [
+            {
+              "time": "7:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5m0ADWRb"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Big Shark",
+      "description": "Three firefighters must save New Orleans from a gigantic shark.",
+      "poster": "posters/big-shark.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/580428/",
+      "tmdb_id": 580428,
+      "showtimes": {
+        "2026-03-22": {
+          "cinema21": [
+            {
+              "time": "4:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7NNL4JLD"
+            }
+          ]
         }
       }
     },
@@ -554,14 +491,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/701387/",
       "tmdb_id": 701387,
       "showtimes": {
-        "2026-03-08": {
-          "livingroom": [
-            {
-              "time": "9:50 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-03-09": {
           "livingroom": [
             {
@@ -587,14 +516,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/4327/",
       "tmdb_id": 4327,
       "showtimes": {
-        "2026-03-08": {
-          "academy": [
-            {
-              "time": "4:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-03-09": {
           "academy": [
             {
@@ -699,18 +620,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1445363/",
       "tmdb_id": 1445363,
       "showtimes": {
-        "2026-03-08": {
-          "livingroom": [
-            {
-              "time": "2:35 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-03-09": {
           "livingroom": [
             {
@@ -806,14 +715,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/39465/",
       "tmdb_id": 39465,
       "showtimes": {
-        "2026-03-08": {
-          "academy": [
-            {
-              "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-03-09": {
           "academy": [
             {
@@ -847,20 +748,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1119449/",
       "tmdb_id": 1119449,
       "showtimes": {
-        "2026-03-08": {
-          "hollywood": [
-            {
-              "time": "6:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=Edzg6R9q"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
         "2026-03-10": {
           "hollywood": [
             {
@@ -914,14 +801,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/858024/",
       "tmdb_id": 858024,
       "showtimes": {
-        "2026-03-08": {
-          "livingroom": [
-            {
-              "time": "9:40 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-03-10": {
           "livingroom": [
             {
@@ -955,14 +834,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/10692/",
       "tmdb_id": 10692,
       "showtimes": {
-        "2026-03-08": {
-          "cinemagic": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5Z94aPGv"
-            }
-          ]
-        },
         "2026-03-10": {
           "cinemagic": [
             {
@@ -1041,22 +912,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1327819/",
       "tmdb_id": 1327819,
       "showtimes": {
-        "2026-03-08": {
-          "bagdad": [
-            {
-              "time": "1:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "3:45 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            }
-          ]
-        },
         "2026-03-09": {
           "bagdad": [
             {
@@ -1226,14 +1081,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1160360/",
       "tmdb_id": 1160360,
       "showtimes": {
-        "2026-03-08": {
-          "academy": [
-            {
-              "time": "4:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-03-09": {
           "academy": [
             {
@@ -1277,37 +1124,12 @@
       }
     },
     {
-      "title": "King Creole (1958)",
-      "description": "",
-      "poster": "posters/king-creole-1958.jpg",
-      "letterboxd_url": "https://letterboxd.com/film/king-creole-1958/",
-      "tmdb_id": null,
-      "showtimes": {
-        "2026-03-08": {
-          "hollywood": [
-            {
-              "time": "3:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7yPN6JNG"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Little Shop of Horrors",
       "description": "Seymour Krelborn is a nerdy orphan working at Mushnik's; a flower shop in urban Skid Row. He harbors a crush on fellow co-worker, Audrey Fulquard, and is berated by Mr. Mushnik daily. One day, Seymour finds a very mysterious unidentified plant which he calls Audrey II. The plant seems to have a craving for blood and soon begins to sing for it\u2019s supper.",
       "poster": "posters/little-shop-of-horrors.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/10776/",
       "tmdb_id": 10776,
       "showtimes": {
-        "2026-03-08": {
-          "cinemagic": [
-            {
-              "time": "4:50 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EK8OMrRg"
-            }
-          ]
-        },
         "2026-03-09": {
           "cinemagic": [
             {
@@ -1424,22 +1246,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1393151/",
       "tmdb_id": 1393151,
       "showtimes": {
-        "2026-03-08": {
-          "livingroom": [
-            {
-              "time": "12:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "9:10 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-03-09": {
           "livingroom": [
             {
@@ -1534,14 +1340,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/10774/",
       "tmdb_id": 10774,
       "showtimes": {
-        "2026-03-08": {
-          "academy": [
-            {
-              "time": "7:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-03-10": {
           "academy": [
             {
@@ -1659,22 +1457,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/875828/",
       "tmdb_id": 875828,
       "showtimes": {
-        "2026-03-08": {
-          "laurelhurst": [
-            {
-              "time": "1:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "4:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
         "2026-03-09": {
           "laurelhurst": [
             {
@@ -1732,36 +1514,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1287141/",
       "tmdb_id": 1287141,
       "showtimes": {
-        "2026-03-08": {
-          "cinema21": [
-            {
-              "time": "1:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7VKZeVDK"
-            },
-            {
-              "time": "4:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EvOrNVmv"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5QxY8J4w"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "12:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "3:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
         "2026-03-09": {
           "cinema21": [
             {
@@ -2014,6 +1766,46 @@
               "url": "https://www.mcmenamins.com/bagdad-theater-pub"
             }
           ]
+        },
+        "2026-03-22": {
+          "hollywood": [
+            {
+              "time": "2:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5Qx4o4Ao"
+            },
+            {
+              "time": "6:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EvOmemPM"
+            }
+          ],
+          "cinema21": [
+            {
+              "time": "12:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E2W28G8q"
+            },
+            {
+              "time": "3:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E1x2BoBd"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EWR9KbKR"
+            }
+          ],
+          "bagdad": [
+            {
+              "time": "11:30 AM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "3:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            }
+          ]
         }
       }
     },
@@ -2041,26 +1833,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1198994/",
       "tmdb_id": 1198994,
       "showtimes": {
-        "2026-03-08": {
-          "livingroom": [
-            {
-              "time": "11:50 AM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-03-09": {
           "livingroom": [
             {
@@ -2146,24 +1918,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1124566/",
       "tmdb_id": 1124566,
       "showtimes": {
-        "2026-03-08": {
-          "livingroom": [
-            {
-              "time": "9:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-03-09": {
           "livingroom": [
             {
@@ -2264,22 +2018,6 @@
       "letterboxd_url": "https://letterboxd.com/film/sirat-vos-tf/",
       "tmdb_id": null,
       "showtimes": {
-        "2026-03-08": {
-          "livingroom": [
-            {
-              "time": "12:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:40 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-03-09": {
           "livingroom": [
             {
@@ -2502,68 +2240,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1159831/",
       "tmdb_id": 1159831,
       "showtimes": {
-        "2026-03-08": {
-          "cinema21": [
-            {
-              "time": "1:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7NN8YPpd"
-            },
-            {
-              "time": "3:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5gJ0jaMA"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EX04WwzQ"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "12:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:20 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:50 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "4:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-03-09": {
           "cinema21": [
             {
@@ -2817,6 +2493,23 @@
       }
     },
     {
+      "title": "The Kids Are Not Alright",
+      "description": "Despite decades of documented abuse and hundreds of deaths, thousands of teenagers across the United States are held in cultlike reform programs that generate multibillion-dollar profits with little to no government oversight. Told through the personal lens of three families' journeys through what's come to be known as the \"troubled teen industry,\" THE KIDS ARE NOT ALRIGHT is an intimate portrait of trauma and what it means to survive that asks if healing is possible in the absence of justice.",
+      "poster": "posters/the-kids-are-not-alright.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1463607/",
+      "tmdb_id": 1463607,
+      "showtimes": {
+        "2026-03-22": {
+          "hollywood": [
+            {
+              "time": "2:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=Erxgk4jo"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "The Last Unicorn",
       "description": "A unicorn learns from a riddle-speaking butterfly that she is supposedly the last of her kind, all the others having been herded away by the monstrous Red Bull. The unicorn sets out to discover the truth behind the butterfly's words. She is eventually joined on her quest by Schmendrick, a second-rate magician, and Molly Grue, a middle-aged woman who dreamed all her life of seeing a unicorn. Their journey leads them far from home, all the way to the castle of King Haggard.",
       "poster": "posters/the-last-unicorn.jpg",
@@ -2845,27 +2538,6 @@
             {
               "time": "7:30 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5m0rJLAN"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "The Lion King",
-      "description": "Young lion prince Simba, eager to one day become king of the Pride Lands, grows up under the watchful eye of his father Mufasa; all the while his villainous uncle Scar conspires to take the throne for himself. Amid betrayal and tragedy, Simba must confront his past and find his rightful place in the Circle of Life.",
-      "poster": "posters/the-lion-king.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/8587/",
-      "tmdb_id": 8587,
-      "showtimes": {
-        "2026-03-08": {
-          "cinemagic": [
-            {
-              "time": "12:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=ElK846eJ"
-            },
-            {
-              "time": "2:20 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5pLWDjqL"
             }
           ]
         }
@@ -2914,23 +2586,6 @@
       }
     },
     {
-      "title": "The Red Spectacles",
-      "description": "Summer 1995. With the arrival of the \"Age of Cats\", the former Kerberos police unit is now disbanded. However one member remains, a stray dog who returns to his old roost after a three-years exile. This wild dog no longer has a master, but now the \"Young Lady of Fate\" will guide him on his journey.",
-      "poster": "posters/the-red-spectacles.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/30198/",
-      "tmdb_id": 30198,
-      "showtimes": {
-        "2026-03-08": {
-          "hollywood": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EaNBLgB8"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "The Room",
       "description": "Kate and Matt discover that a part of their house can grant wishes. In the wake of two miscarriages, what they want most is a child.",
       "poster": "posters/the-room.jpg",
@@ -2962,14 +2617,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1220564/",
       "tmdb_id": 1220564,
       "showtimes": {
-        "2026-03-08": {
-          "livingroom": [
-            {
-              "time": "9:20 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-03-10": {
           "livingroom": [
             {
@@ -3045,14 +2692,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1239561/",
       "tmdb_id": 1239561,
       "showtimes": {
-        "2026-03-08": {
-          "livingroom": [
-            {
-              "time": "9:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-03-09": {
           "livingroom": [
             {
