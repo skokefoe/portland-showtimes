@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-26T10:58:02.217481",
-  "start_date": "2026-03-26",
+  "generated_at": "2026-03-27T10:54:22.390652",
+  "start_date": "2026-03-27",
   "num_days": 14,
   "movies": [
     {
@@ -54,6 +54,14 @@
           "academy": [
             {
               "time": "7:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-04-09": {
+          "academy": [
+            {
+              "time": "1:00 PM",
               "url": "https://www.academytheaterpdx.com"
             }
           ]
@@ -168,6 +176,18 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
+        },
+        "2026-04-09": {
+          "academy": [
+            {
+              "time": "4:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "9:15 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
         }
       }
     },
@@ -178,14 +198,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1284460/",
       "tmdb_id": 1284460,
       "showtimes": {
-        "2026-03-26": {
-          "cinema21": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7LKJo1Az"
-            }
-          ]
-        },
         "2026-03-27": {
           "cinema21": [
             {
@@ -289,23 +301,6 @@
       }
     },
     {
-      "title": "Andr\u00e9 Is an Idiot",
-      "description": "Andr\u00e9, a brilliant idiot, is dying because he didn\u2019t get a colonoscopy. His sobering diagnosis, complete irreverence, and insatiable curiosity, send him on an unexpected journey learning how to die happily and ridiculously without losing his sense of humor.",
-      "poster": "posters/andre-is-an-idiot.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1400731/",
-      "tmdb_id": 1400731,
-      "showtimes": {
-        "2026-03-26": {
-          "cinema21": [
-            {
-              "time": "4:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=58Oq1oAm"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Angel Marathon",
       "description": "",
       "poster": null,
@@ -368,23 +363,6 @@
             {
               "time": "7:30 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5Z90GWPy"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Buffy the Vampire Slayer",
-      "description": "Blonde, bouncy Buffy is your typical high school cheerleader. But all that changes when a strange man informs her she's been chosen by fate to kill vampires.",
-      "poster": "posters/buffy-the-vampire-slayer.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/10206/",
-      "tmdb_id": 10206,
-      "showtimes": {
-        "2026-03-26": {
-          "hollywood": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5DPJM08K"
             }
           ]
         }
@@ -485,18 +463,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1445363/",
       "tmdb_id": 1445363,
       "showtimes": {
-        "2026-03-26": {
-          "livingroom": [
-            {
-              "time": "11:50 AM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "5:10 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-03-27": {
           "livingroom": [
             {
@@ -614,23 +580,6 @@
       }
     },
     {
-      "title": "Exhibition on Screen: Turner & Constable",
-      "description": "",
-      "poster": "posters/exhibition-on-screen-turner-constable.jpg",
-      "letterboxd_url": "https://letterboxd.com/film/exhibition-on-screen-turner-constable/",
-      "tmdb_id": null,
-      "showtimes": {
-        "2026-03-26": {
-          "livingroom": [
-            {
-              "time": "6:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Fantasy Life",
       "description": "An anxious New York law school dropout stumbles into a job babysitting his psychiatrist's three granddaughters and falls for the girls' mother, an actress in a rocky marriage.",
       "poster": "posters/fantasy-life.jpg",
@@ -730,23 +679,6 @@
       }
     },
     {
-      "title": "Holding Liat",
-      "description": "Liat Atzili was kidnapped from her kibbutz on October 7. What begins as a chronicle of her parents, sister, and children's efforts to secure her return, becomes a portrait of conflicting impulses towards anger, indifference, and compassion straining the bonds of one grieving family.",
-      "poster": "posters/holding-liat.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1418569/",
-      "tmdb_id": 1418569,
-      "showtimes": {
-        "2026-03-26": {
-          "cinema21": [
-            {
-              "time": "4:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EMnb1pWo"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Ikiru",
       "description": "Kanji Watanabe is a middle-aged man who has worked in the same monotonous bureaucratic position for decades. Learning he has cancer, he starts to look for the meaning of his life.",
       "poster": "posters/ikiru.jpg",
@@ -758,6 +690,14 @@
             {
               "time": "4:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7oYRd8pX"
+            }
+          ]
+        },
+        "2026-04-09": {
+          "cinemagic": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EWRJM0Nr"
             }
           ]
         }
@@ -862,14 +802,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1356670/",
       "tmdb_id": 1356670,
       "showtimes": {
-        "2026-03-26": {
-          "livingroom": [
-            {
-              "time": "7:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-03-27": {
           "livingroom": [
             {
@@ -1038,6 +970,14 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
+        },
+        "2026-04-09": {
+          "academy": [
+            {
+              "time": "7:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
         }
       }
     },
@@ -1107,45 +1047,11 @@
       }
     },
     {
-      "title": "Mr. Nobody Against Putin",
-      "description": "As Russia launches its full-scale invasion of Ukraine, primary schools across Russia\u2019s hinterlands are transformed into recruitment stages for the war. Facing the ethical dilemma of working in a system defined by propaganda and violence, a brave teacher goes undercover to film what\u2019s really happening in his own school.",
-      "poster": "posters/mr-nobody-against-putin.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1393151/",
-      "tmdb_id": 1393151,
-      "showtimes": {
-        "2026-03-26": {
-          "livingroom": [
-            {
-              "time": "2:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "News from Home",
-      "description": "Impersonal and beautiful images of Akerman's life in New York are combined with letters from her loving but manipulative mother, read by Akerman herself.",
-      "poster": "posters/news-from-home.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/86814/",
-      "tmdb_id": 86814,
-      "showtimes": {
-        "2026-03-26": {
-          "academy": [
-            {
-              "time": "7:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Night of the Living Dead: Re-Animation",
-      "description": "After inheriting the family mortuary, a pyrophobic mortician accidentally exposes hundreds of un-cremated bodies to toxic medical waste. As the corpses re-animate, the mortician's inheritance-seeking younger brother unexpectantly shows up, stumbling upon a full zombie outbreak!",
+      "title": "Night of the Living Dead",
+      "description": "A ragtag group barricade themselves in an old Pennsylvania farmhouse to remain safe from a horde of flesh-eating ghouls ravaging the Northeast.",
       "poster": "posters/night-of-the-living-dead.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/95667/",
-      "tmdb_id": 95667,
+      "letterboxd_url": "https://letterboxd.com/tmdb/10331/",
+      "tmdb_id": 10331,
       "showtimes": {
         "2026-03-27": {
           "hollywood": [
@@ -1279,37 +1185,12 @@
       }
     },
     {
-      "title": "Peaky Blinders: The Immortal Man",
-      "description": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family \u2014 and his nation.",
-      "poster": "posters/peaky-blinders-the-immortal-man.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/875828/",
-      "tmdb_id": 875828,
-      "showtimes": {
-        "2026-03-26": {
-          "laurelhurst": [
-            {
-              "time": "3:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Pillion",
       "description": "Colin, a timid gay man, is swept off his feet when Ray, an enigmatic and impossibly handsome biker, takes him on as his submissive in a crazy and erotic BDSM-focused relationship.",
       "poster": "posters/pillion.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/1287141/",
       "tmdb_id": 1287141,
       "showtimes": {
-        "2026-03-26": {
-          "cinema21": [
-            {
-              "time": "7:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EvOr91KK"
-            }
-          ]
-        },
         "2026-03-27": {
           "cinema21": [
             {
@@ -1375,88 +1256,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/687163/",
       "tmdb_id": 687163,
       "showtimes": {
-        "2026-03-26": {
-          "hollywood": [
-            {
-              "time": "6:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=ExN2n2xD"
-            }
-          ],
-          "cinema21": [
-            {
-              "time": "3:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EkyBx1xD"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7yPNwOwg"
-            }
-          ],
-          "bagdad": [
-            {
-              "time": "11:30 AM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "3:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:20 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "5:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-03-27": {
           "hollywood": [
             {
@@ -2065,11 +1864,11 @@
           "hollywood": [
             {
               "time": "2:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7qZWe1jG"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EX0per24"
             },
             {
-              "time": "9:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=59eldmnZ"
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7NNKOaz2"
             }
           ],
           "academy": [
@@ -2152,6 +1951,32 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
+        },
+        "2026-04-09": {
+          "hollywood": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5wvAM0pn"
+            }
+          ],
+          "academy": [
+            {
+              "time": "12:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "3:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "6:15 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "9:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
         }
       }
     },
@@ -2162,18 +1987,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1266127/",
       "tmdb_id": 1266127,
       "showtimes": {
-        "2026-03-26": {
-          "laurelhurst": [
-            {
-              "time": "3:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
         "2026-03-27": {
           "laurelhurst": [
             {
@@ -2261,45 +2074,12 @@
       }
     },
     {
-      "title": "Reminders of Him",
-      "description": "When Diem's custodial grandparents adamantly refuse Kenna's attempts to see her daughter, Kenna discovers unexpected compassion, and then something truer and deeper, with former NFL player and local bar owner Ledger. As their secret romance develops, so do the dangers for both of them, leading Kenna toward heartbreak and, ultimately, the hope for a second chance.",
-      "poster": "posters/reminders-of-him.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1367642/",
-      "tmdb_id": 1367642,
-      "showtimes": {
-        "2026-03-26": {
-          "livingroom": [
-            {
-              "time": "11:45 AM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:35 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Send Help",
       "description": "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to make it out alive.",
       "poster": "posters/send-help.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/1198994/",
       "tmdb_id": 1198994,
       "showtimes": {
-        "2026-03-26": {
-          "livingroom": [
-            {
-              "time": "5:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-03-27": {
           "livingroom": [
             {
@@ -2344,23 +2124,6 @@
           "livingroom": [
             {
               "time": "4:35 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Sentimental Value",
-      "description": "Sisters Nora and Agnes reunite with their estranged father, the charismatic Gustav, a once-renowned director who offers stage actress Nora a role in what he hopes will be his comeback film. When Nora turns it down, she soon discovers he has given her part to an eager young Hollywood star.",
-      "poster": "posters/sentimental-value.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1124566/",
-      "tmdb_id": 1124566,
-      "showtimes": {
-        "2026-03-26": {
-          "livingroom": [
-            {
-              "time": "12:00 PM",
               "url": "https://livingroomtheaters.com"
             }
           ]
@@ -2646,22 +2409,6 @@
             }
           ]
         },
-        "2026-03-26": {
-          "livingroom": [
-            {
-              "time": "12:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:35 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-03-31": {
           "livingroom": [
             {
@@ -2708,27 +2455,6 @@
             {
               "time": "9:15 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5pL0Q2Jk"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Strait-Jacket",
-      "description": "After a twenty-year stay at an asylum for a double murder, a mother returns to her estranged daughter where suspicions arise about her behavior.",
-      "poster": "posters/strait-jacket.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/29396/",
-      "tmdb_id": 29396,
-      "showtimes": {
-        "2026-03-26": {
-          "academy": [
-            {
-              "time": "4:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:30 PM",
-              "url": "https://www.academytheaterpdx.com"
             }
           ]
         }
@@ -2847,14 +2573,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1596335/",
       "tmdb_id": 1596335,
       "showtimes": {
-        "2026-03-26": {
-          "livingroom": [
-            {
-              "time": "7:15 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-03-27": {
           "livingroom": [
             {
@@ -3040,23 +2758,6 @@
       }
     },
     {
-      "title": "The Bride!",
-      "description": "A lonely Frankenstein travels to 1930s Chicago to ask groundbreaking scientist Dr. Euphronious to create a companion for him. The two revive a murdered young woman and The Bride is born. But what ensues is beyond what either of them imagined.",
-      "poster": "posters/the-bride.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1159831/",
-      "tmdb_id": 1159831,
-      "showtimes": {
-        "2026-03-26": {
-          "laurelhurst": [
-            {
-              "time": "6:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "The Cameraman",
       "description": "A photographer takes up newsreel shooting to impress a secretary.",
       "poster": "posters/the-cameraman.jpg",
@@ -3184,7 +2885,7 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7NN2DeN2"
             },
             {
-              "time": "8:30 PM",
+              "time": "9:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7yP2DJPl"
             }
           ],
@@ -3261,6 +2962,28 @@
             }
           ]
         },
+        "2026-04-09": {
+          "hollywood": [
+            {
+              "time": "6:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7LKJ4qKw"
+            },
+            {
+              "time": "9:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3BZJkgZp"
+            }
+          ],
+          "cinema21": [
+            {
+              "time": "4:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7VKZk98P"
+            },
+            {
+              "time": "6:50 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5QxYA9jK"
+            }
+          ]
+        },
         "2026-04-02": {
           "cinema21": [
             {
@@ -3310,6 +3033,23 @@
             {
               "time": "11:00 PM",
               "url": "https://cstpdx.com"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "The Stranger",
+      "description": "In 1930s Algeria, the daily life of an indifferent Frenchman is shaken by the death of his mother and a fateful encounter on a beach.",
+      "poster": "posters/l\u00e9tranger.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1429348/",
+      "tmdb_id": 1429348,
+      "showtimes": {
+        "2026-04-09": {
+          "livingroom": [
+            {
+              "time": "7:15 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ]
         }
@@ -3683,6 +3423,40 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
+        },
+        "2026-04-09": {
+          "bagdad": [
+            {
+              "time": "12:45 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "3:45 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            }
+          ],
+          "academy": [
+            {
+              "time": "12:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "3:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "9:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
         }
       }
     },
@@ -3784,17 +3558,17 @@
       }
     },
     {
-      "title": "Titanic",
-      "description": "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic, 84 years later. A young Rose boards the ship with her mother and fianc\u00e9. Meanwhile, Jack Dawson and Fabrizio De Rossi win third-class tickets aboard the ship. Rose tells the whole story from Titanic's departure through to its death\u2014on its first and last voyage\u2014on April 15, 1912.",
-      "poster": "posters/titanic.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/597/",
-      "tmdb_id": 597,
+      "title": "To the West, in Zapata",
+      "description": "Landi and Mercedes live in Cuba\u2019s Zapata swamp, a biosphere reserve. To feed their sick child, Landi must secretly hunt crocodiles, leaving his wife and son behind for days on end.",
+      "poster": "posters/to-the-west-in-zapata.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1107440/",
+      "tmdb_id": 1107440,
       "showtimes": {
-        "2026-03-26": {
-          "academy": [
+        "2026-04-09": {
+          "hollywood": [
             {
-              "time": "12:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "time": "7:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5RMrXzpk"
             }
           ]
         }
@@ -3807,22 +3581,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1244517/",
       "tmdb_id": 1244517,
       "showtimes": {
-        "2026-03-26": {
-          "livingroom": [
-            {
-              "time": "11:45 AM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-03-27": {
           "livingroom": [
             {
@@ -4068,42 +3826,29 @@
       }
     },
     {
+      "title": "You, Me & Tuscany",
+      "description": "A free-spirited American chef and reserved British lawyer embark on a whirlwind romance during a destination wedding in coastal Italy.",
+      "poster": "posters/you-me-tuscany.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1455079/",
+      "tmdb_id": 1455079,
+      "showtimes": {
+        "2026-04-09": {
+          "livingroom": [
+            {
+              "time": "7:30 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "undertone",
       "description": "The host of a popular paranormal podcast becomes haunted by terrifying recordings mysteriously sent her way.",
       "poster": "posters/undertone.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/1480387/",
       "tmdb_id": 1480387,
       "showtimes": {
-        "2026-03-26": {
-          "laurelhurst": [
-            {
-              "time": "4:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "4:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "10:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-03-27": {
           "laurelhurst": [
             {
