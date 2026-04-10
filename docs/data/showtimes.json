@@ -1,25 +1,8 @@
 {
-  "generated_at": "2026-04-09T11:04:06.552202",
-  "start_date": "2026-04-09",
+  "generated_at": "2026-04-10T11:01:29.533414",
+  "start_date": "2026-04-10",
   "num_days": 14,
   "movies": [
-    {
-      "title": "2001: A Space Odyssey",
-      "description": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
-      "poster": "posters/2001-a-space-odyssey.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/62/",
-      "tmdb_id": 62,
-      "showtimes": {
-        "2026-04-09": {
-          "academy": [
-            {
-              "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        }
-      }
-    },
     {
       "title": "A Hard Day's Night",
       "description": "Capturing John Lennon, Paul McCartney, George Harrison and Ringo Starr in their electrifying element, 'A Hard Day's Night' is a wildly irreverent journey through this pastiche of a day in the life of The Beatles during 1964. The band have to use all their guile and wit to avoid the pursuing fans and press to reach their scheduled television performance, in spite of Paul's troublemaking grandfather and Ringo's arrest.",
@@ -32,27 +15,6 @@
             {
               "time": "11:00 AM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3BZnQlY0"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "After Hours",
-      "description": "Desperate to escape his mind-numbing routine, uptown Manhattan office worker Paul Hackett ventures downtown for a hookup with a mystery woman.",
-      "poster": "posters/after-hours.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/10843/",
-      "tmdb_id": 10843,
-      "showtimes": {
-        "2026-04-09": {
-          "academy": [
-            {
-              "time": "4:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:15 PM",
-              "url": "https://www.academytheaterpdx.com"
             }
           ]
         }
@@ -82,18 +44,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/975733/",
       "tmdb_id": 975733,
       "showtimes": {
-        "2026-04-09": {
-          "livingroom": [
-            {
-              "time": "11:45 AM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:25 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-04-10": {
           "livingroom": [
             {
@@ -354,10 +304,10 @@
     },
     {
       "title": "Darling",
-      "description": "Darling is a woman of today. It seems to always choose the wrong path. Suffers but does not look like a victim. Do not feel sorry for herself. On the contrary, shows a passion for life against all odds. She is struggling to exist. If you fall, get up. Because Darling is naive and fearless, brave and instinctive. Has the life force of a tragic heroine.",
+      "description": "Diana, a beautiful but shallow and easily distracted model and failed actress, toys with the affections of several men while attempting to gain fame and fortune in Swinging London.",
       "poster": "posters/darling.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/59346/",
-      "tmdb_id": 59346,
+      "letterboxd_url": "https://letterboxd.com/tmdb/24134/",
+      "tmdb_id": 24134,
       "showtimes": {
         "2026-04-18": {
           "cinema21": [
@@ -404,6 +354,14 @@
           "academy": [
             {
               "time": "1:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-04-23": {
+          "academy": [
+            {
+              "time": "4:00 PM",
               "url": "https://www.academytheaterpdx.com"
             }
           ]
@@ -507,6 +465,14 @@
           "academy": [
             {
               "time": "1:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-04-23": {
+          "academy": [
+            {
+              "time": "7:00 PM",
               "url": "https://www.academytheaterpdx.com"
             }
           ]
@@ -690,22 +656,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1421977/",
       "tmdb_id": 1421977,
       "showtimes": {
-        "2026-04-09": {
-          "livingroom": [
-            {
-              "time": "12:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "5:25 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-04-10": {
           "livingroom": [
             {
@@ -1005,21 +955,29 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
+        },
+        "2026-04-23": {
+          "academy": [
+            {
+              "time": "1:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
         }
       }
     },
     {
-      "title": "Ikiru",
-      "description": "Kanji Watanabe is a middle-aged man who has worked in the same monotonous bureaucratic position for decades. Learning he has cancer, he starts to look for the meaning of his life.",
-      "poster": "posters/ikiru.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/3782/",
-      "tmdb_id": 3782,
+      "title": "I Swear",
+      "description": "Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in life.",
+      "poster": "posters/i-swear.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1317149/",
+      "tmdb_id": 1317149,
       "showtimes": {
-        "2026-04-09": {
-          "cinemagic": [
+        "2026-04-23": {
+          "livingroom": [
             {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EWRJM0Nr"
+              "time": "7:15 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ]
         }
@@ -1043,34 +1001,17 @@
       }
     },
     {
-      "title": "Late Shift",
-      "description": "Dedicated nurse Floria navigates the relentless pace of her hospital\u2019s understaffed surgical ward with humanity and warmth. As her overnight shift intensifies, she is pushed to the brink in a race against time.",
-      "poster": "posters/heldin.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1356670/",
-      "tmdb_id": 1356670,
+      "title": "Kontinental '25",
+      "description": "Orsolya is a bailiff in Cluj, the main city in Transylvania. One day she has to evict a homeless man from a cellar, an action with tragic consequences that triggers a moral crisis which Orsolya must weather as best she can.",
+      "poster": "posters/kontinental-25.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1410189/",
+      "tmdb_id": 1410189,
       "showtimes": {
-        "2026-04-09": {
+        "2026-04-23": {
           "livingroom": [
             {
-              "time": "2:10 PM",
+              "time": "7:30 PM",
               "url": "https://livingroomtheaters.com"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Legend",
-      "description": "Set in a timeless mythical forest inhabited by fairies, goblins, unicorns and mortals, this fantastic story follows a mystical forest dweller, chosen by fate, to undertake a heroic quest. He must save the beautiful Princess  Lili and defeat the demonic Lord of Darkness, or the world will be plunged into a never-ending ice age.",
-      "poster": "posters/legend-directors-cut.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/11976/",
-      "tmdb_id": 11976,
-      "showtimes": {
-        "2026-04-09": {
-          "academy": [
-            {
-              "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
             }
           ]
         }
@@ -1126,6 +1067,54 @@
       }
     },
     {
+      "title": "Michael",
+      "description": "Discover the story of Michael Jackson, one of the most influential artists the world has ever known, and his life beyond the music, tracing his journey from the discovery of his extraordinary talent as the lead of the Jackson Five, to the visionary artist whose creative ambition fueled a relentless pursuit to become the biggest entertainer in the world, highlighting both his life off-stage and some of the most iconic performances from his early solo career.",
+      "poster": "posters/michael.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/936075/",
+      "tmdb_id": 936075,
+      "showtimes": {
+        "2026-04-23": {
+          "bagdad": [
+            {
+              "time": "12:15 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "3:15 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            }
+          ],
+          "livingroom": [
+            {
+              "time": "7:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Mother Mary",
+      "description": "Long-buried wounds rise to the surface when iconic pop star Mother Mary reunites with her estranged best friend and former costume designer Sam Anselm on the eve of her comeback performance.",
+      "poster": "posters/mother-mary.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1102883/",
+      "tmdb_id": 1102883,
+      "showtimes": {
+        "2026-04-23": {
+          "cinema21": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=ErxKankM"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "Normal",
       "description": "Interim sheriff Ulysses, called to the snowbound town of Normal, MN, uncovers an international criminal conspiracy at the heart of the seemingly quaint whistle-stop when he comes to the aid of a bank-robbing couple caught up in a deadly mess.",
       "poster": "posters/normal.jpg",
@@ -1161,10 +1150,6 @@
             {
               "time": "6:30 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=Ekyrk1XL"
-            },
-            {
-              "time": "8:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EX0pra1v"
             }
           ]
         },
@@ -1201,6 +1186,52 @@
             {
               "time": "8:45 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5jq8016o"
+            }
+          ]
+        },
+        "2026-04-23": {
+          "hollywood": [
+            {
+              "time": "6:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=58OJYmAq"
+            },
+            {
+              "time": "8:45 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5QxJRlWg"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Offside",
+      "description": "Eleven-year-old Kirsty struggles to accept her looming womanhood as she learns that she will soon lose her position on the local boy's football team.",
+      "poster": "posters/offside.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/362410/",
+      "tmdb_id": 362410,
+      "showtimes": {
+        "2026-04-23": {
+          "hollywood": [
+            {
+              "time": "4:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E2W26G0q"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Outside the Frame",
+      "description": "Two filmmakers record a traffic light in Jakarta for a college assignment, capturing their thoughts and commentary on passing vehicles, image that they\u2019re recording, and ultimately how they felt at that time.",
+      "poster": "posters/outside-the-frame.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1124972/",
+      "tmdb_id": 1124972,
+      "showtimes": {
+        "2026-04-23": {
+          "hollywood": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=56Vg4PNw"
             }
           ]
         }
@@ -1247,21 +1278,21 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/687163/",
       "tmdb_id": 687163,
       "showtimes": {
-        "2026-04-09": {
+        "2026-04-10": {
           "hollywood": [
             {
               "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5wvAM0pn"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5jq8mQkd"
             }
           ],
           "cinema21": [
             {
               "time": "3:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=59elwbKy"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=59eljqNW"
             },
             {
-              "time": "6:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=ExNjYMX2"
+              "time": "7:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=Eed0xObW"
             }
           ],
           "laurelhurst": [
@@ -1272,23 +1303,35 @@
             {
               "time": "6:30 PM",
               "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "9:00 PM",
+              "url": "https://www.laurelhursttheater.com"
             }
           ],
           "livingroom": [
             {
-              "time": "11:50 AM",
+              "time": "12:10 PM",
               "url": "https://livingroomtheaters.com"
             },
             {
-              "time": "2:00 PM",
+              "time": "2:10 PM",
               "url": "https://livingroomtheaters.com"
             },
             {
-              "time": "3:10 PM",
+              "time": "3:30 PM",
               "url": "https://livingroomtheaters.com"
             },
             {
-              "time": "6:30 PM",
+              "time": "6:45 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "8:25 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "9:15 PM",
               "url": "https://livingroomtheaters.com"
             }
           ],
@@ -1302,11 +1345,11 @@
               "url": "https://www.academytheaterpdx.com"
             },
             {
-              "time": "6:15 PM",
+              "time": "6:00 PM",
               "url": "https://www.academytheaterpdx.com"
             },
             {
-              "time": "9:00 PM",
+              "time": "9:15 PM",
               "url": "https://www.academytheaterpdx.com"
             }
           ]
@@ -1314,8 +1357,8 @@
         "2026-04-11": {
           "hollywood": [
             {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3A4JyAlm"
+              "time": "2:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5QxJ8LDv"
             }
           ],
           "cinema21": [
@@ -1399,13 +1442,31 @@
             }
           ]
         },
-        "2026-04-12": {
+        "2026-04-17": {
           "hollywood": [
             {
-              "time": "6:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7qZWKdAz"
+              "time": "3:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7NNKlOWg"
             }
-          ],
+          ]
+        },
+        "2026-04-18": {
+          "hollywood": [
+            {
+              "time": "3:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7yPlkWbn"
+            }
+          ]
+        },
+        "2026-04-19": {
+          "hollywood": [
+            {
+              "time": "3:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5RMVxrdq"
+            }
+          ]
+        },
+        "2026-04-12": {
           "cinema21": [
             {
               "time": "12:00 PM",
@@ -1472,12 +1533,6 @@
           ]
         },
         "2026-04-13": {
-          "hollywood": [
-            {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=Eed0X6jl"
-            }
-          ],
           "cinema21": [
             {
               "time": "3:30 PM",
@@ -1536,12 +1591,6 @@
           ]
         },
         "2026-04-14": {
-          "hollywood": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=59el94XD"
-            }
-          ],
           "cinema21": [
             {
               "time": "3:30 PM",
@@ -1600,12 +1649,6 @@
           ]
         },
         "2026-04-15": {
-          "hollywood": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7nmNApxz"
-            }
-          ],
           "cinema21": [
             {
               "time": "3:30 PM",
@@ -1650,12 +1693,6 @@
           ]
         },
         "2026-04-16": {
-          "hollywood": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5wvAdWLx"
-            }
-          ],
           "cinema21": [
             {
               "time": "3:45 PM",
@@ -1691,100 +1728,6 @@
             },
             {
               "time": "6:45 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "6:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
-        "2026-04-17": {
-          "hollywood": [
-            {
-              "time": "3:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7NNKlOWg"
-            }
-          ]
-        },
-        "2026-04-18": {
-          "hollywood": [
-            {
-              "time": "3:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7yPlkWbn"
-            }
-          ]
-        },
-        "2026-04-19": {
-          "hollywood": [
-            {
-              "time": "3:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5RMVxrdq"
-            }
-          ]
-        },
-        "2026-04-10": {
-          "cinema21": [
-            {
-              "time": "3:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=59eljqNW"
-            },
-            {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=Eed0xObW"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "9:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "8:25 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "9:15 PM",
               "url": "https://livingroomtheaters.com"
             }
           ],
@@ -1879,17 +1822,33 @@
       }
     },
     {
-      "title": "Ready or Not: Here I Come",
-      "description": "Moments after surviving an all-out attack from the Le Domas family, Grace discovers she\u2019s reached the next level of the nightmarish game \u2014 and this time with her estranged sister Faith at her side. Grace has one chance to survive, keep her sister alive, and claim the High Seat of the Council that controls the world. Four rival families are hunting her for the throne, and whoever wins rules it all.",
-      "poster": "posters/ready-or-not-2-here-i-come.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1266127/",
-      "tmdb_id": 1266127,
+      "title": "Reservoir Dogs",
+      "description": "A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors -- veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie -- unravel.",
+      "poster": "posters/reservoir-dogs.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/500/",
+      "tmdb_id": 500,
       "showtimes": {
-        "2026-04-09": {
-          "laurelhurst": [
+        "2026-04-18": {
+          "cinemagic": [
             {
-              "time": "4:00 PM",
-              "url": "https://www.laurelhursttheater.com"
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EkyrNOJy"
+            }
+          ]
+        },
+        "2026-04-20": {
+          "cinemagic": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EX0pG6V4"
+            }
+          ]
+        },
+        "2026-04-23": {
+          "cinemagic": [
+            {
+              "time": "4:45 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EMnqA4X2"
             }
           ]
         }
@@ -1924,33 +1883,6 @@
             {
               "time": "7:00 PM",
               "url": "https://cstpdx.com"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Sir\u0101t",
-      "description": "A man and his son arrive at a rave lost in the mountains of Morocco. They are looking for Marina, their daughter and sister, who disappeared months ago at another rave. Driven by fate, they decide to follow a group of ravers in search of one last party, in hopes Marina will be there.",
-      "poster": "posters/sirat.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1151272/",
-      "tmdb_id": 1151272,
-      "showtimes": {
-        "2026-04-09": {
-          "cinema21": [
-            {
-              "time": "3:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=Eed0z9q8"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "1:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:15 PM",
-              "url": "https://livingroomtheaters.com"
             }
           ]
         }
@@ -2000,6 +1932,14 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
+        },
+        "2026-04-23": {
+          "academy": [
+            {
+              "time": "9:35 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
         }
       }
     },
@@ -2036,27 +1976,6 @@
             {
               "time": "9:30 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=56VDgVR4"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "The AI Doc: Or How I Became an Apocaloptimist",
-      "description": "A father-to-be tries to figure out what is happening with all this AI insanity, and explores the most powerful technology humanity has ever created... and what's at stake if we get it wrong.",
-      "poster": "posters/the-ai-doc-or-how-i-became-an-apocaloptimist.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1596335/",
-      "tmdb_id": 1596335,
-      "showtimes": {
-        "2026-04-09": {
-          "livingroom": [
-            {
-              "time": "12:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:45 PM",
-              "url": "https://livingroomtheaters.com"
             }
           ]
         }
@@ -2230,6 +2149,18 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=54dKR2lR"
             }
           ]
+        },
+        "2026-04-23": {
+          "cinema21": [
+            {
+              "time": "4:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EJ8DOBpn"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EbdKYJbx"
+            }
+          ]
         }
       }
     },
@@ -2240,38 +2171,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1325734/",
       "tmdb_id": 1325734,
       "showtimes": {
-        "2026-04-09": {
-          "hollywood": [
-            {
-              "time": "6:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7LKJ4qKw"
-            },
-            {
-              "time": "9:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3BZJkgZp"
-            }
-          ],
-          "cinema21": [
-            {
-              "time": "4:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7VKZk98P"
-            },
-            {
-              "time": "6:50 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5QxYA9jK"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
         "2026-04-10": {
           "hollywood": [
             {
@@ -2545,7 +2444,7 @@
         "2026-04-19": {
           "hollywood": [
             {
-              "time": "7:00 PM",
+              "time": "8:45 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3GMD2MVB"
             }
           ]
@@ -2571,6 +2470,14 @@
             {
               "time": "7:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E2WNgW9N"
+            }
+          ]
+        },
+        "2026-04-23": {
+          "hollywood": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E1xXNx9k"
             }
           ]
         }
@@ -2611,6 +2518,47 @@
       }
     },
     {
+      "title": "The Royal Tenenbaums",
+      "description": "Royal Tenenbaum and his wife Etheline had three children and then they separated. All three children are extraordinary --- all geniuses. Virtually all memory of the brilliance of the young Tenenbaums was subsequently erased by two decades of betrayal, failure, and disaster. Most of this was generally considered to be their father's fault. \"The Royal Tenenbaums\" is the story of the family's sudden, unexpected reunion one recent winter.",
+      "poster": "posters/the-royal-tenenbaums.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/9428/",
+      "tmdb_id": 9428,
+      "showtimes": {
+        "2026-04-17": {
+          "cinemagic": [
+            {
+              "time": "9:10 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5QxJKDGv"
+            }
+          ]
+        },
+        "2026-04-19": {
+          "cinemagic": [
+            {
+              "time": "4:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5ONPAydQ"
+            }
+          ]
+        },
+        "2026-04-20": {
+          "cinemagic": [
+            {
+              "time": "4:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EvOVx6kp"
+            }
+          ]
+        },
+        "2026-04-23": {
+          "cinemagic": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=56VDl2e8"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "The Seventh Curse",
       "description": "When Dr. Yuen attempts to rescue a girl about to be sacrificed by the Worm Tribe in the middle of a jungle in Thailand, he is damned with seven deadly \"blood curses\"  and must return there to find a permanent cure.",
       "poster": "posters/the-seventh-curse.jpg",
@@ -2634,14 +2582,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1429348/",
       "tmdb_id": 1429348,
       "showtimes": {
-        "2026-04-09": {
-          "livingroom": [
-            {
-              "time": "7:15 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-04-10": {
           "livingroom": [
             {
@@ -2767,68 +2707,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1226863/",
       "tmdb_id": 1226863,
       "showtimes": {
-        "2026-04-09": {
-          "bagdad": [
-            {
-              "time": "12:45 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "3:45 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:20 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:40 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "3:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-04-10": {
           "bagdad": [
             {
@@ -3259,23 +3137,6 @@
       }
     },
     {
-      "title": "The Twilight Saga: Eclipse",
-      "description": "Bella once again finds herself surrounded by danger as Seattle is ravaged by a string of mysterious killings and a malicious vampire continues her quest for revenge. In the midst of it all, she is forced to choose between her love for Edward and her friendship with Jacob, knowing that her decision has the potential to ignite the ageless struggle between vampire and werewolf. With her graduation quickly approaching, Bella is confronted with the most important decision of her life.",
-      "poster": "posters/the-twilight-saga-eclipse.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/24021/",
-      "tmdb_id": 24021,
-      "showtimes": {
-        "2026-04-09": {
-          "clinton": [
-            {
-              "time": "7:00 PM",
-              "url": "https://cstpdx.com"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "The Wild Robot",
       "description": "After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.",
       "poster": "posters/the-wild-robot.jpg",
@@ -3301,23 +3162,6 @@
       }
     },
     {
-      "title": "They Will Kill You",
-      "description": "A woman answers a help wanted ad to be a housekeeper in a mysterious New York City high-rise, unaware that she is entering a community that has seen a number of disappearances over the years and may be under the grip of a Satanic cult.",
-      "poster": "posters/they-will-kill-you.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1292695/",
-      "tmdb_id": 1292695,
-      "showtimes": {
-        "2026-04-09": {
-          "laurelhurst": [
-            {
-              "time": "6:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Titanic",
       "description": "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic, 84 years later. A young Rose boards the ship with her mother and fianc\u00e9. Meanwhile, Jack Dawson and Fabrizio De Rossi win third-class tickets aboard the ship. Rose tells the whole story from Titanic's departure through to its death\u2014on its first and last voyage\u2014on April 15, 1912.",
       "poster": "posters/titanic.jpg",
@@ -3335,34 +3179,33 @@
       }
     },
     {
-      "title": "To the West, in Zapata",
-      "description": "Landi and Mercedes live in Cuba\u2019s Zapata swamp, a biosphere reserve. To feed their sick child, Landi must secretly hunt crocodiles, leaving his wife and son behind for days on end.",
-      "poster": "posters/to-the-west-in-zapata.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1107440/",
-      "tmdb_id": 1107440,
+      "title": "Wayne's World",
+      "description": "The adventures of two amiably aimless metal-head friends, Wayne and Garth. From Wayne's basement, the pair broadcast a talk-show called \"Wayne's World\" on local public access television. The show comes to the attention of a sleazy network executive who wants to produce a big-budget version of \"Wayne's World\"\u2014and he also wants Wayne's girlfriend, a rock singer named Cassandra. Wayne and Garth have to battle the executive not only to save their show, but also Cassandra.",
+      "poster": "posters/waynes-world.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/8872/",
+      "tmdb_id": 8872,
       "showtimes": {
-        "2026-04-09": {
-          "hollywood": [
+        "2026-04-17": {
+          "cinemagic": [
             {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5RMrXzpk"
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7VKVq1jN"
             }
           ]
-        }
-      }
-    },
-    {
-      "title": "Tow",
-      "description": "Amanda Ogle is a woman living in her aging Toyota Camry on the streets of Seattle. When her car \u2014 her only lifeline \u2014 is stolen and impounded, Amanda is thrust into a relentless legal battle against an indifferent system. What begins as a fight to reclaim her car evolves into a deeply human story of resilience, dignity, and the power of one woman\u2019s voice in the face of systemic failure.",
-      "poster": "posters/tow.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1244517/",
-      "tmdb_id": 1244517,
-      "showtimes": {
-        "2026-04-09": {
-          "livingroom": [
+        },
+        "2026-04-21": {
+          "cinemagic": [
             {
-              "time": "5:00 PM",
-              "url": "https://livingroomtheaters.com"
+              "time": "4:50 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5jq8XkWd"
+            }
+          ]
+        },
+        "2026-04-22": {
+          "cinemagic": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7NNKAXj2"
             }
           ]
         }
@@ -3375,14 +3218,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1455079/",
       "tmdb_id": 1455079,
       "showtimes": {
-        "2026-04-09": {
-          "livingroom": [
-            {
-              "time": "7:40 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-04-10": {
           "livingroom": [
             {
