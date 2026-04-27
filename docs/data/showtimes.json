@@ -1,8 +1,25 @@
 {
-  "generated_at": "2026-04-26T10:51:46.118789",
-  "start_date": "2026-04-26",
+  "generated_at": "2026-04-27T11:48:59.320420",
+  "start_date": "2026-04-27",
   "num_days": 14,
   "movies": [
+    {
+      "title": "A Bug's Life",
+      "description": "On behalf of \"oppressed bugs everywhere,\" an inventive ant named Flik hires a troupe of warrior bugs to defend his bustling colony from a horde of freeloading grasshoppers led by the evil-minded Hopper.",
+      "poster": "posters/a-bugs-life.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/9487/",
+      "tmdb_id": 9487,
+      "showtimes": {
+        "2026-05-10": {
+          "cinemagic": [
+            {
+              "time": "12:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3A4BMn8Q"
+            }
+          ]
+        }
+      }
+    },
     {
       "title": "A Fistful of Dollars",
       "description": "The Man With No Name enters the Mexican village of San Miguel in the midst of a power struggle among the three Rojo brothers and sheriff John Baxter. When a regiment of Mexican soldiers bearing gold intended to pay for new weapons is waylaid by the Rojo brothers, the stranger inserts himself into the middle of the long-simmering battle, selling false information to both sides for his own benefit.",
@@ -56,6 +73,14 @@
           "academy": [
             {
               "time": "12:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-05-10": {
+          "academy": [
+            {
+              "time": "6:45 PM",
               "url": "https://www.academytheaterpdx.com"
             }
           ]
@@ -313,6 +338,10 @@
         "2026-05-02": {
           "cinema21": [
             {
+              "time": "1:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EaNdBaAr"
+            },
+            {
               "time": "6:45 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7yPlwmkM"
             }
@@ -321,8 +350,28 @@
         "2026-05-03": {
           "cinema21": [
             {
+              "time": "1:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EbdZ8aBN"
+            },
+            {
               "time": "7:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5RMVWPx2"
+            }
+          ]
+        },
+        "2026-05-04": {
+          "cinema21": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EYXdw9jo"
+            }
+          ]
+        },
+        "2026-05-06": {
+          "cinema21": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3A4BM88m"
             }
           ]
         }
@@ -379,6 +428,14 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
+        },
+        "2026-05-10": {
+          "academy": [
+            {
+              "time": "4:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
         }
       }
     },
@@ -389,14 +446,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/3063/",
       "tmdb_id": 3063,
       "showtimes": {
-        "2026-04-26": {
-          "academy": [
-            {
-              "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-04-27": {
           "academy": [
             {
@@ -485,6 +534,22 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3BZD4OBA"
             }
           ]
+        },
+        "2026-05-10": {
+          "cinema21": [
+            {
+              "time": "3:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=56VDNQ4O"
+            },
+            {
+              "time": "5:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EX0pknJb"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7NNKnvl1"
+            }
+          ]
         }
       }
     },
@@ -512,22 +577,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1408208/",
       "tmdb_id": 1408208,
       "showtimes": {
-        "2026-04-26": {
-          "laurelhurst": [
-            {
-              "time": "12:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "4:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
         "2026-04-27": {
           "laurelhurst": [
             {
@@ -628,18 +677,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1451867/",
       "tmdb_id": 1451867,
       "showtimes": {
-        "2026-04-26": {
-          "hollywood": [
-            {
-              "time": "2:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7oYnK1Qz"
-            },
-            {
-              "time": "6:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=59elamqy"
-            }
-          ]
-        },
         "2026-04-27": {
           "hollywood": [
             {
@@ -836,6 +873,22 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
+        },
+        "2026-05-10": {
+          "academy": [
+            {
+              "time": "1:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "4:15 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
         }
       }
     },
@@ -846,40 +899,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1317149/",
       "tmdb_id": 1317149,
       "showtimes": {
-        "2026-04-26": {
-          "laurelhurst": [
-            {
-              "time": "12:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:40 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-04-27": {
           "laurelhurst": [
             {
@@ -1037,22 +1056,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1410189/",
       "tmdb_id": 1410189,
       "showtimes": {
-        "2026-04-26": {
-          "livingroom": [
-            {
-              "time": "11:45 AM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:40 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-04-27": {
           "livingroom": [
             {
@@ -1112,37 +1115,12 @@
       }
     },
     {
-      "title": "Lawrence of Arabia",
-      "description": "During World War I, English officer Thomas Edward 'T.E.' Lawrence sets out to unite and lead the diverse, often warring, Arab tribes to fight the Turks.",
-      "poster": "posters/lawrence-of-arabia.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/947/",
-      "tmdb_id": 947,
-      "showtimes": {
-        "2026-04-26": {
-          "cinemagic": [
-            {
-              "time": "2:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=ErxKzGdZ"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Lorne",
       "description": "An unprecedented, behind-the-scenes glimpse at the man who built the inimitable empire of comedy, shaping television and culture for generations. The documentary features exclusive footage, archival treasures, and candid interviews with the show\u2019s most iconic cast members and writers including Tina Fey, Maya Rudolph, John Mulaney, Andy Samberg, Conan O\u2019Brien, Chris Rock and many more.",
       "poster": "posters/lorne.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/1634949/",
       "tmdb_id": 1634949,
       "showtimes": {
-        "2026-04-26": {
-          "livingroom": [
-            {
-              "time": "12:35 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-04-27": {
           "livingroom": [
             {
@@ -1196,36 +1174,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/936075/",
       "tmdb_id": 936075,
       "showtimes": {
-        "2026-04-26": {
-          "bagdad": [
-            {
-              "time": "12:15 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "3:15 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-04-27": {
           "bagdad": [
             {
@@ -1363,22 +1311,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1102883/",
       "tmdb_id": 1102883,
       "showtimes": {
-        "2026-04-26": {
-          "cinema21": [
-            {
-              "time": "2:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5gJzmJKB"
-            },
-            {
-              "time": "4:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5jqdnq9g"
-            },
-            {
-              "time": "7:05 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5Qx6wxOb"
-            }
-          ]
-        },
         "2026-04-27": {
           "cinema21": [
             {
@@ -1426,6 +1358,119 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5Z9dZ9nO"
             }
           ]
+        },
+        "2026-05-01": {
+          "cinema21": [
+            {
+              "time": "4:10 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=56VrgWor"
+            },
+            {
+              "time": "7:10 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5gJz0aAN"
+            },
+            {
+              "time": "9:40 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7VKdDwQv"
+            }
+          ]
+        },
+        "2026-05-02": {
+          "cinema21": [
+            {
+              "time": "1:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3zdNg9Pz"
+            },
+            {
+              "time": "4:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EMnLBpOy"
+            },
+            {
+              "time": "7:10 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3PJr6x8y"
+            },
+            {
+              "time": "9:40 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=54dBzAnW"
+            }
+          ]
+        },
+        "2026-05-03": {
+          "cinema21": [
+            {
+              "time": "1:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EJ80kvYW"
+            },
+            {
+              "time": "4:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5DP6eXY1"
+            },
+            {
+              "time": "6:50 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3zdNg9pb"
+            }
+          ]
+        },
+        "2026-05-04": {
+          "cinema21": [
+            {
+              "time": "4:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=59eNVA4Q"
+            },
+            {
+              "time": "6:50 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=Eedbya6N"
+            }
+          ]
+        },
+        "2026-05-05": {
+          "cinema21": [
+            {
+              "time": "4:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EWRd9a6R"
+            },
+            {
+              "time": "6:50 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7oYygqoO"
+            }
+          ]
+        },
+        "2026-05-06": {
+          "cinema21": [
+            {
+              "time": "4:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5wvrg22x"
+            },
+            {
+              "time": "6:50 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7nm26bbz"
+            }
+          ]
+        },
+        "2026-05-07": {
+          "cinema21": [
+            {
+              "time": "4:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7oYygqqv"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Mother's Day",
+      "description": "Sandy is a stressed-out, single mom who learns that her ex-husband is marrying a younger woman. Her friend Jesse's parents don't know that she has a family or that  her sister, Gabi is married to a woman. Jesse's friend, Kristin, is juggling motherhood of a toddler, a patient boyfriend who keeps proposing, and searching for her biological mother. Bradley is a widower who's trying to raise two daughters on his own, while Miranda is too busy with her career to worry about children. When their respective problems intersect and start coming to a head, the Mother's Day holiday takes on a special meaning for all.",
+      "poster": "posters/mothers-day.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/353069/",
+      "tmdb_id": 353069,
+      "showtimes": {
+        "2026-05-10": {
+          "hollywood": [
+            {
+              "time": "7:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EedzkgGo"
+            }
+          ]
         }
       }
     },
@@ -1436,18 +1481,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1242332/",
       "tmdb_id": 1242332,
       "showtimes": {
-        "2026-04-26": {
-          "hollywood": [
-            {
-              "time": "3:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3A4Ja0W1"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5pLjr1Vb"
-            }
-          ]
-        },
         "2026-04-27": {
           "hollywood": [
             {
@@ -1548,14 +1581,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1390300/",
       "tmdb_id": 1390300,
       "showtimes": {
-        "2026-04-26": {
-          "cinemagic": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EK8vLmb1"
-            }
-          ]
-        },
         "2026-04-27": {
           "cinemagic": [
             {
@@ -1651,50 +1676,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/687163/",
       "tmdb_id": 687163,
       "showtimes": {
-        "2026-04-26": {
-          "laurelhurst": [
-            {
-              "time": "12:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "3:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-04-27": {
           "laurelhurst": [
             {
@@ -1867,18 +1848,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1492865/",
       "tmdb_id": 1492865,
       "showtimes": {
-        "2026-04-26": {
-          "cinema21": [
-            {
-              "time": "1:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=58OX0dQz"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=56Vr2dV2"
-            }
-          ]
-        },
         "2026-04-27": {
           "cinema21": [
             {
@@ -1912,6 +1881,70 @@
             {
               "time": "3:45 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7nm2kmdl"
+            }
+          ]
+        },
+        "2026-05-01": {
+          "cinema21": [
+            {
+              "time": "4:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EX0d4wMv"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7NNB8PLk"
+            }
+          ]
+        },
+        "2026-05-02": {
+          "cinema21": [
+            {
+              "time": "4:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=ElKq8nVe"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5pLRWb2b"
+            }
+          ]
+        },
+        "2026-05-03": {
+          "cinema21": [
+            {
+              "time": "4:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=54dBzAaM"
+            }
+          ]
+        },
+        "2026-05-04": {
+          "cinema21": [
+            {
+              "time": "6:40 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5m0ZrdDQ"
+            }
+          ]
+        },
+        "2026-05-05": {
+          "cinema21": [
+            {
+              "time": "6:40 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7nm26bpL"
+            }
+          ]
+        },
+        "2026-05-06": {
+          "cinema21": [
+            {
+              "time": "6:40 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7qZ0gnnz"
+            }
+          ]
+        },
+        "2026-05-07": {
+          "cinema21": [
+            {
+              "time": "6:45 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3GMgyKKo"
             }
           ]
         }
@@ -2042,40 +2075,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1400357/",
       "tmdb_id": 1400357,
       "showtimes": {
-        "2026-04-26": {
-          "cinema21": [
-            {
-              "time": "2:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5gJzydJe"
-            },
-            {
-              "time": "4:35 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7NNBXeNN"
-            },
-            {
-              "time": "6:55 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EX0d6Q0P"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:20 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-04-27": {
           "cinema21": [
             {
@@ -2189,6 +2188,70 @@
             {
               "time": "6:45 PM",
               "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-05-01": {
+          "cinema21": [
+            {
+              "time": "4:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=ErxkgqRK"
+            },
+            {
+              "time": "9:35 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5jqdLzVo"
+            }
+          ]
+        },
+        "2026-05-02": {
+          "cinema21": [
+            {
+              "time": "4:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EvO8m1Lo"
+            },
+            {
+              "time": "9:35 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=ExN6218g"
+            }
+          ]
+        },
+        "2026-05-03": {
+          "cinema21": [
+            {
+              "time": "4:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EaNdBaLQ"
+            }
+          ]
+        },
+        "2026-05-04": {
+          "cinema21": [
+            {
+              "time": "4:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7qZ0gndq"
+            }
+          ]
+        },
+        "2026-05-05": {
+          "cinema21": [
+            {
+              "time": "4:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3GMgyKwP"
+            }
+          ]
+        },
+        "2026-05-06": {
+          "cinema21": [
+            {
+              "time": "4:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=59eNVAAD"
+            }
+          ]
+        },
+        "2026-05-07": {
+          "cinema21": [
+            {
+              "time": "4:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EWRd9aaz"
             }
           ]
         }
@@ -2590,6 +2653,36 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
+        },
+        "2026-05-10": {
+          "bagdad": [
+            {
+              "time": "12:30 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "3:30 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            }
+          ],
+          "academy": [
+            {
+              "time": "1:15 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "4:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
         }
       }
     },
@@ -2600,34 +2693,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1325734/",
       "tmdb_id": 1325734,
       "showtimes": {
-        "2026-04-26": {
-          "hollywood": [
-            {
-              "time": "8:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5DP6GYY8"
-            }
-          ],
-          "cinema21": [
-            {
-              "time": "4:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5wvrPvJW"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "12:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "3:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
         "2026-04-27": {
           "hollywood": [
             {
@@ -2707,6 +2772,66 @@
               "url": "https://www.laurelhursttheater.com"
             }
           ]
+        },
+        "2026-05-01": {
+          "cinema21": [
+            {
+              "time": "9:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5Qx64nXg"
+            }
+          ]
+        },
+        "2026-05-02": {
+          "cinema21": [
+            {
+              "time": "1:45 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EbdZ8aAW"
+            },
+            {
+              "time": "9:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5Z9d4ap2"
+            }
+          ]
+        },
+        "2026-05-03": {
+          "cinema21": [
+            {
+              "time": "6:40 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=ExN621pb"
+            }
+          ]
+        },
+        "2026-05-04": {
+          "cinema21": [
+            {
+              "time": "4:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3A4BM8AO"
+            }
+          ]
+        },
+        "2026-05-05": {
+          "cinema21": [
+            {
+              "time": "4:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5wvrg28X"
+            }
+          ]
+        },
+        "2026-05-06": {
+          "cinema21": [
+            {
+              "time": "4:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=Eedbyaal"
+            }
+          ]
+        },
+        "2026-05-07": {
+          "cinema21": [
+            {
+              "time": "4:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E2WO2oo6"
+            }
+          ]
         }
       }
     },
@@ -2717,14 +2842,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/13553/",
       "tmdb_id": 13553,
       "showtimes": {
-        "2026-04-26": {
-          "academy": [
-            {
-              "time": "4:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-04-27": {
           "academy": [
             {
@@ -2760,6 +2877,23 @@
       }
     },
     {
+      "title": "The Good, the Bad and the Ugly",
+      "description": "While the Civil War rages on between the Union and the Confederacy, three men \u2013 a quiet loner, a ruthless hitman, and a Mexican bandit \u2013 comb the American Southwest in search of a strongbox containing $200,000 in stolen gold.",
+      "poster": "posters/the-good-the-bad-and-the-ugly.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/429/",
+      "tmdb_id": 429,
+      "showtimes": {
+        "2026-05-10": {
+          "cinemagic": [
+            {
+              "time": "3:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3A4JXwpn"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "The Green Room",
       "description": "A widower maintains a memorial room filled with his late wife's belongings. When fire destroys it, he transforms a chapel into a new shrine to preserve her memory.",
       "poster": "posters/the-room.jpg",
@@ -2788,23 +2922,6 @@
             {
               "time": "7:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EvOVonrp"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "The Psychic",
-      "description": "An ad executive uses psychic powers to manipulate women and competitors.",
-      "poster": "posters/the-psychic.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/211774/",
-      "tmdb_id": 211774,
-      "showtimes": {
-        "2026-04-26": {
-          "hollywood": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EJ8JpRWY"
             }
           ]
         }
@@ -2882,14 +2999,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/104308/",
       "tmdb_id": 104308,
       "showtimes": {
-        "2026-04-26": {
-          "academy": [
-            {
-              "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-04-27": {
           "academy": [
             {
@@ -2931,14 +3040,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1429348/",
       "tmdb_id": 1429348,
       "showtimes": {
-        "2026-04-26": {
-          "livingroom": [
-            {
-              "time": "5:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-04-27": {
           "livingroom": [
             {
@@ -2980,22 +3081,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1226863/",
       "tmdb_id": 1226863,
       "showtimes": {
-        "2026-04-26": {
-          "academy": [
-            {
-              "time": "12:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "4:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-04-27": {
           "academy": [
             {
@@ -3097,6 +3182,14 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E2WNwJMB"
             }
           ]
+        },
+        "2026-05-10": {
+          "hollywood": [
+            {
+              "time": "2:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E1xXeDv4"
+            }
+          ]
         }
       }
     },
@@ -3122,6 +3215,14 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
+        },
+        "2026-05-10": {
+          "academy": [
+            {
+              "time": "12:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
         }
       }
     },
@@ -3132,14 +3233,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1455079/",
       "tmdb_id": 1455079,
       "showtimes": {
-        "2026-04-26": {
-          "livingroom": [
-            {
-              "time": "7:45 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-04-27": {
           "livingroom": [
             {
