@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-30T11:42:22.002121",
-  "start_date": "2026-04-30",
+  "generated_at": "2026-05-01T11:11:24.704026",
+  "start_date": "2026-05-01",
   "num_days": 14,
   "movies": [
     {
@@ -39,19 +39,11 @@
     },
     {
       "title": "Animal Farm",
-      "description": "A satirical fable following an animal revolution as pigs seize power and the farm descends into a ruthless dictatorship\u2014fulfilling Orwell\u2019s warning about the dangers of communism.",
+      "description": "A satirical allegory of revolution and power that traces how a movement for equality is systematically corrupted. As the pigs consolidate control, truth is erased, dissent is crushed, and the farm descends into a ruthless dictatorship.",
       "poster": "posters/animal-farm.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/539745/",
       "tmdb_id": 539745,
       "showtimes": {
-        "2026-04-30": {
-          "livingroom": [
-            {
-              "time": "7:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-05-01": {
           "livingroom": [
             {
@@ -245,6 +237,14 @@
           "academy": [
             {
               "time": "3:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-05-14": {
+          "academy": [
+            {
+              "time": "6:15 PM",
               "url": "https://www.academytheaterpdx.com"
             }
           ]
@@ -475,11 +475,47 @@
             }
           ]
         },
+        "2026-05-09": {
+          "hollywood": [
+            {
+              "time": "2:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3PJrOlwR"
+            }
+          ]
+        },
+        "2026-05-10": {
+          "hollywood": [
+            {
+              "time": "2:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5pLRpqX6"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7VKdXn8a"
+            }
+          ]
+        },
+        "2026-05-11": {
+          "hollywood": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EvO8paDG"
+            }
+          ]
+        },
         "2026-05-12": {
           "hollywood": [
             {
               "time": "7:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EMnLRVgJ"
+            }
+          ]
+        },
+        "2026-05-13": {
+          "hollywood": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=ElKqYeW4"
             }
           ]
         }
@@ -521,6 +557,40 @@
             {
               "time": "7:30 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7NNKg1Dg"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "City of Pirates",
+      "description": "A surreal odyssey in which a melancholic maidservant crosses paths with a homicidal little boy, travels to a tiny island of pirates and encounters a man with multiple personalities.",
+      "poster": "posters/city-of-pirates-la-ville-des-pirates.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/68757/",
+      "tmdb_id": 68757,
+      "showtimes": {
+        "2026-05-06": {
+          "clinton": [
+            {
+              "time": "7:00 PM",
+              "url": "https://cstpdx.com"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Clockwatchers",
+      "description": "Four female temps working for a credit company find their friendship threatened by the arrival of a new hire, who lands a permanent position one of the women was vying for.",
+      "poster": "posters/clockwatchers.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/55561/",
+      "tmdb_id": 55561,
+      "showtimes": {
+        "2026-05-01": {
+          "clinton": [
+            {
+              "time": "7:00 PM",
+              "url": "https://cstpdx.com"
             }
           ]
         }
@@ -613,6 +683,14 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7LKO0LKo"
             }
           ]
+        },
+        "2026-05-14": {
+          "cinemagic": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5ON8LrNW"
+            }
+          ]
         }
       }
     },
@@ -674,24 +752,11 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
-        }
-      }
-    },
-    {
-      "title": "Duck Soup",
-      "description": "Rufus T. Firefly is named president/dictator of bankrupt Freedonia and declares war on neighboring Sylvania over the love of wealthy Mrs. Teasdale.",
-      "poster": "posters/duck-soup.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/3063/",
-      "tmdb_id": 3063,
-      "showtimes": {
-        "2026-04-30": {
+        },
+        "2026-05-14": {
           "academy": [
             {
-              "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "7:00 PM",
+              "time": "3:30 PM",
               "url": "https://www.academytheaterpdx.com"
             }
           ]
@@ -800,6 +865,14 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5QxJopZb"
             }
           ]
+        },
+        "2026-05-14": {
+          "cinema21": [
+            {
+              "time": "4:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=ElK64ep4"
+            }
+          ]
         }
       }
     },
@@ -894,14 +967,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1430077/",
       "tmdb_id": 1430077,
       "showtimes": {
-        "2026-04-30": {
-          "laurelhurst": [
-            {
-              "time": "6:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
         "2026-05-01": {
           "laurelhurst": [
             {
@@ -1205,6 +1270,43 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
+        },
+        "2026-05-14": {
+          "academy": [
+            {
+              "time": "1:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "4:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "9:20 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "House on Eden",
+      "description": "Paranormal investigators Kris, Celina and their videographer Jay are rerouted to an abandoned house deep in the woods, where they find themselves facing a force unlike anything they've encountered before. As the night spirals into chaos, missing crew members and eerie phenomena hint at an ancient, malevolent presence watching their every move.",
+      "poster": "posters/house.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1362514/",
+      "tmdb_id": 1362514,
+      "showtimes": {
+        "2026-05-14": {
+          "hollywood": [
+            {
+              "time": "9:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EX0pmAXq"
+            }
+          ]
         }
       }
     },
@@ -1215,32 +1317,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1317149/",
       "tmdb_id": 1317149,
       "showtimes": {
-        "2026-04-30": {
-          "laurelhurst": [
-            {
-              "time": "3:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:40 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-05-01": {
           "laurelhurst": [
             {
@@ -1406,83 +1482,12 @@
       }
     },
     {
-      "title": "Kontinental '25",
-      "description": "Orsolya is a bailiff in Cluj, the main city in Transylvania. One day she has to evict a homeless man from a cellar, an action with tragic consequences that triggers a moral crisis which Orsolya must weather as best she can.",
-      "poster": "posters/kontinental-25.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1410189/",
-      "tmdb_id": 1410189,
-      "showtimes": {
-        "2026-04-30": {
-          "livingroom": [
-            {
-              "time": "11:45 AM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:40 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Labyrinth 30th Anniversary",
-      "description": "",
-      "poster": "posters/labyrinth-30th-anniversary.jpg",
-      "letterboxd_url": "https://letterboxd.com/film/labyrinth-30th-anniversary/",
-      "tmdb_id": null,
-      "showtimes": {
-        "2026-04-30": {
-          "academy": [
-            {
-              "time": "4:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Lorne",
-      "description": "An unprecedented, behind-the-scenes glimpse at the man who built the inimitable empire of comedy, shaping television and culture for generations. The documentary features exclusive footage, archival treasures, and candid interviews with the show\u2019s most iconic cast members and writers including Tina Fey, Maya Rudolph, John Mulaney, Andy Samberg, Conan O\u2019Brien, Chris Rock and many more.",
-      "poster": "posters/lorne.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1634949/",
-      "tmdb_id": 1634949,
-      "showtimes": {
-        "2026-04-30": {
-          "livingroom": [
-            {
-              "time": "11:50 AM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Michael",
       "description": "The story of Michael Jackson, one of the most influential artists the world has ever known, and his life beyond the music. His journey from the discovery of his extraordinary talent as the lead of the Jackson Five, to the visionary artist whose creative ambition fueled a relentless pursuit to become the biggest entertainer in the world, highlighting both his life off-stage and some of the most iconic performances from his early solo career.",
       "poster": "posters/michael.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/936075/",
       "tmdb_id": 936075,
       "showtimes": {
-        "2026-04-30": {
-          "livingroom": [
-            {
-              "time": "12:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-05-01": {
           "livingroom": [
             {
@@ -1640,41 +1645,12 @@
       }
     },
     {
-      "title": "More Human Than Human",
-      "description": "Stephen Hawking has warned that the creation of powerful artificial intelligence will be \u201ceither the best, or the worst thing, ever to happen to humanity\u201d. Inspired by Brian Christian\u2019s study The Most Human Human: What Artificial Intelligence Teaches Us About Being Alive, the filmmakers set out on an international investigation highlighting the effects of AI - scenes from our daily lives destructive and constructive.",
-      "poster": "posters/more-than-human.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/502169/",
-      "tmdb_id": 502169,
-      "showtimes": {
-        "2026-04-30": {
-          "hollywood": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5Qx86vv4"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Mother Mary",
       "description": "Long-buried wounds rise to the surface when iconic pop star Mother Mary reunites with her estranged best friend and former costume designer Sam Anselm on the eve of her comeback performance.",
       "poster": "posters/mother-mary.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/1102883/",
       "tmdb_id": 1102883,
       "showtimes": {
-        "2026-04-30": {
-          "cinema21": [
-            {
-              "time": "4:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=ElKqJK94"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5Z9dZ9nO"
-            }
-          ]
-        },
         "2026-05-01": {
           "cinema21": [
             {
@@ -1791,17 +1767,17 @@
       }
     },
     {
-      "title": "Normal",
-      "description": "Interim sheriff Ulysses, called to the snowbound town of Normal, MN, uncovers an international criminal conspiracy at the heart of the seemingly quaint whistle-stop when he comes to the aid of a bank-robbing couple caught up in a deadly mess.",
-      "poster": "posters/normal.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1242332/",
-      "tmdb_id": 1242332,
+      "title": "Obsession",
+      "description": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
+      "poster": "posters/obsession.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1339713/",
+      "tmdb_id": 1339713,
       "showtimes": {
-        "2026-04-30": {
-          "hollywood": [
+        "2026-05-14": {
+          "cinema21": [
             {
-              "time": "6:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=54dKPWDW"
+              "time": "7:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5gJzqXkx"
             }
           ]
         }
@@ -1892,27 +1868,6 @@
       }
     },
     {
-      "title": "Over Your Dead Body",
-      "description": "A dysfunctional couple head to a remote cabin to \"reconnect\", but each has secret intentions to kill the other.",
-      "poster": "posters/over-your-dead-body.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1390300/",
-      "tmdb_id": 1390300,
-      "showtimes": {
-        "2026-04-30": {
-          "cinemagic": [
-            {
-              "time": "4:40 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=58OJLlbz"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E0D6bKwY"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Portland EcoFilm Expansive Ecological Imagination2",
       "description": "",
       "poster": null,
@@ -1953,42 +1908,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/687163/",
       "tmdb_id": 687163,
       "showtimes": {
-        "2026-04-30": {
-          "laurelhurst": [
-            {
-              "time": "3:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-05-01": {
           "laurelhurst": [
             {
@@ -2342,6 +2261,14 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EK8kBevL"
             }
           ]
+        },
+        "2026-05-14": {
+          "cinemagic": [
+            {
+              "time": "4:45 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7yPXvMl9"
+            }
+          ]
         }
       }
     },
@@ -2352,14 +2279,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1492865/",
       "tmdb_id": 1492865,
       "showtimes": {
-        "2026-04-30": {
-          "cinema21": [
-            {
-              "time": "3:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7nm2kmdl"
-            }
-          ]
-        },
         "2026-05-01": {
           "cinema21": [
             {
@@ -2486,23 +2405,6 @@
       }
     },
     {
-      "title": "The Blood on Satan's Claw",
-      "description": "After a landsman in 18th century England discovers a corpse covered in fur buried in a field, the town becomes infected by \"the devil's skin,\" leading the local children to engage in demonic rituals and criminal behavior.",
-      "poster": "posters/the-blood-on-satans-claw.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/26774/",
-      "tmdb_id": 26774,
-      "showtimes": {
-        "2026-04-30": {
-          "hollywood": [
-            {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7oYR49LB"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "The Breakfast Club",
       "description": "Five high school students from different walks of life endure a Saturday detention under a power-hungry principal. The disparate group includes rebel John, princess Claire, outcast Allison, brainy Brian and Andrew, the jock. Each has a chance to tell his or her story, making the others see them a little differently -- and when the day ends, they question whether school will ever be the same.",
       "poster": "posters/the-breakfast-club.jpg",
@@ -2542,32 +2444,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1400357/",
       "tmdb_id": 1400357,
       "showtimes": {
-        "2026-04-30": {
-          "cinema21": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=Eedbrdnb"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:20 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-05-01": {
           "cinema21": [
             {
@@ -2759,53 +2635,11 @@
     },
     {
       "title": "The Devil Wears Prada 2",
-      "description": "As Miranda Priestly nears retirement, she reunites with Andy Sachs to face off against her former assistant turned rival: Emily Charlton.",
+      "description": "Andy Sachs returns to Runway as Miranda Priestly navigates a new media landscape and Runway's position within. The duo reconnect with former assistant Emily Charlton, now the head of a luxury brand that possesses funding which could ensure Runway's survival.",
       "poster": "posters/the-devil-wears-prada-2.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/1314481/",
       "tmdb_id": 1314481,
       "showtimes": {
-        "2026-04-30": {
-          "bagdad": [
-            {
-              "time": "3:30 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "4:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "4:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "6:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-05-01": {
           "bagdad": [
             {
@@ -2987,10 +2821,6 @@
             {
               "time": "7:00 PM",
               "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "10:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
             }
           ],
           "laurelhurst": [
@@ -3057,10 +2887,6 @@
             {
               "time": "7:00 PM",
               "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "10:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
             }
           ],
           "laurelhurst": [
@@ -3114,10 +2940,6 @@
           "bagdad": [
             {
               "time": "7:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "10:00 PM",
               "url": "https://www.mcmenamins.com/bagdad-theater-pub"
             }
           ],
@@ -3181,10 +3003,6 @@
             {
               "time": "7:00 PM",
               "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "10:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
             }
           ],
           "livingroom": [
@@ -3236,10 +3054,6 @@
             },
             {
               "time": "7:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "10:00 PM",
               "url": "https://www.mcmenamins.com/bagdad-theater-pub"
             }
           ],
@@ -3477,6 +3291,26 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
+        },
+        "2026-05-14": {
+          "academy": [
+            {
+              "time": "1:15 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "3:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "9:35 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
         }
       }
     },
@@ -3487,24 +3321,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1325734/",
       "tmdb_id": 1325734,
       "showtimes": {
-        "2026-04-30": {
-          "cinema21": [
-            {
-              "time": "4:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=59eNkeM6"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
         "2026-05-01": {
           "cinema21": [
             {
@@ -3608,23 +3424,6 @@
             {
               "time": "4:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E2WO2oo6"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "The Driller Killer",
-      "description": "An artist slowly goes insane while struggling to pay his bills, work on his paintings, and care for his two female roommates, which leads him taking to the streets of New York after dark and randomly killing derelicts with a power drill.",
-      "poster": "posters/the-driller-killer.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/13553/",
-      "tmdb_id": 13553,
-      "showtimes": {
-        "2026-04-30": {
-          "academy": [
-            {
-              "time": "9:30 PM",
-              "url": "https://www.academytheaterpdx.com"
             }
           ]
         }
@@ -3755,6 +3554,23 @@
       }
     },
     {
+      "title": "The Rocky Horror Picture Show",
+      "description": "After getting a flat tire in the middle of nowhere, newly engaged couple Brad and Janet encounter the eerie mansion of the flamboyant, seductive Dr Frank-N-Furter and a variety of eccentric characters. Through elaborate dance and rock music, the mad scientist unveils his latest creation: a perfect, muscular man.",
+      "poster": "posters/the-rocky-horror-picture-show.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/36685/",
+      "tmdb_id": 36685,
+      "showtimes": {
+        "2026-05-02": {
+          "clinton": [
+            {
+              "time": "10:30 PM",
+              "url": "https://cstpdx.com"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "The Rules of Attraction",
       "description": "The incredibly spoiled and overprivileged students of Camden College are a backdrop for an unusual love triangle between a drug dealer, a virgin and a bisexual classmate.",
       "poster": "posters/the-rules-of-attraction.jpg",
@@ -3795,63 +3611,17 @@
       }
     },
     {
-      "title": "The Stranger",
-      "description": "Algiers, 1938. Meursault, a quiet and unassuming employee in his early thirties, attends his mother's funeral without shedding a tear. The next day, he begins a casual affair with Marie, a work colleague. He quickly slips back into his usual routine.",
-      "poster": "posters/l\u00e9tranger.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1429348/",
-      "tmdb_id": 1429348,
+      "title": "Three Faces",
+      "description": "Claymation short film from Gabriel Reyes.",
+      "poster": "posters/3-faces.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1300608/",
+      "tmdb_id": 1300608,
       "showtimes": {
-        "2026-04-30": {
-          "livingroom": [
-            {
-              "time": "5:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "The Super Mario Galaxy Movie",
-      "description": "Having thwarted Bowser's previous plot to marry Princess Peach, Mario and Luigi now face a fresh threat in Bowser Jr., who is determined to liberate his father from captivity and restore the family legacy. Alongside companions new and old, the brothers travel across the stars to stop the young heir's crusade.",
-      "poster": "posters/the-super-mario-galaxy-movie.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1226863/",
-      "tmdb_id": 1226863,
-      "showtimes": {
-        "2026-04-30": {
-          "academy": [
-            {
-              "time": "12:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "This is Not a Film",
-      "description": "In a broken attempt to find a woman who has broken his heart, a Manhattan shoe salesman fearlessly throws himself into the world of guerilla filmmaking, creating a 'modern day message in a bottle' - actually a videotape - hoping that someone seeing it (maybe you?) will know his ex-girlfriend. To help the viewer understand who he is and why his girlfriend left him, this neophyte filmmaker hires a temperamental actress to play his ex and together they reenact scenes from his failed relationship. During the course of filming, Michael's mistakes, blunders and inadequacies as a boyfriend are mercilessly pointed out to him. This Is Not A Film is a romantic comedy about making a mistake and recognizing it in the most painful way possible - by making it all over again.",
-      "poster": "posters/this-is-not-a-film.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/542046/",
-      "tmdb_id": 542046,
-      "showtimes": {
-        "2026-04-30": {
+        "2026-05-14": {
           "hollywood": [
             {
               "time": "4:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3A4MbLem"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EedyPg4l"
             }
           ]
         }
@@ -3969,6 +3739,14 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
+        },
+        "2026-05-14": {
+          "academy": [
+            {
+              "time": "12:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
         }
       }
     },
@@ -3986,21 +3764,12 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5Z9dGjov"
             }
           ]
-        }
-      }
-    },
-    {
-      "title": "You, Me & Tuscany",
-      "description": "When a woman crashes at an empty Italian villa, posing as the owner's fianc\u00e9e, she discovers an unexpected romance that could transform her life.",
-      "poster": "posters/you-me-tuscany.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1455079/",
-      "tmdb_id": 1455079,
-      "showtimes": {
-        "2026-04-30": {
-          "livingroom": [
+        },
+        "2026-05-14": {
+          "cinema21": [
             {
-              "time": "2:00 PM",
-              "url": "https://livingroomtheaters.com"
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=ExN6ZqzD"
             }
           ]
         }
