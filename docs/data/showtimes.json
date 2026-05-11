@@ -1,42 +1,8 @@
 {
-  "generated_at": "2026-05-10T11:02:55.756902",
-  "start_date": "2026-05-10",
+  "generated_at": "2026-05-11T12:43:05.549966",
+  "start_date": "2026-05-11",
   "num_days": 14,
   "movies": [
-    {
-      "title": "25 Cats from Qatar",
-      "description": "The nation of Qatar has a street cat population equal to the entire human population of the entire country \u2013 and is growing fast. Disease is rampant, and local adoption is rare. 25 CATS FROM QATAR follows one mission \u2013 led by a network of multinational underground animal rescuers in Doha and a Milwaukee flight attendant/ cat cafe owner \u2013 to transport out 25 lucky felines and find homes for them abroad, all the while searching for a long-term solution to the crisis.",
-      "poster": "posters/25-cats-from-qatar.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1450988/",
-      "tmdb_id": 1450988,
-      "showtimes": {
-        "2026-05-18": {
-          "hollywood": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=Eed09d6l"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "A Bug's Life",
-      "description": "On behalf of \"oppressed bugs everywhere,\" an inventive ant named Flik hires a troupe of warrior bugs to defend his bustling colony from a horde of freeloading grasshoppers led by the evil-minded Hopper.",
-      "poster": "posters/a-bugs-life.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/9487/",
-      "tmdb_id": 9487,
-      "showtimes": {
-        "2026-05-10": {
-          "cinemagic": [
-            {
-              "time": "12:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3A4BMn8Q"
-            }
-          ]
-        }
-      }
-    },
     {
       "title": "Aliens",
       "description": "Ripley, the sole survivor of the Nostromo's deadly encounter with the monstrous Alien, returns to Earth after drifting through space in hypersleep for 57 years. Although her story is initially met with skepticism, she agrees to accompany a team of Colonial Marines back to LV-426.",
@@ -65,14 +31,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/539745/",
       "tmdb_id": 539745,
       "showtimes": {
-        "2026-05-10": {
-          "livingroom": [
-            {
-              "time": "12:25 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-05-11": {
           "livingroom": [
             {
@@ -114,26 +72,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1184941/",
       "tmdb_id": 1184941,
       "showtimes": {
-        "2026-05-10": {
-          "livingroom": [
-            {
-              "time": "12:50 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-05-11": {
           "livingroom": [
             {
@@ -207,110 +145,6 @@
             {
               "time": "4:45 PM",
               "url": "https://livingroomtheaters.com"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Casablanca",
-      "description": "In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.",
-      "poster": "posters/casablanca.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/289/",
-      "tmdb_id": 289,
-      "showtimes": {
-        "2026-05-10": {
-          "hollywood": [
-            {
-              "time": "2:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5pLRpqX6"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7VKdXn8a"
-            }
-          ]
-        },
-        "2026-05-11": {
-          "hollywood": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EvO8paDG"
-            }
-          ]
-        },
-        "2026-05-12": {
-          "hollywood": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EMnLRVgJ"
-            }
-          ]
-        },
-        "2026-05-13": {
-          "hollywood": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=ElKqYeW4"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Crouching Tiger, Hidden Dragon",
-      "description": "Two warriors in pursuit of a stolen sword and a notorious fugitive are led to an impetuous, physically-skilled, teenage nobleman's daughter, who is at a crossroads in her life.",
-      "poster": "posters/crouching-tiger-hidden-dragon.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/146/",
-      "tmdb_id": 146,
-      "showtimes": {
-        "2026-05-15": {
-          "hollywood": [
-            {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7oYnbvDB"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Days and Nights in the Forest",
-      "description": "Four friends from Calcutta who have very different personalities make a holiday excursion into the country, to a tiny village in the state of Bihar where they set themselves up in a bungalow. A series of minor events, all connected to their respective reactions to their new environment, reveals their characters more deeply.",
-      "poster": "posters/days-and-nights-in-the-forest.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/35867/",
-      "tmdb_id": 35867,
-      "showtimes": {
-        "2026-05-10": {
-          "cinema21": [
-            {
-              "time": "1:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5gJzbvBb"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Double Indemnity",
-      "description": "An insurance representative is seduced by a dissatisfied housewife into a scheme of insurance fraud and murder that arouses the suspicion of his colleague, a claims investigator.",
-      "poster": "posters/double-indemnity.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/996/",
-      "tmdb_id": 996,
-      "showtimes": {
-        "2026-05-16": {
-          "hollywood": [
-            {
-              "time": "3:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=58OJLlx9"
-            }
-          ]
-        },
-        "2026-05-17": {
-          "hollywood": [
-            {
-              "time": "3:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=ErxKzGge"
             }
           ]
         }
@@ -348,46 +182,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/601/",
       "tmdb_id": 601,
       "showtimes": {
-        "2026-05-15": {
-          "hollywood": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=ElKqkpp8"
-            }
-          ]
-        },
-        "2026-05-16": {
-          "hollywood": [
-            {
-              "time": "2:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3zdNMOOM"
-            },
-            {
-              "time": "6:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5pLR8440"
-            }
-          ]
-        },
-        "2026-05-17": {
-          "hollywood": [
-            {
-              "time": "2:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EaNdqrro"
-            },
-            {
-              "time": "6:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3PJrNPPV"
-            }
-          ]
-        },
-        "2026-05-18": {
-          "hollywood": [
-            {
-              "time": "6:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5Z9dqRRd"
-            }
-          ]
-        },
         "2026-05-19": {
           "hollywood": [
             {
@@ -421,22 +215,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1337592/",
       "tmdb_id": 1337592,
       "showtimes": {
-        "2026-05-10": {
-          "cinema21": [
-            {
-              "time": "3:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=56VDNQ4O"
-            },
-            {
-              "time": "5:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EX0pknJb"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7NNKnvl1"
-            }
-          ]
-        },
         "2026-05-11": {
           "cinema21": [
             {
@@ -486,14 +264,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1472844/",
       "tmdb_id": 1472844,
       "showtimes": {
-        "2026-05-10": {
-          "livingroom": [
-            {
-              "time": "5:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-05-11": {
           "livingroom": [
             {
@@ -529,6 +299,23 @@
       }
     },
     {
+      "title": "Furiosa: A Mad Max Saga",
+      "description": "As the world falls, young Furiosa is snatched from the Green Place of Many Mothers into the hands of a great biker horde led by the warlord Dementus. Sweeping through the wasteland, they encounter the citadel presided over by Immortan Joe. The two tyrants wage war for dominance, and Furiosa must survive many trials as she puts together the means to find her way home.",
+      "poster": "posters/furiosa-a-mad-max-saga.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/786892/",
+      "tmdb_id": 786892,
+      "showtimes": {
+        "2026-05-24": {
+          "cinemagic": [
+            {
+              "time": "9:10 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7LKOmZNd"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "Ghost in the Machine",
       "description": "After a freak, fatal accident, the soul Karl\u2014aka The Address Book Killer\u2014ends up trapped in the electrical grid. He targets Terry and her son for his next victims, turning home technology against them as deadly weapons.",
       "poster": "posters/ghost-in-the-machine.jpg",
@@ -540,23 +327,6 @@
             {
               "time": "7:15 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3PJrBkoj"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "House on Eden",
-      "description": "Paranormal investigators Kris, Celina and their videographer Jay are rerouted to an abandoned house deep in the woods, where they find themselves facing a force unlike anything they've encountered before. As the night spirals into chaos, missing crew members and eerie phenomena hint at an ancient, malevolent presence watching their every move.",
-      "poster": "posters/house.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1362514/",
-      "tmdb_id": 1362514,
-      "showtimes": {
-        "2026-05-14": {
-          "hollywood": [
-            {
-              "time": "9:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EX0pmAXq"
             }
           ]
         }
@@ -676,6 +446,46 @@
               "url": "https://livingroomtheaters.com"
             }
           ]
+        },
+        "2026-05-24": {
+          "hollywood": [
+            {
+              "time": "3:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5m0ZOLaQ"
+            },
+            {
+              "time": "6:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EMnLrK1z"
+            },
+            {
+              "time": "9:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EbdZqlQN"
+            }
+          ],
+          "cinema21": [
+            {
+              "time": "1:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=Erxkk6eD"
+            },
+            {
+              "time": "4:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=56VrrZjO"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EX0ddq8b"
+            }
+          ],
+          "livingroom": [
+            {
+              "time": "4:50 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
         }
       }
     },
@@ -691,23 +501,6 @@
             {
               "time": "7:30 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EkyZ04vy"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Juice",
-      "description": "Four Harlem friends -- Bishop, Q, Steel and Raheem -- dabble in petty crime, but they decide to go big by knocking off a convenience store. Bishop, the magnetic leader of the group, has the gun. But Q has different aspirations. He wants to be a DJ and happens to have a gig the night of the robbery. Unfortunately for him, Bishop isn't willing to take no for answer in a game where everything's for keeps.",
-      "poster": "posters/juice.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/16136/",
-      "tmdb_id": 16136,
-      "showtimes": {
-        "2026-05-18": {
-          "hollywood": [
-            {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7nm2y8vR"
             }
           ]
         }
@@ -788,22 +581,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/936075/",
       "tmdb_id": 936075,
       "showtimes": {
-        "2026-05-10": {
-          "livingroom": [
-            {
-              "time": "12:40 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:25 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-05-11": {
           "livingroom": [
             {
@@ -867,41 +644,12 @@
       }
     },
     {
-      "title": "Miles Ahead",
-      "description": "An exploration of the life and music of Miles Davis.",
-      "poster": "posters/miles-ahead.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/316000/",
-      "tmdb_id": 316000,
-      "showtimes": {
-        "2026-05-13": {
-          "hollywood": [
-            {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7nmNqYYw"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Mother Mary",
       "description": "Long-buried wounds rise to the surface when iconic pop star Mother Mary reunites with her estranged best friend and former costume designer Sam Anselm on the eve of her comeback performance.",
       "poster": "posters/mother-mary.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/1102883/",
       "tmdb_id": 1102883,
       "showtimes": {
-        "2026-05-10": {
-          "cinema21": [
-            {
-              "time": "4:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EMnLdxWz"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7VKd9AWw"
-            }
-          ]
-        },
         "2026-05-11": {
           "cinema21": [
             {
@@ -931,40 +679,6 @@
             {
               "time": "4:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EYXdx0Wo"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Mother's Day",
-      "description": "Sandy is a stressed-out, single mom who learns that her ex-husband is marrying a younger woman. Her friend Jesse's parents don't know that she has a family or that  her sister, Gabi is married to a woman. Jesse's friend, Kristin, is juggling motherhood of a toddler, a patient boyfriend who keeps proposing, and searching for her biological mother. Bradley is a widower who's trying to raise two daughters on his own, while Miranda is too busy with her career to worry about children. When their respective problems intersect and start coming to a head, the Mother's Day holiday takes on a special meaning for all.",
-      "poster": "posters/mothers-day.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/353069/",
-      "tmdb_id": 353069,
-      "showtimes": {
-        "2026-05-10": {
-          "hollywood": [
-            {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EedzkgGo"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Nekromantik",
-      "description": "A necrophilic street sweeper who cleans up after grisly accidents brings home a corpse for him and his girlfriend to enjoy sexually, but is dismayed to see that she prefers the corpse over him.",
-      "poster": "posters/nekromantik.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/11822/",
-      "tmdb_id": 11822,
-      "showtimes": {
-        "2026-05-16": {
-          "hollywood": [
-            {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5RMVgGZo"
             }
           ]
         }
@@ -1191,23 +905,6 @@
       }
     },
     {
-      "title": "One-Armed Boxer",
-      "description": "A martial-arts student learns the iron fist and death grip techniques to avenge his teacher's death.",
-      "poster": "posters/one-armed-boxer-du-bei-chuan-wang.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/49967/",
-      "tmdb_id": 49967,
-      "showtimes": {
-        "2026-05-12": {
-          "hollywood": [
-            {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3GMgkWdP"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Only God Forgives",
       "description": "Julian, who runs a Thai boxing club as a front organization for his family's drug smuggling operation, is forced by his mother Crystal to find and kill the individual responsible for his brother's recent death.",
       "poster": "posters/only-god-forgives.jpg",
@@ -1231,22 +928,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/687163/",
       "tmdb_id": 687163,
       "showtimes": {
-        "2026-05-10": {
-          "livingroom": [
-            {
-              "time": "12:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-05-11": {
           "livingroom": [
             {
@@ -1385,85 +1066,12 @@
       }
     },
     {
-      "title": "RZA's One Spoon of Chocolate",
-      "description": "",
-      "poster": "posters/rzas-one-spoon-of-chocolate.jpg",
-      "letterboxd_url": "https://letterboxd.com/film/rzas-one-spoon-of-chocolate/",
-      "tmdb_id": null,
-      "showtimes": {
-        "2026-05-10": {
-          "hollywood": [
-            {
-              "time": "3:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EX0dmDYk"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7qZ0DDYd"
-            }
-          ]
-        },
-        "2026-05-11": {
-          "hollywood": [
-            {
-              "time": "6:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EedbxxMo"
-            },
-            {
-              "time": "9:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EWRdxxka"
-            }
-          ]
-        },
-        "2026-05-12": {
-          "hollywood": [
-            {
-              "time": "6:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=59eNjj1K"
-            },
-            {
-              "time": "9:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7oYy44Da"
-            }
-          ]
-        },
-        "2026-05-13": {
-          "hollywood": [
-            {
-              "time": "6:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7nm2qqzn"
-            },
-            {
-              "time": "9:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3GMg991b"
-            }
-          ]
-        },
-        "2026-05-14": {
-          "hollywood": [
-            {
-              "time": "6:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5wvrmmym"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Sixteen Candles",
       "description": "With the occasion all but overshadowed by her sister's upcoming wedding, angst-ridden Samantha faces her 16th birthday with typical adolescent dread. Samantha pines for studly older boy Jake, but worries that her chastity will be a turnoff for the popular senior. Meanwhile, she must constantly rebuff the affections of nerdy Ted, who is unfortunately the only boy in school who seems to take an interest in her.",
       "poster": "posters/sixteen-candles.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/15144/",
       "tmdb_id": 15144,
       "showtimes": {
-        "2026-05-10": {
-          "cinemagic": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E1xkvMXP"
-            }
-          ]
-        },
         "2026-05-12": {
           "cinemagic": [
             {
@@ -1566,6 +1174,28 @@
               "url": "https://livingroomtheaters.com"
             }
           ]
+        },
+        "2026-05-24": {
+          "bagdad": [
+            {
+              "time": "12:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "3:15 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            }
+          ],
+          "livingroom": [
+            {
+              "time": "6:45 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
         }
       }
     },
@@ -1576,14 +1206,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1492865/",
       "tmdb_id": 1492865,
       "showtimes": {
-        "2026-05-10": {
-          "cinema21": [
-            {
-              "time": "4:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5jqdep69"
-            }
-          ]
-        },
         "2026-05-11": {
           "cinema21": [
             {
@@ -1632,6 +1254,14 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7LKMv0Wo"
             }
           ]
+        },
+        "2026-05-24": {
+          "hollywood": [
+            {
+              "time": "6:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3BZDBRW6"
+            }
+          ]
         }
       }
     },
@@ -1649,6 +1279,14 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E0D6MR4l"
             }
           ]
+        },
+        "2026-05-24": {
+          "hollywood": [
+            {
+              "time": "2:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EkyrlAX4"
+            }
+          ]
         }
       }
     },
@@ -1659,24 +1297,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1400357/",
       "tmdb_id": 1400357,
       "showtimes": {
-        "2026-05-10": {
-          "cinema21": [
-            {
-              "time": "2:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EvO8oAKQ"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "2:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-05-11": {
           "cinema21": [
             {
@@ -1758,40 +1378,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1314481/",
       "tmdb_id": 1314481,
       "showtimes": {
-        "2026-05-10": {
-          "bagdad": [
-            {
-              "time": "12:30 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:25 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-05-11": {
           "bagdad": [
             {
@@ -2033,14 +1619,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1325734/",
       "tmdb_id": 1325734,
       "showtimes": {
-        "2026-05-10": {
-          "cinema21": [
-            {
-              "time": "6:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5Qx69zWp"
-            }
-          ]
-        },
         "2026-05-11": {
           "cinema21": [
             {
@@ -2074,36 +1652,11 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/429/",
       "tmdb_id": 429,
       "showtimes": {
-        "2026-05-10": {
-          "cinemagic": [
-            {
-              "time": "3:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3A4JXwpn"
-            }
-          ]
-        },
         "2026-05-13": {
           "cinemagic": [
             {
               "time": "7:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7qZWzRrd"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "The Rules of Attraction",
-      "description": "The incredibly spoiled and overprivileged students of Camden College are a backdrop for an unusual love triangle between a drug dealer, a virgin and a bisexual classmate.",
-      "poster": "posters/the-rules-of-attraction.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1809/",
-      "tmdb_id": 1809,
-      "showtimes": {
-        "2026-05-11": {
-          "hollywood": [
-            {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5Z9lwvz2"
             }
           ]
         }
@@ -2116,26 +1669,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1301421/",
       "tmdb_id": 1301421,
       "showtimes": {
-        "2026-05-10": {
-          "livingroom": [
-            {
-              "time": "11:45 AM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "5:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:15 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-05-11": {
           "livingroom": [
             {
@@ -2230,40 +1763,6 @@
             {
               "time": "11:00 AM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3PJVBkWy"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Three Faces",
-      "description": "Claymation short film from Gabriel Reyes.",
-      "poster": "posters/3-faces.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1300608/",
-      "tmdb_id": 1300608,
-      "showtimes": {
-        "2026-05-14": {
-          "hollywood": [
-            {
-              "time": "4:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EedyPg4l"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Tom and Jerry: Willy Wonka & the Chocolate Factory",
-      "description": "The classic Roald Dahl tale gets a modern twist when Tom and Jerry enter the amazing world of Willy Wonka's Chocolate Factory.",
-      "poster": "posters/willy-wonka-and-the-chocolate-factory.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/455411/",
-      "tmdb_id": 455411,
-      "showtimes": {
-        "2026-05-10": {
-          "hollywood": [
-            {
-              "time": "2:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E1xXeDv4"
             }
           ]
         }
