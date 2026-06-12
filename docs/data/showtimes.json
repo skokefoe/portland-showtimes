@@ -1,25 +1,8 @@
 {
-  "generated_at": "2026-06-11T14:03:16.653552",
-  "start_date": "2026-06-11",
+  "generated_at": "2026-06-12T12:57:12.901731",
+  "start_date": "2026-06-12",
   "num_days": 14,
   "movies": [
-    {
-      "title": "1+1 at Home 2. March 8",
-      "description": "Misha and Sonia are left at home again without their parents, but this time with a nanny. Meanwhile, the bandits from the first film escape from the prison.",
-      "poster": "posters/8-12.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/913680/",
-      "tmdb_id": 913680,
-      "showtimes": {
-        "2026-06-11": {
-          "academy": [
-            {
-              "time": "4:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        }
-      }
-    },
     {
       "title": "A Place in the Sun",
       "description": "A young social climber wins the heart of a beautiful heiress but his former girlfriend's pregnancy stands in the way of his ambition.",
@@ -183,56 +166,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1083381/",
       "tmdb_id": 1083381,
       "showtimes": {
-        "2026-06-11": {
-          "hollywood": [
-            {
-              "time": "6:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5jqPVPZo"
-            },
-            {
-              "time": "9:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5QxvXvog"
-            }
-          ],
-          "cinema21": [
-            {
-              "time": "4:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7qZP6KQB"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3A4dayPR"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "4:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "1:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "3:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-06-12": {
           "hollywood": [
             {
@@ -633,6 +566,14 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
+        },
+        "2026-06-25": {
+          "academy": [
+            {
+              "time": "1:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
         }
       }
     },
@@ -671,6 +612,39 @@
       }
     },
     {
+      "title": "Boyz n the Hood",
+      "description": "In the middle of the Los Angeles ghetto, drugs, robberies and shootings dominate everyday life. During these times, Furious tries to raise his son Tre to be a decent person. Tre's friends, on the other hand, have little regard for the law and drag the entire neighborhood into a street war...",
+      "poster": "posters/boyz-n-the-hood.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/650/",
+      "tmdb_id": 650,
+      "showtimes": {
+        "2026-06-20": {
+          "cinemagic": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E0DkWdM1"
+            }
+          ]
+        },
+        "2026-06-24": {
+          "cinemagic": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=ErxnWZa2"
+            }
+          ]
+        },
+        "2026-06-25": {
+          "cinemagic": [
+            {
+              "time": "4:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EkypmWlD"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "Cannibal Holocaust",
       "description": "A New York University professor returns from a rescue mission to the Amazon rainforest with the footage shot by a lost team of documentarians who were making a film about the area's local cannibal tribes.",
       "poster": "posters/cannibal-holocaust.jpg",
@@ -682,40 +656,6 @@
             {
               "time": "6:30 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EdzZOwZd"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Carolina Caroline",
-      "description": "A young woman, desperate to leave her small town, runs away with a charming con man, embarking on a crime and passion-filled journey through the Southeast to find her estranged mother.",
-      "poster": "posters/carolina-caroline.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1329471/",
-      "tmdb_id": 1329471,
-      "showtimes": {
-        "2026-06-11": {
-          "cinemagic": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=54dOn1nA"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Clash of the Titans",
-      "description": "Born of a god but raised as a man, Perseus is helpless to save his family from Hades, vengeful god of the underworld. With nothing to lose, Perseus volunteers to lead a dangerous mission to defeat Hades before he can seize power from Zeus and unleash hell on earth. Battling unholy demons and fearsome beasts, Perseus and his warriors will only survive if Perseus accepts his power as a god, defies fate and creates his own destiny.",
-      "poster": "posters/clash-of-the-titans.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/18823/",
-      "tmdb_id": 18823,
-      "showtimes": {
-        "2026-06-11": {
-          "hollywood": [
-            {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=58OXLVW9"
             }
           ]
         }
@@ -739,17 +679,58 @@
       }
     },
     {
-      "title": "D.E.B.S.",
-      "description": "A quartet of girls from a prep high school are recruited by a secret paramilitary academy to conduct cloak-and-dagger missions. Short film later expanded into a feature film with the same name.",
-      "poster": "posters/debs.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/178516/",
-      "tmdb_id": 178516,
+      "title": "Con Air",
+      "description": "Newly-paroled former US Army ranger Cameron Poe is headed back to his wife, but must fly home aboard a prison transport flight dubbed \"Jailbird\" taking the \u201cworst of the worst\u201d prisoners, a group described as \u201cpure predators\u201d, to a new super-prison. Poe faces impossible odds when the transport plane is skyjacked mid-flight by the most vicious criminals in the country led by the mastermind \u2014 genius serial killer Cyrus \"The Virus\" Grissom, and backed by black militant Diamond Dog and psychopath Billy Bedlam.",
+      "poster": "posters/con-air.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1701/",
+      "tmdb_id": 1701,
       "showtimes": {
-        "2026-06-11": {
-          "academy": [
+        "2026-06-19": {
+          "cinemagic": [
             {
-              "time": "9:35 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7yPRJQkg"
+            }
+          ]
+        },
+        "2026-06-20": {
+          "cinemagic": [
+            {
+              "time": "9:25 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5RM8KQxr"
+            }
+          ]
+        },
+        "2026-06-22": {
+          "cinemagic": [
+            {
+              "time": "4:20 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7LKRqNvO"
+            }
+          ]
+        },
+        "2026-06-23": {
+          "cinemagic": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=56V6dz4e"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Couture",
+      "description": "In the frenzy of Fashion Week, three women cross paths in Paris, grappling with the world's tragedies and the questions of their lives: Maxine, an American film director in her forties, discovers she has cancer; Ada, a young South Sudanese model, escapes a predetermined destiny to be thrust into a deceptive universe and French makeup artist Ang\u00e8le, a small hand working in the shadows of the catwalks, dreams of escaping her life.",
+      "poster": "posters/couture.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1390382/",
+      "tmdb_id": 1390382,
+      "showtimes": {
+        "2026-06-25": {
+          "livingroom": [
+            {
+              "time": "7:15 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ]
         }
@@ -796,60 +777,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1275779/",
       "tmdb_id": 1275779,
       "showtimes": {
-        "2026-06-11": {
-          "hollywood": [
-            {
-              "time": "6:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5m0YevoR"
-            },
-            {
-              "time": "9:20 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3A4dQPw0"
-            }
-          ],
-          "cinema21": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=ExNYVg2V"
-            }
-          ],
-          "bagdad": [
-            {
-              "time": "3:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "7:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "6:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-06-12": {
           "hollywood": [
             {
@@ -1677,6 +1604,36 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
+        },
+        "2026-06-25": {
+          "hollywood": [
+            {
+              "time": "6:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=58OrADWz"
+            },
+            {
+              "time": "9:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=ErxJM0BZ"
+            }
+          ],
+          "academy": [
+            {
+              "time": "12:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "3:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "6:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "9:30 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
         }
       }
     },
@@ -1820,21 +1777,12 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
-        }
-      }
-    },
-    {
-      "title": "Frida Kahlo",
-      "description": "She was a prolific self-portraitist, using the canvas as a mirror through all stages of her turbulent and, at times, tragic life. This highly engaging film takes us on a journey through the life of one of the most prevalent female icons: Frida Kahlo. Displaying a treasure trove of colour and a feast of vibrancy on screen, this personal and intimate film offers privileged access to her works and highlights the source of her feverish creativity, her resilience and her unmatched lust for life, men, women, politics and her cultural heritage.",
-      "poster": "posters/exhibition-on-screen-frida-kahlo.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/607710/",
-      "tmdb_id": 607710,
-      "showtimes": {
-        "2026-06-11": {
-          "livingroom": [
+        },
+        "2026-06-25": {
+          "academy": [
             {
-              "time": "6:30 PM",
-              "url": "https://livingroomtheaters.com"
+              "time": "7:00 PM",
+              "url": "https://www.academytheaterpdx.com"
             }
           ]
         }
@@ -1891,6 +1839,18 @@
           "academy": [
             {
               "time": "1:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
+        "2026-06-25": {
+          "academy": [
+            {
+              "time": "4:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "9:15 PM",
               "url": "https://www.academytheaterpdx.com"
             }
           ]
@@ -2010,23 +1970,6 @@
       }
     },
     {
-      "title": "Hokum",
-      "description": "When novelist Ohm Bauman retreats to a remote inn to scatter his parents' ashes, he is consumed by tales of a witch haunting the honeymoon suite. Disturbing visions and a shocking disappearance forces him to confront dark corners of his past.",
-      "poster": "posters/hokum.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1430077/",
-      "tmdb_id": 1430077,
-      "showtimes": {
-        "2026-06-11": {
-          "cinemagic": [
-            {
-              "time": "4:40 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7NNb9VQ1"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "House of Games",
       "description": "A reimagining of the 1987 MGM feature film of the same name.",
       "poster": "posters/house-of-games.jpg",
@@ -2050,18 +1993,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1227877/",
       "tmdb_id": 1227877,
       "showtimes": {
-        "2026-06-11": {
-          "livingroom": [
-            {
-              "time": "12:25 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "5:10 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-06-12": {
           "livingroom": [
             {
@@ -2398,6 +2329,18 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5gJVQDaA"
             }
           ]
+        },
+        "2026-06-25": {
+          "cinema21": [
+            {
+              "time": "4:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EMnYM0pL"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5jqPMlzm"
+            }
+          ]
         }
       }
     },
@@ -2459,62 +2402,37 @@
       }
     },
     {
+      "title": "Mrs. Doubtfire",
+      "description": "Loving but irresponsible dad Daniel Hillard, estranged from his exasperated spouse, is crushed by a court order allowing only weekly visits with his kids. When Daniel learns his ex needs a housekeeper, he gets the job -- disguised as a British nanny. Soon he becomes not only his children's best pal but the kind of parent he should have been from the start.",
+      "poster": "posters/mrs-doubtfire.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/788/",
+      "tmdb_id": 788,
+      "showtimes": {
+        "2026-06-21": {
+          "cinemagic": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7NNkepld"
+            }
+          ]
+        },
+        "2026-06-24": {
+          "cinemagic": [
+            {
+              "time": "4:20 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EX0jQzJQ"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "Obsession",
       "description": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
       "poster": "posters/obsession.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/1339713/",
       "tmdb_id": 1339713,
       "showtimes": {
-        "2026-06-11": {
-          "cinema21": [
-            {
-              "time": "4:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=ElKPODAy"
-            },
-            {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5pLPrr8w"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:50 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "4:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-06-12": {
           "cinema21": [
             {
@@ -2862,6 +2780,14 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=ExNYo4O2"
             }
           ]
+        },
+        "2026-06-25": {
+          "cinemagic": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=54dOgD0w"
+            }
+          ]
         }
       }
     },
@@ -2872,32 +2798,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1284016/",
       "tmdb_id": 1284016,
       "showtimes": {
-        "2026-06-11": {
-          "cinema21": [
-            {
-              "time": "4:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5RMJbOAq"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:40 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-06-12": {
           "livingroom": [
             {
@@ -2981,31 +2881,6 @@
       }
     },
     {
-      "title": "Pressure",
-      "description": "In the tense 72 hours before D-Day, and the fate of the free world hanging in the balance, General Dwight D. Eisenhower and Captain James Stagg face an impossible choice\u2014launch the largest and most dangerous seaborne invasion in history or risk losing the war altogether.",
-      "poster": "posters/pressure.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1318413/",
-      "tmdb_id": 1318413,
-      "showtimes": {
-        "2026-06-11": {
-          "livingroom": [
-            {
-              "time": "11:45 AM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "1:50 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Satan's Slaves",
       "description": "After dying from a strange illness that she suffered for three years, a mother returns home to pick up her children.",
       "poster": "posters/satans-slaves.jpg",
@@ -3025,31 +2900,6 @@
             {
               "time": "9:30 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3BZx9K0A"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Savage House",
-      "description": "Against the backdrop of 18th century England, a massive pox outbreak, and Jacobite uprising \u2013 Sir Chauncey Savage and Lady Savage blindly pursue a better life. It's not without a tinge of irony that their family name is the Savages, for this is a Savage House indeed, filled with duels, decadence, and bloodshed.",
-      "poster": "posters/savage-house.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1245859/",
-      "tmdb_id": 1245859,
-      "showtimes": {
-        "2026-06-11": {
-          "livingroom": [
-            {
-              "time": "11:45 AM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:10 PM",
-              "url": "https://livingroomtheaters.com"
             }
           ]
         }
@@ -3096,24 +2946,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1541560/",
       "tmdb_id": 1541560,
       "showtimes": {
-        "2026-06-11": {
-          "laurelhurst": [
-            {
-              "time": "4:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "7:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-06-12": {
           "laurelhurst": [
             {
@@ -3358,6 +3190,23 @@
       }
     },
     {
+      "title": "Supergirl (v.f.)",
+      "description": "",
+      "poster": "posters/supergirl-vf.jpg",
+      "letterboxd_url": "https://letterboxd.com/film/supergirl-vf/",
+      "tmdb_id": null,
+      "showtimes": {
+        "2026-06-25": {
+          "livingroom": [
+            {
+              "time": "7:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "The Deer Hunter",
       "description": "Three steelworkers enlist in the army and are sent to Vietnam, one leaving behind a rushed marriage, the others a shared love. What they encounter during the war changes their lives forever.",
       "poster": "posters/the-deer-hunter.jpg",
@@ -3381,26 +3230,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1314481/",
       "tmdb_id": 1314481,
       "showtimes": {
-        "2026-06-11": {
-          "livingroom": [
-            {
-              "time": "11:50 AM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:20 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-06-12": {
           "livingroom": [
             {
@@ -3614,21 +3443,17 @@
       }
     },
     {
-      "title": "The Muppet Movie",
-      "description": "The Muppets gather to watch their newly-finished big-budget rich-and-famous feature film: a talent agent persuades Kermit the Frog to leave the swamp to pursue a career in Hollywood. On his way there, he meets a bear, a pig, a whatever (his future muppet crew), and some special celebrity guest stars, while being chased by the desperate owner of a frog-leg restaurant!",
-      "poster": "posters/the-muppet-movie.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/11176/",
-      "tmdb_id": 11176,
+      "title": "The Omen",
+      "description": "Immediately after their miscarriage, the US diplomat Robert Thorn adopts the newborn Damien without the knowledge of his wife. Yet what he doesn\u2019t know is that their new son is the son of the devil.",
+      "poster": "posters/the-omen.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/794/",
+      "tmdb_id": 794,
       "showtimes": {
-        "2026-06-11": {
-          "academy": [
+        "2026-06-25": {
+          "hollywood": [
             {
-              "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "time": "7:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7oYnVyVX"
             }
           ]
         }
@@ -3735,17 +3560,67 @@
       }
     },
     {
-      "title": "The Twilight Saga: Breaking Dawn - Part 1",
-      "description": "Bella Swan and Edward Cullen's honeymoon phase is abruptly disrupted by betrayals and unforeseen tragedies that endanger their world.",
-      "poster": "posters/the-twilight-saga-breaking-dawn-part-2.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/50619/",
-      "tmdb_id": 50619,
+      "title": "Threads",
+      "description": "Documentary style account of a nuclear holocaust and its effect on the working class city of Sheffield, England; and the eventual long run effects of nuclear war on civilization.",
+      "poster": "posters/threads.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/17835/",
+      "tmdb_id": 17835,
       "showtimes": {
-        "2026-06-11": {
-          "clinton": [
+        "2026-06-25": {
+          "hollywood": [
             {
               "time": "7:00 PM",
-              "url": "https://cstpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E0D0gj0V"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "description": "Scout Finch, 6, and her older brother Jem live in sleepy Maycomb, Alabama, spending much of their time with their friend Dill and spying on their reclusive and mysterious neighbor, Boo Radley. When Atticus, their widowed father and a respected lawyer, defends a black man named Tom Robinson against fabricated rape charges, the trial and tangent events expose the children to evils of racism and stereotyping.",
+      "poster": "posters/to-kill-a-mockingbird.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/595/",
+      "tmdb_id": 595,
+      "showtimes": {
+        "2026-06-20": {
+          "cinemagic": [
+            {
+              "time": "4:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=58ONdeaN"
+            }
+          ]
+        },
+        "2026-06-23": {
+          "cinemagic": [
+            {
+              "time": "4:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5ONOgJpP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Tombstone",
+      "description": "Legendary marshal Wyatt Earp, now a weary gunfighter, joins his brothers Morgan and Virgil to pursue their collective fortune in the thriving mining town of Tombstone. But Earp is forced to don a badge again and get help from his notorious pal Doc Holliday when a gang of renegade brigands and rustlers begins terrorizing the town.",
+      "poster": "posters/tombstone.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/11969/",
+      "tmdb_id": 11969,
+      "showtimes": {
+        "2026-06-21": {
+          "cinemagic": [
+            {
+              "time": "4:10 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3BZegjBx"
+            }
+          ]
+        },
+        "2026-06-22": {
+          "cinemagic": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=58ONdeaO"
             }
           ]
         }
@@ -3873,6 +3748,26 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
+        },
+        "2026-06-25": {
+          "academy": [
+            {
+              "time": "12:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "4:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "9:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
         }
       }
     },
@@ -3883,14 +3778,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/627/",
       "tmdb_id": 627,
       "showtimes": {
-        "2026-06-11": {
-          "livingroom": [
-            {
-              "time": "2:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-06-12": {
           "livingroom": [
             {
