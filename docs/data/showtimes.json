@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-19T13:37:41.127283",
-  "start_date": "2026-06-19",
+  "generated_at": "2026-06-20T12:01:18.834701",
+  "start_date": "2026-06-20",
   "num_days": 14,
   "movies": [
     {
       "title": "12 Angry Men",
-      "description": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other.",
+      "description": "",
       "poster": "posters/12-angry-men.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/389/",
-      "tmdb_id": 389,
+      "letterboxd_url": "https://letterboxd.com/film/12-angry-men/",
+      "tmdb_id": null,
       "showtimes": {
         "2026-06-26": {
           "academy": [
@@ -74,10 +74,10 @@
     },
     {
       "title": "A Simple Plan",
-      "description": "Captivated by the lure of sudden wealth, the quiet rural lives of two brothers erupt into conflicts of greed, paranoia and distrust when over $4 million in cash is discovered at the remote site of a downed small airplane. Their simple plan to retain the money while avoiding detection opens a Pandora's box when the fear of getting caught triggers panicked behavior and leads to virulent consequences.",
-      "poster": "posters/a-simple-plan.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/10223/",
-      "tmdb_id": 10223,
+      "description": "",
+      "poster": null,
+      "letterboxd_url": "https://letterboxd.com/film/a-simple-plan/",
+      "tmdb_id": null,
       "showtimes": {
         "2026-06-24": {
           "hollywood": [
@@ -90,20 +90,29 @@
       }
     },
     {
+      "title": "Adolescence of Utena",
+      "description": "",
+      "poster": "posters/adolescence-of-utena.jpg",
+      "letterboxd_url": "https://letterboxd.com/film/adolescence-of-utena/",
+      "tmdb_id": null,
+      "showtimes": {
+        "2026-06-22": {
+          "hollywood": [
+            {
+              "time": "7:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EaNzKmK9"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "Ask E. Jean",
       "description": "Chronicles E. Jean Carroll's life, trailblazing work and legal battles.",
       "poster": "posters/ask-e-jean.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/1535470/",
       "tmdb_id": 1535470,
       "showtimes": {
-        "2026-06-19": {
-          "livingroom": [
-            {
-              "time": "12:15 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-06-20": {
           "livingroom": [
             {
@@ -161,32 +170,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1083381/",
       "tmdb_id": 1083381,
       "showtimes": {
-        "2026-06-19": {
-          "hollywood": [
-            {
-              "time": "6:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5jqlOaJ4"
-            },
-            {
-              "time": "9:20 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5QxBryYM"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "4:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "9:35 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
         "2026-06-20": {
           "hollywood": [
             {
@@ -317,19 +300,11 @@
     },
     {
       "title": "Barry Lyndon",
-      "description": "An Irish rogue uses his cunning and wit to work his way up the social classes of 18th century England, transforming himself from the humble Redmond Barry into the noble Barry Lyndon.",
+      "description": "",
       "poster": "posters/barry-lyndon.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/3175/",
-      "tmdb_id": 3175,
+      "letterboxd_url": "https://letterboxd.com/film/barry-lyndon/",
+      "tmdb_id": null,
       "showtimes": {
-        "2026-06-19": {
-          "academy": [
-            {
-              "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-06-20": {
           "academy": [
             {
@@ -381,28 +356,11 @@
       }
     },
     {
-      "title": "Big Shark",
-      "description": "Three firefighters must save New Orleans from a gigantic shark.",
-      "poster": "posters/big-shark.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/580428/",
-      "tmdb_id": 580428,
-      "showtimes": {
-        "2026-06-19": {
-          "cinema21": [
-            {
-              "time": "9:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=54dKgZ6d"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Black Dynamite",
-      "description": "This is the story of 1970s African-American action legend Black Dynamite. The Man killed his brother, pumped heroin into local orphanages, and flooded the ghetto with adulterated malt liquor. Black Dynamite was the one hero willing to fight The Man all the way from the blood-soaked city streets to the hallowed halls of the Honky House.",
+      "description": "",
       "poster": "posters/black-dynamite.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/24804/",
-      "tmdb_id": 24804,
+      "letterboxd_url": "https://letterboxd.com/film/black-dynamite/",
+      "tmdb_id": null,
       "showtimes": {
         "2026-06-27": {
           "cinemagic": [
@@ -432,10 +390,10 @@
     },
     {
       "title": "Black Past",
-      "description": "Tommy finds a cursed mirror and a diary in an attic in the new house they moved in. The mirror starts to give Tommy horrible and gruesome visions as his crush keeps rising from the dead.",
+      "description": "",
       "poster": "posters/black-past.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/35192/",
-      "tmdb_id": 35192,
+      "letterboxd_url": "https://letterboxd.com/film/black-past/",
+      "tmdb_id": null,
       "showtimes": {
         "2026-06-27": {
           "cinemagic": [
@@ -449,15 +407,32 @@
     },
     {
       "title": "Blood Tea and Red String",
-      "description": "The aristocratic White Mice and the rustic Creatures Who Dwell Under the Oak battle over the doll of their hearts' desire.",
+      "description": "",
       "poster": "posters/blood-tea-and-red-string.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/39510/",
-      "tmdb_id": 39510,
+      "letterboxd_url": "https://letterboxd.com/film/blood-tea-and-red-string/",
+      "tmdb_id": null,
       "showtimes": {
         "2026-06-20": {
           "academy": [
             {
               "time": "7:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Blow Out",
+      "description": "",
+      "poster": "posters/blow-out.jpg",
+      "letterboxd_url": "https://letterboxd.com/film/blow-out/",
+      "tmdb_id": null,
+      "showtimes": {
+        "2026-07-03": {
+          "academy": [
+            {
+              "time": "1:00 PM",
               "url": "https://www.academytheaterpdx.com"
             }
           ]
@@ -491,10 +466,10 @@
     },
     {
       "title": "Cannibal Holocaust",
-      "description": "A New York University professor returns from a rescue mission to the Amazon rainforest with the footage shot by a lost team of documentarians who were making a film about the area's local cannibal tribes.",
+      "description": "",
       "poster": "posters/cannibal-holocaust.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/8689/",
-      "tmdb_id": 8689,
+      "letterboxd_url": "https://letterboxd.com/film/cannibal-holocaust/",
+      "tmdb_id": null,
       "showtimes": {
         "2026-06-21": {
           "hollywood": [
@@ -508,19 +483,11 @@
     },
     {
       "title": "Con Air",
-      "description": "Newly-paroled former US Army ranger Cameron Poe is headed back to his wife, but must fly home aboard a prison transport flight dubbed \"Jailbird\" taking the \u201cworst of the worst\u201d prisoners, a group described as \u201cpure predators\u201d, to a new super-prison. Poe faces impossible odds when the transport plane is skyjacked mid-flight by the most vicious criminals in the country led by the mastermind \u2014 genius serial killer Cyrus \"The Virus\" Grissom, and backed by black militant Diamond Dog and psychopath Billy Bedlam.",
+      "description": "",
       "poster": "posters/con-air.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1701/",
-      "tmdb_id": 1701,
+      "letterboxd_url": "https://letterboxd.com/film/con-air/",
+      "tmdb_id": null,
       "showtimes": {
-        "2026-06-19": {
-          "cinemagic": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7yPRJQkg"
-            }
-          ]
-        },
         "2026-06-20": {
           "cinemagic": [
             {
@@ -541,10 +508,10 @@
     },
     {
       "title": "Couture",
-      "description": "In the frenzy of Fashion Week, three women cross paths in Paris, grappling with the world's tragedies and the questions of their lives: Maxine, an American film director in her forties, discovers she has cancer; Ada, a young South Sudanese model, escapes a predetermined destiny to be thrust into a deceptive universe and French makeup artist Ang\u00e8le, a small hand working in the shadows of the catwalks, dreams of escaping her life.",
+      "description": "",
       "poster": "posters/couture.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1390382/",
-      "tmdb_id": 1390382,
+      "letterboxd_url": "https://letterboxd.com/film/couture/",
+      "tmdb_id": null,
       "showtimes": {
         "2026-06-25": {
           "livingroom": [
@@ -590,10 +557,10 @@
     },
     {
       "title": "Creepshow",
-      "description": "Five grisly tales from a 1950s-style comic, including a murdered father rising from beyond, a bizarre meteor, a vengeful husband, a mysterious crate's occupant, and a plague of cockroaches.",
+      "description": "",
       "poster": "posters/creepshow.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/16281/",
-      "tmdb_id": 16281,
+      "letterboxd_url": "https://letterboxd.com/film/creepshow/",
+      "tmdb_id": null,
       "showtimes": {
         "2026-06-30": {
           "hollywood": [
@@ -607,97 +574,11 @@
     },
     {
       "title": "Disclosure Day",
-      "description": "If you found out we weren\u2019t alone, if someone showed you, proved it to you, would that frighten you?",
+      "description": "A cybersecurity expert becomes a whistleblower after uncovering secrets about aliens, putting him on the run from a corporation. Meanwhile, a meteorologist experiencing strange phenomena joins forces with him to prove there's life beyond our understanding.",
       "poster": "posters/disclosure-day.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/1275779/",
       "tmdb_id": 1275779,
       "showtimes": {
-        "2026-06-19": {
-          "hollywood": [
-            {
-              "time": "6:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5RMJdO2o"
-            },
-            {
-              "time": "9:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E0Dy4PnW"
-            }
-          ],
-          "cinema21": [
-            {
-              "time": "3:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E0DkG90g"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5RM8Y1Xx"
-            }
-          ],
-          "bagdad": [
-            {
-              "time": "11:30 AM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "3:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "9:20 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "8:45 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "3:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-06-20": {
           "hollywood": [
             {
@@ -1352,23 +1233,11 @@
     },
     {
       "title": "FernGully: The Last Rainforest",
-      "description": "When a sprite named Crysta shrinks a human boy, Zak, down to her size, he vows to help the magical fairy folk stop a greedy logging company from destroying their home: the pristine rainforest known as FernGully. Zak and his new friends fight to defend FernGully from lumberjacks \u2014 and the vengeful spirit they accidentally unleash after chopping down a magic tree.",
+      "description": "",
       "poster": "posters/ferngully-the-last-rainforest.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/13225/",
-      "tmdb_id": 13225,
+      "letterboxd_url": "https://letterboxd.com/film/ferngully-the-last-rainforest/",
+      "tmdb_id": null,
       "showtimes": {
-        "2026-06-19": {
-          "academy": [
-            {
-              "time": "4:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-06-20": {
           "academy": [
             {
@@ -1426,14 +1295,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1556/",
       "tmdb_id": 1556,
       "showtimes": {
-        "2026-06-19": {
-          "academy": [
-            {
-              "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-06-20": {
           "academy": [
             {
@@ -1495,30 +1356,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1397485/",
       "tmdb_id": 1397485,
       "showtimes": {
-        "2026-06-19": {
-          "livingroom": [
-            {
-              "time": "12:35 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "9:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-06-20": {
           "livingroom": [
             {
@@ -1646,11 +1483,28 @@
       }
     },
     {
+      "title": "Godzilla vs. Hedorah (Smog Monster)",
+      "description": "",
+      "poster": "posters/godzilla-vs-hedorah-smog-monster.jpg",
+      "letterboxd_url": "https://letterboxd.com/film/godzilla-vs-hedorah-smog-monster/",
+      "tmdb_id": null,
+      "showtimes": {
+        "2026-07-03": {
+          "academy": [
+            {
+              "time": "7:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "House of Games",
-      "description": "A reimagining of the 1987 MGM feature film of the same name.",
+      "description": "",
       "poster": "posters/house-of-games.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1506364/",
-      "tmdb_id": 1506364,
+      "letterboxd_url": "https://letterboxd.com/film/house-of-games/",
+      "tmdb_id": null,
       "showtimes": {
         "2026-06-20": {
           "cinema21": [
@@ -1664,10 +1518,10 @@
     },
     {
       "title": "I Drink Your Blood",
-      "description": "A group of Satanic hippies wreak havoc on a small town where a young boy, whose sister and grandfather were victimized by them, tries to get even - with deadly results.",
+      "description": "",
       "poster": "posters/i-drink-your-blood.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/27313/",
-      "tmdb_id": 27313,
+      "letterboxd_url": "https://letterboxd.com/film/i-drink-your-blood/",
+      "tmdb_id": null,
       "showtimes": {
         "2026-06-26": {
           "academy": [
@@ -1734,26 +1588,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1227877/",
       "tmdb_id": 1227877,
       "showtimes": {
-        "2026-06-19": {
-          "livingroom": [
-            {
-              "time": "2:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "5:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "9:50 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-06-20": {
           "livingroom": [
             {
@@ -1841,67 +1675,12 @@
       }
     },
     {
-      "title": "Irreversible",
-      "description": "A woman\u2019s lover and her ex-boyfriend take justice into their own hands after she becomes the victim of a rapist. Because some acts can\u2019t be undone. Because man is an animal. Because the desire for vengeance is a natural impulse. Because most crimes remain unpunished.",
-      "poster": "posters/irreversible.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/979/",
-      "tmdb_id": 979,
-      "showtimes": {
-        "2026-06-19": {
-          "hollywood": [
-            {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E2WOKVON"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Leviticus",
       "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most \u2014 each other.",
       "poster": "posters/leviticus.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/1564614/",
       "tmdb_id": 1564614,
       "showtimes": {
-        "2026-06-19": {
-          "cinema21": [
-            {
-              "time": "4:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5RMJx8Pe"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7yPYkRmy"
-            },
-            {
-              "time": "9:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=E0DyMkrL"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:20 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "9:10 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-06-20": {
           "cinema21": [
             {
@@ -2102,10 +1881,10 @@
     },
     {
       "title": "Lost Highway",
-      "description": "A tormented jazz musician finds himself lost in an enigmatic story involving murder, surveillance, gangsters, doppelg\u00e4ngers, and an impossible transformation inside a prison cell.",
+      "description": "",
       "poster": "posters/lost-highway.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/638/",
-      "tmdb_id": 638,
+      "letterboxd_url": "https://letterboxd.com/film/lost-highway/",
+      "tmdb_id": null,
       "showtimes": {
         "2026-06-27": {
           "hollywood": [
@@ -2161,15 +1940,45 @@
               "url": "https://livingroomtheaters.com"
             }
           ]
+        },
+        "2026-07-03": {
+          "bagdad": [
+            {
+              "time": "1:30 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "4:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "9:45 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            }
+          ],
+          "livingroom": [
+            {
+              "time": "6:45 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "8:45 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
         }
       }
     },
     {
       "title": "Mrs. Doubtfire",
-      "description": "Loving but irresponsible dad Daniel Hillard, estranged from his exasperated spouse, is crushed by a court order allowing only weekly visits with his kids. When Daniel learns his ex needs a housekeeper, he gets the job -- disguised as a British nanny. Soon he becomes not only his children's best pal but the kind of parent he should have been from the start.",
+      "description": "",
       "poster": "posters/mrs-doubtfire.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/788/",
-      "tmdb_id": 788,
+      "letterboxd_url": "https://letterboxd.com/film/mrs-doubtfire/",
+      "tmdb_id": null,
       "showtimes": {
         "2026-06-27": {
           "hollywood": [
@@ -2186,15 +1995,23 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7NNkepld"
             }
           ]
+        },
+        "2026-06-24": {
+          "cinemagic": [
+            {
+              "time": "4:20 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EX0jQzJQ"
+            }
+          ]
         }
       }
     },
     {
       "title": "Nowhere",
-      "description": "A young pregnant woman named Mia escapes from a country at war by hiding in a maritime container aboard a cargo ship. After a violent storm, Mia gives birth to the child while lost at sea, where she must fight to survive.",
+      "description": "",
       "poster": "posters/nowhere.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1151534/",
-      "tmdb_id": 1151534,
+      "letterboxd_url": "https://letterboxd.com/film/nowhere/",
+      "tmdb_id": null,
       "showtimes": {
         "2026-06-20": {
           "clinton": [
@@ -2277,36 +2094,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1339713/",
       "tmdb_id": 1339713,
       "showtimes": {
-        "2026-06-19": {
-          "cinema21": [
-            {
-              "time": "4:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5ONOB18b"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=Ekypv4Zw"
-            },
-            {
-              "time": "9:40 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7LKRk1Oz"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "9:10 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
         "2026-06-20": {
           "cinema21": [
             {
@@ -2456,28 +2243,11 @@
       }
     },
     {
-      "title": "Paris Is Burning",
-      "description": "Where does voguing come from, and what, exactly, is throwing shade? This landmark documentary provides a vibrant snapshot of the 1980s through the eyes of New York City's African American and Latinx Harlem drag-ball scene. Made over seven years, PARIS IS BURNING offers an intimate portrait of rival fashion \"houses,\" from fierce contests for trophies to house mothers offering sustenance in a world rampant with homophobia, transphobia, racism, AIDS, and poverty. Featuring legendary voguers, drag queens, and trans women \u2014 including Willi Ninja, Pepper LaBeija, Dorian Corey, and Venus Xtravaganza.",
-      "poster": "posters/paris-is-burning.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/31225/",
-      "tmdb_id": 31225,
-      "showtimes": {
-        "2026-06-19": {
-          "clinton": [
-            {
-              "time": "7:00 PM",
-              "url": "https://cstpdx.com"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Paths of Glory",
-      "description": "A commanding officer defends three scapegoats on trial for a failed offensive that occurred within the French Army in 1916.",
+      "description": "",
       "poster": "posters/paths-of-glory.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/975/",
-      "tmdb_id": 975,
+      "letterboxd_url": "https://letterboxd.com/film/paths-of-glory/",
+      "tmdb_id": null,
       "showtimes": {
         "2026-06-28": {
           "cinemagic": [
@@ -2507,10 +2277,10 @@
     },
     {
       "title": "Persona",
-      "description": "A young nurse, Alma, is put in charge of Elisabeth Vogler: an actress who is seemingly healthy in all respects, but will not talk. As they spend time together, Alma speaks to Elisabeth constantly, never receiving any answer.",
+      "description": "",
       "poster": "posters/persona.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/797/",
-      "tmdb_id": 797,
+      "letterboxd_url": "https://letterboxd.com/film/persona/",
+      "tmdb_id": null,
       "showtimes": {
         "2026-06-21": {
           "cinemagic": [
@@ -2525,6 +2295,31 @@
             {
               "time": "7:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=54dOgD0w"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Rose of Nevada",
+      "description": "A mysterious boat returns to a village 30 years after vanishing. Two men join its crew hoping for better fortune. After one voyage, they find themselves transported back in time, mistaken for the original crew.",
+      "poster": "posters/rose-of-nevada.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1399525/",
+      "tmdb_id": 1399525,
+      "showtimes": {
+        "2026-07-03": {
+          "cinema21": [
+            {
+              "time": "4:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=7oYlojGz"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=5wvl8ZGo"
+            },
+            {
+              "time": "9:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=3GMqw82x"
             }
           ]
         }
@@ -2607,10 +2402,10 @@
     },
     {
       "title": "South Park: Bigger, Longer & Uncut",
-      "description": "In this feature film based on the hit animated series, the third graders of South Park sneak into an R-rated film by ultra-vulgar Canadian television personalities Terrance and Phillip, and emerge with expanded vocabularies that leave their parents and teachers scandalized. When outraged Americans try to censor the film, the controversy spirals into a call to wage war on Canada and Terrance and Phillip end up on death row, with the kids their only hope of rescue.",
+      "description": "",
       "poster": "posters/south-park-bigger-longer-uncut.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/9473/",
-      "tmdb_id": 9473,
+      "letterboxd_url": "https://letterboxd.com/film/south-park-bigger-longer-uncut/",
+      "tmdb_id": null,
       "showtimes": {
         "2026-06-26": {
           "cinemagic": [
@@ -2632,10 +2427,10 @@
     },
     {
       "title": "Star 80",
-      "description": "Paul Snider is a narcissistic, small time hustler who fancies himself a ladies man. His life changes when he meets Dorothy Stratten working behind the counter of a Dairy Queen. Under his guidance Dorothy grows to fame as a Playboy Playmate. But when Dorothy begins pursuing an acting career, the jealous Paul finds himself elbowed out of the picture by more famous men.",
+      "description": "",
       "poster": "posters/star-80.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/30707/",
-      "tmdb_id": 30707,
+      "letterboxd_url": "https://letterboxd.com/film/star-80/",
+      "tmdb_id": null,
       "showtimes": {
         "2026-06-23": {
           "hollywood": [
@@ -2649,49 +2444,11 @@
     },
     {
       "title": "Stop! That! Train!",
-      "description": "Best friends and train stewardesses Tess and DeeDee trade their dreary shifts on the Stank Rail for the glitzy Glamazonian Express. However, when a catastrophic Stormaganza threatens to crash the high-speed train into Los Angeles, the duo in coach must join forces with the snobby first-class attendants and President Gagwell to save the day.",
+      "description": "",
       "poster": "posters/stop-that-train.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1541560/",
-      "tmdb_id": 1541560,
+      "letterboxd_url": "https://letterboxd.com/film/stop-that-train/",
+      "tmdb_id": null,
       "showtimes": {
-        "2026-06-19": {
-          "laurelhurst": [
-            {
-              "time": "4:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "9:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "1:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "5:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "9:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-06-20": {
           "laurelhurst": [
             {
@@ -2931,10 +2688,10 @@
     },
     {
       "title": "The Beast from 20,000 Fathoms",
-      "description": "The controlled explosion of an atomic bomb in the Arctic Circle awakens a frozen dinosaur that will wreak havoc in New York City.",
+      "description": "",
       "poster": "posters/the-beast-from-20000-fathoms.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/35073/",
-      "tmdb_id": 35073,
+      "letterboxd_url": "https://letterboxd.com/film/the-beast-from-20000-fathoms/",
+      "tmdb_id": null,
       "showtimes": {
         "2026-06-28": {
           "hollywood": [
@@ -2970,14 +2727,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1280738/",
       "tmdb_id": 1280738,
       "showtimes": {
-        "2026-06-19": {
-          "cinemagic": [
-            {
-              "time": "9:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=Erxng4Lo"
-            }
-          ]
-        },
         "2026-06-20": {
           "cinemagic": [
             {
@@ -2998,10 +2747,10 @@
     },
     {
       "title": "The Handmaiden",
-      "description": "1930s Korea, in the period of Japanese occupation, a new girl, Sook-hee, is hired as a handmaiden to a Japanese heiress, Hideko, who lives a secluded life on a large countryside estate with her domineering Uncle Kouzuki. But the maid has a secret. She is a pickpocket recruited by a swindler posing as a Japanese Count to help him seduce the Lady to steal her fortune.",
+      "description": "",
       "poster": "posters/the-handmaiden.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/290098/",
-      "tmdb_id": 290098,
+      "letterboxd_url": "https://letterboxd.com/film/the-handmaiden/",
+      "tmdb_id": null,
       "showtimes": {
         "2026-06-25": {
           "clinton": [
@@ -3032,10 +2781,10 @@
     },
     {
       "title": "The Rocky Horror Picture Show",
-      "description": "After getting a flat tire in the middle of nowhere, newly engaged couple Brad and Janet encounter the eerie mansion of the flamboyant, seductive Dr Frank-N-Furter and a variety of eccentric characters. Through elaborate dance and rock music, the mad scientist unveils his latest creation: a perfect, muscular man.",
+      "description": "",
       "poster": "posters/the-rocky-horror-picture-show.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/36685/",
-      "tmdb_id": 36685,
+      "letterboxd_url": "https://letterboxd.com/film/the-rocky-horror-picture-show/",
+      "tmdb_id": null,
       "showtimes": {
         "2026-06-20": {
           "clinton": [
@@ -3049,10 +2798,10 @@
     },
     {
       "title": "The Third Man",
-      "description": "In postwar Vienna, Austria, Holly Martins, a writer of pulp Westerns, arrives penniless as a guest of his childhood chum Harry Lime, only to learn he has died. Martins develops a conspiracy theory after learning of a \"third man\" present at the time of Harry's death, running into interference from British officer Major Calloway, and falling head-over-heels for Harry's grief-stricken lover, Anna.",
+      "description": "",
       "poster": "posters/the-third-man.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1092/",
-      "tmdb_id": 1092,
+      "letterboxd_url": "https://letterboxd.com/film/the-third-man/",
+      "tmdb_id": null,
       "showtimes": {
         "2026-07-02": {
           "hollywood": [
@@ -3061,15 +2810,23 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EbdebL2l"
             }
           ]
+        },
+        "2026-07-03": {
+          "hollywood": [
+            {
+              "time": "7:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EaNzxO22"
+            }
+          ]
         }
       }
     },
     {
       "title": "The Turin Horse",
-      "description": "A look at the monotonous daily struggle of a father and daughter in a windswept, desolate landscape. Over six days, their routine of eating boiled potatoes and tending a failing horse crumbles, symbolizing a slow descent into darkness, emptiness, and the end of existence.",
+      "description": "",
       "poster": "posters/the-turin-horse.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/81401/",
-      "tmdb_id": 81401,
+      "letterboxd_url": "https://letterboxd.com/film/the-turin-horse/",
+      "tmdb_id": null,
       "showtimes": {
         "2026-06-22": {
           "hollywood": [
@@ -3125,10 +2882,10 @@
     },
     {
       "title": "Tombstone",
-      "description": "Legendary marshal Wyatt Earp, now a weary gunfighter, joins his brothers Morgan and Virgil to pursue their collective fortune in the thriving mining town of Tombstone. But Earp is forced to don a badge again and get help from his notorious pal Doc Holliday when a gang of renegade brigands and rustlers begins terrorizing the town.",
+      "description": "",
       "poster": "posters/tombstone.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/11969/",
-      "tmdb_id": 11969,
+      "letterboxd_url": "https://letterboxd.com/film/tombstone/",
+      "tmdb_id": null,
       "showtimes": {
         "2026-06-21": {
           "cinemagic": [
@@ -3155,48 +2912,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1084244/",
       "tmdb_id": 1084244,
       "showtimes": {
-        "2026-06-19": {
-          "livingroom": [
-            {
-              "time": "11:45 AM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "9:35 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "4:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-06-20": {
           "livingroom": [
             {
@@ -3540,17 +3255,21 @@
       }
     },
     {
-      "title": "Trash-Mex Trailers To Watch Over & Over (until you pass out..)",
-      "description": "A Mexican movie trailer compilation from the Trash-Mex VHS collection.",
-      "poster": "posters/watch-trailer.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1052292/",
-      "tmdb_id": 1052292,
+      "title": "Unforgiven",
+      "description": "William Munny is a retired, once-ruthless killer turned gentle widower and hog farmer. To help support his two motherless children, he accepts one last bounty-hunter mission to find the men who brutalized a prostitute. Joined by his former partner and a cocky greenhorn, he takes on a corrupt sheriff.",
+      "poster": "posters/unforgiven.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/33/",
+      "tmdb_id": 33,
       "showtimes": {
-        "2026-06-22": {
-          "hollywood": [
+        "2026-07-03": {
+          "academy": [
             {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&sid=EaNzKmK9"
+              "time": "4:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "9:45 PM",
+              "url": "https://www.academytheaterpdx.com"
             }
           ]
         }
@@ -3558,10 +3277,10 @@
     },
     {
       "title": "Wings of Desire",
-      "description": "Two angels, Damiel and Cassiel, glide through the streets of Berlin, observing the bustling population, providing invisible rays of hope to the distressed but never interacting with them. When Damiel falls in love with lonely trapeze artist Marion, the angel longs to experience life in the physical world, and finds \u2014 with some words of wisdom from actor Peter Falk \u2014 that it might be possible for him to take human form.",
+      "description": "",
       "poster": "posters/wings-of-desire.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/144/",
-      "tmdb_id": 144,
+      "letterboxd_url": "https://letterboxd.com/film/wings-of-desire/",
+      "tmdb_id": null,
       "showtimes": {
         "2026-06-27": {
           "cinema21": [
