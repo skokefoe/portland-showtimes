@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-28T12:00:42.378727",
-  "start_date": "2026-07-28",
+  "generated_at": "2026-07-29T12:04:49.856650",
+  "start_date": "2026-07-29",
   "num_days": 14,
   "movies": [
     {
@@ -27,14 +27,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/105/",
       "tmdb_id": 105,
       "showtimes": {
-        "2026-07-28": {
-          "academy": [
-            {
-              "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-07-29": {
           "academy": [
             {
@@ -54,11 +46,11 @@
       }
     },
     {
-      "title": "Blade",
-      "description": "The Daywalker known as \"Blade\" - a half-vampire, half-mortal man - becomes the protector of humanity against an underground army of vampires.",
+      "title": "Blade Runner",
+      "description": "In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to terminate a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.",
       "poster": "posters/blade.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/36647/",
-      "tmdb_id": 36647,
+      "letterboxd_url": "https://letterboxd.com/tmdb/78/",
+      "tmdb_id": 78,
       "showtimes": {
         "2026-07-31": {
           "academy": [
@@ -133,22 +125,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1275779/",
       "tmdb_id": 1275779,
       "showtimes": {
-        "2026-07-28": {
-          "livingroom": [
-            {
-              "time": "11:50 AM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-07-29": {
           "livingroom": [
             {
@@ -238,6 +214,14 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
+        },
+        "2026-08-11": {
+          "academy": [
+            {
+              "time": "1:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
         }
       }
     },
@@ -248,7 +232,7 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1212763/",
       "tmdb_id": 1212763,
       "showtimes": {
-        "2026-07-28": {
+        "2026-07-29": {
           "laurelhurst": [
             {
               "time": "3:15 PM",
@@ -311,7 +295,7 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1476682/",
       "tmdb_id": 1476682,
       "showtimes": {
-        "2026-07-28": {
+        "2026-07-29": {
           "laurelhurst": [
             {
               "time": "3:45 PM",
@@ -328,26 +312,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1469342/",
       "tmdb_id": 1469342,
       "showtimes": {
-        "2026-07-28": {
-          "livingroom": [
-            {
-              "time": "12:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "5:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:20 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-07-29": {
           "livingroom": [
             {
@@ -438,6 +402,20 @@
               "time": "9:40 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-2cb75cee6ca22b44ff6ee6d5ed28a565fe381443a52d74d2ce22cd03ae59b00b"
             }
+          ],
+          "laurelhurst": [
+            {
+              "time": "4:00 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "9:45 PM",
+              "url": "https://www.laurelhursttheater.com"
+            }
           ]
         },
         "2026-08-01": {
@@ -458,6 +436,24 @@
               "time": "9:40 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-4c457c586613d979e04a7285fa7f6e96afc153f89a15e2b69bf8726ed792d189"
             }
+          ],
+          "laurelhurst": [
+            {
+              "time": "12:45 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "4:00 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "9:45 PM",
+              "url": "https://www.laurelhursttheater.com"
+            }
           ]
         },
         "2026-08-02": {
@@ -474,6 +470,20 @@
               "time": "7:15 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-65cf17c19e4d3d69b1251521fd09fda6f1f9a28ff3e4d19fa9b208654ba11de9"
             }
+          ],
+          "laurelhurst": [
+            {
+              "time": "12:45 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "4:00 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.laurelhursttheater.com"
+            }
           ]
         },
         "2026-08-03": {
@@ -485,6 +495,16 @@
             {
               "time": "7:15 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-226f6cfcbf010c54165bcb9b518a3dc70c0821e39f63fcbd058c4fdc27eeec98"
+            }
+          ],
+          "laurelhurst": [
+            {
+              "time": "4:00 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.laurelhursttheater.com"
             }
           ]
         },
@@ -498,6 +518,16 @@
               "time": "7:15 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-0a9fb8c5d8b7002b8867e6150b0ce80a020c4f656b7619bf89d4efef2255cb71"
             }
+          ],
+          "laurelhurst": [
+            {
+              "time": "4:00 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.laurelhursttheater.com"
+            }
           ]
         },
         "2026-08-05": {
@@ -510,6 +540,16 @@
               "time": "7:15 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-dbdec49825f7e42fae6da341ef5ecc2c7b9406bec07745dee470fb90075ca6ab"
             }
+          ],
+          "laurelhurst": [
+            {
+              "time": "4:00 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.laurelhursttheater.com"
+            }
           ]
         },
         "2026-08-06": {
@@ -521,6 +561,16 @@
             {
               "time": "7:15 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a0d56a200d1bf1e16cddd7647eefb2a66e9313d5a281d6a0c79e54a0a7003312"
+            }
+          ],
+          "laurelhurst": [
+            {
+              "time": "4:00 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.laurelhursttheater.com"
             }
           ]
         }
@@ -568,6 +618,14 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6dd0911882de014a1aecc73bf9678a0b50a31bd4eb8a9f39cee1c7c8f7918489"
             }
           ]
+        },
+        "2026-08-11": {
+          "cinemagic": [
+            {
+              "time": "9:35 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-0ed07f9e2f50a56edc1d3d24976748d5976b723e07fc61d8000bfb0f6d99352d"
+            }
+          ]
         }
       }
     },
@@ -578,14 +636,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1517868/",
       "tmdb_id": 1517868,
       "showtimes": {
-        "2026-07-28": {
-          "cinema21": [
-            {
-              "time": "4:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d7ea6b6a97708a84005902a0493a27c8637f869bc7d56e68188960489442b99c"
-            }
-          ]
-        },
         "2026-07-29": {
           "cinema21": [
             {
@@ -687,6 +737,14 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-92cb0d44deb3b66e1ed2ceab82b4704ef7275484e3fad37689aa2a4c279b3cfc"
             }
           ]
+        },
+        "2026-08-11": {
+          "hollywood": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-fbc14b83af5fa25840e7e5e79a70bb1e41193ff58669b8ea1f0b878d3a893419"
+            }
+          ]
         }
       }
     },
@@ -764,26 +822,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1315772/",
       "tmdb_id": 1315772,
       "showtimes": {
-        "2026-07-28": {
-          "livingroom": [
-            {
-              "time": "11:45 AM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "5:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-07-29": {
           "livingroom": [
             {
@@ -933,6 +971,14 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
+        },
+        "2026-08-11": {
+          "academy": [
+            {
+              "time": "4:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
         }
       }
     },
@@ -943,7 +989,7 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1339713/",
       "tmdb_id": 1339713,
       "showtimes": {
-        "2026-07-28": {
+        "2026-07-29": {
           "laurelhurst": [
             {
               "time": "7:00 PM",
@@ -995,6 +1041,14 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
+        },
+        "2026-08-11": {
+          "academy": [
+            {
+              "time": "7:15 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
         }
       }
     },
@@ -1039,14 +1093,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/301/",
       "tmdb_id": 301,
       "showtimes": {
-        "2026-07-28": {
-          "academy": [
-            {
-              "time": "6:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-07-29": {
           "academy": [
             {
@@ -1072,14 +1118,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1182861/",
       "tmdb_id": 1182861,
       "showtimes": {
-        "2026-07-28": {
-          "livingroom": [
-            {
-              "time": "12:25 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-07-29": {
           "livingroom": [
             {
@@ -1154,14 +1192,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/6396/",
       "tmdb_id": 6396,
       "showtimes": {
-        "2026-07-28": {
-          "academy": [
-            {
-              "time": "4:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-07-29": {
           "academy": [
             {
@@ -1289,6 +1319,20 @@
               "url": "https://www.mcmenamins.com/bagdad-theater-pub"
             }
           ],
+          "laurelhurst": [
+            {
+              "time": "3:00 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "9:30 PM",
+              "url": "https://www.laurelhursttheater.com"
+            }
+          ],
           "livingroom": [
             {
               "time": "7:00 PM",
@@ -1337,6 +1381,24 @@
               "url": "https://www.mcmenamins.com/bagdad-theater-pub"
             }
           ],
+          "laurelhurst": [
+            {
+              "time": "12:00 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "3:00 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "9:30 PM",
+              "url": "https://www.laurelhursttheater.com"
+            }
+          ],
           "livingroom": [
             {
               "time": "7:00 PM",
@@ -1381,6 +1443,20 @@
               "url": "https://www.mcmenamins.com/bagdad-theater-pub"
             }
           ],
+          "laurelhurst": [
+            {
+              "time": "12:00 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "3:00 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://www.laurelhursttheater.com"
+            }
+          ],
           "livingroom": [
             {
               "time": "7:00 PM",
@@ -1421,6 +1497,16 @@
               "url": "https://www.mcmenamins.com/bagdad-theater-pub"
             }
           ],
+          "laurelhurst": [
+            {
+              "time": "3:00 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://www.laurelhursttheater.com"
+            }
+          ],
           "academy": [
             {
               "time": "12:00 PM",
@@ -1439,12 +1525,18 @@
         "2026-08-04": {
           "bagdad": [
             {
-              "time": "11:30 AM",
+              "time": "7:00 PM",
               "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
+            }
+          ],
+          "laurelhurst": [
             {
               "time": "3:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://www.laurelhursttheater.com"
             }
           ],
           "academy": [
@@ -1477,6 +1569,16 @@
               "url": "https://www.mcmenamins.com/bagdad-theater-pub"
             }
           ],
+          "laurelhurst": [
+            {
+              "time": "3:00 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://www.laurelhursttheater.com"
+            }
+          ],
           "academy": [
             {
               "time": "12:00 PM",
@@ -1505,6 +1607,16 @@
             {
               "time": "7:00 PM",
               "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            }
+          ],
+          "laurelhurst": [
+            {
+              "time": "3:00 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://www.laurelhursttheater.com"
             }
           ],
           "academy": [
@@ -1657,6 +1769,32 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
+        },
+        "2026-08-11": {
+          "bagdad": [
+            {
+              "time": "11:30 AM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "3:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            }
+          ],
+          "academy": [
+            {
+              "time": "12:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "3:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
         }
       }
     },
@@ -1711,6 +1849,39 @@
       }
     },
     {
+      "title": "The 48 Hour Film Project",
+      "description": "",
+      "poster": "posters/the-48-hour-film-project.jpg",
+      "letterboxd_url": "https://letterboxd.com/film/the-48-hour-film-project/",
+      "tmdb_id": null,
+      "showtimes": {
+        "2026-07-31": {
+          "clinton": [
+            {
+              "time": "6:00 PM",
+              "url": "https://cstpdx.com"
+            },
+            {
+              "time": "9:00 PM",
+              "url": "https://cstpdx.com"
+            }
+          ]
+        },
+        "2026-08-01": {
+          "clinton": [
+            {
+              "time": "3:00 PM",
+              "url": "https://cstpdx.com"
+            },
+            {
+              "time": "6:00 PM",
+              "url": "https://cstpdx.com"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "The Furious",
       "description": "After a criminal network kidnaps Wang Wei's daughter and the corrupt police refuse to assist him, Wei sets out on his own to locate her. Navin, a tenacious journalist whose wife has mysteriously vanished, is his only ally. In this explosive martial arts showdown, the unlikely duo fights the kidnappers ruthlessly driven by a furious vengeance.",
       "poster": "posters/the-furious.jpg",
@@ -1759,48 +1930,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/950028/",
       "tmdb_id": 950028,
       "showtimes": {
-        "2026-07-28": {
-          "hollywood": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-c7608955fdb4b80818ec8c8d2189f1b442cc6be538deed356db948779c010180"
-            }
-          ],
-          "cinema21": [
-            {
-              "time": "4:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-1d28eb661de2b36d8ec33f9985324b63fd86f82412ab983e00f147bece00d603"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-980adc7216950689b98e2fdc08f1b588da964b95ee99ae18654a97a76cff94fa"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "4:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-07-29": {
           "hollywood": [
             {
@@ -1816,6 +1945,16 @@
             {
               "time": "7:30 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-410bfcfcdeb4c2c1dec5a3b9d76e1349440a49da3a1998cb4da2495a755bb88d"
+            }
+          ],
+          "laurelhurst": [
+            {
+              "time": "3:30 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "6:30 PM",
+              "url": "https://www.laurelhursttheater.com"
             }
           ],
           "academy": [
@@ -1848,16 +1987,6 @@
             {
               "time": "7:15 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-e7e96cbea2ec63de206c15f32482c753d0dd446dc34c3a4acb75ef0cc9f43386"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://www.laurelhursttheater.com"
             }
           ],
           "academy": [
@@ -1993,6 +2122,16 @@
               "time": "7:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-83bafee88b7f59d941fe2a0b3c887a6dbd81a7f8275556e8aa04f537e7c74dbf"
             }
+          ],
+          "laurelhurst": [
+            {
+              "time": "3:45 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "6:30 PM",
+              "url": "https://www.laurelhursttheater.com"
+            }
           ]
         },
         "2026-08-06": {
@@ -2010,6 +2149,16 @@
             {
               "time": "7:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-7ed7f77f2bbba203ddaf1b3f5156cccea11753a3f15901d7962da1cc80f0a857"
+            }
+          ],
+          "laurelhurst": [
+            {
+              "time": "3:45 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "6:30 PM",
+              "url": "https://www.laurelhursttheater.com"
             }
           ]
         }
@@ -2035,23 +2184,6 @@
             {
               "time": "3:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-4c7df1ec4f0e810f67136d62576b51562589bf9bc8568eb722a094f730c5c319"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "The Mack",
-      "description": "A recently-released convict becomes the most powerful pimp in Oakland, but tragedy ensues when his activities draw the ire of two corrupt cops and the crime lord he once worked for.",
-      "poster": "posters/the-mack.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/29515/",
-      "tmdb_id": 29515,
-      "showtimes": {
-        "2026-07-28": {
-          "hollywood": [
-            {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-e3e0986246a7370b7d4a0837ef0fccf45e8ebf7547af38dcc4f24bce1bbf8efa"
             }
           ]
         }
@@ -2133,84 +2265,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1368337/",
       "tmdb_id": 1368337,
       "showtimes": {
-        "2026-07-28": {
-          "hollywood": [
-            {
-              "time": "1:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-5efa873d275cf4685f23a6bec5bdbe223a4bbce443da0edd2d760c6948412f37"
-            },
-            {
-              "time": "6:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-38dbd0d3ef1153a750ef0d19368c9c7948d680f9791fbb0e4ad0534b1abad7b8"
-            }
-          ],
-          "cinema21": [
-            {
-              "time": "3:20 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b262328424686bfcf227675c40b4cabc92b1d7ea2045a9b21dca509a5578d550"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-be4b1faa54e9cb0535f28d0d4052936986f58d87f2ddefe8e5c43be4add7af32"
-            }
-          ],
-          "bagdad": [
-            {
-              "time": "2:30 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "1:40 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:10 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "3:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-07-29": {
           "hollywood": [
             {
@@ -2230,6 +2284,26 @@
             {
               "time": "7:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ac6cc9f9608fdfbbac1a45608c0201f6717a1294bf78be676d46712f5c83ed4f"
+            }
+          ],
+          "bagdad": [
+            {
+              "time": "2:30 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            }
+          ],
+          "laurelhurst": [
+            {
+              "time": "3:00 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "6:00 PM",
+              "url": "https://www.laurelhursttheater.com"
             }
           ],
           "livingroom": [
@@ -2292,16 +2366,6 @@
             {
               "time": "6:45 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f21af0f3e6d56127e3925c73867dedb01309cf9e98e967514dba0aaed795fcce"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:00 PM",
-              "url": "https://www.laurelhursttheater.com"
             }
           ],
           "livingroom": [
@@ -2546,6 +2610,16 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-c1c0a7245e1354cb136c749cb0aa91b2153e420255b941a7da4a8e440d14de09"
             }
           ],
+          "laurelhurst": [
+            {
+              "time": "3:15 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "6:00 PM",
+              "url": "https://www.laurelhursttheater.com"
+            }
+          ],
           "academy": [
             {
               "time": "11:45 AM",
@@ -2576,6 +2650,16 @@
             {
               "time": "6:45 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-7378f146d946e54bf7f6c54ace17f4ec3323e102bc92fb48a6f2194de6128e3a"
+            }
+          ],
+          "laurelhurst": [
+            {
+              "time": "3:15 PM",
+              "url": "https://www.laurelhursttheater.com"
+            },
+            {
+              "time": "6:00 PM",
+              "url": "https://www.laurelhursttheater.com"
             }
           ],
           "academy": [
@@ -2634,6 +2718,14 @@
             {
               "time": "6:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a42bcd8ba657d2c9212b449b75ec908799a972a335e787925ad8ae6960bc6ce7"
+            }
+          ]
+        },
+        "2026-08-11": {
+          "hollywood": [
+            {
+              "time": "6:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-8d3eb78921a47fe542fd2ca53e96273d0e910bc2ac0165abe237eb4e3e532193"
             }
           ]
         }
@@ -2702,6 +2794,23 @@
       }
     },
     {
+      "title": "The Rocky Horror Picture Show",
+      "description": "After getting a flat tire in the middle of nowhere, newly engaged couple Brad and Janet encounter the eerie mansion of the flamboyant, seductive Dr Frank-N-Furter and a variety of eccentric characters. Through elaborate dance and rock music, the mad scientist unveils his latest creation: a perfect, muscular man.",
+      "poster": "posters/the-rocky-horror-picture-show.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/36685/",
+      "tmdb_id": 36685,
+      "showtimes": {
+        "2026-08-01": {
+          "clinton": [
+            {
+              "time": "10:30 PM",
+              "url": "https://cstpdx.com"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "The Substance",
       "description": "A fading celebrity decides to use a black market drug, a cell-replicating substance that temporarily creates a younger, better version of herself.",
       "poster": "posters/the-substance.jpg",
@@ -2760,34 +2869,17 @@
       }
     },
     {
-      "title": "Uncle Boonmee Who Can Recall His Past Lives",
-      "description": "Suffering from acute kidney failure, Boonmee has chosen to spend his final days surrounded by his loved ones in the countryside. Surprisingly, the ghost of his deceased wife appears to care for him, and his long lost son returns home in a non-human form. Contemplating the reasons for his illness, Boonmee treks through the jungle with his family to a mysterious hilltop cave\u2014the birthplace of his first life.",
-      "poster": "posters/uncle-boonmee-who-can-recall-his-past-lives.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/38368/",
-      "tmdb_id": 38368,
+      "title": "Twin Peaks",
+      "description": "An idiosyncratic FBI agent investigates the murder of a young woman in the even more idiosyncratic town of Twin Peaks. (This standalone version of the series pilot was produced for the European VHS market and has an alternate, closed ending.)",
+      "poster": "posters/twin-peaks.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/452522/",
+      "tmdb_id": 452522,
       "showtimes": {
-        "2026-07-28": {
+        "2026-08-02": {
           "clinton": [
             {
-              "time": "7:00 PM",
+              "time": "2:00 PM",
               "url": "https://cstpdx.com"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Wham! 10 Days in China",
-      "description": "In 1985, WHAM! made history as the first Western pop act to perform in communist China. George Michael and Andrew Ridgeley\u2019s concerts in Beijing and Guangzhou were a cultural milestone \u2013 East meets West, music meets politics. Now, newly restored footage reveals the untold story of the iconic tour that helped launch WHAM! to global superstardom.",
-      "poster": "posters/wham-10-days-in-china.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1715914/",
-      "tmdb_id": 1715914,
-      "showtimes": {
-        "2026-07-28": {
-          "cinema21": [
-            {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-001ea8a09487a7734eb13ac747cb5030e764391153fa77ea190bc5d424f12ec1"
             }
           ]
         }
