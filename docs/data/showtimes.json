@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-06T12:05:27.754176",
-  "start_date": "2026-08-06",
+  "generated_at": "2026-08-07T10:56:48.468161",
+  "start_date": "2026-08-07",
   "num_days": 14,
   "movies": [
     {
@@ -66,27 +66,6 @@
       }
     },
     {
-      "title": "Blade Runner",
-      "description": "In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to terminate a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.",
-      "poster": "posters/blade.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/78/",
-      "tmdb_id": 78,
-      "showtimes": {
-        "2026-08-06": {
-          "academy": [
-            {
-              "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Careful",
       "description": "A journalist, investigating traffic violations in a city, comes across mysterious happenings and lands herself in a dangerous situation.",
       "poster": "posters/careful.jpg",
@@ -135,14 +114,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1711224/",
       "tmdb_id": 1711224,
       "showtimes": {
-        "2026-08-06": {
-          "livingroom": [
-            {
-              "time": "7:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-08-07": {
           "livingroom": [
             {
@@ -256,14 +227,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1596318/",
       "tmdb_id": 1596318,
       "showtimes": {
-        "2026-08-06": {
-          "livingroom": [
-            {
-              "time": "6:45 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-08-07": {
           "livingroom": [
             {
@@ -416,25 +379,16 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
-        }
-      }
-    },
-    {
-      "title": "Disclosure Day",
-      "description": "A cybersecurity expert becomes a whistleblower after uncovering secrets about aliens, putting him on the run from a corporation. Meanwhile, a meteorologist experiencing strange phenomena joins forces with him to prove there's life beyond our understanding.",
-      "poster": "posters/disclosure-day.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1275779/",
-      "tmdb_id": 1275779,
-      "showtimes": {
-        "2026-08-06": {
-          "livingroom": [
+        },
+        "2026-08-20": {
+          "academy": [
             {
-              "time": "12:00 PM",
-              "url": "https://livingroomtheaters.com"
+              "time": "1:00 PM",
+              "url": "https://www.academytheaterpdx.com"
             },
             {
-              "time": "3:00 PM",
-              "url": "https://livingroomtheaters.com"
+              "time": "9:45 PM",
+              "url": "https://www.academytheaterpdx.com"
             }
           ]
         }
@@ -565,6 +519,31 @@
       }
     },
     {
+      "title": "Grateful Dead: Giants Stadium 1991",
+      "description": "The Grateful Dead\u2019s complete concert from June 17, 1991 at Giants Stadium in East Rutherford, New Jersey. The show is one of only two recorded on 48-track analog tape, providing spectacular and unprecedented audio quality. The 1991 Giants Stadium show features fan favorites such as \"Eyes Of The World,\"\"Truckin\u2019,\"\"Uncle John\u2019s Band,\" along with Grateful Dead rarities including \"Saint Of Circumstance,\" \"Might As Well,\" \"New Speedway Boogie,\" and so much more.",
+      "poster": "posters/grateful-dead-meet-up-at-the-movies-2026.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/725149/",
+      "tmdb_id": 725149,
+      "showtimes": {
+        "2026-08-08": {
+          "cinema21": [
+            {
+              "time": "1:45 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-083575fa418271200a67c10fff1cde0ffbe9648789b68b1304ffb67e6ba69264"
+            }
+          ]
+        },
+        "2026-08-10": {
+          "cinema21": [
+            {
+              "time": "6:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d43122e5b7e8ccfc0aac703ca4ec5f95f1f186bd09412770de7f8318fd773e0f"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "Hail the Conquering Hero",
       "description": "Having been discharged from the Marines for a hayfever condition before ever seeing action, Woodrow Lafayette Pershing Truesmith delays the return to his hometown, feeling that he is a failure. While in a moment of melancholy, he meets up with a group of Marines who befriend him and encourage him to return home to his mother by fabricating a story that he was wounded in battle with honorable discharge.",
       "poster": "posters/hail-the-conquering-hero.jpg",
@@ -601,23 +580,6 @@
             {
               "time": "6:30 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f773b481c598065f4119bfa66cc9d98f5245897dcaddcd9390be5c6a2d8a2a98"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Her Private Hell",
-      "description": "When a mysterious mist engulfs a futuristic metropolis, unleashing a deadly and elusive entity, a troubled young woman searches for her father. Her quest collides with an American GI on a harrowing odyssey to rescue his daughter from Hell.",
-      "poster": "posters/her-private-hell.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1469342/",
-      "tmdb_id": 1469342,
-      "showtimes": {
-        "2026-08-06": {
-          "livingroom": [
-            {
-              "time": "2:00 PM",
-              "url": "https://livingroomtheaters.com"
             }
           ]
         }
@@ -714,6 +676,14 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
+        },
+        "2026-08-20": {
+          "academy": [
+            {
+              "time": "4:15 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
         }
       }
     },
@@ -724,28 +694,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1288059/",
       "tmdb_id": 1288059,
       "showtimes": {
-        "2026-08-06": {
-          "cinema21": [
-            {
-              "time": "4:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d611ef711e8fe3e2c9c7be227bc40505394344473f1750e269f2d63ee7a88838"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a0d56a200d1bf1e16cddd7647eefb2a66e9313d5a281d6a0c79e54a0a7003312"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "4:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
         "2026-08-07": {
           "cinema21": [
             {
@@ -997,6 +945,14 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
+        },
+        "2026-08-20": {
+          "academy": [
+            {
+              "time": "4:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
         }
       }
     },
@@ -1116,23 +1072,6 @@
       }
     },
     {
-      "title": "Mars Attacks!",
-      "description": "A fleet of Martian spacecraft surrounds the world's major cities and all of humanity waits to see if the extraterrestrial visitors have, as they claim, \"come in peace.\" U.S. President James Dale receives assurance from science professor Donald Kessler that the Martians' mission is a friendly one. But when a peaceful exchange ends in the total annihilation of the U.S. Congress, military men call for a full-scale nuclear retaliation.",
-      "poster": "posters/mars-attacks.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/75/",
-      "tmdb_id": 75,
-      "showtimes": {
-        "2026-08-06": {
-          "cinemagic": [
-            {
-              "time": "4:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-c7dd834554dde3f88bae2600b4ead0255aa71f8b89c7143b0a8b0f9545ac7e78"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Meatballs",
       "description": "Tripper is the head counselor at a budget summer camp called Camp Northstar. In truth, he's young at heart and only marginally more mature than the campers themselves. Tripper befriends Rudy, a loner camper who has trouble fitting in. As Tripper inspires his young charges to defeat rival Camp Mohawk in the annual Olympiad competition, Rudy plays matchmaker between Tripper and Roxanne, a female counselor at Northstar.",
       "poster": "posters/meatballs.jpg",
@@ -1144,6 +1083,14 @@
             {
               "time": "7:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b56a8e00a4ab305ab9faa4b345ae31e717ab391030074658a5c44413e67af63c"
+            }
+          ]
+        },
+        "2026-08-20": {
+          "cinemagic": [
+            {
+              "time": "4:50 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-fc9f037a7cdc2cd204931dd55c2b16a5784bbb2dc0607cc695446a24eaf8ad2e"
             }
           ]
         }
@@ -1161,23 +1108,6 @@
             {
               "time": "7:30 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b11b83ee21f4422c8f5f0274f9934ef67755d8479c2eb9adac3931804ea6e7f0"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Mikey and Nicky",
-      "description": "Nick is desperate, holed up in a cheap hotel, suffering from an ulcer and convinced that a local mob boss wants him killed. Terrified, he calls Mikey, his friend since childhood and a fellow gangster. So begins a long night\u2026",
-      "poster": "posters/mikey-and-nicky.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/59143/",
-      "tmdb_id": 59143,
-      "showtimes": {
-        "2026-08-06": {
-          "hollywood": [
-            {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6c8ebdb933d174abf9a91be6d916d95184e614b427e1a59efb07185692f3b196"
             }
           ]
         }
@@ -1211,23 +1141,6 @@
             {
               "time": "7:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6206341033eb21a24c100385adbf0508b9c74ee2a4ba3bccc8b5f7c112a2762f"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Nacho Libre",
-      "description": "Ignacio, a disrespected cook at a Mexican monastery, can barely afford to feed the orphans who live there. Inspired by a local wrestling hero, he decides to moonlight as the not-so-famous Luchador \"Nacho Libre\" to earn money for the monastery -- not to mention the admiration of beautiful nun Sister Encarnaci\u00f3n.",
-      "poster": "posters/nacho-libre.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/9353/",
-      "tmdb_id": 9353,
-      "showtimes": {
-        "2026-08-06": {
-          "academy": [
-            {
-              "time": "4:00 PM",
-              "url": "https://www.academytheaterpdx.com"
             }
           ]
         }
@@ -1346,14 +1259,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1433367/",
       "tmdb_id": 1433367,
       "showtimes": {
-        "2026-08-06": {
-          "livingroom": [
-            {
-              "time": "7:25 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-08-07": {
           "livingroom": [
             {
@@ -1571,44 +1476,6 @@
       }
     },
     {
-      "title": "Romer\u00eda",
-      "description": "With her mother's diary in hand, Marina's search for official documents for university leads her to her biological family on the Atlantic coast. What starts as an administrative quest reveals long-buried family secrets.",
-      "poster": "posters/romeria.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1182861/",
-      "tmdb_id": 1182861,
-      "showtimes": {
-        "2026-08-06": {
-          "livingroom": [
-            {
-              "time": "12:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Rosebush Pruning",
-      "description": "In a Spanish villa, American siblings Jack, Ed, Anna and Robert wallow in isolation and their inherited fortune. When Jack wants to move in with his girlfriend and Ed uncovers the truth about their mother\u2019s death, the fabric of the family begins to unravel.",
-      "poster": "posters/rosebush-pruning.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1130948/",
-      "tmdb_id": 1130948,
-      "showtimes": {
-        "2026-08-06": {
-          "livingroom": [
-            {
-              "time": "2:50 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "5:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "She-Devils on Wheels",
       "description": "An all-female motorcycle gang hold races, as well as terrorize the residents of a small Florida town, and clash off against an all-male rival gang of hot-riders.",
       "poster": "posters/she-devils-on-wheels.jpg",
@@ -1657,72 +1524,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/969681/",
       "tmdb_id": 969681,
       "showtimes": {
-        "2026-08-06": {
-          "bagdad": [
-            {
-              "time": "11:30 AM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "3:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:20 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:10 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "3:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-08-07": {
           "bagdad": [
             {
@@ -2246,21 +2047,16 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
-        }
-      }
-    },
-    {
-      "title": "Starship Troopers",
-      "description": "Set in the future, the story follows a young soldier named Johnny Rico and his exploits in the Mobile Infantry. Rico's military career progresses from recruit to non-commissioned officer and finally to officer against the backdrop of an interstellar war between mankind and an arachnoid species known as \"the Bugs.\"",
-      "poster": "posters/starship-troopers.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/563/",
-      "tmdb_id": 563,
-      "showtimes": {
-        "2026-08-06": {
-          "cinemagic": [
+        },
+        "2026-08-20": {
+          "academy": [
             {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-260c39e6e8ab6de4cc3cdd53637fe260cea6280c5f6628935550a620744231b8"
+              "time": "12:15 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "3:30 PM",
+              "url": "https://www.academytheaterpdx.com"
             }
           ]
         }
@@ -2421,11 +2217,60 @@
             }
           ]
         },
+        "2026-08-20": {
+          "hollywood": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b157b804ec35cc4eaf6ababa1362ea9509f5236c90d88eb7cf5b1b57c2c43ad3"
+            },
+            {
+              "time": "9:35 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-899130f38ef5e2532439e3f20a4034724cee32b7b521c618d86729ae6dd70695"
+            }
+          ],
+          "cinema21": [
+            {
+              "time": "4:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-5428336fbd58ea539abec500adaf8d0203413be277e84e224c8b0bba736de01f"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b17e59b5da96b64e7f79c94bbc12899f6042592cc203127c651df9fedce9d3f6"
+            }
+          ],
+          "academy": [
+            {
+              "time": "6:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "9:15 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        },
         "2026-08-13": {
           "cinema21": [
             {
               "time": "7:15 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a711e65ace2bd2d4462412a4160f37b3d18bfee18d7a4750cd697c4ce79bdc95"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "The Batman",
+      "description": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.",
+      "poster": "posters/batman.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/414906/",
+      "tmdb_id": 414906,
+      "showtimes": {
+        "2026-08-20": {
+          "hollywood": [
+            {
+              "time": "7:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ea17b6d9afabc62e6afb8fbce0578ac9b5787dc00d1d97aae449e8cc3bcb93fb"
             }
           ]
         }
@@ -2527,6 +2372,14 @@
               "url": "https://www.academytheaterpdx.com"
             }
           ]
+        },
+        "2026-08-20": {
+          "academy": [
+            {
+              "time": "7:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
         }
       }
     },
@@ -2537,34 +2390,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/950028/",
       "tmdb_id": 950028,
       "showtimes": {
-        "2026-08-06": {
-          "hollywood": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-da686f2d6859aa80c7a9e0ba3d8508da70f37acd7c05e0f8e38f591cd05af28f"
-            }
-          ],
-          "cinema21": [
-            {
-              "time": "4:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-3b32549b5fba59ae9daa39e3fe2d45504b94af44faa73329f46171b2af3b7a85"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-7ed7f77f2bbba203ddaf1b3f5156cccea11753a3f15901d7962da1cc80f0a857"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
         "2026-08-07": {
           "cinema21": [
             {
@@ -2769,89 +2594,12 @@
       }
     },
     {
-      "title": "The Night of the Hunter",
-      "description": "In Depression-era West Virginia, a serial-killing preacher hunts two young children who know the whereabouts of a stash of money.",
-      "poster": "posters/the-night-of-the-hunter.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/3112/",
-      "tmdb_id": 3112,
-      "showtimes": {
-        "2026-08-06": {
-          "academy": [
-            {
-              "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "The Odyssey",
       "description": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
       "poster": "posters/the-odyssey.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/1368337/",
       "tmdb_id": 1368337,
       "showtimes": {
-        "2026-08-06": {
-          "hollywood": [
-            {
-              "time": "6:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-e1a10f3787bc7821186b71557484e35963ec4a913c9b28b9d99b5305bc3f7c5c"
-            }
-          ],
-          "cinema21": [
-            {
-              "time": "3:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-33f00b2201240b837b7b545aa1772ad71f620d6c77fc10c6db0fba29a545b6c1"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-7378f146d946e54bf7f6c54ace17f4ec3323e102bc92fb48a6f2194de6128e3a"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "11:45 AM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "3:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "6:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-08-07": {
           "hollywood": [
             {
@@ -3319,6 +3067,14 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-e3823acf5c7a4b7f1b308c82913ffac27e82f419d55259dab4d091d2276ff98a"
             }
           ]
+        },
+        "2026-08-20": {
+          "hollywood": [
+            {
+              "time": "6:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a739752e2a38fcd6f5d99cf309a7aa6df6fbfda4f69578f55059606a75a3b0fd"
+            }
+          ]
         }
       }
     },
@@ -3442,6 +3198,23 @@
       }
     },
     {
+      "title": "Tony",
+      "description": "A 19-year-old Anthony Bourdain travels to Provincetown and stumbles into the chaotic world of a restaurant kitchen, setting off a summer that will shape the course of his life.",
+      "poster": "posters/tony.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1329016/",
+      "tmdb_id": 1329016,
+      "showtimes": {
+        "2026-08-20": {
+          "cinema21": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ebeaa430224696c31be1d50418cf55f6f64f90885863661fae963fb81f3aa43f"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "Urgh! A Music War",
       "description": "Urgh! A Music War is a British film released in 1982 featuring performances by punk rock, new wave, and post-punk acts, filmed in 1980. Among the artists featured in the movie are Orchestral Manoeuvres in the Dark (OMD), Magazine, The Go-Go's, Toyah Willcox, The Fleshtones, Joan Jett & the Blackhearts, X, XTC, Devo, The Cramps, Oingo Boingo, Dead Kennedys, Gary Numan, Klaus Nomi, Wall of Voodoo, Pere Ubu, Steel Pulse, Surf Punks, 999, UB40, Echo & the Bunnymen and The Police. These were many of the most popular groups on the New Wave scene; in keeping with the spirit of the scene, the film also features several less famous acts, and one completely obscure group, Invisible Sex, in what appears to be their only public performance.",
       "poster": "posters/urgh-a-music-war.jpg",
@@ -3486,6 +3259,14 @@
             {
               "time": "4:50 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-27337bc86b78e646b7b42095a3cd2f52718bf3df1bdbcc1276d76dd236729bbf"
+            }
+          ]
+        },
+        "2026-08-20": {
+          "cinemagic": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a0ff0a842e1a6292feaceba45bb2b548f9f0627e0b1525a6372e8b44cdfa5fea"
             }
           ]
         }
