@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-07T10:56:48.468161",
-  "start_date": "2026-08-07",
+  "generated_at": "2026-08-08T10:38:09.531661",
+  "start_date": "2026-08-08",
   "num_days": 14,
   "movies": [
     {
@@ -66,6 +66,23 @@
       }
     },
     {
+      "title": "Black Angel",
+      "description": "Livia, the attractive wife of a high-ranking Ministry of the People's Republic official, is accompanied by Ugo, a lawyer, her admirer and her husband's spy, to Venice. There, she is to meet her lover Helmut Schultz, a lieutenant in the infamous SS with whom she is having a passionate love affair. During the journey, Livia retraces the steps of her sexual aberration. But a surprise awaits her in the lagoon city.",
+      "poster": "posters/black-angel.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/30301/",
+      "tmdb_id": 30301,
+      "showtimes": {
+        "2026-08-21": {
+          "hollywood": [
+            {
+              "time": "6:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-357f5a639821057cbc45cca75015459515560453db5272d50595195b2133f330"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "Careful",
       "description": "A journalist, investigating traffic violations in a city, comes across mysterious happenings and lands herself in a dangerous situation.",
       "poster": "posters/careful.jpg",
@@ -114,26 +131,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1711224/",
       "tmdb_id": 1711224,
       "showtimes": {
-        "2026-08-07": {
-          "livingroom": [
-            {
-              "time": "12:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "1:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "9:10 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-08-08": {
           "livingroom": [
             {
@@ -203,6 +200,22 @@
           ]
         },
         "2026-08-12": {
+          "livingroom": [
+            {
+              "time": "12:30 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-08-13": {
           "livingroom": [
             {
               "time": "12:30 PM",
@@ -227,22 +240,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1596318/",
       "tmdb_id": 1596318,
       "showtimes": {
-        "2026-08-07": {
-          "livingroom": [
-            {
-              "time": "12:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-08-08": {
           "livingroom": [
             {
@@ -315,6 +312,18 @@
             },
             {
               "time": "6:30 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-08-13": {
+          "livingroom": [
+            {
+              "time": "12:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:15 PM",
               "url": "https://livingroomtheaters.com"
             }
           ]
@@ -418,14 +427,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/5590/",
       "tmdb_id": 5590,
       "showtimes": {
-        "2026-08-07": {
-          "academy": [
-            {
-              "time": "4:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-08-08": {
           "academy": [
             {
@@ -471,23 +472,6 @@
             {
               "time": "7:00 PM",
               "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Fantastic Voyage",
-      "description": "In order to save an assassinated scientist, a submarine and its crew are shrunk to microscopic size and injected into his bloodstream.",
-      "poster": "posters/fantastic-voyage.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/2161/",
-      "tmdb_id": 2161,
-      "showtimes": {
-        "2026-08-07": {
-          "hollywood": [
-            {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-53b3a45abf127673d5e52592111d836df5d734fa22e3bd1579f9be024fe63dc6"
             }
           ]
         }
@@ -694,28 +678,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1288059/",
       "tmdb_id": 1288059,
       "showtimes": {
-        "2026-08-07": {
-          "cinema21": [
-            {
-              "time": "9:35 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-92ce9435797bf912f31542efe0b277cf196c45e99350c4edf057a7fd36061728"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "4:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "9:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
         "2026-08-08": {
           "cinema21": [
             {
@@ -825,23 +787,11 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1477712/",
       "tmdb_id": 1477712,
       "showtimes": {
-        "2026-08-07": {
-          "cinemagic": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-c5b7e5809eb7ad4972cdbebec4d39dddf26dffda2bea1cc95c83dbf813eb3e0a"
-            }
-          ]
-        },
         "2026-08-08": {
           "cinemagic": [
             {
               "time": "7:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f134f21c1ad642f61efe6c0896bd6d36608d390bd41c3c2cf0b588457fa5d9e7"
-            },
-            {
-              "time": "9:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-bfe1e3c361c89526614d96f3b7afc8f481ad2ad08b76c07a53058c1272d5afd2"
             }
           ]
         },
@@ -882,10 +832,6 @@
             {
               "time": "7:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ad05353081dd625f05751d66437a404d85df433b3acae2c4e9693c3bc4f84370"
-            },
-            {
-              "time": "9:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-9059d81efbf4f5afb014194e795476784dd6c8bf6f7c37ae5fc8dcbf46345fa2"
             }
           ]
         }
@@ -997,18 +943,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/100279/",
       "tmdb_id": 100279,
       "showtimes": {
-        "2026-08-07": {
-          "hollywood": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-fc8d6d5cf999b42d0af33bba67ff34c4339dd96133f2a0df22b5617bf8821129"
-            },
-            {
-              "time": "9:40 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-bf5ca64943594565f86e463d45611fbd146bb4815ea006848e7a74b621fce0db"
-            }
-          ]
-        },
         "2026-08-08": {
           "hollywood": [
             {
@@ -1147,24 +1081,33 @@
       }
     },
     {
+      "title": "Mystery Train",
+      "description": "In Memphis, Tennessee, over the course of a single night, the Arcade Hotel, run by an eccentric night clerk and a clueless bellboy, is visited by a young Japanese couple traveling in search of the roots of rock; an Italian woman in mourning who stumbles upon a fleeing charlatan girl; and a comical trio of accidental thieves looking for a place to hide.",
+      "poster": "posters/mystery-train.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/11305/",
+      "tmdb_id": 11305,
+      "showtimes": {
+        "2026-08-21": {
+          "academy": [
+            {
+              "time": "4:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "9:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "No Country for Old Men",
       "description": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
       "poster": "posters/no-country-for-old-men.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/6977/",
       "tmdb_id": 6977,
       "showtimes": {
-        "2026-08-07": {
-          "academy": [
-            {
-              "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-08-08": {
           "academy": [
             {
@@ -1259,30 +1202,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1433367/",
       "tmdb_id": 1433367,
       "showtimes": {
-        "2026-08-07": {
-          "livingroom": [
-            {
-              "time": "12:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "5:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "10:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-08-08": {
           "livingroom": [
             {
@@ -1386,6 +1305,39 @@
               "url": "https://livingroomtheaters.com"
             }
           ]
+        },
+        "2026-08-13": {
+          "livingroom": [
+            {
+              "time": "12:45 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:45 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "5:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Piranha 3D",
+      "description": "Each year the population of sleepy Lake Victoria, Arizona explodes from 5,000 to 50,000 residents for the annual Spring Break celebration. But then, an earthquake opens an underwater chasm, releasing an enormous swarm of ancient Piranha that have been dormant for thousands of years, now with a taste for human flesh. This year, there's something more to worry about than the usual hangovers and complaints from locals, a new type of terror is about to be cut loose on Lake Victoria.",
+      "poster": "posters/piranha.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/43593/",
+      "tmdb_id": 43593,
+      "showtimes": {
+        "2026-08-21": {
+          "academy": [
+            {
+              "time": "7:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
         }
       }
     },
@@ -1413,14 +1365,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/26515/",
       "tmdb_id": 26515,
       "showtimes": {
-        "2026-08-07": {
-          "academy": [
-            {
-              "time": "10:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-08-08": {
           "academy": [
             {
@@ -1524,80 +1468,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/969681/",
       "tmdb_id": 969681,
       "showtimes": {
-        "2026-08-07": {
-          "bagdad": [
-            {
-              "time": "11:30 AM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "3:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "9:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:25 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "9:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "3:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-08-08": {
           "bagdad": [
             {
@@ -1911,6 +1781,20 @@
           ]
         },
         "2026-08-13": {
+          "bagdad": [
+            {
+              "time": "11:30 AM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "3:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            }
+          ],
           "laurelhurst": [
             {
               "time": "3:00 PM",
@@ -1919,6 +1803,24 @@
             {
               "time": "6:30 PM",
               "url": "https://www.laurelhursttheater.com"
+            }
+          ],
+          "livingroom": [
+            {
+              "time": "12:25 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:00 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:30 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:30 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ],
           "academy": [
@@ -1941,6 +1843,20 @@
           ]
         },
         "2026-08-14": {
+          "bagdad": [
+            {
+              "time": "11:30 AM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "3:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            }
+          ],
           "academy": [
             {
               "time": "12:15 PM",
@@ -1961,6 +1877,20 @@
           ]
         },
         "2026-08-15": {
+          "bagdad": [
+            {
+              "time": "11:30 AM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "3:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            }
+          ],
           "academy": [
             {
               "time": "12:15 PM",
@@ -1981,6 +1911,20 @@
           ]
         },
         "2026-08-16": {
+          "bagdad": [
+            {
+              "time": "11:30 AM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "3:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            }
+          ],
           "academy": [
             {
               "time": "12:15 PM",
@@ -2001,6 +1945,20 @@
           ]
         },
         "2026-08-17": {
+          "bagdad": [
+            {
+              "time": "11:30 AM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "3:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            }
+          ],
           "academy": [
             {
               "time": "12:15 PM",
@@ -2017,6 +1975,20 @@
           ]
         },
         "2026-08-18": {
+          "bagdad": [
+            {
+              "time": "7:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "11:30 AM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "3:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            }
+          ],
           "academy": [
             {
               "time": "12:15 PM",
@@ -2033,6 +2005,20 @@
           ]
         },
         "2026-08-19": {
+          "bagdad": [
+            {
+              "time": "11:30 AM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "3:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            }
+          ],
           "academy": [
             {
               "time": "12:15 PM",
@@ -2049,6 +2035,20 @@
           ]
         },
         "2026-08-20": {
+          "bagdad": [
+            {
+              "time": "11:30 AM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "3:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+            }
+          ],
           "academy": [
             {
               "time": "12:15 PM",
@@ -2102,6 +2102,10 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-0f1acaeaf9010c9757fa576435ff4460f9d08288cba2d02a471ab52b79862d56"
             },
             {
+              "time": "4:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-546208d76fdc6ed4ed55d5a345bbeb3e73f2afe6295e6c3ace0f8a9a6ffecc7c"
+            },
+            {
               "time": "7:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-5c9991c8e819c0d24b9db13232368fc3f6e14bca2c8b0dcb22231c030c8c3618"
             },
@@ -2130,6 +2134,10 @@
             {
               "time": "3:30 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-3681fb39e79e29225c36ec845afc3be1610eef3e5937afddb444070b1c94c133"
+            },
+            {
+              "time": "4:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-81efafd180c0021d16b7156841fc6e2cb2856f95e59329ac9e40927e509fb432"
             },
             {
               "time": "6:30 PM",
@@ -2256,6 +2264,26 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a711e65ace2bd2d4462412a4160f37b3d18bfee18d7a4750cd697c4ce79bdc95"
             }
           ]
+        },
+        "2026-08-21": {
+          "academy": [
+            {
+              "time": "12:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "3:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://www.academytheaterpdx.com"
+            },
+            {
+              "time": "9:15 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
         }
       }
     },
@@ -2293,6 +2321,12 @@
               "time": "7:00 PM",
               "url": "https://www.laurelhursttheater.com"
             }
+          ],
+          "livingroom": [
+            {
+              "time": "6:30 PM",
+              "url": "https://livingroomtheaters.com"
+            }
           ]
         }
       }
@@ -2309,6 +2343,14 @@
             {
               "time": "4:30 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-13af434ba603c652e00a470bb09e99e53ff3fa977c28300afc086e601704238d"
+            }
+          ]
+        },
+        "2026-08-11": {
+          "cinemagic": [
+            {
+              "time": "4:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-25cd26b7c4fd7dd68871ab407f9b055f8266c9fff676a488ca87dbc5ecc4e72b"
             }
           ]
         }
@@ -2390,36 +2432,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/950028/",
       "tmdb_id": 950028,
       "showtimes": {
-        "2026-08-07": {
-          "cinema21": [
-            {
-              "time": "4:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-26ea362cf6617d738607da041b1d67d3b6bf19890b6cec01b0b454bda27afd5b"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-23ffa80f68ffa449a9b786852f99f100a00eb846fa249dac729029af954eb669"
-            },
-            {
-              "time": "9:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-8d49fc93b1ccb9abea5dcbf5b858cdc996c26250dbe84477baad3e1854ee4e21"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "9:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
         "2026-08-08": {
           "cinema21": [
             {
@@ -2594,80 +2606,29 @@
       }
     },
     {
+      "title": "The Man I Love",
+      "description": "In late 1980s New York, a theater artist living with AIDS takes on one possibly last great role.",
+      "poster": "posters/the-man-i-love.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1458914/",
+      "tmdb_id": 1458914,
+      "showtimes": {
+        "2026-08-21": {
+          "hollywood": [
+            {
+              "time": "8:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b038a7872526a29dfffa53f384386111c12265647ccede34364d81ec8a206890"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "The Odyssey",
       "description": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
       "poster": "posters/the-odyssey.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/1368337/",
       "tmdb_id": 1368337,
       "showtimes": {
-        "2026-08-07": {
-          "hollywood": [
-            {
-              "time": "6:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b1304bc929ddce42b5af7f48b18cdc4d11bded0c3167c60bb09100a4e6f9c299"
-            }
-          ],
-          "cinema21": [
-            {
-              "time": "3:50 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-c015dda3122c53d624e5b9da1afff925777ed5f19273f989b6c16d1be5f0ff1f"
-            },
-            {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-37575c33a29dea7cc97a10b75d646ff54a4e23ea6cf794db0936f9e2d3de91c4"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "9:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "1:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "9:20 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "11:45 AM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "3:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "6:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "9:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-08-08": {
           "hollywood": [
             {
@@ -3001,6 +2962,16 @@
               "url": "https://www.laurelhursttheater.com"
             }
           ],
+          "livingroom": [
+            {
+              "time": "1:00 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:30 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ],
           "academy": [
             {
               "time": "11:45 AM",
@@ -3017,14 +2988,6 @@
             {
               "time": "9:30 PM",
               "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
-        "2026-08-14": {
-          "hollywood": [
-            {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-537094e60d99b0a98614c810b9cd1fd7219254d6dcf642f43a300ec3d0dfe849"
             }
           ]
         },
@@ -3085,18 +3048,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/713/",
       "tmdb_id": 713,
       "showtimes": {
-        "2026-08-07": {
-          "cinema21": [
-            {
-              "time": "3:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f5843b79d26f1d594826af593c6728fb79d66e23a29a64510f60e85804eafef8"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-157c532bcf6d641367d31d13b934caa3b9dbf822f78bb05035261b16135c11d3"
-            }
-          ]
-        },
         "2026-08-08": {
           "cinema21": [
             {
@@ -3181,6 +3132,48 @@
       }
     },
     {
+      "title": "The Samurai and the Prisoner",
+      "description": "When Lord Murashige rises up against the tyrannical Oda, he finds himself besieged within the walls of his own castle. Isolated, he is confronted with a series of mysterious crimes that shatter the fragile order of his court, plunging the fortress into fear and suspicion. With Oda's army closing in and a traitor hiding among his ranks, Murashige is forced into an uneasy alliance with Kanbei, a brilliant and dangerous strategist held prisoner in the dungeon, as he must outwit his enemies and uncover the truth before time runs out.",
+      "poster": "posters/the-samurai-and-the-prisoner.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1620313/",
+      "tmdb_id": 1620313,
+      "showtimes": {
+        "2026-08-21": {
+          "cinemagic": [
+            {
+              "time": "7:00 PM",
+              "url": "https://www.thecinemagictheater.com"
+            }
+          ]
+        },
+        "2026-08-13": {
+          "livingroom": [
+            {
+              "time": "7:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "The Trial",
+      "description": "Arrested for an unnamed crime, Josef K. is trapped in a surreal bureaucratic maze where justice is unknowable and guilt is assumed.",
+      "poster": "posters/le-proc\u00e8s.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/3009/",
+      "tmdb_id": 3009,
+      "showtimes": {
+        "2026-08-21": {
+          "academy": [
+            {
+              "time": "1:00 PM",
+              "url": "https://www.academytheaterpdx.com"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "Tiger Cage II",
       "description": "An ex-cop and divorce lawyer team up with a gangster to clear their names after getting involved in a dirty money scheme led by a vicious money launderer, who plans to expand his business and wipe out anyone who stands in his way.",
       "poster": "posters/tiger-cage-2.jpg",
@@ -3209,6 +3202,22 @@
             {
               "time": "7:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ebeaa430224696c31be1d50418cf55f6f64f90885863661fae963fb81f3aa43f"
+            }
+          ]
+        },
+        "2026-08-21": {
+          "cinema21": [
+            {
+              "time": "4:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-17bd7bdce9610a4657cc5a0116dbcae1235f641cc4abad09c971fc66b0f36839"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f7accd4e13dceaab99ff73cebd18896001142db1d2276eb43a1ca1ebcae5e3ac"
+            },
+            {
+              "time": "9:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-e32b5b04c75e82229a534a368e7c25122f6bbe233171b722e0140e3216769e85"
             }
           ]
         }
