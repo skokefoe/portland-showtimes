@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-24T10:40:33.388941",
-  "start_date": "2026-08-24",
+  "generated_at": "2026-08-25T10:37:07.023056",
+  "start_date": "2026-08-25",
   "num_days": 14,
   "movies": [
     {
@@ -155,6 +155,18 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-93929bd2aa377ae2096b901fcbaeb45d6e41a6ba1e4f14495c30b320ac46efc8"
             }
           ]
+        },
+        "2026-09-07": {
+          "hollywood": [
+            {
+              "time": "6:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-1832a50037a3de061c8c12fbd683c426a5a579444bfc5072c88db41bb318b1ec"
+            },
+            {
+              "time": "9:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6b919176d228a157ac7411c57daad8140357a96b19e7a739214848516ad81b55"
+            }
+          ]
         }
       }
     },
@@ -174,6 +186,22 @@
             {
               "time": "9:30 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-543e83890cfe31c543edac984effa69450fc320d897bb56128026836cad5e9eb"
+            }
+          ]
+        },
+        "2026-09-06": {
+          "hollywood": [
+            {
+              "time": "9:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-43e399c39f87b50e7f03673550edc3e178e9d71c16ed8e3d399bdbf9c29f87d9"
+            }
+          ]
+        },
+        "2026-09-07": {
+          "hollywood": [
+            {
+              "time": "7:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-063b028fedcf9c6951b6b55d7227b2cc5551f68017abe359472e8f1928c66ee4"
             }
           ]
         }
@@ -247,6 +275,14 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-7bc869923b73ce3f56bd0a8e4e10c7a73b1a59e5cec8e48e0efb6e80b9ad0527"
             }
           ]
+        },
+        "2026-09-07": {
+          "academy": [
+            {
+              "time": "4:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-521f83dfc863583eb333b53ba8cb90454af5fb917c9178d0f962f378f1887f18"
+            }
+          ]
         }
       }
     },
@@ -274,14 +310,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1711224/",
       "tmdb_id": 1711224,
       "showtimes": {
-        "2026-08-24": {
-          "livingroom": [
-            {
-              "time": "12:10 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-08-25": {
           "livingroom": [
             {
@@ -548,6 +576,22 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-678b9669bedaf8f9fdfd9b9f124c836e2fb03bf10781abcb18222d3c8e09c0df"
             }
           ]
+        },
+        "2026-09-07": {
+          "academy": [
+            {
+              "time": "12:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-2e2d15e33aa8cb078fb6f50efb6c9737cc3f6cb4fdfefb52bc8473f94dc91e50"
+            },
+            {
+              "time": "3:45 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a89101f23ffdd93104246bd57734761f436b9fb4fa72d5b046af7fa89ca85908"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d9e23e635171cf5414120908800d27bde2cbdfadf7a11411e8d16f657e97f788"
+            }
+          ]
         }
       }
     },
@@ -583,6 +627,14 @@
             {
               "time": "9:30 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-41a6a3fd4cfac94819a0c336d69718b7bfc3952a940fb609421ef57396991b78"
+            }
+          ]
+        },
+        "2026-09-07": {
+          "academy": [
+            {
+              "time": "7:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ff8d0b2c484dcc017895a101573d30983474e30eb70719afc0af84786dc92953"
             }
           ]
         }
@@ -649,7 +701,7 @@
           "cinemagic": [
             {
               "time": "9:30 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-81fdbbdfac5bffc84ca97f9b20f0a596b84d5c26d1d4629db1714a915fb95821"
             }
           ]
         }
@@ -832,14 +884,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/11305/",
       "tmdb_id": 11305,
       "showtimes": {
-        "2026-08-24": {
-          "academy": [
-            {
-              "time": "4:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-33a45ce86b75ee9d63b1441f19093f97cb33b1e3563438a01d4cbf04c32507f3"
-            }
-          ]
-        },
         "2026-08-25": {
           "academy": [
             {
@@ -873,14 +917,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/43593/",
       "tmdb_id": 43593,
       "showtimes": {
-        "2026-08-24": {
-          "academy": [
-            {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-fc4f738cad722d8fce46906c079ed1edaafc0161b486d888a972ffec4c8af24e"
-            }
-          ]
-        },
         "2026-08-25": {
           "academy": [
             {
@@ -985,26 +1021,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1341138/",
       "tmdb_id": 1341138,
       "showtimes": {
-        "2026-08-24": {
-          "livingroom": [
-            {
-              "time": "12:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "5:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-08-25": {
           "livingroom": [
             {
@@ -1074,65 +1090,15 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/969681/",
       "tmdb_id": 969681,
       "showtimes": {
-        "2026-08-24": {
-          "bagdad": [
-            {
-              "time": "11:30 AM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-948b691a8cb8dcb8a4d178d00af6c1740d2a3b7cab3f4af04f98eb33fe8dd305"
-            },
-            {
-              "time": "3:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-5c9ce2c3e6937eadc2885e9b4bcf7181d99b5d075ead155c2a317e4523de661f"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-5e494f134a6ddc769991af73ba75ba53462e05f5602f7763f5e1b6fa90555105"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f8540cd457250c379b9c28830b5933c09b390b0bd06e0317254cee1f0dab1c92"
-            },
-            {
-              "time": "3:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-af17613e385fa8f6dfbe285b6ef288d098d7bc5054df33de502546d04df98c0f"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-9055ee19d56d7de64ad450d9e62571d989a839a92117dfc5201dfbb2b5ebd88c"
-            }
-          ]
-        },
         "2026-08-25": {
           "bagdad": [
             {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-51ee185eb7f7ce0bce00bbd832669b59fd26c5b848e8336507f82d08ceba2cca"
+              "time": "11:30 AM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-8c9674e93c8e0e038b0ef609580386e612bfca3d2935c1a492195aa576e38125"
+            },
+            {
+              "time": "3:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-45daa90842902e40f2c8c0aff8a5a75263b63cb5c6c4e2ca9cef37fe534d32f7"
             }
           ],
           "laurelhurst": [
@@ -1175,20 +1141,6 @@
           ]
         },
         "2026-08-26": {
-          "bagdad": [
-            {
-              "time": "11:30 AM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-fa1ff834271d8ceccf0eea0310d49ce1c70eb14f249b5c86eae813b8efca30b4"
-            },
-            {
-              "time": "3:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-0c4b1b11a5f53e3e4c42ed11237ceb1081c982038f5c8036b1b63d7ad36b303a"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-fe3fd05b930b8f2d447e4eb47458cf1581c550a4af56156315084bcddb691abc"
-            }
-          ],
           "livingroom": [
             {
               "time": "12:00 PM",
@@ -1261,70 +1213,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1240889/",
       "tmdb_id": 1240889,
       "showtimes": {
-        "2026-08-24": {
-          "hollywood": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-1d149bd01167dd0fff2c6bfb97db306e68b6559e0215777dd33fbc7a74b986b2"
-            },
-            {
-              "time": "9:35 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-319fdde77a3f1e28a024ea6b82934c58193c3e668ac980ed53cd1cbf991781a5"
-            }
-          ],
-          "cinema21": [
-            {
-              "time": "4:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f88179e8a58a6d702eeb93f3fe7954b4c4e6c8492fc1dfcdbcd9f0f066b3117e"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-87c4ff5e817a7396fdb02cbbe1771eb1b4504a5ac7655dcde857563a8be249c6"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "4:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "11:45 AM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "1:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-5c66afe1a25026b3675acc6aa258d35bf4b94fe1a68ca5c5fafac998de8ee665"
-            },
-            {
-              "time": "4:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-e9b8a3e2a9f0705dd0e42af220b59c34aca0f26a1378b1a28c511715b471c2a4"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-114e677333581dc97d79c5a93bacb16b5c070c7f19bfa6df0aa74919aac91014"
-            }
-          ]
-        },
         "2026-08-25": {
           "hollywood": [
             {
@@ -1798,6 +1686,50 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-77cb3dbf85d1454871c1dfc763e986a0203cc0c14c9448fc67e546302467c055"
             }
           ]
+        },
+        "2026-09-04": {
+          "hollywood": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d76422f9d19ba970fabce9dd32c2922ebee2a6751bde3d8f6efa67b50b3e05bd"
+            },
+            {
+              "time": "9:35 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-8a0366289b400382fc961d9db53092e1fac83a6f4ff20f7531f9b994e1a0020c"
+            }
+          ]
+        },
+        "2026-09-05": {
+          "hollywood": [
+            {
+              "time": "3:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-1451aa01998e6f19c275345430c24ebe05b7b7fe283e6d3a94f2c26e36ee7696"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-af02e9a3aecd44636d5bc9c38a01e60c941be0cf4a485365f357e184c7e9a6f5"
+            }
+          ]
+        },
+        "2026-09-06": {
+          "hollywood": [
+            {
+              "time": "3:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-9fa0408ea344f358c96942daaf49f7a42f416bc37b5ff9057cc84cde08050a4c"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d3d941964cbd417d36b31c786850370604cbf4978bf53822311895721b87caf7"
+            }
+          ]
+        },
+        "2026-09-07": {
+          "hollywood": [
+            {
+              "time": "9:35 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a85ced9bbcaec756d2187315c6c2215655018539ac3c36c26536a3a7fe76b567"
+            }
+          ]
         }
       }
     },
@@ -2010,6 +1942,22 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-84247a7b1d1f95d992a4696290a806046957bb9e810b72f26282ca145777bed2"
             }
           ]
+        },
+        "2026-09-07": {
+          "bagdad": [
+            {
+              "time": "12:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ef90fb5cd0af1cd1ed07ed10135f78247a7844b3bfcfd5f1a82b05f958967650"
+            },
+            {
+              "time": "3:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-fd19d57af5f80f50499807afd5d85ae515d20bcc27b71e2a08cda8fda4b7fe71"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b74b5b6363e18f3d49885e438df835b716f2daee6bbab45cb91259839698f4e6"
+            }
+          ]
         }
       }
     },
@@ -2020,36 +1968,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1101383/",
       "tmdb_id": 1101383,
       "showtimes": {
-        "2026-08-24": {
-          "laurelhurst": [
-            {
-              "time": "4:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:45 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "5:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-08-25": {
           "laurelhurst": [
             {
@@ -2129,14 +2047,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1280738/",
       "tmdb_id": 1280738,
       "showtimes": {
-        "2026-08-24": {
-          "cinemagic": [
-            {
-              "time": "4:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-cfb727328075b36ba05bca1b5497652fa201e8478d7144a2bf2e3022f2eb865b"
-            }
-          ]
-        },
         "2026-08-26": {
           "cinemagic": [
             {
@@ -2165,37 +2075,12 @@
       }
     },
     {
-      "title": "The Hole",
-      "description": "Four teenagers at a British private school secretly uncover and explore the depths of a sealed underground hole created decades ago as a possible bomb shelter.",
-      "poster": "posters/the-hole.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/467/",
-      "tmdb_id": 467,
-      "showtimes": {
-        "2026-08-24": {
-          "hollywood": [
-            {
-              "time": "7:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-427eb0e076e063f5a25d00ee7d853ff999eabfb9abfbe6b662dab777d87cda81"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "The Invite",
       "description": "Joe and Angela's marriage is on thin ice. When they invite their enigmatic upstairs neighbors for a dinner party, the night spirals into unexpected places. Have they reignited the spark or lit the match that burns it all down?",
       "poster": "posters/the-invite.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/950028/",
       "tmdb_id": 950028,
       "showtimes": {
-        "2026-08-24": {
-          "cinema21": [
-            {
-              "time": "6:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-2832da97fc09ca0a7f908eb9fa3578a09e984cd398544351e6a86f737c271319"
-            }
-          ]
-        },
         "2026-08-25": {
           "cinema21": [
             {
@@ -2353,6 +2238,38 @@
               "url": "https://livingroomtheaters.com"
             }
           ]
+        },
+        "2026-08-28": {
+          "livingroom": [
+            {
+              "time": "6:30 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "8:45 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-08-29": {
+          "livingroom": [
+            {
+              "time": "6:30 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "8:45 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-08-30": {
+          "livingroom": [
+            {
+              "time": "6:30 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
         }
       }
     },
@@ -2436,28 +2353,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1368337/",
       "tmdb_id": 1368337,
       "showtimes": {
-        "2026-08-24": {
-          "hollywood": [
-            {
-              "time": "6:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-0efcfb3f62989bb376595e67e49775d15d753f8c1b67d97ca031012cbd19f7bc"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "11:50 AM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:20 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:15 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-08-25": {
           "hollywood": [
             {
@@ -2483,7 +2378,7 @@
         "2026-08-26": {
           "hollywood": [
             {
-              "time": "6:30 PM",
+              "time": "9:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-fe0c3f0e55a58754ab159fa9dfa699f348ce36ff07709659c03740bd81e87468"
             }
           ],
@@ -2587,20 +2482,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1620313/",
       "tmdb_id": 1620313,
       "showtimes": {
-        "2026-08-24": {
-          "cinema21": [
-            {
-              "time": "3:35 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-425feb5ed58539a43df7738ce524224a90556dd5242a1407a356ad67ec19058c"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "4:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-08-25": {
           "cinema21": [
             {
@@ -2646,24 +2527,45 @@
       }
     },
     {
+      "title": "The Silence of the Lambs",
+      "description": "Clarice Starling is a top student at the FBI's training academy.  Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism.  Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out.",
+      "poster": "posters/the-silence-of-the-lambs.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/274/",
+      "tmdb_id": 274,
+      "showtimes": {
+        "2026-08-28": {
+          "cinemagic": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-85903b3c88395d8b43f77b813f9d6d777f3d4adbd4824601f877f85624d89759"
+            }
+          ]
+        },
+        "2026-08-29": {
+          "cinemagic": [
+            {
+              "time": "9:10 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-630a3b2cb38eebde69fb357000903a98951ecb599a2eee35573ca24534122e73"
+            }
+          ]
+        },
+        "2026-09-03": {
+          "cinemagic": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ec45a2ca516b359ec527312ea4bc46de0c6fdd9d0f8782fdd1cd99faf3d43bea"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "The Wrong Girls",
       "description": "Two codependent best friends living paycheck to paycheck and bong rip to bong rip get caught in a case of mistaken identity that throws their lives into chaos.",
       "poster": "posters/the-wrong-girls.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/1226699/",
       "tmdb_id": 1226699,
       "showtimes": {
-        "2026-08-24": {
-          "livingroom": [
-            {
-              "time": "2:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-08-25": {
           "livingroom": [
             {
@@ -2745,6 +2647,14 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-9bc3a156d39182148c38cde812b60a01abafb1078c247ea3f8b2c0c63c3635a4"
             }
           ]
+        },
+        "2026-09-07": {
+          "academy": [
+            {
+              "time": "1:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b94277688888e76c2bbdd6e38f0254e5b0f3f05b8afd6506bba879e5f8920ce9"
+            }
+          ]
         }
       }
     },
@@ -2772,28 +2682,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1329016/",
       "tmdb_id": 1329016,
       "showtimes": {
-        "2026-08-24": {
-          "cinema21": [
-            {
-              "time": "4:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-83db8040d8f97e9978ee78c8aa88e37a87b58e61e7ceeb54c05d0b1d241f69ef"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-c5acfefd4b56a86e366fa6a2c7d90766365de035c0b55f574d941f25e699a48d"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
         "2026-08-25": {
           "cinema21": [
             {
@@ -2959,14 +2847,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/277/",
       "tmdb_id": 277,
       "showtimes": {
-        "2026-08-24": {
-          "cinemagic": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ad09f81d07768986b121d745f68062384722bc57a3c1ef6cfea5c18ff8e88d72"
-            }
-          ]
-        },
         "2026-08-25": {
           "cinemagic": [
             {
