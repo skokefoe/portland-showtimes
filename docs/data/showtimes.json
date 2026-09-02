@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-01T14:38:34.463671",
-  "start_date": "2026-09-01",
+  "generated_at": "2026-09-02T14:12:53.247119",
+  "start_date": "2026-09-02",
   "num_days": 14,
   "movies": [
     {
@@ -21,25 +21,34 @@
       }
     },
     {
+      "title": "2001: A Space Odyssey",
+      "description": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
+      "poster": "posters/2001-a-space-odyssey.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/62/",
+      "tmdb_id": 62,
+      "showtimes": {
+        "2026-09-15": {
+          "hollywood": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-407f53192a3261f5188ae8d106742cb5f08f6b08aa1e42dc4e71d2234be3c283"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "A Bay of Blood (aka Twitch of the Death Nerve)",
       "description": "",
       "poster": "posters/a-bay-of-blood-aka-twitch-of-the-death-nerve.jpg",
       "letterboxd_url": "https://letterboxd.com/film/a-bay-of-blood-aka-twitch-of-the-death-nerve/",
       "tmdb_id": null,
       "showtimes": {
-        "2026-09-01": {
-          "academy": [
-            {
-              "time": "4:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-09-02": {
           "academy": [
             {
               "time": "7:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-046d00c9b6d22f44e3cb12fa21d6a4309b0531e5144291763d4196d1a832159c"
             }
           ]
         },
@@ -47,23 +56,229 @@
           "academy": [
             {
               "time": "9:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a209c06b7ac8ac640255a77c6e214b64a897a217ca5289ae1940f33344e7975b"
             }
           ]
         }
       }
     },
     {
-      "title": "A Summer's Tale",
-      "description": "Awaiting his girlfriend L\u00e9na\u2019s arrival at the Breton seaside resort of Dinard, Gaspard befriends \u2014 and flirts heavily with \u2014 two other women, the companionable ethnology student Margot and the sensual townie Sol\u00e8ne, making for a rather complicated situation when L\u00e9na finally arrives.",
-      "poster": "posters/a-summers-tale.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/37563/",
-      "tmdb_id": 37563,
+      "title": "Akira",
+      "description": "A secret military project endangers Neo-Tokyo when it turns a biker gang member into a rampaging psychic psychopath that only two teenagers and a group of psychics can stop.",
+      "poster": "posters/akira.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/149/",
+      "tmdb_id": 149,
       "showtimes": {
-        "2026-09-01": {
+        "2026-09-03": {
+          "hollywood": [
+            {
+              "time": "6:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ead4b8af8be1c73abc8e8d815083a359489a126eb90fad38ecba7fcdd12c3576"
+            },
+            {
+              "time": "9:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-aea3abd82bfae7723c545921f9cc278968c903732b9a52d13dbf3567fe51198c"
+            }
+          ]
+        },
+        "2026-09-04": {
+          "hollywood": [
+            {
+              "time": "6:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-e21131c2efda755d504572578363f467eff20b39c0b08c5e3885f22ab22ef4c8"
+            },
+            {
+              "time": "9:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-0f54add24229a362d90d78ed12fcda9b119574535fe6b36b994b13e30d749d84"
+            }
+          ]
+        },
+        "2026-09-05": {
+          "hollywood": [
+            {
+              "time": "2:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-9d99f250e8673b84ce13843fa1952386cec58386e48d379a2a6131c9dfbcb726"
+            },
+            {
+              "time": "6:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f2dd9769f5efa4b7a3e9492bc27a5adf2a7374547a65e6997a8c56f20c051fdd"
+            },
+            {
+              "time": "9:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-3758b2fd8f8cb3e4fd9d07f56e12db41e9f031cd0925d7aa391ff13829e99438"
+            }
+          ]
+        },
+        "2026-09-06": {
+          "hollywood": [
+            {
+              "time": "2:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-fe00e97bc599a6298a6776ec81674f07daa4240b847e56c12f9a793c3bce668d"
+            },
+            {
+              "time": "6:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-c01b761a225748c08bcdb48604c68c91e6f5e70936d294f7e90d0605501d6a11"
+            },
+            {
+              "time": "9:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-93929bd2aa377ae2096b901fcbaeb45d6e41a6ba1e4f14495c30b320ac46efc8"
+            }
+          ]
+        },
+        "2026-09-07": {
+          "hollywood": [
+            {
+              "time": "6:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-1832a50037a3de061c8c12fbd683c426a5a579444bfc5072c88db41bb318b1ec"
+            },
+            {
+              "time": "9:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6b919176d228a157ac7411c57daad8140357a96b19e7a739214848516ad81b55"
+            }
+          ]
+        },
+        "2026-09-08": {
+          "hollywood": [
+            {
+              "time": "6:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-efcdff123c48d7ea8052ec1a24779405255aab09329594e9a49d3da29588e000"
+            },
+            {
+              "time": "9:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-c2d46f98e2b0e0c7e3bc50587b3f2a9f31ff3b3d3ea42dfad92dfba9ab500b7a"
+            }
+          ]
+        },
+        "2026-09-09": {
+          "hollywood": [
+            {
+              "time": "6:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-36ab22fcdb88f934a85c4a34b1baedd002c58b76dba408ad5ad599e3c159e49b"
+            },
+            {
+              "time": "9:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-29a4f89941856765b4a1503f1f12c1f88a4b45f37fe73e379bb1c741e565c417"
+            }
+          ]
+        },
+        "2026-09-10": {
+          "hollywood": [
+            {
+              "time": "6:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-8eb58ed0963784fe99e110a82be0086824925295cdef17a58fd2cd4dd1d2791b"
+            },
+            {
+              "time": "9:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-77960497fc12311d8edb16c2cdbc91fd6c7064da0b0a1019c3667e28dfcf8f7f"
+            }
+          ]
+        },
+        "2026-09-11": {
+          "hollywood": [
+            {
+              "time": "6:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-9dbd1f2cec3f9dd1b8ef1397770b6152b3f5612d1c7222418e2e578f4fb0ada6"
+            }
+          ]
+        },
+        "2026-09-12": {
+          "hollywood": [
+            {
+              "time": "2:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a40204e43c51eef7e9d27c46966caec80dd48b2c5ca83d55424e60ea95970211"
+            },
+            {
+              "time": "6:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-2e2fbeedc488a92e5c5544f5593f48f047ee4b44f2e4943d0462417547bdce42"
+            },
+            {
+              "time": "9:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-99920546b8374276be3319dadeca2d6f9f45ac865942941744317176bad0c421"
+            }
+          ]
+        },
+        "2026-09-13": {
+          "hollywood": [
+            {
+              "time": "2:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-eabf50025b64ddc03389aa34ed328a9b6df0aff0439327c6fb5b85699d030b63"
+            },
+            {
+              "time": "6:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-c5e2214a85166542ce610e8d3b86d2af65fe842eb23369667772f7ba3eb4427a"
+            }
+          ]
+        },
+        "2026-09-14": {
+          "hollywood": [
+            {
+              "time": "6:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a22602e0e715d890be5315fa336489b52819ae1b0c0323c6f4994fa7cb9a282e"
+            },
+            {
+              "time": "9:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-eb7f147dbf28a75ed1c948f7f7cc29646b2a27b06f98aa69321957a64c59a4fd"
+            }
+          ]
+        },
+        "2026-09-15": {
+          "hollywood": [
+            {
+              "time": "6:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-fe047b5f2247755e2a768e649706e14feb24c9b6cb2e29fe5c3e379c322c3ad2"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Alien",
+      "description": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
+      "poster": "posters/alien-the-directors-cut.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/348/",
+      "tmdb_id": 348,
+      "showtimes": {
+        "2026-09-05": {
+          "hollywood": [
+            {
+              "time": "6:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-2e2805472e84298c96d80b6303555a1954326c17e2a1f014d015bf767ceb891b"
+            },
+            {
+              "time": "9:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-543e83890cfe31c543edac984effa69450fc320d897bb56128026836cad5e9eb"
+            }
+          ]
+        },
+        "2026-09-06": {
+          "hollywood": [
+            {
+              "time": "9:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-43e399c39f87b50e7f03673550edc3e178e9d71c16ed8e3d399bdbf9c29f87d9"
+            }
+          ]
+        },
+        "2026-09-07": {
+          "hollywood": [
+            {
+              "time": "7:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-063b028fedcf9c6951b6b55d7227b2cc5551f68017abe359472e8f1928c66ee4"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Barbarian",
+      "description": "In town for a job interview, a young woman arrives at her Airbnb late at night only to find that it has been mistakenly double-booked and a strange man is already staying there. Against her better judgement, she decides to stay the night anyway.",
+      "poster": "posters/barbarian.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/913290/",
+      "tmdb_id": 913290,
+      "showtimes": {
+        "2026-09-15": {
           "cinemagic": [
             {
-              "time": "4:30 PM",
+              "time": "7:00 PM",
               "url": "https://www.thecinemagictheater.com"
             }
           ]
@@ -81,7 +296,7 @@
           "academy": [
             {
               "time": "9:35 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-64805cfbf832414f6286820b734be172f259a3d63b877a6c11c4764290e74c0d"
             }
           ]
         },
@@ -89,11 +304,11 @@
           "academy": [
             {
               "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-74a94f28d8aafdba4b8238a97308ef5a6c94de23b65fb41d52bf4dce6fea43d8"
             },
             {
               "time": "9:35 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a1f42e23433219aa5493f9a07e45a332a3445d14baa538ec4926cce67a02712c"
             }
           ]
         },
@@ -101,7 +316,7 @@
           "academy": [
             {
               "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-85949ab48869212f4a10d349a5893833cacc6d232667f68d36e711f5572f0f95"
             }
           ]
         },
@@ -109,24 +324,32 @@
           "academy": [
             {
               "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b0090399e42093a78d50b2feaa108cbf08164179eb77a3ee3ce19ce9e8d4c33b"
+            }
+          ]
+        },
+        "2026-09-15": {
+          "academy": [
+            {
+              "time": "4:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-3d7a3fa0292fcab01b8acaed6fa8f309fb536202270c3929e2e121afcab9c334"
             }
           ]
         }
       }
     },
     {
-      "title": "Bloodmoon",
-      "description": "Ken O'Hara is a \"Mindhunter\" - a serial killer specialist enlisted to find the mass murderer intent on killing the strongest fighters in New York City. Trying to catch this cunning and clever killer is the hardest assignment Ken has ever had. Now, the moon is rising again and he must use all of his resources to hunt down the murderer....or he may be the next to die.",
-      "poster": "posters/bloodmoon.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/30948/",
-      "tmdb_id": 30948,
+      "title": "Best of The 48 Hour Film Project",
+      "description": "",
+      "poster": "posters/best-of-the-48-hour-film-project.jpg",
+      "letterboxd_url": "https://letterboxd.com/film/best-of-the-48-hour-film-project/",
+      "tmdb_id": null,
       "showtimes": {
-        "2026-09-04": {
-          "cinemagic": [
+        "2026-09-10": {
+          "hollywood": [
             {
-              "time": "10:00 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "time": "5:59 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-7cfa2a84b9671f1dfe0bea78f0820ea680aacbb92fba05e4ef09d9eb757213c3"
             }
           ]
         }
@@ -143,7 +366,7 @@
           "cinemagic": [
             {
               "time": "7:00 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-5a797233264875b572ea41b5e0bc9f3ef68f350470ae6d19e7dd4448862e2e50"
             }
           ]
         }
@@ -160,7 +383,7 @@
           "academy": [
             {
               "time": "4:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a0624823bd4dbafe8cfb3aff7645fd44015c133ac149a525721d9d4b4956877c"
             }
           ]
         },
@@ -168,7 +391,7 @@
           "academy": [
             {
               "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-40d20a4e07bcd74111b1910fe21102d48536d259dd74983496ab23650f53043b"
             }
           ]
         },
@@ -176,11 +399,11 @@
           "academy": [
             {
               "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-03cb90dff00cacaef17e9c376187906dac7150b413a2b2dadbc666abbe65b3dc"
             },
             {
               "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-7bc869923b73ce3f56bd0a8e4e10c7a73b1a59e5cec8e48e0efb6e80b9ad0527"
             }
           ]
         },
@@ -188,7 +411,7 @@
           "academy": [
             {
               "time": "4:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-521f83dfc863583eb333b53ba8cb90454af5fb917c9178d0f962f378f1887f18"
             }
           ]
         },
@@ -196,7 +419,7 @@
           "academy": [
             {
               "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6e1de5edc314f1bce439a0f190c660e44322d26dadc5d991b0f2426f7ab428d6"
             }
           ]
         },
@@ -204,7 +427,7 @@
           "academy": [
             {
               "time": "4:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-7f58e9cba205ce5f95a84a40b642cc6e50883476ed13aae0da4c2f39981c51ab"
             }
           ]
         },
@@ -212,7 +435,7 @@
           "academy": [
             {
               "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d54ae8f1bd3003bc624c33f203215d0910f6a88c557c2756bda69ff75a0ffcf0"
             }
           ]
         }
@@ -229,7 +452,7 @@
           "cinemagic": [
             {
               "time": "7:00 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-49cf5c509c75143478ddcd6b0a25c197068bdf5ad0f38d761e119ac2f4268652"
             }
           ]
         },
@@ -237,11 +460,11 @@
           "cinemagic": [
             {
               "time": "4:20 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-8c844166794416d7769a09fa33d4df578779da517f04568bf0bbca5c1442cd72"
             },
             {
               "time": "7:00 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-08af319bb02036c327d17fc7d253d7ceacca4cb4d94a3c26ecf43714cabe9705"
             }
           ]
         },
@@ -249,11 +472,11 @@
           "cinemagic": [
             {
               "time": "7:00 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-43202bea418fab821f5f792f6769c287b30d14c6127ffa9a520ce34573d324bb"
             },
             {
               "time": "9:35 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-2e136e9f2390d8dc2d2f8fe6ca64588f5299fe8feed8a01e50f313d4a8ebdc24"
             }
           ]
         },
@@ -261,15 +484,15 @@
           "cinemagic": [
             {
               "time": "4:20 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-69f7344984ee8f80735566a0f2ed7744e09356aacb3127080d48e10a7504ffea"
             },
             {
               "time": "7:00 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-18a9a134a4c26987ea715ad9aaa8169cd8a007ca87244998c870726f22ffe685"
             },
             {
               "time": "9:35 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a5ff4bd779dfd7cdb2276ff40f1f7944680ed9576ddde825fdd88bca47ed089e"
             }
           ]
         },
@@ -277,11 +500,11 @@
           "cinemagic": [
             {
               "time": "4:20 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-21d1b26875f296410bd6b35c7a4e728903e3d7081aed51b7c986a4cf0901a055"
             },
             {
               "time": "9:35 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-277dd641eb5786672355b6400a3c891d445b66dd4bc4225b4bc29e77e973f787"
             }
           ]
         },
@@ -289,7 +512,7 @@
           "cinemagic": [
             {
               "time": "4:15 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-9057d9a63dfd8172af712cf671caaca53735d394de9a98ea6c1c233410177204"
             }
           ]
         },
@@ -297,11 +520,11 @@
           "cinemagic": [
             {
               "time": "4:20 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-40cf9f84bbcd33ca297853cce4acbe6a69d18b53ac3059119716323a9d9288b4"
             },
             {
               "time": "9:25 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-5cc2481d3637c4d7233ebf001afad241fd53a9a58561cf59b2d4ec3889b0375e"
             }
           ]
         }
@@ -314,10 +537,10 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1204680/",
       "tmdb_id": 1204680,
       "showtimes": {
-        "2026-09-01": {
+        "2026-09-02": {
           "laurelhurst": [
             {
-              "time": "3:45 PM",
+              "time": "3:25 PM",
               "url": "https://www.laurelhursttheater.com"
             },
             {
@@ -328,61 +551,35 @@
           "academy": [
             {
               "time": "12:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-013676db27c473fa9967088a03bc3a8772c2ab1272962ba5212d2e71dc0740e0"
             },
             {
               "time": "3:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-5d4e9afd2771330c727a460a53ed2e1327391f23ece12facbbc67384363702e7"
             },
             {
               "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d25ffb0534387391c05ac2a92a3e2081fb3989ceb9e33a9441fdf6cf9834c180"
             }
           ]
         },
         "2026-09-03": {
-          "laurelhurst": [
-            {
-              "time": "3:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
           "academy": [
             {
               "time": "12:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-5b549efffe65623d2cac894e1070b41948d0cf5b9f5d5d80ed0f54ff79139c71"
             },
             {
               "time": "3:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-787b4250c9f604cad20fb322ea3299f78466b37687d156a43f6928edd9a46d09"
             },
             {
               "time": "7:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-390f05fcafd410c34facf8ae8d86dae0d77e00b6856ba8af00727d1aea5e08b8"
             },
             {
               "time": "9:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
-        "2026-09-02": {
-          "academy": [
-            {
-              "time": "12:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "3:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-8987db16f2cb77667797a6fc64ba299343bfe922c03a2428e55cd96211e22d65"
             }
           ]
         },
@@ -390,19 +587,19 @@
           "academy": [
             {
               "time": "12:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-af1487e226c6f558953c51fc0978348337faac252f2b73d43cf53c15ddc72ce7"
             },
             {
               "time": "3:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-148d162081419423eb620a30611746cbb50da83b67c1c6a748366984790d1912"
             },
             {
               "time": "7:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f42070e66e9d2a3c7d1bb9a175bd0c8f5df10fb12ffdcee4e0ee45403fafea99"
             },
             {
               "time": "9:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-2cef67d52d2c208fa0ebbdbc40258b1f30b924447b644820c78409d7e759bf32"
             }
           ]
         },
@@ -410,19 +607,19 @@
           "academy": [
             {
               "time": "12:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-176f6e1bfbd386c077612fa98f43854d49269025a79abe072abf5d33188af6fa"
             },
             {
               "time": "3:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b8fa2b657e34c23f68cf2e1792a1addc138d4181741819626aa761723cf337f7"
             },
             {
               "time": "6:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-c599af779d0c0f779e31a7b012c7a9b05d0e429d6992d584f62b46fbc2656b09"
             },
             {
               "time": "9:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d0cde090008745d3e195aebe2d1b2f84f42cb2de04b419e56a1d8ae57133b536"
             }
           ]
         },
@@ -430,19 +627,19 @@
           "academy": [
             {
               "time": "12:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-38b3fdaa7487a4ee776a971fdd94d70720956083a6f692437737964893274df0"
             },
             {
               "time": "3:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ba402d80ef3233d60a8987b1868ca0790c61732ae2be6cfb9c601b012a680bbb"
             },
             {
               "time": "7:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f3c1c293700c5c968fdf8bae2fe12f674bfe8d0db512b5db256fa6aecc879cfd"
             },
             {
               "time": "9:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-678b9669bedaf8f9fdfd9b9f124c836e2fb03bf10781abcb18222d3c8e09c0df"
             }
           ]
         },
@@ -450,15 +647,15 @@
           "academy": [
             {
               "time": "12:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-2e2d15e33aa8cb078fb6f50efb6c9737cc3f6cb4fdfefb52bc8473f94dc91e50"
             },
             {
               "time": "3:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a89101f23ffdd93104246bd57734761f436b9fb4fa72d5b046af7fa89ca85908"
             },
             {
               "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d9e23e635171cf5414120908800d27bde2cbdfadf7a11411e8d16f657e97f788"
             }
           ]
         },
@@ -466,15 +663,15 @@
           "academy": [
             {
               "time": "12:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f6d2bd8f59b9f6b7bc4e5999a290a2bfc59f21fbf7ec9de06fac4b88960c2c87"
             },
             {
               "time": "3:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-9ffcde2ee567f8331d4b98655431d6664d9c542d9b774b9799af2920a9a9aa22"
             },
             {
               "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ddcbc741f2627f46b81d9efe50fd260f4cc43c8cfff39271f00ce14d90df99c9"
             }
           ]
         },
@@ -482,15 +679,15 @@
           "academy": [
             {
               "time": "12:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-0668d4939e73c6df6f3461a40fdd462ca1318e096d9777f18e0e82bb9ed1a673"
             },
             {
               "time": "3:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-cf7c6785c65a20e690244b4c20cd6fe4110eb0ade0790ef91a769a761cb14829"
             },
             {
-              "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "time": "7:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-fc849a8ef8a0739505b09012fd06626809684b1ff4a27015b29fdcb14dee1e94"
             }
           ]
         },
@@ -498,11 +695,11 @@
           "academy": [
             {
               "time": "12:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f6f323275e331a02ebb7d3f8a53592735c8723553a4a5b7a9f6b5c154a80ae94"
             },
             {
               "time": "3:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-3c6c76293edd1328c29d55e233e98b65ab448c5f8462170e40a8f767dc4da763"
             }
           ]
         },
@@ -510,19 +707,19 @@
           "academy": [
             {
               "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d46c27d6140aa88fae309ad4f7c2e4b941aa5fc5800a4ec2f66b88951dfb2a94"
             },
             {
               "time": "4:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-4b68a6c19a2a6068e98af0cdf6c755e12e292d3106286bea43555becd668cd99"
             },
             {
               "time": "6:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f12fdfffab352d2215c47501a03c85b5ac4b9c0deba8cdb453028949b1b809c3"
             },
             {
               "time": "9:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-9d8964d4a7dca324410bad6799d6fd6fc04b7290bd4f50a67dc87084bb88619c"
             }
           ]
         },
@@ -530,19 +727,19 @@
           "academy": [
             {
               "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-e20509120911000b9df9072c9688bc47c1f365ebf9eb42c0da106136dcfa4ef9"
             },
             {
               "time": "4:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f6f5bd77103d99d9f7873f721da441e1a005ecc18ebc247abb566858474ca2bc"
             },
             {
               "time": "6:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-532da6adedb9da6d9f1356611541e647582e048721d25ba7d2c316b4fe49ce8b"
             },
             {
               "time": "9:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6b2eb85724db34450c287a033d5308ba7e5d6f49adbd22c48795ac0c7991e70a"
             }
           ]
         },
@@ -550,15 +747,15 @@
           "academy": [
             {
               "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-8daeee32ca1aa7e5315c8a9636fcc5fcb46c654a897a93594f9bc42b2d5bd5e4"
             },
             {
               "time": "4:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-1b4853b09af6c19a8d88b004c994777cfe110011d6f143840b2b4982b260d681"
             },
             {
               "time": "6:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-174a9ca09d43bfd5e0f9774ee4ae988e9aab7d9dbae583ab22d97ed6b51a4685"
             }
           ]
         },
@@ -566,15 +763,31 @@
           "academy": [
             {
               "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-557037a9e79a45278c1fb4ca5f623875f2a96bd205eeb7f024ebd8c3e1123688"
             },
             {
               "time": "4:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-46246d4ca7b8627ded4320349f98e5b09a78690d89d5fcf3fe7a9fa2989879a2"
             },
             {
               "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-66def7252cea81692b3938a4167582c926ca97bc4906c4dd0b5b843152d92bda"
+            }
+          ]
+        },
+        "2026-09-15": {
+          "academy": [
+            {
+              "time": "12:45 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-0cd33e718c677d817983e9b8925600cc6ff0212246fd6ff1f4661aa073f37c75"
+            },
+            {
+              "time": "4:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-1f206cb65b49d44ca9ac92141093f27429583c05afa5c65128ab3cd03e1a5edf"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6969e3dc62a3251cef8221a5cace3538f01d64160c0deb86d55f819a2692ca64"
             }
           ]
         }
@@ -591,7 +804,7 @@
           "academy": [
             {
               "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-bbdcbd2f47d8fdc628a6d740da3673140ff523535bd1c4c6f4c4f8c92ed47a93"
             }
           ]
         },
@@ -599,11 +812,11 @@
           "academy": [
             {
               "time": "4:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6234afd1dbab5fa6c1b0bbcc1f7575241db6cccccce26b9d2aee8f851852478e"
             },
             {
               "time": "9:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-225a1746cf0ad3ea991dd95e3bcdd6f0006542a7b3ef45e476694df14d135c42"
             }
           ]
         },
@@ -611,7 +824,7 @@
           "academy": [
             {
               "time": "9:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-41a6a3fd4cfac94819a0c336d69718b7bfc3952a940fb609421ef57396991b78"
             }
           ]
         },
@@ -619,7 +832,7 @@
           "academy": [
             {
               "time": "7:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ff8d0b2c484dcc017895a101573d30983474e30eb70719afc0af84786dc92953"
             }
           ]
         },
@@ -627,7 +840,7 @@
           "academy": [
             {
               "time": "4:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-300e103c74abecc31a48785237fc946264bdcc32d097770565e85be2b2d4992d"
             }
           ]
         },
@@ -635,7 +848,7 @@
           "academy": [
             {
               "time": "7:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a06fb37904a0fb0733ce34430ead9fc21ea2e28154d621a65b711a9dd1ed1f2c"
             }
           ]
         },
@@ -643,7 +856,7 @@
           "academy": [
             {
               "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-4beeb8aabdcb06b2df5462550ec180aa19399423ebe5c17991f394909f302416"
             }
           ]
         }
@@ -660,24 +873,7 @@
           "cinemagic": [
             {
               "time": "4:50 PM",
-              "url": "https://www.thecinemagictheater.com"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "title": "Frankenstein",
-      "description": "Dr. Victor Frankenstein, a brilliant but egotistical scientist, brings a creature to life in a monstrous experiment that ultimately leads to the undoing of both the creator and his tragic creation.",
-      "poster": "posters/frankenstein.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/1062722/",
-      "tmdb_id": 1062722,
-      "showtimes": {
-        "2026-09-01": {
-          "clinton": [
-            {
-              "time": "8:00 PM",
-              "url": "https://cstpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-0d2616c530eb42a05181fe8ca955a90acefb94e1a649357c2cc0c5fee0f3b4ea"
             }
           ]
         }
@@ -694,7 +890,7 @@
           "cinemagic": [
             {
               "time": "9:15 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-553ade6cd474d651906cc3debe2a5fcaa1d62c6e2402e54893d9a2266bb45fbe"
             }
           ]
         }
@@ -711,7 +907,7 @@
           "cinema21": [
             {
               "time": "7:00 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-0a12b175fccf2aad2b19d90a9dea8ccb69269754594650dacb0daf0f307bdc3f"
             }
           ]
         },
@@ -719,11 +915,11 @@
           "cinema21": [
             {
               "time": "3:30 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-55d33ca0747079ec6c705a933381a7910562ea9aa1da74d1b9e658df60a157cc"
             },
             {
               "time": "7:00 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-88a351246680e9c09b2061dee8fba862a2be40d061693219dc438eb0c8151fce"
             }
           ]
         },
@@ -731,11 +927,11 @@
           "cinema21": [
             {
               "time": "3:30 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-78b53357d8b6108243ccdc7f140c11a9c35374981df43e306870142be0f06340"
             },
             {
               "time": "7:00 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-25bcd111a2df2bb1dbf93c1ee3bdc81c709337ab61e969cf7075597d31871571"
             }
           ]
         },
@@ -743,15 +939,15 @@
           "cinema21": [
             {
               "time": "12:00 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-e1c5aa555838bd8107b86eddca9ccc8623c886cd2594803b6297c576a1357898"
             },
             {
               "time": "3:30 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-fa70da6451b3213d80518dc1b9f67693c09883ecf8b79fdbb352f7609823f1a1"
             },
             {
               "time": "7:00 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-c28a1782e21d8be62e797f5fdf36452abf45e9539f224a94958f4d577fab25f0"
             }
           ]
         },
@@ -759,15 +955,15 @@
           "cinema21": [
             {
               "time": "12:00 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-c8ae70d62246356397ff382dcb3c14872764722b0c723c4593220dfceb0a3afd"
             },
             {
               "time": "3:30 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f2d1bdae2ae63373fe8484c93177dc2a6b742e07f9f2b153e8140911fa355587"
             },
             {
               "time": "7:00 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-9079da8b08ddb55edf32fb427332be695fed44104b6d0bfe9f2e79c18126714e"
             }
           ]
         },
@@ -775,28 +971,40 @@
           "cinema21": [
             {
               "time": "3:30 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-1a646e83a869078a6d3e6e79446bf3070c089c9a6674c845ab2b8ea3e847f4e3"
             },
             {
               "time": "7:00 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b102c39cc769731d4c43351e6cd922d8065ea6cd87eff62bd92f15b0f38391cb"
+            }
+          ]
+        },
+        "2026-09-15": {
+          "cinema21": [
+            {
+              "time": "3:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-9bdeca858344c21a82a58a0a4b4ecfcd625e9d73e77eab68de8481b12e5b269a"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-59e938a7a92ca7f85ca4c0d8aed2ea93ac378303cec3a39620db51c5e10e3222"
             }
           ]
         }
       }
     },
     {
-      "title": "Howl's Moving Castle (Dubbed)",
+      "title": "Howl's Moving Castle - Studio Ghibli Fest 2019",
       "description": "",
-      "poster": "posters/howls-moving-castle-dubbed.jpg",
-      "letterboxd_url": "https://letterboxd.com/film/howls-moving-castle-dubbed/",
+      "poster": "posters/howls-moving-castle-studio-ghibli-fest-2019.jpg",
+      "letterboxd_url": "https://letterboxd.com/film/howls-moving-castle-studio-ghibli-fest-2019/",
       "tmdb_id": null,
       "showtimes": {
         "2026-09-11": {
           "academy": [
             {
               "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b8bd0f7be0533e00dfa4c4c9f51afe52441d4014c15c9fd44d26d85078ef1b3e"
             }
           ]
         },
@@ -804,7 +1012,7 @@
           "academy": [
             {
               "time": "4:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-bb57e5fcaf3fa0a01068034fe63cb2a86541dbad888b99559fb1d56575c06b5b"
             }
           ]
         },
@@ -812,7 +1020,7 @@
           "academy": [
             {
               "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d41be7216f2221b6d8e4730a70b862afc43b8af014e9e6dccda17cc35864303a"
             }
           ]
         },
@@ -820,7 +1028,15 @@
           "academy": [
             {
               "time": "4:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-7fb23f4368219e40c6ca50f576cd318735e79a45dfb6c7396271e99745ccf092"
+            }
+          ]
+        },
+        "2026-09-15": {
+          "academy": [
+            {
+              "time": "7:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-44825b25f185e7785ec2796fea9884c4adf0dbc0d0d0750ca54d33058e54f1db"
             }
           ]
         }
@@ -837,7 +1053,7 @@
           "cinemagic": [
             {
               "time": "9:30 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-81fdbbdfac5bffc84ca97f9b20f0a596b84d5c26d1d4629db1714a915fb95821"
             }
           ]
         }
@@ -850,19 +1066,11 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/11533/",
       "tmdb_id": 11533,
       "showtimes": {
-        "2026-09-01": {
-          "academy": [
-            {
-              "time": "7:30 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-09-02": {
           "academy": [
             {
               "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6f52c14f77f5a4f4218b9f57d92101f1cd5629087a84ee60e17bb85c45b062b7"
             }
           ]
         },
@@ -870,7 +1078,7 @@
           "academy": [
             {
               "time": "4:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6a26574b8a3d33a18786318701d02a320fe25d8d8754a9b7cfcf1fb4b6b3c981"
             }
           ]
         }
@@ -887,24 +1095,28 @@
           "cinemagic": [
             {
               "time": "4:50 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-da18a08b28a75a76a5cf3fbde335a19ddca2f7f9f1059019386e606e6b703be4"
             }
           ]
         }
       }
     },
     {
-      "title": "Modern Times",
-      "description": "A bumbling tramp desires to build a home with a young woman, yet is thwarted time and time again by his lack of experience and habit of being in the wrong place at the wrong time...",
-      "poster": "posters/modern-times.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/3082/",
-      "tmdb_id": 3082,
+      "title": "Peter Pan",
+      "description": "In stifling Edwardian London, Wendy Darling mesmerizes her brothers every night with bedtime tales of swordplay, swashbuckling and the fearsome Captain Hook. But the children become the heroes of an even greater story, when Peter Pan flies into their nursery one night and leads them over moonlit rooftops through a galaxy of stars and to the lush jungles of Neverland.",
+      "poster": "posters/peter-pan.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/10601/",
+      "tmdb_id": 10601,
       "showtimes": {
-        "2026-09-01": {
+        "2026-09-13": {
           "cinemagic": [
             {
-              "time": "7:00 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "time": "12:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a06a3c71bfc5091864a0898eac57b69c876d09ab0ac0aa4804f2563d7a4a0e33"
+            },
+            {
+              "time": "2:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6dec6408d68e26b0d485775faede6cd4ccd620123baa5e14ed444bbd125ca9c0"
             }
           ]
         }
@@ -921,21 +1133,21 @@
           "bagdad": [
             {
               "time": "3:15 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-7d5b195e79fb93bed1a5daa9aec4e642237e8fadb4ee5d6c4c7f8eaa5befeb37"
             },
             {
               "time": "7:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-4085a41a0b55b9f990ad99c174a3e0c1cb99c1fd698d5e115af30658793a664a"
             }
           ],
           "academy": [
             {
               "time": "7:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-3cba26889704763ad2182c3de35ceb0abacdfbc0868cc9e47bccc020752591c0"
             },
             {
               "time": "9:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-3918c9b6b8d004660c41237c7a9651e15cfeec2d7ba02ec5f16c36bbf60ee048"
             }
           ]
         },
@@ -943,37 +1155,37 @@
           "bagdad": [
             {
               "time": "12:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-512f0ad3b2b5522fd0d355ff9a9aaf120c5528fc4ea75da17b40d1e56b78e9f7"
             },
             {
               "time": "3:15 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-8d61dc8cf7577009e820cff0fbf576a5342ce4b3d30d856b424a5b52a99ab2a9"
             },
             {
               "time": "7:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-5451be06222a2c49b68d11de474a5ddbe5ab08d8e8dc9e29dafea73b51ef9065"
             },
             {
               "time": "10:15 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-3bf385e5b279197b31a64fcb71358e854998ff133e0142fe6d6ac1c2726e21ec"
             }
           ],
           "academy": [
             {
               "time": "12:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f181c03f3e97ff9d69a8a8e002898f259887c90eeb0f70661445c290526057f7"
             },
             {
               "time": "3:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-136b5ccec65443a6c00ff93a8fa69ad8958c2210ba67113a87cf67c3c1c1fe93"
             },
             {
               "time": "7:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-e45d12581ff266b252dfa1b52fd094fded7780fe84de38e169fb33eaae183e4d"
             },
             {
               "time": "9:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-99cf3b248694399a1779aca47b4d484c61fd19fc50cd460b6966f8fbc85e5f20"
             }
           ]
         },
@@ -981,37 +1193,37 @@
           "bagdad": [
             {
               "time": "12:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ba115f0dc2334d83d457899a7b28e285ca729deb3c0b4286be7a2936554bb709"
             },
             {
               "time": "3:15 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a418e8c5f7ea0e56808d7569ac12e637ba7991eb50a1fc1d04dc643e18abbce9"
             },
             {
               "time": "7:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-242c186847d4d41b79735be1c71c346e4044c7ede7b413e0276e29c3ef5da128"
             },
             {
               "time": "10:15 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-487554876394f7c0396bfd83b7f9349711f76df677d6b4c472feafa5c259d19d"
             }
           ],
           "academy": [
             {
               "time": "12:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b2e243c2c74153a31ec7176fbbadc02003223c4a692bd7881305a8e64a89286b"
             },
             {
               "time": "3:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d2f7defba3f0da012df00af24d03ea13167318ab9cb0c86bba2a63ecf08a7c28"
             },
             {
               "time": "7:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-2707511298323a56c5ee94ef8900e79215eac412119f63774d7eb597e9000fc7"
             },
             {
               "time": "9:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-888eeed53b3867cc0dcfadab2a135d805998e7b497b23526d919fc3ee51d1448"
             }
           ]
         },
@@ -1019,29 +1231,29 @@
           "bagdad": [
             {
               "time": "12:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-7f21a766cc727d95cc0e8d5db1ca26e0b0193e74fe273f0b683fb730149784bb"
             },
             {
               "time": "3:15 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6ca40af3e503e9a5a5544c4b285aa13b082749e05b20157d0797b719c66d5c39"
             },
             {
               "time": "7:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-770186ba16ca06435c4399603ef18bad52f491d03d8401311ea04513ad4f2b29"
             }
           ],
           "academy": [
             {
               "time": "12:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-0eefeb421b02d5d92c079c3f9e0bf6012b1065cd1257ba6865ed70da6763c662"
             },
             {
               "time": "3:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-0416464e4fd22cd7679b273789e7423081a742f4e0ba83204fb91d99491054ff"
             },
             {
               "time": "7:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-82ef63e53ff83e17aa32630dc5316b34fd92f80c5761df127c18acc1abe8c9e1"
             }
           ]
         },
@@ -1049,29 +1261,93 @@
           "bagdad": [
             {
               "time": "12:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-1f2db5f87c11e30fbaa871c6a272c9d3ae5bf258fdd435de30059ca1be840a04"
             },
             {
               "time": "3:15 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b03e340a213acdf2f1c29eb13b0e7d63f97a95c7d56ae514d0d3e31543bd99f0"
             },
             {
               "time": "7:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-01478b005afa10e179b8ce5fcb572e7032b24c1c1c782d917d3acbe465a2e695"
             }
           ],
           "academy": [
             {
               "time": "12:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f965a08039950392debf06304bb176ff4bdbcf4a9803ac604ab54169a11e92f8"
             },
             {
               "time": "3:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-062eea1b3e7a2e590825e262ec376d14667c33835df9afe6f1eea1a6c952414b"
             },
             {
               "time": "7:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-e12ee9221faa058489000c30f890627d9778576529a647ad37f5b97bfccd0d77"
+            }
+          ]
+        },
+        "2026-09-15": {
+          "bagdad": [
+            {
+              "time": "12:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6e588bed3a12e6396bc31dc8e0e05b578b8c2a3bee29ad8d6e68ad7109736871"
+            },
+            {
+              "time": "3:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-5a5136ff3be5f401a66eb5a6049991c654f0e1014a880534c8bc3c98db5ef065"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-45dae302412337ffdccf6b98b8bf021add449fc4b31d14563cf1b597eccd0faa"
+            }
+          ],
+          "academy": [
+            {
+              "time": "12:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-db84b227b90115768d8e61af2ace278637e480870b719860c7dd883fad78500d"
+            },
+            {
+              "time": "3:45 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-32819bbcdb1bd829e953b3918af18b53adb6790292be36658aa48af46a88b367"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-217da8f765e7b6c3f79d165e667497161f7d60b49f5100c9d736572c09b2be00"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Royal Space Force - The Wings of Honneamise",
+      "description": "On a future Earth, war between the Kingdom of Honneamise and its rival, The Republic, is inevitable. As evolving technology creates new ways to wage war, a small group seeks to propel mankind into space in their world\u2019s first spaceflight program. For astronaut candidate Shirotsugh Lhadatt, it\u2019s a personal odyssey as he grows from an aimless young man into a leader willing to put everything on the line in order to move the human race forward and away from the brink of Armageddon.",
+      "poster": "posters/royal-space-force-the-wings-of-honneamise.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/20043/",
+      "tmdb_id": 20043,
+      "showtimes": {
+        "2026-09-13": {
+          "hollywood": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-4d581e921aea4164ad4e05ba0b3923481caa2f7dfc91d5e688ea3c0960be2b23"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Running Scared",
+      "description": "A low-ranking thug is entrusted by his boss to dispose of a gun that killed corrupt cops, but things spiral out of control when the gun ends up in wrong hands.",
+      "poster": "posters/running-scared.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/7304/",
+      "tmdb_id": 7304,
+      "showtimes": {
+        "2026-09-02": {
+          "cinemagic": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-73e04ec6036f409877855771b035c008568384882261aeb724c57699af36d33e"
             }
           ]
         }
@@ -1088,7 +1364,7 @@
           "academy": [
             {
               "time": "4:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-9bc8197b78d9d7f500741e05e2dd0ffebbdf713cc72cbf8434cbebd407ff9268"
             }
           ]
         },
@@ -1096,7 +1372,7 @@
           "academy": [
             {
               "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-1956eecf21dfcfaf27c2d1f5f8b7c1c3bb8cec693f2cca2ab95e51a3fd90059b"
             }
           ]
         },
@@ -1104,7 +1380,7 @@
           "academy": [
             {
               "time": "4:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-aa658ae7dadbbe189395c8de3bb712e644aecd1c73417fb40738456dca2753f2"
             }
           ]
         },
@@ -1112,7 +1388,32 @@
           "academy": [
             {
               "time": "7:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-8dfe4250438216ae002aeb8ec474cfa2f31acfcee8d5c5b88d629760f59e55b3"
+            }
+          ]
+        },
+        "2026-09-15": {
+          "academy": [
+            {
+              "time": "1:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-867fd40cfc9855018176e5e2f2327f304a20c6acda3f48bbb320eb628936f8b0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Showdown in Little Tokyo",
+      "description": "An American with a Japanese upbringing, Chris Kenner is a police officer assigned to the Little Tokyo section of Los Angeles. Kenner is partnered with Johnny Murata, a Japanese-American who isn't in touch with his roots. Despite their differences, both men excel at martial arts, and utilize their formidable skills when they go up against Yoshida, a vicious yakuza drug dealer with ties to Kenner's past.",
+      "poster": "posters/showdown-in-little-tokyo.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/13154/",
+      "tmdb_id": 13154,
+      "showtimes": {
+        "2026-09-02": {
+          "hollywood": [
+            {
+              "time": "7:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-5fe7abc427b37c6abf3ad56fec1c452571515a7e27167f36ed25edce7837f7bd"
             }
           ]
         }
@@ -1125,18 +1426,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1341138/",
       "tmdb_id": 1341138,
       "showtimes": {
-        "2026-09-01": {
-          "livingroom": [
-            {
-              "time": "2:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-09-02": {
           "livingroom": [
             {
@@ -1170,22 +1459,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/969681/",
       "tmdb_id": 969681,
       "showtimes": {
-        "2026-09-01": {
-          "livingroom": [
-            {
-              "time": "12:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-09-02": {
           "livingroom": [
             {
@@ -1215,6 +1488,23 @@
             {
               "time": "7:00 PM",
               "url": "https://livingroomtheaters.com"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Suddenly, Last Summer",
+      "description": "The only son of wealthy widow Violet Venable dies while on vacation with his cousin Catherine. What the girl saw was so horrible that she went insane; now Mrs. Venable wants Catherine lobotomized to cover up the truth.",
+      "poster": "posters/suddenly-last-summer.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/14698/",
+      "tmdb_id": 14698,
+      "showtimes": {
+        "2026-09-14": {
+          "hollywood": [
+            {
+              "time": "7:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-4551f5d2264939fc208fb8828b3aaf60cbaf3e3da90d8900239a55204625b7e0"
             }
           ]
         }
@@ -1227,25 +1517,25 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1240889/",
       "tmdb_id": 1240889,
       "showtimes": {
-        "2026-09-01": {
+        "2026-09-02": {
           "hollywood": [
             {
               "time": "7:00 PM",
-              "url": "https://hollywoodtheatre.org"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-747ed375a7976cbb99ff959f0e82c7635820d0a86e4e4f59f37115054d98a2e6"
             },
             {
               "time": "9:35 PM",
-              "url": "https://hollywoodtheatre.org"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f4fd3d6e98a0f612ad27d4affc6690f6bf371c29cd7361a71036a6298c3e5e81"
             }
           ],
           "cinema21": [
             {
               "time": "4:30 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-cbb50a3fc73c4ab5378d6ab8cc7132730afae4d1ad3dd1fa6713ed0b222e3372"
             },
             {
               "time": "7:15 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a7b8cc1a4b6f2a70c8db729f9cd8f217a56ddfdd571343552e14008cd13b6d60"
             }
           ],
           "laurelhurst": [
@@ -1279,69 +1569,15 @@
           "academy": [
             {
               "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b4cc5b85125d509ecc0fad7eb4da806712428844194ff0a9c2517002a35efebb"
             },
             {
               "time": "4:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-e39073f0bd17381391dc897312dd08ea2a2be397c924c455722e5bbf1b8d7a62"
             },
             {
               "time": "7:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
-        "2026-09-02": {
-          "hollywood": [
-            {
-              "time": "7:00 PM",
-              "url": "https://hollywoodtheatre.org"
-            },
-            {
-              "time": "9:35 PM",
-              "url": "https://hollywoodtheatre.org"
-            }
-          ],
-          "cinema21": [
-            {
-              "time": "4:30 PM",
-              "url": "https://cinema21.com"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://cinema21.com"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:50 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "5:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "4:15 PM",
-              "url": "https://www.academytheaterpdx.com"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-3c5ca8ef3697eacacc542fa4c7d5ff6ed927d4d2ce2b43a3c253efb978c648c9"
             }
           ]
         },
@@ -1349,27 +1585,17 @@
           "hollywood": [
             {
               "time": "7:00 PM",
-              "url": "https://hollywoodtheatre.org"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-97357c833d16e1948f903f3958f9dad52ef1398a386f10c58813e14df358b6de"
             }
           ],
           "cinema21": [
             {
               "time": "4:30 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d3c16c7c6a67b7331d6860c8467fc9c9e32ab4502ef30af1d5c5b0d5a98c41bf"
             },
             {
               "time": "7:15 PM",
-              "url": "https://cinema21.com"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "4:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.laurelhursttheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-885ced846ab5312822aa0b993a8c33e77b1faf76f1183db7cdcf1fe01dad55a9"
             }
           ],
           "livingroom": [
@@ -1393,19 +1619,19 @@
           "academy": [
             {
               "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6e691b894809afaab6ef2622be24672cd05a73f06ffb2ee988280cba0fc4ccad"
             },
             {
               "time": "4:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-7497d6edc39c0171da1b33f37d218e60d7205ab30ab3b2de11f39e7f0d644c2f"
             },
             {
               "time": "6:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-baa6ebf7b3f6dceee19512083ad300cdda72d5e4f54ead6c8af1e0d061e1f9f5"
             },
             {
               "time": "9:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-77cb3dbf85d1454871c1dfc763e986a0203cc0c14c9448fc67e546302467c055"
             }
           ]
         },
@@ -1413,199 +1639,328 @@
           "hollywood": [
             {
               "time": "7:00 PM",
-              "url": "https://hollywoodtheatre.org"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d76422f9d19ba970fabce9dd32c2922ebee2a6751bde3d8f6efa67b50b3e05bd"
             },
             {
               "time": "9:35 PM",
-              "url": "https://hollywoodtheatre.org"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-8a0366289b400382fc961d9db53092e1fac83a6f4ff20f7531f9b994e1a0020c"
             }
           ],
           "cinema21": [
             {
               "time": "4:30 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-cc1fbf8d17705ee53b7f97398a4838ae987b42a3998579c7536fcaf68c623407"
             },
             {
               "time": "7:15 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-471f6d18dff1dfea706682387260948a615dc4d68322c59ab29fcccbe0447d50"
             },
             {
               "time": "9:50 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-3a3d034e4bcc4b706dd778761160dcebd1b072f2895f6b66b2a309e8a63fce01"
             }
           ],
           "academy": [
             {
               "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6a4d22790169e941ac777180e02a98ca33fff591b1b144ee9f2699c613823867"
             },
             {
               "time": "4:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-feaa6db1220519243c1ab726e1ee729a40ee46ba1244adc9a665efa676a2cf68"
             },
             {
               "time": "6:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ad2ff32da92bfa5e94690803b512866e325ce87a9ee261cf3a549260e543a9bf"
             },
             {
               "time": "9:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-2571c10255d808fe443544647dcf88ababc5232e3da6251e89527f0f017d4674"
             }
           ]
         },
         "2026-09-05": {
+          "hollywood": [
+            {
+              "time": "3:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-1451aa01998e6f19c275345430c24ebe05b7b7fe283e6d3a94f2c26e36ee7696"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-af02e9a3aecd44636d5bc9c38a01e60c941be0cf4a485365f357e184c7e9a6f5"
+            }
+          ],
           "cinema21": [
             {
               "time": "1:00 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-4be02680a823db878c5422a2a46213c1db924e3105aba1034d5cfa5d6b15f185"
             },
             {
               "time": "4:15 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-30a7177cec8610f46eb6575975cdc4bf5695ef4fbfee04cbfa8f0b1cccccd32d"
             },
             {
               "time": "7:15 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-1e6ac8c3e46bb97656575ad1ddb2e25510d27bc273cf3dfcef2cd2807906b67a"
             },
             {
               "time": "9:50 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-bfef11a9792a1bb037b64eddd811a9930414c8628272ef7636a386bcc138e23a"
             }
           ],
           "academy": [
             {
               "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-af8a75fd463f5ea87f80173d457c97661357173cc6c4e4e4e0d29cd35b243b1a"
             },
             {
               "time": "4:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-45b0c5b0858df49b0e16a0816b78b2e86b70274cd279ab233c2f023d00d5d07d"
             },
             {
               "time": "9:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b39c592438c3fa99cd0eae4b56101f69075bf11469c37dc176bc4df7a9cdeb62"
             }
           ]
         },
         "2026-09-06": {
+          "hollywood": [
+            {
+              "time": "3:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-9fa0408ea344f358c96942daaf49f7a42f416bc37b5ff9057cc84cde08050a4c"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d3d941964cbd417d36b31c786850370604cbf4978bf53822311895721b87caf7"
+            }
+          ],
           "cinema21": [
             {
               "time": "1:15 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-42def3f6c8a29e020e2bc70b08972557a073dbba1e304cd1256a0a8ec0690b7b"
             },
             {
               "time": "4:30 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-06216b6a15f17853be87d8ac07bb5867bbd9d09811c56a95f1b17bde841f18f9"
             },
             {
               "time": "7:15 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6be84ccb458becca1d66890895e9845b7bf6a1021ae406a7954284ae54166ce2"
             }
           ],
           "academy": [
             {
               "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-7064a28025d579889afd587dc4ed4910fd97a825b950319b263a32e99356f75c"
             },
             {
               "time": "4:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-5bd1a67abaa15bb59f44ab0fae06afe3661d157dc2a1c815ca495ea4dbbca8a6"
             },
             {
               "time": "6:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b59b8f74c37e30deb6f866bd878d9770b28abd5897f53810e23885295953411a"
             },
             {
               "time": "9:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-3f1567c15a9c89545294dda1ae5986b818241138313cd3b4469154db73fe39d0"
             }
           ]
         },
         "2026-09-07": {
+          "hollywood": [
+            {
+              "time": "9:35 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a85ced9bbcaec756d2187315c6c2215655018539ac3c36c26536a3a7fe76b567"
+            }
+          ],
           "cinema21": [
             {
               "time": "4:30 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-9e06695eef9e1e5615a34baae8aa45d38233770ed202be44847984dcd196c8e7"
             },
             {
               "time": "7:15 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-af8e6310c1d06a268467fd4a949c669725231d0203afdccf0eaa138c021e41b4"
             }
           ],
           "academy": [
             {
               "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a2a2af8d01c04571d8a3cc540e1fc1f147efc00cb6b3fa01b6ef84d4b31d41bc"
             },
             {
               "time": "4:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-11c1f55b169ef3d643054fe64eaac212b863022e2307abc0d1d6a89a6ac9cac8"
             },
             {
               "time": "7:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-0759e88d900736b8cfbca4504514e7dd7adda964edfb8a29180ee6a504fbdc56"
             }
           ]
         },
         "2026-09-08": {
+          "hollywood": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ad803d36a0c1b4e10724d4451a4f497ea057d5f6d7148ccdeef725b51f510ed3"
+            },
+            {
+              "time": "9:35 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-af7609b04744679216f738f7789ca0dc4baa599f5dc75f357860d494939723cf"
+            }
+          ],
           "cinema21": [
             {
               "time": "4:30 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-dd2af544f3c6c391df6f96451bb06cc4d2916954802b3993473bdb47eaa68d97"
             },
             {
               "time": "7:15 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-36a018d56fc20426a5708c112fa925f1f7c1fcaa99c0c1e740402b00dbc8c2d4"
             }
           ],
           "academy": [
             {
               "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-73c8aafbc10b3b8e7f890998b0a4d73ff16a1832a6f255b8a5b5553c326ce2aa"
             },
             {
               "time": "4:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-dbdac4ad72e0d9ebc922c74645a1c5faa88a9cd76aa4a47a12a36e619cbde5eb"
             },
             {
               "time": "7:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-2bc9dabc059919cebf0a4c207187aa417591a89cc12a9ba21c1372b7a6a4f55d"
             }
           ]
         },
         "2026-09-09": {
+          "hollywood": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-e50167a3cb4d218f865f7a2bc5b3127c8cabd80bdf446fb7a3becda1c4628d3b"
+            },
+            {
+              "time": "9:35 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d6a6738bac9a22cc10491ce5112dd6bf724bc900a6b6f4429ebb07406f872e3f"
+            }
+          ],
+          "cinema21": [
+            {
+              "time": "4:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-edd7ecbbb98319285d2100f88c72dfac2b04bca479e8b59c98a291d7de9faa48"
+            },
+            {
+              "time": "7:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-cdabf57f8c345f3099587dbfaefbaa083f5fa35eb776d492a24f10ad5f31aa43"
+            }
+          ],
           "academy": [
             {
               "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-1d03ef26d59575218558d37478033743f6261c7d50556f10dff722f8d60e92ed"
             },
             {
               "time": "4:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-7c4c58896396875d161d74e5eb5b0451a1c6aa42cc393cfe21770c13909da396"
             },
             {
               "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-bba277b2c3e46993faa777d9006921756a91aea163d5b6df349a50185ab382ec"
             }
           ]
         },
         "2026-09-10": {
+          "hollywood": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-750ccd868a0fa2feeb5d790f96a38a478ac72179018764b1f39cd7a495df275b"
+            },
+            {
+              "time": "9:35 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-fe391b88880e9a416ed1fbb682524aba7287cbc1b136cde2010e9c4d96e1cf7e"
+            }
+          ],
+          "cinema21": [
+            {
+              "time": "7:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-65f005276968913415d2fa6bcf90164bb546eac609d15f0ecd3dac4f3a13c011"
+            }
+          ],
           "academy": [
             {
               "time": "12:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-48c0bbab9eb2e72e780e407045a12133d7afcf215610c03248f49c24c8d5727f"
             },
             {
               "time": "4:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d9b6a2c205f5a8c3ae0520780756432096f646618a180a394812f5fdc6c5fa75"
             },
             {
               "time": "6:45 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-56f5afe5563f26485a5cb9e440ea0b5d390bfec5fb3220e6045698210b1643e4"
             },
             {
               "time": "9:15 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b11fc1fdd335c778b46b55096ddc22cda882b464089a8c2bc30320f057cbb55f"
+            }
+          ]
+        },
+        "2026-09-11": {
+          "hollywood": [
+            {
+              "time": "7:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-5d4e145b32613bb3320234fb9d67c0a94aaea500d3fad7df93dde02bf3c4aec9"
+            }
+          ]
+        },
+        "2026-09-12": {
+          "hollywood": [
+            {
+              "time": "3:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6a3baa41c4f2eef242d1217713916611532ff7e11e6932645d57170a7cd78a14"
+            },
+            {
+              "time": "7:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-684c4aee77dffe916bd88fac80839a95cc8faccc8d500960503e434e376817e6"
+            }
+          ]
+        },
+        "2026-09-13": {
+          "hollywood": [
+            {
+              "time": "2:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-34d38608555c644ead30015ddd00dd31a3aa9ce100e658792cf274ecc4ef19b9"
+            },
+            {
+              "time": "7:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-89f4e0a22442e5c485dbc3a052f7551cae5bc0ab622cce98038ebf1f211044a9"
+            }
+          ]
+        },
+        "2026-09-14": {
+          "hollywood": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-bfde76a13759c303cf5b6f4ef21541dccc67ffd572947bf8a23c86067aad0eec"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "The Best Little Whorehouse in Texas",
+      "description": "When a Conservative TV crusader threatens to shut down beloved brothel The Chicken Ranch, proprietress Miss Mona Stangley and her girls won't go down without a fight.",
+      "poster": "posters/the-best-little-whorehouse-in-texas.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/16363/",
+      "tmdb_id": 16363,
+      "showtimes": {
+        "2026-09-12": {
+          "hollywood": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ae9e3632bdd5eb04f4a0f60f2e9f2a3e48346d252eba7c4304fd91db5c962403"
             }
           ]
         }
@@ -1618,15 +1973,19 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1384216/",
       "tmdb_id": 1384216,
       "showtimes": {
-        "2026-09-01": {
+        "2026-09-02": {
           "bagdad": [
             {
               "time": "12:30 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-551f5a7007d3ff24f3d459432a277c785b810ef31f521a7a4446e2e3a2a5351d"
             },
             {
               "time": "3:30 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-c1db6b562002e14755c3f35b6a1ad40a706cc90ae952d603178abc4870b02bb9"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b533e7c9870d914bcf2586f0ade638c75959fb045ca152489451435c302df328"
             }
           ],
           "laurelhurst": [
@@ -1640,15 +1999,91 @@
             }
           ]
         },
-        "2026-09-08": {
+        "2026-09-03": {
           "bagdad": [
             {
               "time": "12:30 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-bc3cd75bb95ce56df61126181233ae2846849d0a731f11a3ae6b5d100cbc0311"
             },
             {
               "time": "3:30 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-39ce74c5a2603edb022f131d059b50cc44f3df1d6e6f00a5df0497b012fe7318"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-004e6dd7d97f6e4e62ac9f9a7c9dec5c815c6ac15794a33342feb09f0485a1c5"
+            }
+          ]
+        },
+        "2026-09-04": {
+          "bagdad": [
+            {
+              "time": "12:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-8cc8ddaa19996667577065b1d1f491c51e56a51ae0a868aa63e6a2b6b8fbd603"
+            },
+            {
+              "time": "3:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6107a0a19cb1c91791cbdc21575d739b3eafb240bfed8235a6c733a00ba68a38"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b8b709048d92e179fa9434521dcac3f97229ccb8046bbb2d990ebc5600f06b58"
+            }
+          ]
+        },
+        "2026-09-05": {
+          "bagdad": [
+            {
+              "time": "12:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a5e8ffe6655ddc18e1462df2777bd9f716d4b849ff020e8f6274672604d46542"
+            },
+            {
+              "time": "3:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d24ce5d3570ed81cbf75caf2511087e2bd586d832ab0c422c3d52d9d88c734fc"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ca70a5d53af8fa2aea5a79aef1bd350277ca1472d45bc9e792704b1293a0f616"
+            }
+          ]
+        },
+        "2026-09-06": {
+          "bagdad": [
+            {
+              "time": "12:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-3a4116d252d6436e3f23a85d4f580aa15523d366a871fed220bde08895093635"
+            },
+            {
+              "time": "3:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-359625769f1d240bf7e1d7beee95c6c78963aaec3e36b4a8596746b170a3d639"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-84247a7b1d1f95d992a4696290a806046957bb9e810b72f26282ca145777bed2"
+            }
+          ]
+        },
+        "2026-09-07": {
+          "bagdad": [
+            {
+              "time": "12:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ef90fb5cd0af1cd1ed07ed10135f78247a7844b3bfcfd5f1a82b05f958967650"
+            },
+            {
+              "time": "3:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-fd19d57af5f80f50499807afd5d85ae515d20bcc27b71e2a08cda8fda4b7fe71"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b74b5b6363e18f3d49885e438df835b716f2daee6bbab45cb91259839698f4e6"
+            }
+          ]
+        },
+        "2026-09-08": {
+          "bagdad": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b8718932cd627bedc86e7bcba9de6d04e7f9d87dc4d405174428d9354c95d122"
             }
           ]
         },
@@ -1656,27 +2091,15 @@
           "bagdad": [
             {
               "time": "12:30 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-7e8e72ccacd8c74b2d03250645f96e15beeeb046069dfea96fb44e1ec21cc5ce"
             },
             {
               "time": "3:30 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d316596d4298528b1effc9194b6cac0d0cae625f862b1c1db56dd3faad4da072"
             },
             {
               "time": "7:00 PM",
-              "url": "https://www.mcmenamins.com/bagdad-theater-pub"
-            }
-          ]
-        },
-        "2026-09-03": {
-          "laurelhurst": [
-            {
-              "time": "3:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://www.laurelhursttheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f3ece617455377c095d7546e8a86db393d54cdbaa14b3c7c7830692fe11ab3a8"
             }
           ]
         }
@@ -1689,18 +2112,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1101383/",
       "tmdb_id": 1101383,
       "showtimes": {
-        "2026-09-01": {
-          "livingroom": [
-            {
-              "time": "12:20 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:40 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-09-02": {
           "livingroom": [
             {
@@ -1738,7 +2149,7 @@
           "cinemagic": [
             {
               "time": "2:30 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-783a11d7a55e3df2f3eb0a49fcd0d821efab9a6498750a384f86dd193e7244fb"
             }
           ]
         },
@@ -1746,7 +2157,7 @@
           "cinemagic": [
             {
               "time": "7:00 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-dcafcbbececb234478af0aa121e6d1248b9f53feb504242af419ff19de9a6ac8"
             }
           ]
         }
@@ -1759,23 +2170,11 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/950028/",
       "tmdb_id": 950028,
       "showtimes": {
-        "2026-09-01": {
-          "cinema21": [
-            {
-              "time": "4:00 PM",
-              "url": "https://cinema21.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://cinema21.com"
-            }
-          ]
-        },
         "2026-09-02": {
           "cinema21": [
             {
               "time": "4:00 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-1af9e35c71b1464faae774f41cfe3343872a4f9215e41b5807dbac53a694594d"
             }
           ]
         },
@@ -1783,11 +2182,11 @@
           "cinema21": [
             {
               "time": "4:00 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-84fdff273215e7fa9bcd999aebfc5756e03c8f84d7e08278fa087fd5f0cc4b00"
             },
             {
               "time": "6:45 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-2e73944a42fb5fd71c0f3951b37297f1adf9dbef25bd3b03662302d02e716532"
             }
           ]
         },
@@ -1795,15 +2194,15 @@
           "cinema21": [
             {
               "time": "4:00 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-c4d6371ef16a7852457fdf58a56e7b2574ed1727530ca2ef3d8f2b10f8565e3d"
             },
             {
               "time": "6:45 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-5d98f3274cc80be07247f87e689f8a20bc16f917d56ff196359f178be7dbb205"
             },
             {
               "time": "9:30 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-21055d6ba3d9a22920945cc7e589b960701df835f6820698da0e4f8baeb9276b"
             }
           ]
         },
@@ -1811,19 +2210,19 @@
           "cinema21": [
             {
               "time": "12:45 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-c1702d5fbab64126491747ecd83b9d5eb935884854367d8d148f8fde46f85262"
             },
             {
               "time": "3:45 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-144bae42773b53ccabc95fcfde74505d92df7859d347cf86caf87a5af0789249"
             },
             {
               "time": "6:45 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d247660e66107e202d911008c73867a4852d300e20d779e26ec53101dd5fc250"
             },
             {
               "time": "9:30 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-7c961a406f734aa2f9382d2b91c154a90c08350225634860af8d37845b11aaa7"
             }
           ]
         },
@@ -1831,15 +2230,15 @@
           "cinema21": [
             {
               "time": "1:00 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-8a193fe396a8d6f4161b9e1f865d03d805e51420b81c1d18d2dfb48e9d14f3f8"
             },
             {
               "time": "4:00 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-55a6a545114e07d58dc93b7cef437fb1d79e03ac5c4ef608cb36ee09dedaa9c5"
             },
             {
               "time": "6:45 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-3218cc8c5fa394f60bda55d920dd8be0b35a23de40bbe19abd8d5e6d493025ac"
             }
           ]
         },
@@ -1847,11 +2246,11 @@
           "cinema21": [
             {
               "time": "4:00 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-4d814dcd3d56f78990d3d9a89ca98cc3b2a21e025ef869ca3221d98812e87fc9"
             },
             {
               "time": "6:45 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-8f001d3076879ceec6019790c3b036b9a53385a98f94a8120a2aa44bc7f46629"
             }
           ]
         },
@@ -1859,11 +2258,27 @@
           "cinema21": [
             {
               "time": "4:00 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a7d397d8189e67ee32e041afacd3f2a42bdb3f6ee4df56cff24f3885d655d300"
             },
             {
               "time": "6:45 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-14ced7babd60c50d28db2cfd55820a0029f6aa8c46c5f6da0d71ec6ff767cf7d"
+            }
+          ]
+        },
+        "2026-09-09": {
+          "cinema21": [
+            {
+              "time": "4:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a087d24e7dd43f693d5dde74d9e7bb80ef611431419d188e35270270e3a92aef"
+            }
+          ]
+        },
+        "2026-09-10": {
+          "cinema21": [
+            {
+              "time": "4:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-9ba5369977f6a9bec8b00b921d33b245dac988d5b4c1578374aaac56385f6d44"
             }
           ]
         }
@@ -1876,22 +2291,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1000866/",
       "tmdb_id": 1000866,
       "showtimes": {
-        "2026-09-01": {
-          "livingroom": [
-            {
-              "time": "11:45 AM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-09-02": {
           "livingroom": [
             {
@@ -1929,19 +2328,11 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/564/",
       "tmdb_id": 564,
       "showtimes": {
-        "2026-09-01": {
-          "academy": [
-            {
-              "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
-            }
-          ]
-        },
         "2026-09-02": {
           "academy": [
             {
               "time": "4:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f395fe18842eceae1969f145ed5c7cebf0e95efaddae14cb4588651952f6c83d"
             }
           ]
         },
@@ -1949,7 +2340,7 @@
           "academy": [
             {
               "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-4d062e4a6b9f5d01b4414cf0b8425f48bb0c35571b74257013d16d6aa231405e"
             }
           ]
         }
@@ -1962,33 +2353,11 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1368337/",
       "tmdb_id": 1368337,
       "showtimes": {
-        "2026-09-01": {
-          "hollywood": [
-            {
-              "time": "6:30 PM",
-              "url": "https://hollywoodtheatre.org"
-            }
-          ],
-          "livingroom": [
-            {
-              "time": "12:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "6:15 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-09-02": {
           "hollywood": [
             {
               "time": "6:30 PM",
-              "url": "https://hollywoodtheatre.org"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-c2c31e9a401dcc751fa2455daadafbf37a89f5693d81f823af68b4182b6e740f"
             }
           ],
           "livingroom": [
@@ -2006,7 +2375,7 @@
           "hollywood": [
             {
               "time": "7:30 PM",
-              "url": "https://hollywoodtheatre.org"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-faeaa61443188dd136a3fe5c9e722599d21426d19939a2f1ec49b49169915d4d"
             }
           ],
           "livingroom": [
@@ -2058,14 +2427,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1620313/",
       "tmdb_id": 1620313,
       "showtimes": {
-        "2026-09-01": {
-          "livingroom": [
-            {
-              "time": "4:15 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-09-02": {
           "livingroom": [
             {
@@ -2095,7 +2456,7 @@
           "cinemagic": [
             {
               "time": "7:00 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ec45a2ca516b359ec527312ea4bc46de0c6fdd9d0f8782fdd1cd99faf3d43bea"
             }
           ]
         }
@@ -2125,26 +2486,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1226699/",
       "tmdb_id": 1226699,
       "showtimes": {
-        "2026-09-01": {
-          "livingroom": [
-            {
-              "time": "12:00 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "2:10 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "4:20 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-09-02": {
           "livingroom": [
             {
@@ -2194,7 +2535,7 @@
           "academy": [
             {
               "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-88f10fb077e3be16d10152ba274beb7c48ebc7f2044842dcd5b0b7147723a1eb"
             }
           ]
         }
@@ -2211,11 +2552,11 @@
           "academy": [
             {
               "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-2fb02485706d9d7e514f8b62564a758c25e4fb1bf9e70de1db06c238c9051d76"
             },
             {
               "time": "9:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f62106618563fd99f815e879acf9b371695042d23b9c3f51918269413faaebc0"
             }
           ]
         },
@@ -2223,7 +2564,7 @@
           "academy": [
             {
               "time": "7:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-46c12dee1d751f92af5460ac58d19ca5052af6b0ac5aea377dddf95502acc190"
             }
           ]
         },
@@ -2231,7 +2572,7 @@
           "academy": [
             {
               "time": "4:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-9bc3a156d39182148c38cde812b60a01abafb1078c247ea3f8b2c0c63c3635a4"
             }
           ]
         },
@@ -2239,7 +2580,7 @@
           "academy": [
             {
               "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b94277688888e76c2bbdd6e38f0254e5b0f3f05b8afd6506bba879e5f8920ce9"
             }
           ]
         },
@@ -2247,7 +2588,7 @@
           "academy": [
             {
               "time": "7:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-50d1b32395711ef542b2d1bdb77872de3224eff091bd65a82aba65508dfbc9ee"
             }
           ]
         },
@@ -2255,7 +2596,7 @@
           "academy": [
             {
               "time": "1:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-bad7a8aa49ddcca4d4ce460a31594006dfe6a8a3184bd2acacb4eee0cc6576f7"
             }
           ]
         },
@@ -2263,11 +2604,11 @@
           "academy": [
             {
               "time": "4:00 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-9cb27a180f1715c54c3216222bdda3e141ab06cac194e70b0dc89a158c18cb75"
             },
             {
               "time": "9:30 PM",
-              "url": "https://www.academytheaterpdx.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d9b29319daea2782abe8b668cece1cf1418776ffe6f6649278a8e42ed743ca15"
             }
           ]
         }
@@ -2284,7 +2625,7 @@
           "cinema21": [
             {
               "time": "11:00 AM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-10236adcbedb7525b71ca4751792c24e1fb4edc4d747757a3004b16e39ec1f05"
             }
           ]
         }
@@ -2297,15 +2638,15 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1329016/",
       "tmdb_id": 1329016,
       "showtimes": {
-        "2026-09-01": {
+        "2026-09-02": {
           "cinema21": [
             {
               "time": "4:15 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6c38872333e1fbfd2c1c2fd0d6f01e09fc8662c5c821e81827873e129f55bec5"
             },
             {
-              "time": "7:00 PM",
-              "url": "https://cinema21.com"
+              "time": "6:45 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-3c1be7b44b20c2a817282d766c6b77777257d9efcc459dbd7b0e663795bb367d"
             }
           ],
           "laurelhurst": [
@@ -2316,18 +2657,6 @@
             {
               "time": "6:30 PM",
               "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
-        "2026-09-02": {
-          "cinema21": [
-            {
-              "time": "4:15 PM",
-              "url": "https://cinema21.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://cinema21.com"
             }
           ]
         },
@@ -2335,21 +2664,11 @@
           "cinema21": [
             {
               "time": "4:15 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d5af0f0f6c73ab79332445ab7fd1557a136f9025d45993b48d683d1e367f0e2a"
             },
             {
               "time": "7:00 PM",
-              "url": "https://cinema21.com"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "4:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://www.laurelhursttheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a7b8488e2e1350435651d30cb15afb756bb060d4d9535c1ab7465702d0b849de"
             }
           ]
         },
@@ -2357,15 +2676,15 @@
           "cinema21": [
             {
               "time": "4:15 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-551ea47ba93e73f166a0d9fae2e92183836eff889f96692826eb33efdcae3049"
             },
             {
               "time": "7:00 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-18cb58133d6a05831249570093182e13c96bc8e336d373a00f792b81e358bb54"
             },
             {
               "time": "9:40 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f05d3889edc1eb0f14ce6767a0e9d3529ff1554e49c47d44be1480ce6dbe0924"
             }
           ]
         },
@@ -2373,19 +2692,19 @@
           "cinema21": [
             {
               "time": "2:00 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d1767b9a355db2b7e4af6abac819181d7f639505bf4e51ab72b2b125386354b2"
             },
             {
               "time": "4:30 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-067e084f3a14e4dc11f825290924d764df9bd89f40d9eeef4eb2e413fc1ddb1e"
             },
             {
               "time": "7:00 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-e20b4288729bec4566a87ad6a728509d99fc4ef0dcd6c119487e61bc8263e3c0"
             },
             {
               "time": "9:40 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-4a6a1d50976ccd5db92b742c5f11b80885e824823360ef3e527da6139e420374"
             }
           ]
         },
@@ -2393,15 +2712,15 @@
           "cinema21": [
             {
               "time": "1:30 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-2d955f9aae648c66a2ae35f3bd7fd7500b2734b0bc55efa311817678f0cc6bc7"
             },
             {
               "time": "4:15 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6c38e53585c03725a6d2ca34560b2ce002420b585b99ac938b9e90299a1ed2b5"
             },
             {
               "time": "7:00 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f8c7d757658ddf4014d44fd9ec4c7858f06ce8ff27aa23fba9ba0952b9ec6cae"
             }
           ]
         },
@@ -2409,11 +2728,11 @@
           "cinema21": [
             {
               "time": "4:15 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-cfb9aa4ca8f27aabc5df01c80c85b04095be63e060bf52de60ffed8a2842c3a3"
             },
             {
               "time": "7:00 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-fd889af93125de341aae90c6139db507494938662aad5696595321cc1f775b4e"
             }
           ]
         },
@@ -2421,11 +2740,77 @@
           "cinema21": [
             {
               "time": "4:15 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-16a99a7dda2de8a9ccad422c8d5ab0e5cdfc69734aa18d67271ef5d78e50d587"
             },
             {
               "time": "7:00 PM",
-              "url": "https://cinema21.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-328df611b7283a7d8bdd96871d8fb18111b45e04f85eed40e64b8413146ff46b"
+            }
+          ]
+        },
+        "2026-09-09": {
+          "cinema21": [
+            {
+              "time": "4:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-8a2208b52096293981cc453a8d9b7c7713c351011b656c2d032a87393fe0d142"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-8d2731046cd6128b2cbfad4c26d87b7f9bd208ada68477c592625b0f115bfa70"
+            }
+          ]
+        },
+        "2026-09-10": {
+          "cinema21": [
+            {
+              "time": "4:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-5c3fc1ba96d3415830d7331deb20fd914d7652d46e621244d27ce35ddd9bd86a"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-718197b77b1519a1b5fb1b865bf7f7d12c07bd976ca3f1dc722546d36e5a19a9"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Where the Wild Things Are",
+      "description": "Max imagines running away from his mom and sailing to a far-off land where large talking beasts\u2014Ira, Carol, Douglas, the Bull, Judith and Alexander\u2014crown him as their king, play rumpus, build forts and discover secret hideaways.",
+      "poster": "posters/where-the-wild-things-are.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/16523/",
+      "tmdb_id": 16523,
+      "showtimes": {
+        "2026-09-05": {
+          "hollywood": [
+            {
+              "time": "3:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-33e482af38810b0695f5e5c26006ee18d6982aaa9922264c2d1704893a0b18ad"
+            }
+          ]
+        },
+        "2026-09-06": {
+          "hollywood": [
+            {
+              "time": "3:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d30f1d9485308986ca3db87bafab6dbe6468bcc250cbab732b51f3440db25f82"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "Xanadu",
+      "description": "Kira, a Greek muse incarnated on Earth to inspire people, helps Dan McGuire and an artist named Sonny Malone to meet. She inspires them to build a huge disco roller rink called Xanadu.",
+      "poster": "posters/xanadu.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/15668/",
+      "tmdb_id": 15668,
+      "showtimes": {
+        "2026-09-06": {
+          "hollywood": [
+            {
+              "time": "6:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-25402eac6c9d8d0ea7ab8e3c579b8a351cb0174883cacb65d068c56f9b64723c"
             }
           ]
         }
