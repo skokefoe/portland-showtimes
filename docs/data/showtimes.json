@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-04T14:06:31.814737",
-  "start_date": "2026-09-04",
+  "generated_at": "2026-09-05T13:19:47.645068",
+  "start_date": "2026-09-05",
   "num_days": 14,
   "movies": [
     {
@@ -27,18 +27,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/149/",
       "tmdb_id": 149,
       "showtimes": {
-        "2026-09-04": {
-          "hollywood": [
-            {
-              "time": "6:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-e21131c2efda755d504572578363f467eff20b39c0b08c5e3885f22ab22ef4c8"
-            },
-            {
-              "time": "9:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-0f54add24229a362d90d78ed12fcda9b119574535fe6b36b994b13e30d749d84"
-            }
-          ]
-        },
         "2026-09-05": {
           "hollywood": [
             {
@@ -241,11 +229,27 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/913290/",
       "tmdb_id": 913290,
       "showtimes": {
+        "2026-09-11": {
+          "cinemagic": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-84287ff6d1ce496591774dfccf705cccbede8e2eb589c8083a78be4cc404019f"
+            }
+          ]
+        },
         "2026-09-15": {
           "cinemagic": [
             {
               "time": "7:00 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a5452f4a6eb52cc05c163fb82b75d342a857109920bf7dd1f45259e598783ee0"
+            }
+          ]
+        },
+        "2026-09-16": {
+          "cinemagic": [
+            {
+              "time": "4:40 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-3a9d4b5b35973800d48435d7f737c4aa4ae8756e4e32b7ed9a65ffc36b7baf18"
             }
           ]
         }
@@ -361,14 +365,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/269/",
       "tmdb_id": 269,
       "showtimes": {
-        "2026-09-04": {
-          "academy": [
-            {
-              "time": "4:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a0624823bd4dbafe8cfb3aff7645fd44015c133ac149a525721d9d4b4956877c"
-            }
-          ]
-        },
         "2026-09-05": {
           "academy": [
             {
@@ -424,6 +420,139 @@
       }
     },
     {
+      "title": "By Any Means",
+      "description": "A young Black FBI agent is sent into 1960s Mississippi to investigate a wave of brutal killings targeting civil rights leaders. Forced to work alongside notorious mafia hitman Greg Scarpa, he finds himself pulled into a deadly hunt where justice and vengeance begin to blur.",
+      "poster": "posters/by-any-means.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1380417/",
+      "tmdb_id": 1380417,
+      "showtimes": {
+        "2026-09-05": {
+          "livingroom": [
+            {
+              "time": "12:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:30 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:50 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "9:45 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-06": {
+          "livingroom": [
+            {
+              "time": "12:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:30 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:50 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-07": {
+          "livingroom": [
+            {
+              "time": "12:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:30 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:50 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-08": {
+          "livingroom": [
+            {
+              "time": "12:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:30 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:50 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-09": {
+          "livingroom": [
+            {
+              "time": "12:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:30 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:50 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-10": {
+          "livingroom": [
+            {
+              "time": "12:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:30 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:50 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "Cars",
       "description": "Lightning McQueen, a hotshot rookie race car driven to succeed, discovers that life is about the journey, not the finish line, when he finds himself unexpectedly detoured in the sleepy Route 66 town of Radiator Springs. On route across the country to the big Piston Cup Championship in California to compete against two seasoned pros, McQueen gets to know the town's offbeat characters.",
       "poster": "posters/cars.jpg",
@@ -463,14 +592,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1375646/",
       "tmdb_id": 1375646,
       "showtimes": {
-        "2026-09-04": {
-          "cinemagic": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-49cf5c509c75143478ddcd6b0a25c197068bdf5ad0f38d761e119ac2f4268652"
-            }
-          ]
-        },
         "2026-09-05": {
           "cinemagic": [
             {
@@ -552,40 +673,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1204680/",
       "tmdb_id": 1204680,
       "showtimes": {
-        "2026-09-04": {
-          "laurelhurst": [
-            {
-              "time": "4:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "9:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-af1487e226c6f558953c51fc0978348337faac252f2b73d43cf53c15ddc72ce7"
-            },
-            {
-              "time": "3:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-148d162081419423eb620a30611746cbb50da83b67c1c6a748366984790d1912"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f42070e66e9d2a3c7d1bb9a175bd0c8f5df10fb12ffdcee4e0ee45403fafea99"
-            },
-            {
-              "time": "9:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-2cef67d52d2c208fa0ebbdbc40258b1f30b924447b644820c78409d7e759bf32"
-            }
-          ]
-        },
         "2026-09-05": {
           "laurelhurst": [
             {
@@ -885,14 +972,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/8408/",
       "tmdb_id": 8408,
       "showtimes": {
-        "2026-09-04": {
-          "academy": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-bbdcbd2f47d8fdc628a6d740da3673140ff523535bd1c4c6f4c4f8c92ed47a93"
-            }
-          ]
-        },
         "2026-09-05": {
           "academy": [
             {
@@ -987,6 +1066,12 @@
               "time": "6:15 PM",
               "url": "https://www.laurelhursttheater.com"
             }
+          ],
+          "livingroom": [
+            {
+              "time": "6:45 PM",
+              "url": "https://livingroomtheaters.com"
+            }
           ]
         },
         "2026-09-10": {
@@ -1008,6 +1093,16 @@
             {
               "time": "6:15 PM",
               "url": "https://www.laurelhursttheater.com"
+            }
+          ],
+          "livingroom": [
+            {
+              "time": "4:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ]
         },
@@ -1188,6 +1283,23 @@
       }
     },
     {
+      "title": "Klute",
+      "description": "A high-priced call girl is forced to depend on a reluctant private eye when she is stalked by a psychopath.",
+      "poster": "posters/klute.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/466/",
+      "tmdb_id": 466,
+      "showtimes": {
+        "2026-09-18": {
+          "academy": [
+            {
+              "time": "4:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ac43a2a4448059b97d24061673e30ad38d52be78ee946d09b00fab3e0f66598f"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "Malombra",
       "description": "Marina di Malombra (Borelli) lives in a castle prior to her wedding. She begins to read letters written by an ancestor called Cecilia. She finds out that Cecilia was driven to her death by her uncle. Marina identifies with Cecilia and take revenge on her behalf by murdering her uncle.",
       "poster": "posters/malombra.jpg",
@@ -1226,6 +1338,23 @@
       }
     },
     {
+      "title": "Ponyo - Studio Ghibli Fest 2026",
+      "description": "",
+      "poster": "posters/ponyo-studio-ghibli-fest-2026.jpg",
+      "letterboxd_url": "https://letterboxd.com/film/ponyo-studio-ghibli-fest-2026/",
+      "tmdb_id": null,
+      "showtimes": {
+        "2026-09-18": {
+          "academy": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-2ab0657fa99adc1e54f05eecf47cd49797598d7102b24a9c2ef4f4e39f573c0a"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "Practical Magic 2",
       "description": "The Owens sisters must confront the dark curse that threatens to unravel their family once and for all.",
       "poster": "posters/practical-magic-2.jpg",
@@ -1241,6 +1370,12 @@
             {
               "time": "7:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-4085a41a0b55b9f990ad99c174a3e0c1cb99c1fd698d5e115af30658793a664a"
+            }
+          ],
+          "livingroom": [
+            {
+              "time": "6:30 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ],
           "academy": [
@@ -1483,6 +1618,40 @@
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ce725e77246f3dc27beb15dcfdd108364a999df4db9d6d73baf16f0b8aed1fe3"
             }
           ]
+        },
+        "2026-09-18": {
+          "bagdad": [
+            {
+              "time": "12:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-34275cb3cc408bbe12c67e3230d1dbf80bb0f6c4dcc2e9e269f39d5dcaa9dca6"
+            },
+            {
+              "time": "3:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ade1c2823c4d15035de32faeffd5619598ebd792495c906c8e96ba28001156b2"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6feef8f2d8dae5f1d17cbf5e5ec64f74249dd84c0c80c48cf741ade4619f0723"
+            }
+          ],
+          "academy": [
+            {
+              "time": "12:45 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-e82bd5fc2fcf1fb4debe0a9601e356aae3b6b1236b821a0900b3a2eb3c035a6c"
+            },
+            {
+              "time": "4:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-cf1f3e5503c511f81a77e36edcc46c9ffb7defc3fc8c05f0cad2c15eed863464"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-c42111c113a17db03c366b21de0bf8a48d976f216865c373e700e0a11a260804"
+            },
+            {
+              "time": "9:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d7b27f41df12214639c6ccd1bcfba352f2a436ce51c9967e6faf6220a346add9"
+            }
+          ]
         }
       }
     },
@@ -1508,6 +1677,36 @@
             {
               "time": "10:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-3ad7ddbc56ced1a9b5ee91ae457e6fc1b8ae58aabb641bc508efe454e8e23bf0"
+            }
+          ]
+        },
+        "2026-09-18": {
+          "cinemagic": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-fba4cc67137a2a23bd87fd33fd5c774ed4a1273d9b06cd1ab202e76693936bbc"
+            },
+            {
+              "time": "9:10 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ffc1b7b724088feebe7b0dee8a3046e55063cdb99141c4ce436c1cfceb35e0de"
+            }
+          ],
+          "academy": [
+            {
+              "time": "12:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-7ca16cd2c0ab8146177d9883f7781089d030f701c867aacde08641722db42b73"
+            },
+            {
+              "time": "4:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-4d96bdfdf1c1bc1b9a10f32aa4bdeb1e249e7d75ae4aee7c007f010ebf37559b"
+            },
+            {
+              "time": "7:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-00875cc9c59f69536f121d73ce6562d9615890e6154f2fc205413803b8f960ec"
+            },
+            {
+              "time": "9:45 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-9704b6f6311287171c71ddb4c7682e406c66cc036f3de2ebdbc9df76971f9182"
             }
           ]
         }
@@ -1634,6 +1833,111 @@
       }
     },
     {
+      "title": "Spider-Man: Brand New Day",
+      "description": "Fighting crime full-time as Spider-Man in a world that doesn't remember him\u2014and the pressure of seeing his old friends move on without him\u2014sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+      "poster": "posters/spider-man-brand-new-day.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/969681/",
+      "tmdb_id": 969681,
+      "showtimes": {
+        "2026-09-05": {
+          "livingroom": [
+            {
+              "time": "12:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "9:30 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-06": {
+          "livingroom": [
+            {
+              "time": "12:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-07": {
+          "livingroom": [
+            {
+              "time": "12:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-08": {
+          "livingroom": [
+            {
+              "time": "12:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-09": {
+          "livingroom": [
+            {
+              "time": "12:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:00 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-10": {
+          "livingroom": [
+            {
+              "time": "12:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "Suddenly, Last Summer",
       "description": "The only son of wealthy widow Violet Venable dies while on vacation with his cousin Catherine. What the girl saw was so horrible that she went insane; now Mrs. Venable wants Catherine lobotomized to cover up the truth.",
       "poster": "posters/suddenly-last-summer.jpg",
@@ -1657,64 +1961,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1240889/",
       "tmdb_id": 1240889,
       "showtimes": {
-        "2026-09-04": {
-          "hollywood": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d76422f9d19ba970fabce9dd32c2922ebee2a6751bde3d8f6efa67b50b3e05bd"
-            },
-            {
-              "time": "9:35 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-8a0366289b400382fc961d9db53092e1fac83a6f4ff20f7531f9b994e1a0020c"
-            }
-          ],
-          "cinema21": [
-            {
-              "time": "4:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-cc1fbf8d17705ee53b7f97398a4838ae987b42a3998579c7536fcaf68c623407"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-471f6d18dff1dfea706682387260948a615dc4d68322c59ab29fcccbe0447d50"
-            },
-            {
-              "time": "9:50 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-3a3d034e4bcc4b706dd778761160dcebd1b072f2895f6b66b2a309e8a63fce01"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "4:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "9:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6a4d22790169e941ac777180e02a98ca33fff591b1b144ee9f2699c613823867"
-            },
-            {
-              "time": "4:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-feaa6db1220519243c1ab726e1ee729a40ee46ba1244adc9a665efa676a2cf68"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ad2ff32da92bfa5e94690803b512866e325ce87a9ee261cf3a549260e543a9bf"
-            },
-            {
-              "time": "9:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-2571c10255d808fe443544647dcf88ababc5232e3da6251e89527f0f017d4674"
-            }
-          ]
-        },
         "2026-09-05": {
           "hollywood": [
             {
@@ -1760,6 +2006,20 @@
             {
               "time": "9:15 PM",
               "url": "https://www.laurelhursttheater.com"
+            }
+          ],
+          "livingroom": [
+            {
+              "time": "2:45 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "5:10 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "10:00 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ],
           "academy": [
@@ -1816,6 +2076,16 @@
               "url": "https://www.laurelhursttheater.com"
             }
           ],
+          "livingroom": [
+            {
+              "time": "2:45 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "5:10 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ],
           "academy": [
             {
               "time": "12:45 PM",
@@ -1866,6 +2136,16 @@
               "url": "https://www.laurelhursttheater.com"
             }
           ],
+          "livingroom": [
+            {
+              "time": "2:45 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "5:10 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ],
           "academy": [
             {
               "time": "12:45 PM",
@@ -1912,6 +2192,16 @@
               "url": "https://www.laurelhursttheater.com"
             }
           ],
+          "livingroom": [
+            {
+              "time": "2:45 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "5:10 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ],
           "academy": [
             {
               "time": "12:45 PM",
@@ -1946,6 +2236,16 @@
             {
               "time": "7:30 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-cdabf57f8c345f3099587dbfaefbaa083f5fa35eb776d492a24f10ad5f31aa43"
+            }
+          ],
+          "livingroom": [
+            {
+              "time": "2:45 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "5:10 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ],
           "academy": [
@@ -1988,6 +2288,16 @@
             {
               "time": "6:30 PM",
               "url": "https://www.laurelhursttheater.com"
+            }
+          ],
+          "livingroom": [
+            {
+              "time": "2:45 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "5:10 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ],
           "academy": [
@@ -2077,42 +2387,29 @@
       }
     },
     {
+      "title": "The Cable Guy",
+      "description": "When recently single Steven moves into his new apartment, cable guy Chip comes to hook him up\u2014and doesn't let go. Initially, Chip is just overzealous in his desire to be Steven's pal, but when Steven tries to end the 'friendship', Chip shows his dark side. He begins stalking Steven, who's left to fend for himself because no one else can believe Chip's capable of such behaviour.",
+      "poster": "posters/the-cable-guy.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/9894/",
+      "tmdb_id": 9894,
+      "showtimes": {
+        "2026-09-18": {
+          "academy": [
+            {
+              "time": "9:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b3a67f29db6aa75a9387cb27fe5eafb8e8734b858501fba74c3991c84f096dfc"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "The Dog Stars",
       "description": "After the world's population has been ravaged by a pandemic, a man lives a lonesome existence in a Colorado airplane hangar with his dog and a dour gunman he has befriended. When a mysterious transmission comes through on the radio while he\u2019s flying his old Cessna, it sparks a hunt for the provenance of the sound.",
       "poster": "posters/the-dog-stars.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/1384216/",
       "tmdb_id": 1384216,
       "showtimes": {
-        "2026-09-04": {
-          "bagdad": [
-            {
-              "time": "12:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-8cc8ddaa19996667577065b1d1f491c51e56a51ae0a868aa63e6a2b6b8fbd603"
-            },
-            {
-              "time": "3:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6107a0a19cb1c91791cbdc21575d739b3eafb240bfed8235a6c733a00ba68a38"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b8b709048d92e179fa9434521dcac3f97229ccb8046bbb2d990ebc5600f06b58"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "8:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
         "2026-09-05": {
           "bagdad": [
             {
@@ -2263,22 +2560,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/950028/",
       "tmdb_id": 950028,
       "showtimes": {
-        "2026-09-04": {
-          "cinema21": [
-            {
-              "time": "4:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-c4d6371ef16a7852457fdf58a56e7b2574ed1727530ca2ef3d8f2b10f8565e3d"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-5d98f3274cc80be07247f87e689f8a20bc16f917d56ff196359f178be7dbb205"
-            },
-            {
-              "time": "9:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-21055d6ba3d9a22920945cc7e589b960701df835f6820698da0e4f8baeb9276b"
-            }
-          ]
-        },
         "2026-09-05": {
           "cinema21": [
             {
@@ -2358,6 +2639,216 @@
       }
     },
     {
+      "title": "The Marching Band",
+      "description": "A world-famous orchestra conductor discovers the brother he never knew he had \u2014 a school cafeteria worker who plays trombone in a local marching band. Detecting his brother's exceptional musical talent, he takes it upon himself to rectify the injustice of fate.",
+      "poster": "posters/en-fanfare.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1000866/",
+      "tmdb_id": 1000866,
+      "showtimes": {
+        "2026-09-05": {
+          "livingroom": [
+            {
+              "time": "11:45 AM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:00 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:30 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "9:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-06": {
+          "livingroom": [
+            {
+              "time": "11:45 AM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:00 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:30 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-07": {
+          "livingroom": [
+            {
+              "time": "11:45 AM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:00 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:30 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-08": {
+          "livingroom": [
+            {
+              "time": "11:45 AM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:00 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:30 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-09": {
+          "livingroom": [
+            {
+              "time": "11:45 AM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:00 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:30 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-10": {
+          "livingroom": [
+            {
+              "time": "11:45 AM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "2:00 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:20 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "The Odyssey",
+      "description": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
+      "poster": "posters/the-odyssey.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1368337/",
+      "tmdb_id": 1368337,
+      "showtimes": {
+        "2026-09-05": {
+          "livingroom": [
+            {
+              "time": "12:00 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:30 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "8:45 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-06": {
+          "livingroom": [
+            {
+              "time": "12:00 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:30 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-07": {
+          "livingroom": [
+            {
+              "time": "12:00 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:30 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-08": {
+          "livingroom": [
+            {
+              "time": "12:00 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:30 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-09": {
+          "livingroom": [
+            {
+              "time": "12:00 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:30 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-10": {
+          "livingroom": [
+            {
+              "time": "12:00 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "3:30 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        }
+      }
+    },
+    {
       "title": "The Rocky Horror Picture Show",
       "description": "After getting a flat tire in the middle of nowhere, newly engaged couple Brad and Janet encounter the eerie mansion of the flamboyant, seductive Dr Frank-N-Furter and a variety of eccentric characters. Through elaborate dance and rock music, the mad scientist unveils his latest creation: a perfect, muscular man.",
       "poster": "posters/the-rocky-horror-picture-show.jpg",
@@ -2381,10 +2872,94 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1127625/",
       "tmdb_id": 1127625,
       "showtimes": {
-        "2026-09-04": {
+        "2026-09-05": {
           "livingroom": [
             {
+              "time": "12:20 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:25 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
               "time": "6:45 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-06": {
+          "livingroom": [
+            {
+              "time": "12:20 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:25 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-07": {
+          "livingroom": [
+            {
+              "time": "12:20 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:25 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-08": {
+          "livingroom": [
+            {
+              "time": "12:20 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:25 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-09": {
+          "livingroom": [
+            {
+              "time": "12:20 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:25 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-10": {
+          "livingroom": [
+            {
+              "time": "12:20 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "4:25 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "7:30 PM",
               "url": "https://livingroomtheaters.com"
             }
           ]
@@ -2409,17 +2984,70 @@
       }
     },
     {
-      "title": "The Wizard of Oz",
-      "description": "Young Dorothy finds herself in a magical world where she makes friends with a lion, a scarecrow and a tin man as they make their way along the yellow brick road to talk with the Wizard and ask for the things they miss most in their lives. The Wicked Witch of the West is the only thing that could stop them.",
-      "poster": "posters/the-wizard-of-oz.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/630/",
-      "tmdb_id": 630,
+      "title": "The Uprising",
+      "description": "As war and plague devastate 14th-century England, a humble peasant ignites a rebellion, uniting an army of commoners to defy the King\u2019s might in a desperate fight for justice and survival.",
+      "poster": "posters/the-uprising.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/977942/",
+      "tmdb_id": 977942,
       "showtimes": {
-        "2026-09-04": {
-          "clinton": [
+        "2026-09-10": {
+          "livingroom": [
             {
               "time": "7:00 PM",
-              "url": "https://cstpdx.com"
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "The Wrong Girls",
+      "description": "Two codependent best friends living paycheck to paycheck and bong rip to bong rip get caught in a case of mistaken identity that throws their lives into chaos.",
+      "poster": "posters/the-wrong-girls.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1226699/",
+      "tmdb_id": 1226699,
+      "showtimes": {
+        "2026-09-05": {
+          "livingroom": [
+            {
+              "time": "4:15 PM",
+              "url": "https://livingroomtheaters.com"
+            },
+            {
+              "time": "9:40 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-06": {
+          "livingroom": [
+            {
+              "time": "4:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-07": {
+          "livingroom": [
+            {
+              "time": "4:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-08": {
+          "livingroom": [
+            {
+              "time": "4:15 PM",
+              "url": "https://livingroomtheaters.com"
+            }
+          ]
+        },
+        "2026-09-09": {
+          "livingroom": [
+            {
+              "time": "4:15 PM",
+              "url": "https://livingroomtheaters.com"
             }
           ]
         }
@@ -2449,18 +3077,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/577/",
       "tmdb_id": 577,
       "showtimes": {
-        "2026-09-04": {
-          "academy": [
-            {
-              "time": "1:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-2fb02485706d9d7e514f8b62564a758c25e4fb1bf9e70de1db06c238c9051d76"
-            },
-            {
-              "time": "9:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f62106618563fd99f815e879acf9b371695042d23b9c3f51918269413faaebc0"
-            }
-          ]
-        },
         "2026-09-05": {
           "academy": [
             {
@@ -2539,36 +3155,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1329016/",
       "tmdb_id": 1329016,
       "showtimes": {
-        "2026-09-04": {
-          "cinema21": [
-            {
-              "time": "4:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-551ea47ba93e73f166a0d9fae2e92183836eff889f96692826eb33efdcae3049"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-18cb58133d6a05831249570093182e13c96bc8e336d373a00f792b81e358bb54"
-            },
-            {
-              "time": "9:40 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f05d3889edc1eb0f14ce6767a0e9d3529ff1554e49c47d44be1480ce6dbe0924"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "9:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
         "2026-09-05": {
           "cinema21": [
             {
@@ -2732,7 +3318,15 @@
           "cinemagic": [
             {
               "time": "7:00 PM",
-              "url": "https://www.thecinemagictheater.com"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a8571b3e6afb74a5801979f2d7d5f823077c190feeee95c023c02e05fc1833ab"
+            }
+          ]
+        },
+        "2026-09-17": {
+          "cinemagic": [
+            {
+              "time": "4:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-937206051a4686c23f7a6ee629e10c9fcfc4392c4d2c3273989b842486a60da8"
             }
           ]
         }
