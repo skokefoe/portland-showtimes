@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-18T14:14:20.282640",
-  "start_date": "2026-09-18",
+  "generated_at": "2026-09-19T13:47:42.573236",
+  "start_date": "2026-09-19",
   "num_days": 14,
   "movies": [
     {
@@ -10,14 +10,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/149/",
       "tmdb_id": 149,
       "showtimes": {
-        "2026-09-18": {
-          "hollywood": [
-            {
-              "time": "6:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ec4bed9efeae20a60f5dc0dc51f0ad86f0a6ffe5e68ecb0d899b2a3ae91e7144"
-            }
-          ]
-        },
         "2026-09-19": {
           "hollywood": [
             {
@@ -153,22 +145,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1204680/",
       "tmdb_id": 1204680,
       "showtimes": {
-        "2026-09-18": {
-          "laurelhurst": [
-            {
-              "time": "3:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "9:40 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
         "2026-09-19": {
           "laurelhurst": [
             {
@@ -276,6 +252,26 @@
             {
               "time": "9:30 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-c6fd47a6709b97e7da7cbb91a9f5fb9d4f7f6b2c052834fd46e01c71d54f4a1f"
+            }
+          ]
+        },
+        "2026-10-02": {
+          "academy": [
+            {
+              "time": "12:30 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-3c66650c793532f90e3f2c162e22e2dffb9b873ee25482b5675245b291979c57"
+            },
+            {
+              "time": "3:45 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-433241753edd2faa8a9f27d29ee500b8af96cb2429f85a9d960651cbc425b829"
+            },
+            {
+              "time": "6:45 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-a3746fbed51fdd086544ff497327fa9cacfe268d74efd50b0ad4d652de9060a5"
+            },
+            {
+              "time": "9:15 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d58049efa09bda573d27bd7a8b883e156380b43b4aba6d1065af2c1b5ce4914f"
             }
           ]
         }
@@ -462,32 +458,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1058424/",
       "tmdb_id": 1058424,
       "showtimes": {
-        "2026-09-18": {
-          "cinema21": [
-            {
-              "time": "3:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-38dd519b48809b78f8f0f6f4a1cbebdac15f56683d7925a1d3b7d8e23832dab8"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-0a87c14cd4c99ddbd1be540d2e81092780fca9e630b8868c89b49ecbf64f29ca"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "9:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ]
-        },
         "2026-09-19": {
           "cinema21": [
             {
@@ -793,14 +763,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/466/",
       "tmdb_id": 466,
       "showtimes": {
-        "2026-09-18": {
-          "academy": [
-            {
-              "time": "4:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ac43a2a4448059b97d24061673e30ad38d52be78ee946d09b00fab3e0f66598f"
-            }
-          ]
-        },
         "2026-09-19": {
           "academy": [
             {
@@ -1098,23 +1060,6 @@
       }
     },
     {
-      "title": "Night Train to Terror",
-      "description": "God and Satan are on a train discussing the fate of three individuals. The stories of the people in question are told in a trio of very strange vignettes. One involves an insane asylum with some very interesting treatment plans. Another involves a 'death club'. The final story shows us the adventures of a server of Satan.",
-      "poster": "posters/night-train-to-terror.jpg",
-      "letterboxd_url": "https://letterboxd.com/tmdb/49352/",
-      "tmdb_id": 49352,
-      "showtimes": {
-        "2026-09-18": {
-          "clinton": [
-            {
-              "time": "7:00 PM",
-              "url": "https://cstpdx.com"
-            }
-          ]
-        }
-      }
-    },
-    {
       "title": "Orbit(film): A Program of Short Films about our Solar System",
       "description": "A collaborative, 80-minute omnibus movie about our solar system.",
       "poster": null,
@@ -1138,35 +1083,27 @@
       "letterboxd_url": "https://letterboxd.com/film/ponyo-studio-ghibli-fest-2026/",
       "tmdb_id": null,
       "showtimes": {
-        "2026-09-18": {
-          "academy": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-2ab0657fa99adc1e54f05eecf47cd49797598d7102b24a9c2ef4f4e39f573c0a"
-            }
-          ]
-        },
-        "2026-09-20": {
-          "academy": [
-            {
-              "time": "1:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6ae3c3d17a2ba74af8d0d9e5f731e4d9ddffc1575f982072ce96b76fa8a38002"
-            }
-          ]
-        },
-        "2026-09-22": {
-          "academy": [
-            {
-              "time": "1:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-fb941e01e1bed6e92ce16ba97fa03428eb763165fa18bffa8416f3abfabbc58c"
-            }
-          ]
-        },
-        "2026-09-24": {
+        "2026-09-19": {
           "academy": [
             {
               "time": "4:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-2553a039808d75dd229fa834cc0d8f88b341dc0bea0a561816efd2f7917c6c78"
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d119f1e8b2a827d28b51c8c9b623e268716eb1d106c7504ce27f272a999d4737"
+            }
+          ]
+        },
+        "2026-09-21": {
+          "academy": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-c0a4cc0139fb58edbfc136ef9251f038c1293c60db63a1fc139708342c620319"
+            }
+          ]
+        },
+        "2026-09-23": {
+          "academy": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-5522e82a1b5c25a5da2400e71588e02e9815f65989e385f97cc5a4da1744873c"
             }
           ]
         }
@@ -1179,54 +1116,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1302904/",
       "tmdb_id": 1302904,
       "showtimes": {
-        "2026-09-18": {
-          "bagdad": [
-            {
-              "time": "12:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-34275cb3cc408bbe12c67e3230d1dbf80bb0f6c4dcc2e9e269f39d5dcaa9dca6"
-            },
-            {
-              "time": "3:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ade1c2823c4d15035de32faeffd5619598ebd792495c906c8e96ba28001156b2"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6feef8f2d8dae5f1d17cbf5e5ec64f74249dd84c0c80c48cf741ade4619f0723"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "3:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "6:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "9:15 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-e82bd5fc2fcf1fb4debe0a9601e356aae3b6b1236b821a0900b3a2eb3c035a6c"
-            },
-            {
-              "time": "4:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-cf1f3e5503c511f81a77e36edcc46c9ffb7defc3fc8c05f0cad2c15eed863464"
-            },
-            {
-              "time": "6:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-c42111c113a17db03c366b21de0bf8a48d976f216865c373e700e0a11a260804"
-            },
-            {
-              "time": "9:45 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-d7b27f41df12214639c6ccd1bcfba352f2a436ce51c9967e6faf6220a346add9"
-            }
-          ]
-        },
         "2026-09-19": {
           "bagdad": [
             {
@@ -1679,55 +1568,11 @@
     },
     {
       "title": "Resident Evil",
-      "description": "A hapless medical courier fights for his life amid an outbreak of a deadly mutagenic virus in an isolated mountain town.",
+      "description": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
       "poster": "posters/resident-evil.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/1423191/",
       "tmdb_id": 1423191,
       "showtimes": {
-        "2026-09-18": {
-          "cinemagic": [
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-fba4cc67137a2a23bd87fd33fd5c774ed4a1273d9b06cd1ab202e76693936bbc"
-            },
-            {
-              "time": "9:10 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ffc1b7b724088feebe7b0dee8a3046e55063cdb99141c4ce436c1cfceb35e0de"
-            }
-          ],
-          "laurelhurst": [
-            {
-              "time": "4:10 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://www.laurelhursttheater.com"
-            },
-            {
-              "time": "9:30 PM",
-              "url": "https://www.laurelhursttheater.com"
-            }
-          ],
-          "academy": [
-            {
-              "time": "12:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-7ca16cd2c0ab8146177d9883f7781089d030f701c867aacde08641722db42b73"
-            },
-            {
-              "time": "4:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-4d96bdfdf1c1bc1b9a10f32aa4bdeb1e249e7d75ae4aee7c007f010ebf37559b"
-            },
-            {
-              "time": "7:15 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-00875cc9c59f69536f121d73ce6562d9615890e6154f2fc205413803b8f960ec"
-            },
-            {
-              "time": "10:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-9704b6f6311287171c71ddb4c7682e406c66cc036f3de2ebdbc9df76971f9182"
-            }
-          ]
-        },
         "2026-09-19": {
           "cinemagic": [
             {
@@ -2227,19 +2072,11 @@
     },
     {
       "title": "Teenage Sex and Death at Camp Miasma",
-      "description": "Handed the reins to resurrect a dying slasher franchise, an enthusiastic young director visits the original film's reclusive star, only to be dragged into a blood-soaked world of obsession, desire, and delirium.",
+      "description": "After years of slapdash sequels, the Camp Miasma franchise is handed over to an enthusiastic young director for resurrection. But when she visits the original\u2019s star, a now-reclusive actress shrouded in mystery, the two women fall into a blood-soaked world of desire, fear, and delirium.",
       "poster": "posters/teenage-sex-and-death-at-camp-miasma.jpg",
       "letterboxd_url": "https://letterboxd.com/tmdb/1240889/",
       "tmdb_id": 1240889,
       "showtimes": {
-        "2026-09-18": {
-          "cinema21": [
-            {
-              "time": "3:40 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-8e3ae1ab05ceb625f32799d66a84d8daa6f952c68f6b1c7901b0347546aa94b8"
-            }
-          ]
-        },
         "2026-09-19": {
           "cinema21": [
             {
@@ -2420,14 +2257,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1172265/",
       "tmdb_id": 1172265,
       "showtimes": {
-        "2026-09-18": {
-          "livingroom": [
-            {
-              "time": "6:30 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-09-19": {
           "livingroom": [
             {
@@ -2517,14 +2346,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/9894/",
       "tmdb_id": 9894,
       "showtimes": {
-        "2026-09-18": {
-          "academy": [
-            {
-              "time": "9:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-b3a67f29db6aa75a9387cb27fe5eafb8e8734b858501fba74c3991c84f096dfc"
-            }
-          ]
-        },
         "2026-09-19": {
           "academy": [
             {
@@ -2591,6 +2412,40 @@
             {
               "time": "7:00 PM",
               "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-e9d90da8d9e62ad46878a575e3eb60fbdb62c189ea02870f6a4e9c02f60ed22d"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "The Fly",
+      "description": "When brilliant, eccentric scientist Seth Brundle makes a huge technological breakthrough in teleportation, he decides to test it on himself. Unbeknownst to him, a common housefly manages to get inside the device and the two become one.",
+      "poster": "posters/the-fly.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/9426/",
+      "tmdb_id": 9426,
+      "showtimes": {
+        "2026-10-02": {
+          "cinemagic": [
+            {
+              "time": "7:00 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-ead6dd9745eeb36ffe93750b70a20462f002f9ae517d5061a1cf23bfeccbea45"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "title": "The History of Concrete",
+      "description": "After attending a workshop on how to write and sell a Hallmark movie, filmmaker John Wilson tries to use the same formula to sell a documentary about concrete.",
+      "poster": "posters/the-history-of-concrete.jpg",
+      "letterboxd_url": "https://letterboxd.com/tmdb/1596296/",
+      "tmdb_id": 1596296,
+      "showtimes": {
+        "2026-10-02": {
+          "cinema21": [
+            {
+              "time": "9:45 PM",
+              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-6d11c2c233e204fee14f1cb7dc4a51e9343a9e90c465b8f1cf0504f252e582e7"
             }
           ]
         }
@@ -2854,18 +2709,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1433583/",
       "tmdb_id": 1433583,
       "showtimes": {
-        "2026-09-18": {
-          "livingroom": [
-            {
-              "time": "7:15 PM",
-              "url": "https://livingroomtheaters.com"
-            },
-            {
-              "time": "9:40 PM",
-              "url": "https://livingroomtheaters.com"
-            }
-          ]
-        },
         "2026-09-19": {
           "livingroom": [
             {
@@ -3012,22 +2855,6 @@
       "letterboxd_url": "https://letterboxd.com/tmdb/1329016/",
       "tmdb_id": 1329016,
       "showtimes": {
-        "2026-09-18": {
-          "cinema21": [
-            {
-              "time": "4:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-fdb7bd83cd554513f3e911722fdb1668ba261fcc0e07e9e0f380a34ae3d62ea7"
-            },
-            {
-              "time": "7:00 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-67a1d646f98e8cd0f50d72e1c5ab406e0a7ad5265f7f495b2aba12360ae4d760"
-            },
-            {
-              "time": "9:30 PM",
-              "url": "https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?a=13122&showtimehashcode=v2-f0a5c3c5986a30e31850229ba0b01b1bf7670739ffec3c7563cd6539febf68b4"
-            }
-          ]
-        },
         "2026-09-19": {
           "cinema21": [
             {
